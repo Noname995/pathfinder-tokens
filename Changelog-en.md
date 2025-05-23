@@ -5,7 +5,7 @@
 2. Updated Lost Omens
 3. Reduced the size of the NPC Core files (I forgot last time), also changed the case of the names
 4. Added Adventure Claws of the Tyrant
-5. The data of unnecessary actors in the library (compendium) was deleted, a total of 354 actors were released (so to speak, cleaning the module from excess):
+5. The data of unnecessary actors in the library (compendium) was deleted, a total of 355 actors were released (so to speak, cleaning the module from excess):
 1) Bestiary 1 = 292 actors
 2) Bestiary 2 = 42 actors
 3) Bestiary 3 = 18 actors
@@ -13,6 +13,7 @@
 5) Rage of Elements = 1 actor
 6) the Slithering = 1 actor
 6. No one informed me that the art and token files have not been updated, so now it's a clean download and I advise you to download it from github again.
+7. Oh yes, I didn't write it, but okay, now there's a button to check the paths to the art and the token, as well as the presence of extra actors in the bestiary file, including even those who don't display, if there are extra ones, suggests making a script) However, you need to run it with handles.
 
 ## Version 1.6.0
 1. Separated by NPC core and NPC Gallery
