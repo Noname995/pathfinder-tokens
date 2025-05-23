@@ -1,0 +1,46 @@
+{
+  "id": "pf2e-token-pack",
+  "title": "Pathfinder 2E: Token Pack",
+  "description": "Модуль добавляет изображения и токены монстрам и нпс",
+  "version": "1.7.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "scripts": [
+    "scripts.js"
+  ],
+  "flags": {
+    "pf2e-token-pack": {
+      "pf2e-art": "modules/pf2e-token-pack/bestiaries.json"
+    }
+  },
+  "socket": true,
+  "authors": [
+    {
+      "name": "Metofay",
+      "discord": "Метофей#135975",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "ru",
+      "name": "Russian",
+      "path": "lang/ru.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Metofay/pf2e-token-pack",
+  "manifest": "https://raw.githubusercontent.com/Metofay/pf2e-token-pack//main/module.json",
+  "download": "https://github.com/Metofay/pf2e-token-pack/archive/refs/heads/main.zip",
+  "readme": "https://github.com/Metofay/pf2e-token-pack/blob/main/README.md",
+  "bugs": "https://github.com/Metofay/pf2e-token-pack/issues",
+  "changelog": "https://github.com/Metofay/pf2e-token-pack/blob/master/CHANGELOG.md"
+}
