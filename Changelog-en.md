@@ -4,7 +4,7 @@
 1. Updated to v13, everything works on v12 too
 2. Changed the logic of checking arts and tokens
 3. Removed iconics, since they already exist in the system
-4. Added a button in the settings to check the paths of arts/tokens of actors on the stage (both one and all scenes). The search is based on the actor's name, so far I have not been able to untie him from Babele
+4. Added a button in the settings to check the paths of arts/tokens of actors on the stage (both one and all scenes)
 5. Removed the extra code that was used for the previous settings window
 
 ## Version 1.7.0
