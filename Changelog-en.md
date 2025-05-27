@@ -1,11 +1,18 @@
 # Changelog
 
+## Version 1.8.0
+1. Updated to v13, everything works on v12 too
+2. Changed the logic of checking arts and tokens
+3. Removed iconics, since they already exist in the system
+4. Added a button in the settings to check the paths of arts/tokens of actors on the stage (both one and all scenes)
+5. Removed the extra code that was used for the previous settings window
+
 ## Version 1.7.0
 1. Updated Beginner Box
 2. Updated Lost Omens
 3. Reduced the size of the NPC Core files (I forgot last time), also changed the case of the names
 4. Added Adventure Claws of the Tyrant
-5. The data of unnecessary actors in the library (compendium) was deleted, a total of 355 actors were released (so to speak, cleaning the module from excess):
+5. The data of unnecessary actors in the library (compendium) was deleted, a total of 354 actors were released (so to speak, cleaning the module from excess):
 1) Bestiary 1 = 292 actors
 2) Bestiary 2 = 42 actors
 3) Bestiary 3 = 18 actors

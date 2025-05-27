@@ -861,10 +861,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/age-of-ashes/Ingnovim-Tluss.webp",
       "token": "modules/pf2e-token-pack/tokens/adventure-patch/age-of-ashes/Ingnovim-Tluss.webp"
     },
-    "Ingnovim's Assistant": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/age-of-ashes/Ingnovims-Assistant.webp",
-      "token": "modules/pf2e-token-pack/tokens/adventure-patch/age-of-ashes/Ingnovims-Assistant.webp"
-    },
     "30FX1WFr0RkGeueX": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/age-of-ashes/Inizra-Arumelo.webp",
       "token": "modules/pf2e-token-pack/tokens/adventure-patch/age-of-ashes/Inizra-Arumelo.webp"
@@ -1126,13 +1122,6 @@
         "scale": 1.6
       }
     },
-    "Amateur Chemist": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Amateur-Chemist.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Amateur-Chemist.webp",
-        "scale": 1.6
-      }
-    },
     "MONwgTbrcZFzr6vC": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Antaro-Boldblade.webp",
       "token": {
@@ -1203,13 +1192,6 @@
         "scale": 1.6
       }
     },
-    "Blackfingers Acolyte": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Blackfingers-Acolyte.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Blackfingers-Acolyte.webp",
-        "scale": 1.6
-      }
-    },
     "y0bIU9FCWHOJxUzG": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Bloody-Barber-Goon.webp",
       "token": {
@@ -1277,13 +1259,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Carvey.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Carvey.webp",
-        "scale": 1.6
-      }
-    },
-    "Casino Bouncer": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Casino-Bouncer.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Casino-Bouncer.webp",
         "scale": 1.6
       }
     },
@@ -1452,13 +1427,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Gage-Carlyle.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Gage-Carlyle.webp",
-        "scale": 1.6
-      }
-    },
-    "Gang Tough": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Gang-Tough.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Gang-Tough.webp",
         "scale": 1.6
       }
     },
@@ -1658,13 +1626,6 @@
         "scale": 1.6
       }
     },
-    "Living Mural": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Living-Mural.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Living-Mural.webp",
-        "scale": 1.6
-      }
-    },
     "B4kIfCimsz8wfc0k": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Lord-Guirden.webp",
       "token": {
@@ -1816,13 +1777,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Pickled-Punk.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Pickled-Punk.webp",
-        "scale": 1.6
-      }
-    },
-    "Poison Eater": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Poison-Eater.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Poison-Eater.webp",
         "scale": 1.6
       }
     },
@@ -2284,10 +2238,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/Facetbound-Nullifier.webp",
       "token": "modules/pf2e-token-pack/tokens/adventure-patch/blood-lords/Facetbound-Nullifier.webp"
     },
-    "Firebrand Bastion": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/.webp",
-      "token": "modules/pf2e-token-pack/tokens/adventure-patch/blood-lords/.webp"
-    },
     "6I4ZtQJPT0ToITvq": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/Floating-Femur.webp",
       "token": "modules/pf2e-token-pack/tokens/adventure-patch/blood-lords/Floating-Femur.webp"
@@ -2558,10 +2508,6 @@
     "tu9Y0LJ6ghOpkJTX": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/Seldeg-Bheldis.webp",
       "token": "modules/pf2e-token-pack/tokens/adventure-patch/blood-lords/Seldeg-Bheldis.webp"
-    },
-    "Seldeg's Steed": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/.webp",
-      "token": "modules/pf2e-token-pack/tokens/adventure-patch/blood-lords/.webp"
     },
     "DInkix6cy2NgjpJd": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/Shabti-Slayer.webp",
@@ -3301,13 +3247,6 @@
         "scale": 1.6
       }
     },
-    "Bugaboo": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Bugaboo.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Bugaboo.webp",
-        "scale": 1.6
-      }
-    },
     "QZHvPM0Yatn8oxsj": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Bugul-Noz.webp",
       "token": {
@@ -3336,13 +3275,6 @@
         "scale": 1.6
       }
     },
-    "Chimpanzee Visitant": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Chimpanzee-Visitant.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Chimpanzee-Visitant.webp",
-        "scale": 1.6
-      }
-    },
     "s7447jKTaAd4r3Oa": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ciza.webp",
       "token": {
@@ -3368,13 +3300,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Convergent-Soldier.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Convergent-Soldier.webp",
-        "scale": 1.6
-      }
-    },
-    "Corrosive Lizard": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Corrosive-Lizard.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Corrosive-Lizard.webp",
         "scale": 1.6
       }
     },
@@ -3459,13 +3384,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Drow-Bodyguard-Golem.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Drow-Bodyguard-Golem.webp",
-        "scale": 1.6
-      }
-    },
-    "Drunken Brawler": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Drunken-Brawler.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Drunken-Brawler.webp",
         "scale": 1.6
       }
     },
@@ -3592,13 +3510,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Hooklimb-Xulgath.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Hooklimb-Xulgath.webp",
-        "scale": 1.6
-      }
-    },
-    "Horba": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Horba.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Horba.webp",
         "scale": 1.6
       }
     },
@@ -3917,13 +3828,6 @@
         "scale": 1.6
       }
     },
-    "Swardlands Delinquent": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Swardlands-Delinquent.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Swardlands-Delinquent.webp",
-        "scale": 1.6
-      }
-    },
     "BORxkpaFBSCyB1f1": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Tallow-Ooze.webp",
       "token": {
@@ -4078,13 +3982,6 @@
         "scale": 1.6
       }
     },
-    "Xulgath Demon-Caller": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Demon-Caller.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Demon-Caller.webp",
-        "scale": 1.6
-      }
-    },
     "FZqrluaaz5vhXEZ9": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Gutrager.webp",
       "token": {
@@ -4103,13 +4000,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Herd-Tender.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Herd-Tender.webp",
-        "scale": 1.6
-      }
-    },
-    "Xulgath Mage": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Mage.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Mage.webp",
         "scale": 1.6
       }
     },
@@ -4206,13 +4096,6 @@
         "scale": 1.6
       }
     },
-    "Amihan": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Amihan.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Amihan.webp",
-        "scale": 1.6
-      }
-    },
     "EItI5u34FIIuZM9W": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Angoyang.webp",
       "token": {
@@ -4241,13 +4124,6 @@
         "scale": 1.6
       }
     },
-    "Arms of Balance (Jivati Rovat)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Arms-Of-Balance.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Arms-Of-Balance.webp",
-        "scale": 1.6
-      }
-    },
     "xBSLIoVsZ6I4LOZc": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Pravan-Majinapti.webp",
       "token": {
@@ -4255,24 +4131,10 @@
         "scale": 1.6
       }
     },
-    "Arms of Balance (Ranya Shibhatesh)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Arms-Of-Balance.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Arms-Of-Balance.webp",
-        "scale": 1.6
-      }
-    },
     "65LJVPu9DFkF0YNX": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Usvani.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Usvani.webp",
-        "scale": 1.6
-      }
-    },
-    "Artus Rodrivan": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Artus-Rodrivan.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Artus-Rodrivan.webp",
         "scale": 1.6
       }
     },
@@ -4339,13 +4201,6 @@
         "scale": 1.6
       }
     },
-    "Dancing Night Parade": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Dancing-Night-Parade.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Dancing-Night-Parade.webp",
-        "scale": 1.6
-      }
-    },
     "htshGim6Q1y75TPt": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Desecrated-Guardian.webp",
       "token": {
@@ -4402,66 +4257,10 @@
         "scale": 1.6
       }
     },
-    "Golarion's Finest (Han)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-        "scale": 1.6
-      }
-    },
-    "Golarion's Finest (Jun)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-        "scale": 1.6
-      }
-    },
-    "Golarion's Finest (Krankkiss)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-        "scale": 1.6
-      }
-    },
-    "Golarion's Finest (Mingyu)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-        "scale": 1.6
-      }
-    },
-    "Golarion's Finest (Numoriz)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-        "scale": 1.6
-      }
-    },
-    "Golarion's Finest (Paunnima)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-        "scale": 1.6
-      }
-    },
-    "Golarion's Finest (Rajna)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Golarions-Finest.webp",
-        "scale": 1.6
-      }
-    },
     "nejHZ9ccKcDXZWQM": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Gomwai.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Gomwai.webp",
-        "scale": 1.6
-      }
-    },
-    "Grandfather Mantis": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Grandfather-Mantis.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Grandfather-Mantis.webp",
         "scale": 1.6
       }
     },
@@ -4483,13 +4282,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Halspin-The-Stung.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Halspin-The-Stung.webp",
-        "scale": 1.6
-      }
-    },
-    "Hana's Hundreds": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Hanas-Hundreds.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Hanas-Hundreds.webp",
         "scale": 1.6
       }
     },
@@ -4563,20 +4355,6 @@
         "scale": 1.6
       }
     },
-    "Joon-seo": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Joon-Seo.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Joon-Seo.webp",
-        "scale": 1.6
-      }
-    },
-    "Juspix Rammel": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Juspix-Rammel.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Juspix-Rammel.webp",
-        "scale": 1.6
-      }
-    },
     "Lsa0Q8aU8aPWjFYv": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Kannitri.webp",
       "token": {
@@ -4588,20 +4366,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Kas-Xi-Rai.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Kas-Xi-Rai.webp",
-        "scale": 1.6
-      }
-    },
-    "Ki Adept": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Ki-Adept.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Ki-Adept.webp",
-        "scale": 1.6
-      }
-    },
-    "Ki Adept (Ahmoza Twins)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Ki-Adept.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Ki-Adept.webp",
         "scale": 1.6
       }
     },
@@ -4619,31 +4383,10 @@
         "scale": 1.6
       }
     },
-    "Lantondo": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Lantondo.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Lantondo.webp",
-        "scale": 1.6
-      }
-    },
     "7MiWOVxjocxNr0dh": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Laruhao.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Laruhao.webp",
-        "scale": 1.6
-      }
-    },
-    "Lophiithu": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Lophiithu.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Lophiithu.webp",
-        "scale": 1.6
-      }
-    },
-    "Maalya": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Maalya.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Maalya.webp",
         "scale": 1.6
       }
     },
@@ -4665,13 +4408,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Mammoth-Turtle.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Mammoth-Turtle.webp",
-        "scale": 1.6
-      }
-    },
-    "Master Xun": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Master-Xun.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Master-Xun.webp",
         "scale": 1.6
       }
     },
@@ -4864,13 +4600,6 @@
         "scale": 1.6
       }
     },
-    "Speakers to the Wind": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Speakers-To-The-Wind.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Speakers-To-The-Wind.webp",
-        "scale": 1.6
-      }
-    },
     "uvBZm8b7Vtzn1U2d": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Spinel-Leviathan-Syndara.webp",
       "token": {
@@ -4983,24 +4712,10 @@
         "scale": 1.6
       }
     },
-    "Troff Frostknuckles": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Troff-Frostknuckles.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Troff-Frostknuckles.webp",
-        "scale": 1.6
-      }
-    },
     "Zp6lrCF3JwpdfKyK": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Tyrannosaurus-Imperator.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Tyrannosaurus-Imperator.webp",
-        "scale": 1.6
-      }
-    },
-    "Umbasi": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Umbasi.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Umbasi.webp",
         "scale": 1.6
       }
     },
@@ -5029,27 +4744,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Watchtower-Wraith.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Watchtower-Wraith.webp",
-        "scale": 1.6
-      }
-    },
-    "Weapon Master": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Weapon-Master.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Weapon-Master.webp",
-        "scale": 1.6
-      }
-    },
-    "Weapon Master (Under the Pale Sun Dervishes)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Weapon-Master.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Weapon-Master.webp",
-        "scale": 1.6
-      }
-    },
-    "Yabin (White Serpent Form)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/Yabin.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/fists-of-the-ruby-phoenix/Yabin.webp",
         "scale": 1.6
       }
     },
@@ -5115,13 +4809,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Ancient-Tupilaq.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Ancient-Tupilaq.webp",
-        "scale": 1.6
-      }
-    },
-    "Apothecary's Cabinet": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/.webp",
         "scale": 1.6
       }
     },
@@ -6344,13 +6031,6 @@
         "scale": 1.6
       }
     },
-    "Cultist Troop": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/Cultist-Troop.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/sky-kings-tomb/Cultist-Troop.webp",
-        "scale": 1
-      }
-    },
     "rUZMrUyOucemrMrt": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/Hryngar-Rager.webp",
       "token": {
@@ -6400,13 +6080,6 @@
         "scale": 1.6
       }
     },
-    "Four-Tooth": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/Four-Tooth.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/sky-kings-tomb/Four-Tooth.webp",
-        "scale": 1
-      }
-    },
     "z6ppbqLxzV2yoVV8": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/Giant-Bloodseeker.webp",
       "token": {
@@ -6426,13 +6099,6 @@
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/sky-kings-tomb/Glacial-Worm.webp",
         "scale": 1.6
-      }
-    },
-    "Gray Worm": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/Gray-Worm.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/sky-kings-tomb/Gray-Worm.webp",
-        "scale": 1
       }
     },
     "snj3rBPBbhKNmRZT": {
@@ -6491,13 +6157,6 @@
         "scale": 1.6
       }
     },
-    "Hryngar Forgepriest": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/Hryngar-Forgepriest.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/sky-kings-tomb/Hryngar-Forgepriest.webp",
-        "scale": 1
-      }
-    },
     "OWVg3LYOdGHOYUHt": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/Hryngar-Kings-Agent.webp",
       "token": {
@@ -6517,13 +6176,6 @@
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/sky-kings-tomb/Hryngar-Rager.webp",
         "scale": 1.6
-      }
-    },
-    "Hryngar Skull Collector": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/Hryngar-Skull-Collector.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/sky-kings-tomb/Hryngar-Skull-Collector.webp",
-        "scale": 1
       }
     },
     "VW3r97IFCEGZwHo5": {
@@ -7053,13 +6705,6 @@
         "scale": 1.6
       }
     },
-    "Contemplative Mentor": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Contemplative-Mentor.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Contemplative-Mentor.webp",
-        "scale": 1.6
-      }
-    },
     "3858pExfJPbMo4Vf": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Cookie.webp",
       "token": {
@@ -7071,13 +6716,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Crawling-Slurry.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Crawling-Slurry.webp",
-        "scale": 1.6
-      }
-    },
-    "Crimson Acolyte": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Crimson-Acolyte.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Crimson-Acolyte.webp",
         "scale": 1.6
       }
     },
@@ -7228,13 +6866,6 @@
         "scale": 1.6
       }
     },
-    "Gold Defender Garrison": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Gold-Defender-Garrison.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Gold-Defender-Garrison.webp",
-        "scale": 1.6
-      }
-    },
     "xJPpzTfTABmT5C4i": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Golgopo.webp",
       "token": {
@@ -7323,13 +6954,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Iobane-Magus.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Iobane-Magus.webp",
-        "scale": 1.6
-      }
-    },
-    "Ironclad Annihilator Beetle": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Ironclad-Annihilator-Beetle.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Ironclad-Annihilator-Beetle.webp",
         "scale": 1.6
       }
     },
@@ -7431,13 +7055,6 @@
         "scale": 1.6
       }
     },
-    "Mashkudu The Bully": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Mashkudu-The-Bully.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Mashkudu-The-Bully.webp",
-        "scale": 1.6
-      }
-    },
     "AYHh9p9ZJFM0ELK1": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Mpeshi.webp",
       "token": {
@@ -7522,13 +7139,6 @@
         "scale": 1.6
       }
     },
-    "Reborn Sun Warrior": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Reborn-Sun-Warrior.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Reborn-Sun-Warrior.webp",
-        "scale": 1.6
-      }
-    },
     "UOXavVdqiOPyB6xa": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Red-Commander-Ant.webp",
       "token": {
@@ -7540,13 +7150,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Red-Guard-Ant.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Red-Guard-Ant.webp",
-        "scale": 1.6
-      }
-    },
-    "Red Queen": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Red-Queen.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Red-Queen.webp",
         "scale": 1.6
       }
     },
@@ -7676,35 +7279,7 @@
         "scale": 1.6
       }
     },
-    "Spawn of Taon": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Spawn-Of-Taon.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Spawn-Of-Taon.webp",
-        "scale": 1.6
-      }
-    },
     "TAUFXoZgSrZwQsor": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Spellskein.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Spellskein.webp",
-        "scale": 1.6
-      }
-    },
-    "Spellskein (Consecrate)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Spellskein.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Spellskein.webp",
-        "scale": 1.6
-      }
-    },
-    "Spellskein (Control Weather)": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Spellskein.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Spellskein.webp",
-        "scale": 1.6
-      }
-    },
-    "Spellskein (Heroes' Feast)": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Spellskein.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Spellskein.webp",
@@ -7722,13 +7297,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Stone-Ghost.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Stone-Ghost.webp",
-        "scale": 1.6
-      }
-    },
-    "Sun Warrior Brigade": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Sun-Warrior-Brigade.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Sun-Warrior-Brigade.webp",
         "scale": 1.6
       }
     },
@@ -7778,20 +7346,6 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Terwa-Prodigy.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Terwa-Prodigy.webp",
-        "scale": 1.6
-      }
-    },
-    "Terwa Star Reader": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Terwa-Star-Reader.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Terwa-Star-Reader.webp",
-        "scale": 1.6
-      }
-    },
-    "Thasteron Khefak": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/Thasteron-Khefak.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/strength-of-thousands/Thasteron-Khefak.webp",
         "scale": 1.6
       }
     },
@@ -8567,13 +8121,6 @@
       "token": {
         "img": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Arboreal-Sapling.webp",
         "scale": 1.5
-      }
-    },
-    "Arboreal Sapstriker": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Arboreal-Sapstriker.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Arboreal-Sapstriker.webp",
-        "scale": 1.6
       }
     },
     "mnuaGhIOwPNUoXYF": {
@@ -9724,20 +9271,6 @@
         "scale": 1.6
       }
     },
-    "Drthak": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Drthak.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Drthak.webp",
-        "scale": 1.6
-      }
-    },
-    "Fangtooth School": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Fangtooth-School.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Fangtooth-School.webp",
-        "scale": 1.6
-      }
-    },
     "3SNjewODzhPcxx9y": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Flynkett.webp",
       "token": {
@@ -9766,24 +9299,10 @@
         "scale": 1.6
       }
     },
-    "Goblin Shark": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Goblin-Shark.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Goblin-Shark.webp",
-        "scale": 1.6
-      }
-    },
     "KmsvxZWttwkkhbNO": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Greater-Chimera.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Greater Chimera.png",
-        "scale": 1.6
-      }
-    },
-    "Harbor Seal": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Harbor-Seal.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Harbor-Seal.webp",
         "scale": 1.6
       }
     },
@@ -9805,13 +9324,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Hexmoth.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Hexmoth.png",
-        "scale": 1.6
-      }
-    },
-    "Hexworm": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Hexworm.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Hexworm.webp",
         "scale": 1.6
       }
     },
@@ -9843,13 +9355,6 @@
         "scale": 1.6
       }
     },
-    "Lightning Turtle": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Lightning-Turtle.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Lightning-Turtle.webp",
-        "scale": 1.6
-      }
-    },
     "2RkNeHGvkSWJmgCz": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Magnegor.webp",
       "token": {
@@ -9861,13 +9366,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Magnetic-Gecko.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Magnetic Gecko.png",
-        "scale": 1.6
-      }
-    },
-    "Majungasaurus": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Majungasaurus.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Majungasaurus.webp",
         "scale": 1.6
       }
     },
@@ -9892,13 +9390,6 @@
         "scale": 1.6
       }
     },
-    "Mist Bear": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Mist-Bear.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Mist-Bear.webp",
-        "scale": 1.6
-      }
-    },
     "Aos5iPQ6FUaqoSV5": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Mjolgat.webp",
       "token": {
@@ -9906,24 +9397,10 @@
         "scale": 1.6
       }
     },
-    "Mocking Chorus": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Mocking-Chorus.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Mocking-Chorus.webp",
-        "scale": 1.6
-      }
-    },
     "OEY3bg3YOjRPkyzI": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Morthak.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Morthak.png",
-        "scale": 1.6
-      }
-    },
-    "Pale Horse": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Pale-Horse.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Pale-Horse.webp",
         "scale": 1.6
       }
     },
@@ -9997,13 +9474,6 @@
         "scale": 1.6
       }
     },
-    "Sporeback Frog": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Sporeback-Frog.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Sporeback-Frog.webp",
-        "scale": 1.6
-      }
-    },
     "4UWIFQn7WLOMoKEY": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Stargut-Hydra.webp",
       "token": {
@@ -10015,13 +9485,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Stonefish.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Stonefish.png",
-        "scale": 1.6
-      }
-    },
-    "Stonefish Swarm": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Stonefish-Swarm.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Stonefish-Swarm.webp",
         "scale": 1.6
       }
     },
@@ -10067,13 +9530,6 @@
         "scale": 1.6
       }
     },
-    "Tardigrade Swarm": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Tardigrade-Swarm.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Tardigrade-Swarm.webp",
-        "scale": 1.6
-      }
-    },
     "oEsLvPz5woEJ4Z3p": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Therizinosaurus.webp",
       "token": {
@@ -10085,20 +9541,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Thruneosaurus-Rex.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Thruneosaurus Rex.png",
-        "scale": 1.6
-      }
-    },
-    "Titanosaur": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Titanosaur.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Titanosaur.webp",
-        "scale": 1.6
-      }
-    },
-    "Troodon": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Troodon.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Troodon.webp",
         "scale": 1.6
       }
     },
@@ -10271,17 +9713,9 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/Fafnheir.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/Fafnheir.webp"
     },
-    "Grisantian Lion": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/.webp",
-      "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/.webp"
-    },
     "O4gEaG5vzkLFl7J1": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/Grogrisant.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/Grogrisant.webp"
-    },
-    "Howling Spawn": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/.webp",
-      "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/.webp"
     },
     "N3OJ0wxik4wEgTg7": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/Imperfect-Automaton.webp",
@@ -10335,10 +9769,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/Somnalu-Oculus.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/Somnalu-Oculus.webp"
     },
-    "Spawn Of Kothogaz": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/.webp",
-      "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/.webp"
-    },
     "10srqxC7QZy0dq2g": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/Spectral-Devil.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/Spectral-Devil.webp"
@@ -10391,17 +9821,9 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/Ulgrem-Axaan.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/Ulgrem-Axaan.webp"
     },
-    "Ulgrem-Lurann": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/.webp",
-      "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/.webp"
-    },
     "XCW1WzJqwGUS1cGi": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/Ulistul.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/Ulistul.webp"
-    },
-    "Young Linnorm-Lurann": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-monsters-of-myth/.webp",
-      "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-monsters-of-myth/.webp"
     },
     "N5pG7rsbN1lL1ysb": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-mwangi-expanse/Aigamuxa.webp",
@@ -10491,20 +9913,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-mwangi-expanse/Zinba.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-mwangi-expanse/Zinba.webp"
     },
-    "Animated Bamboo Figurine": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Animated-Bamboo-Figurine.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-tian-xia-world-guide/Animated-Bamboo-Figurine.webp",
-        "scale": 1.6
-      }
-    },
-    "Animated Kite": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Animated-Kite.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-tian-xia-world-guide/Animated-Kite.webp",
-        "scale": 1.6
-      }
-    },
     "0J8xJV4NXaphEWgM": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Animated-Wine-Vessel.webp",
       "token": {
@@ -10533,13 +9941,6 @@
         "scale": 1.6
       }
     },
-    "Caterpillar Carriage": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Caterpillar-Carriage.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-tian-xia-world-guide/Caterpillar-Carriage.webp",
-        "scale": 1.6
-      }
-    },
     "2hQmiIASF1pvbWhX": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Five-Color-Orchid-Mantis.webp",
       "token": {
@@ -10551,13 +9952,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Gau-Cho-Rong.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-tian-xia-world-guide/Gau-Cho-Rong.webp",
-        "scale": 1.6
-      }
-    },
-    "Giant Orchid Mantis": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Giant-Orchid-Mantis.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-tian-xia-world-guide/Giant-Orchid-Mantis.webp",
         "scale": 1.6
       }
     },
@@ -10621,13 +10015,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Nue.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-tian-xia-world-guide/Nue.webp",
-        "scale": 1.6
-      }
-    },
-    "Orchid Mantis Swarm": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-tian-xia-world-guide/Orchid-Mantis-Swarm.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/lost-omens-tian-xia-world-guide/Orchid-Mantis-Swarm.webp",
         "scale": 1.6
       }
     },
@@ -10712,10 +10099,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Charming-Scoundrel.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/npc-gallery/Charming-Scoundrel.webp"
     },
-    "Ethereal Sailor": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Ethereal-Sailor.webp",
-      "token": "modules/pf2e-token-pack/tokens/ruleboock/npc-gallery/Ethereal-Sailor.webp"
-    },
     "UuPPceVcGk1RwSbB": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Hellknight-Armiger.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/npc-gallery/Hellknight-Armiger.webp"
@@ -10723,10 +10106,6 @@
     "mJxgYD8TQg1W2oXC": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Hellknight-Paravicar.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/npc-gallery/Hellknight-Paravicar.webp"
-    },
-    "Nyctessa": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Nyctessa.webp",
-      "token": "modules/pf2e-token-pack/tokens/ruleboock/npc-gallery/Nyctessa.webp"
     },
     "VkG5yl9xcmziwpQD": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Pathfinder-Field-Agent.webp",
@@ -10751,10 +10130,6 @@
     "OSCpJYTr6xNIxqZi": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Server.webp",
       "token": "modules/pf2e-token-pack/tokens/ruleboock/npc-gallery/Server.webp"
-    },
-    "Stone Giant Monk": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Stone-Giant-Monk.webp",
-      "token": "modules/pf2e-token-pack/tokens/ruleboock/npc-gallery/Stone-Giant-Monk.webp"
     },
     "M2Vi2mkwMZv1ZRka": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/npc-gallery/Tempest-Sun-Mage.webp",
@@ -10809,13 +10184,6 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/The-Morrowkin.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/The-Morrowkin.webp",
-        "scale": 1.6
-      }
-    },
-    "The Weaver in Dreams": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/The-Weaver-In-Dreams.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/The-Weaver-In-Dreams.webp",
         "scale": 1.6
       }
     },
@@ -11185,10 +10553,6 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/fall-of-plaguestone/Caustic-Wolf.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/fall-of-plaguestone/Caustic-Wolf.webp"
     },
-    "Drunken Farmer": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/fall-of-plaguestone/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/fall-of-plaguestone/.webp"
-    },
     "9dUSCjehW90dZalE": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/fall-of-plaguestone/Fiery-Leopard.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/fall-of-plaguestone/Fiery-Leopard.webp"
@@ -11259,17 +10623,9 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/malevolence/Anitoli-Nostraema.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/malevolence/Anitoli-Nostraema.webp"
     },
-    "Corrupted_Nosoi": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/malevolence/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/malevolence/.webp"
-    },
     "bEFdPjTLtNboaTg2": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/malevolence/Esobok-Ghoul.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/malevolence/Esobok-Ghoul.webp"
-    },
-    "Haunted_Nosoi": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/malevolence/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/malevolence/.webp"
     },
     "n3taMFiViyEQ5JAi": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/malevolence/Ioseff-Xarwin.webp",
@@ -11295,10 +10651,6 @@
     "JMXNSC7M2SRGZbhy": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/malevolence/Undead-Brain-Collector.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/malevolence/Undead-Brain-Collector.webp"
-    },
-    "Xarwin_Manifestation": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/malevolence/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/malevolence/.webp"
     },
     "sdpB7n2LbzVRqrnv": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/malevolence/Yianyin.webp",
@@ -11639,13 +10991,6 @@
         "scale": 1.6
       }
     },
-    "Cultist of Alocer": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Cultist-Of-Alocer.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Cultist-Of-Alocer.webp",
-        "scale": 1.6
-      }
-    },
     "ODOBHqugzvfGkZVS": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Darius.webp",
       "token": {
@@ -11664,27 +11009,6 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Doatara.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Doatara.webp",
-        "scale": 1.6
-      }
-    },
-    "Giant Pirate Skeleton": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Giant-Pirate-Skeleton.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Giant-Pirate-Skeleton.webp",
-        "scale": 1.6
-      }
-    },
-    "Jinkin Ripclaw": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Jinkin-Ripclaw.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Jinkin-Ripclaw.webp",
-        "scale": 1.6
-      }
-    },
-    "Kelorbeyan Guard": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Kelorbeyan-Guard.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Kelorbeyan-Guard.webp",
         "scale": 1.6
       }
     },
@@ -11737,31 +11061,10 @@
         "scale": 1.6
       }
     },
-    "Princess Sunset": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Princess-Sunset.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Princess-Sunset.webp",
-        "scale": 1.6
-      }
-    },
     "8BMVxqhcdNtdStUj": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Scented-Candle-Homunculus.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Scented-Candle-Homunculus.webp",
-        "scale": 1.6
-      }
-    },
-    "Simulacrum": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Simulacrum.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Simulacrum.webp",
-        "scale": 1.6
-      }
-    },
-    "Taxidermic Dog": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/one-shot/Taxidermic-Dog.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/one-shot/Taxidermic-Dog.webp",
         "scale": 1.6
       }
     },
@@ -12401,21 +11704,9 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/night-of-the-gray-death/Miss-Whisper.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/night-of-the-gray-death/Miss-Whisper.webp"
     },
-    "Pageant Troupe": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/night-of-the-gray-death/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/night-of-the-gray-death/.webp"
-    },
     "rxfr3POtEtwqg5F4": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/night-of-the-gray-death/Riekanoy.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/night-of-the-gray-death/Riekanoy.webp"
-    },
-    "Tumblak": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/night-of-the-gray-death/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/night-of-the-gray-death/.webp"
-    },
-    "Worm Prophet": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/night-of-the-gray-death/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/night-of-the-gray-death/.webp"
     },
     "sBA27jit7zaH14tK": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/night-of-the-gray-death/Zintaya-Calbieste.webp",
@@ -12467,10 +11758,6 @@
         "scale": 1.6
       }
     },
-    "Foolish_Hunter": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/crown-of-the-kobold-king/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/crown-of-the-kobold-king/.webp"
-    },
     "LAButypiGYfsrGis": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/crown-of-the-kobold-king/Grick.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/crown-of-the-kobold-king/Grick.webp"
@@ -12494,10 +11781,6 @@
     "dcuPAoJUTKSSFx93": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/crown-of-the-kobold-king/Jekkajak.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/crown-of-the-kobold-king/Jekkajak.webp"
-    },
-    "Kapmek": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/crown-of-the-kobold-king/.webp",
-      "token": "modules/pf2e-token-pack/tokens/standalone-adventures/crown-of-the-kobold-king/.webp"
     },
     "s2XZc2b1FaZQDnhN": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/crown-of-the-kobold-king/Kerrdremak.webp",
@@ -12545,654 +11828,6 @@
     "IZ34VEavH7xRaaeI": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/crown-of-the-kobold-king/Ygrik.webp",
       "token": "modules/pf2e-token-pack/tokens/standalone-adventures/crown-of-the-kobold-king/Ygrik.webp"
-    }
-  },
-  "paizo-pregens": {
-    "ytM010QZkBllprLg": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Booker-Kaar.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Booker-Kaar.webp",
-        "scale": 1.6
-      }
-    },
-    "laZsLWc38QXHfos0": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Bottlespeaker.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Bottlespeaker.webp",
-        "scale": 1.6
-      }
-    },
-    "2A9KGg5LVa2qS5Hw": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Bottlespeaker.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Bottlespeaker.webp",
-        "scale": 1.6
-      }
-    },
-    "mgTDmRdQYUVHBs9V": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Doc-Featherton.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Doc-Featherton.webp",
-        "scale": 1.6
-      }
-    },
-    "QW5TpsCjn70RTFnL": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Ekene.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Ekene.webp",
-        "scale": 1.6
-      }
-    },
-    "MzfFXoNb28HBjajw": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Elsir-Syniras.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Elsir-Syniras.webp",
-        "scale": 1.6
-      }
-    },
-    "vCqYsDQ6UVN2fbNZ": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Eteleon.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Eteleon.webp",
-        "scale": 1.6
-      }
-    },
-    "WNX5OQKPh4uaV7mW": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Ezren.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Ezren.webp",
-        "scale": 1.6
-      }
-    },
-    "2ExvSAlBFtPbHTNk": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Fluff-Fang.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Fluff-Fang.webp",
-        "scale": 1.6
-      }
-    },
-    "k0poKizWXi4UCNS4": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Fluff-Fang.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Fluff-Fang.webp",
-        "scale": 1.6
-      }
-    },
-    "oIfXnKl0KzboCYBH": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Grimmnir.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Grimmnir.webp",
-        "scale": 1.6
-      }
-    },
-    "Ip0EDqMZqgXmcBgZ": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Izni.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Izni.webp",
-        "scale": 1.6
-      }
-    },
-    "V31KjehELRbLRMeb": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Jadren-Tagar.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Jadren-Tagar.webp",
-        "scale": 1.6
-      }
-    },
-    "WHGcdLAqIs58FJPH": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Jaithe.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Jaithe.webp",
-        "scale": 1.6
-      }
-    },
-    "9xvxgar3BO1gt2XI": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kaako-Ashfeather.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kaako-Ashfeather.webp",
-        "scale": 1.6
-      }
-    },
-    "RrZABs8PNTwLv1ah": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kalaggi-Nakutu.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kalaggi-Nakutu.webp",
-        "scale": 1.6
-      }
-    },
-    "YNu4l7cjb580XM2K": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kangir.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kangir.webp",
-        "scale": 1.6
-      }
-    },
-    "8N6zEXEsIeDSUyar": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kellsti.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kellsti.webp",
-        "scale": 1.6
-      }
-    },
-    "yoAU5rWYH4KJGPr5": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kyra.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kyra.webp",
-        "scale": 1.6
-      }
-    },
-    "GKuqaB0W8hbH3H90": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Lavanna-Saltspray.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Lavanna-Saltspray.webp",
-        "scale": 1.6
-      }
-    },
-    "UCrQbCrBrKBbNAEv": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Melvok.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Melvok.webp",
-        "scale": 1.6
-      }
-    },
-    "czQ0MaZBu3BqMpce": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Merisiel.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Merisiel.webp",
-        "scale": 1.6
-      }
-    },
-    "qUSE9OURRD6qNvLZ": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Muruwa.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Muruwa.webp",
-        "scale": 1.6
-      }
-    },
-    "MxVWMPD1H1o6FwQP": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Oraka.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Oraka.webp",
-        "scale": 1.6
-      }
-    },
-    "LWsUZveKng8MhJrO": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Popcorn.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Popcorn.webp",
-        "scale": 1.6
-      }
-    },
-    "VzEke2VKFA59g5rX": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Popcorn.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Popcorn.webp",
-        "scale": 1.6
-      }
-    },
-    "lpIV82IVlgatyQvO": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Precious.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Precious.webp",
-        "scale": 1.6
-      }
-    },
-    "xgadoa9HjqMhrnvX": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Quizrel.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Quizrel.webp",
-        "scale": 1.6
-      }
-    },
-    "umOntDTQXImkZhug": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Reaching-Rings.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Reaching-Rings.webp",
-        "scale": 1.6
-      }
-    },
-    "Vo1wauXo0pzTg8yL": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Reaching-Rings.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Reaching-Rings.webp",
-        "scale": 1.6
-      }
-    },
-    "NedNTpCBQhSzDAwg": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Rhin.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Rhin.webp",
-        "scale": 1.6
-      }
-    },
-    "EQWNmGmicyirnTR1": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Savshin-Starwatcher.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Savshin-Starwatcher.webp",
-        "scale": 1.6
-      }
-    },
-    "Ffnp6AbRVhjmLH9T": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Simeek.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Simeek.webp",
-        "scale": 1.6
-      }
-    },
-    "pdZNO5gqhB4hN61A": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Takemiru.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Takemiru.webp",
-        "scale": 1.6
-      }
-    },
-    "1NE3CrEExL2QZvEk": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Twinsprout.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Twinsprout.webp",
-        "scale": 1.6
-      }
-    },
-    "dezjxiDtBdnBiurc": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Ufi.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Ufi.webp",
-        "scale": 1.6
-      }
-    },
-    "vcwqnXHkhzFhrt7O": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Valeros.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Valeros.webp",
-        "scale": 1.6
-      }
-    },
-    "POKpRKV1hwHfAY6k": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Yacob.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Yacob.webp",
-        "scale": 1.6
-      }
-    },
-    "yzcXrMEuajAdIRZE": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zakzak.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zakzak.webp",
-        "scale": 1.6
-      }
-    },
-    "JiA08mYkxYMA5ZEn": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zane-Ikundi.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zane-Ikundi.webp",
-        "scale": 1.6
-      }
-    },
-    "ZZQvsGWFMS00fL7P": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zathri.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zathri.webp",
-        "scale": 1.6
-      }
-    },
-    "WQlDa6tHkKTziD0m": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zeah.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zeah.webp",
-        "scale": 1.6
-      }
-    },
-    "zo0OV4kxZ4LntHkU": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zerryd.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zerryd.webp",
-        "scale": 1.6
-      }
-    },
-    "JqHEn0seOxR10rTN": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zindarel.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zindarel.webp",
-        "scale": 1.6
-      }
-    }
-  },
-  "iconics": {
-    "Ykt9Ke7RWg5NoXMV": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Amiri.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Amiri.webp",
-        "scale": 1.6
-      }
-    },
-    "aEjJRh8Ru91DfVVN": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Amiri.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Amiri.webp",
-        "scale": 1.6
-      }
-    },
-    "qAVomN38laruCMhH": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Amiri.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Amiri.webp",
-        "scale": 1.6
-      }
-    },
-    "ltUT288ryJyBTyPv": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Daji.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Daji.webp",
-        "scale": 1.6
-      }
-    },
-    "kVIl6Pl2YbThZAMd": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Daji.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Daji.webp",
-        "scale": 1.6
-      }
-    },
-    "eZs6vj4m99XFUVIV": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Daji.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Daji.webp",
-        "scale": 1.6
-      }
-    },
-    "UznKHAei13XNsMUP": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Droogami.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Droogami.webp",
-        "scale": 1.6
-      }
-    },
-    "HLULxhxrF8g96BRk": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Droogami.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Droogami.webp",
-        "scale": 1.6
-      }
-    },
-    "VKiNcykRfwWGY21s": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Droogami.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Droogami.webp",
-        "scale": 1.6
-      }
-    },
-    "WNX5OQKPh4uaV7mW": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Ezren.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Ezren.webp",
-        "scale": 1.6
-      }
-    },
-    "fY54rsHMzFMHNYFb": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Ezren.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Ezren.webp",
-        "scale": 1.6
-      }
-    },
-    "XI1j0hr3An6W5gAe": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Ezren.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Ezren.webp",
-        "scale": 1.6
-      }
-    },
-    "Eb2G2mRHVd01OKae": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Feiya.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Feiya.webp",
-        "scale": 1.6
-      }
-    },
-    "eOkscZYDaOdfQJr4": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Feiya.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Feiya.webp",
-        "scale": 1.6
-      }
-    },
-    "5Z6KUEZPXmVBYLS2": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Feiya.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Feiya.webp",
-        "scale": 1.6
-      }
-    },
-    "itzTz6Piij140q6O": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Fumbus.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Fumbus.webp",
-        "scale": 1.6
-      }
-    },
-    "6Tl6BATf1u3VcT4c": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Fumbus.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Fumbus.webp",
-        "scale": 1.6
-      }
-    },
-    "yU4m6Ameqs3NLsNH": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Fumbus.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Fumbus.webp",
-        "scale": 1.6
-      }
-    },
-    "sLs5dYDNg0WzGMyP": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Harsk.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Harsk.webp",
-        "scale": 1.6
-      }
-    },
-    "ywdeyJ0CMWLEGRGI": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Harsk.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Harsk.webp",
-        "scale": 1.6
-      }
-    },
-    "c75yxmpqKG5B4iOz": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Harsk.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Harsk.webp",
-        "scale": 1.6
-      }
-    },
-    "27kg8dCRYM3bsqND": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Jirelle.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Jirelle.webp",
-        "scale": 1.6
-      }
-    },
-    "psZZ5FZfDJv5MM51": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Jirelle.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Jirelle.webp",
-        "scale": 1.6
-      }
-    },
-    "BjSkVK5xjK4IxqYT": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Korakai.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Korakai.webp",
-        "scale": 1.6
-      }
-    },
-    "zLOVCrRwZhL46vLI": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Korakai.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Korakai.webp",
-        "scale": 1.6
-      }
-    },
-    "yoAU5rWYH4KJGPr5": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Kyra.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Kyra.webp",
-        "scale": 1.6
-      }
-    },
-    "eSS9gEzLAY4mqfIk": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Kyra.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Kyra.webp",
-        "scale": 1.6
-      }
-    },
-    "z5u8KDovE01nMfhm": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Kyra.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Kyra.webp",
-        "scale": 1.6
-      }
-    },
-    "cAeHX8Fn8UFdYMz9": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Lem.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Lem.webp",
-        "scale": 1.6
-      }
-    },
-    "m0GGgcZWit8IYNPd": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Lem.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Lem.webp",
-        "scale": 1.6
-      }
-    },
-    "pdXoM4sHK5pzuVep": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Lem.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Lem.webp",
-        "scale": 1.6
-      }
-    },
-    "OlR1ZpTMxfZd0nq5": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Lini.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Lini.webp",
-        "scale": 1.6
-      }
-    },
-    "ROOYL5i5ASKem0j8": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Lini.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Lini.webp",
-        "scale": 1.6
-      }
-    },
-    "xCNdNqHSm6ZuviJc": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Lini.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Lini.webp",
-        "scale": 1.6
-      }
-    },
-    "czQ0MaZBu3BqMpce": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Merisiel.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Merisiel.webp",
-        "scale": 1.6
-      }
-    },
-    "fA0g6IWg7CR1feg1": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Merisiel.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Merisiel.webp",
-        "scale": 1.6
-      }
-    },
-    "KC05hgKKrQpg9vOH": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Merisiel.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Merisiel.webp",
-        "scale": 1.6
-      }
-    },
-    "aK7f9lxFTNYTOXJb": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Quinn.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Quinn.webp",
-        "scale": 1.6
-      }
-    },
-    "ezTV9Y2VozwOQphA": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Quinn.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Quinn.webp",
-        "scale": 1.6
-      }
-    },
-    "mLR3MACZOnapZzZp": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Sajan.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Sajan.webp",
-        "scale": 1.6
-      }
-    },
-    "zIawtsJlKpL28XGS": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Sajan.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Sajan.webp",
-        "scale": 1.6
-      }
-    },
-    "Gq53oll31r1ZgJzK": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Seelah.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Seelah.webp",
-        "scale": 1.6
-      }
-    },
-    "3HEoe8SqQ0mhL4pv": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Seelah.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Seelah.webp",
-        "scale": 1.6
-      }
-    },
-    "KQXXdJeD8nbMSqgZ": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Seoni.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Seoni.webp",
-        "scale": 1.6
-      }
-    },
-    "Pgwirgn9Jm9SSIAB": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Seoni.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Seoni.webp",
-        "scale": 1.6
-      }
-    },
-    "vcwqnXHkhzFhrt7O": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Valeros.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Valeros.webp",
-        "scale": 1.6
-      }
-    },
-    "vmLKgEKk0a7DpJDP": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Valeros.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Valeros.webp",
-        "scale": 1.6
-      }
-    },
-    "TMDFyqQtryffdHvE": {
-      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/iconics/Valeros.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/iconics/Valeros.webp",
-        "scale": 1.6
-      }
     }
   },
   "pathfinder-bestiary-2": {
@@ -20848,1047 +19483,11 @@
       }
     }
   },
-  "pathfinder-bestiary": {
-    "gDMPUL0UiOHrUUd3": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Aasimar-Redeemer.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Aasimar-Redeemer.webp"
-    },
-    "keCgklXcy4HZgQIL": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Adamantine-Golem.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Adamantine-Golem.webp",
-        "scale": 1.5
-      }
-    },
-    "irrXrWxJ0LYSUCQB": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Adult.webp",
-        "scale": 1.5
-      }
-    },
-    "AQwxOoYBwDUAwvfh": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Adult.webp",
-        "scale": 1.5
-      }
-    },
-    "i3N3udPyTGVPLpoq": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Adult.webp",
-        "scale": 2
-      }
-    },
-    "Dp6dq9Jd0TanufdU": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Adult.webp",
-        "scale": 2
-      }
-    },
-    "JnOgG1xfWleFGNt9": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Adult.webp",
-        "scale": 1.5
-      }
-    },
-    "F99r7jcWX5YZB8xw": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Adult.webp",
-        "scale": 1.5
-      }
-    },
-    "IMasNR02C74jy3cT": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Adult.webp",
-        "scale": 2
-      }
-    },
-    "oj0vzfjflUc3xMBo": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Adult.webp",
-        "scale": 2
-      }
-    },
-    "Fzn4jHusVeyytgfx": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Adult.webp",
-        "scale": 1.5
-      }
-    },
-    "ouOt6d8xUFk8NhJ9": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Adult.webp",
-        "scale": 1.5
-      }
-    },
-    "aAiuQvMGPN9QXwKY": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Adult.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Adult.webp"
-    },
-    "NgCKGq28Qvt6ZOSr": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Adult.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Adult.webp"
-    },
-    "zXi6UhZ0mXWpKk4A": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Adult.webp",
-        "scale": 2
-      }
-    },
-    "JKG3m8pFISF48Sfr": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Adult.webp",
-        "scale": 2
-      }
-    },
-    "JhQGNMlKARMx1n2D": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Adult.webp",
-        "scale": 2
-      }
-    },
-    "pFmaszqtsA2yt7dv": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Adult.webp",
-        "scale": 2
-      }
-    },
-    "v9eQFqibX6EYsmuX": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Adult.webp",
-        "scale": 2
-      }
-    },
-    "tl1aGbwuPPUDKHbN": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Adult.webp",
-        "scale": 2
-      }
-    },
-    "024PqcF8yMRBrPuq": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Adult.webp",
-        "scale": 1.5
-      }
-    },
-    "MhEfUXkSfLtgpmfE": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Adult.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Adult.webp",
-        "scale": 1.5
-      }
-    },
-    "KDRlxdIUADWHI6Vr": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mephit-Air.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mephit-Air.webp",
-        "scale": 1.2
-      }
-    },
-    "Tpuqwt6Af29EMtqX": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Alchemical-Golem.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Alchemical-Golem.webp",
-        "scale": 1.5
-      }
-    },
-    "tuIqEvsct8EO33xs": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Alghollthu-Master.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Alghollthu-Master.webp",
-        "scale": 1.5
-      }
-    },
-    "Lvdykf6wfqzZBlZd": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "pYNMxg5z2nRFmkMM": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "uPxh3VpA80zZdWfx": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Ancient.webp",
-        "scale": 2
-      }
-    },
-    "4C3Sh2lO9oWi78Zo": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Ancient.webp",
-        "scale": 2
-      }
-    },
-    "bSjF2lCgchtp2ocS": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "kbZ3t5HhHRJJ4AMn": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "BzBFDaNj51PP97RZ": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "MLmwdUIW4o7ZSUEG": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "B9KJUdZre51J3E3e": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "qGvK4f8Clc6dOwLU": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "nWiibOE9wVSlTdkx": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "VEnjCj4geJBzTgBJ": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "0FGz2eXm0SB04sJW": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "p2ECLKUzZ0GhFg22": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "9H11QHnoKz8hHKSM": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "2T2cN4j4EzfDAIEe": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Ancient.webp",
-        "scale": 1.5
-      }
-    },
-    "SWOZ0e2IQifxzlgL": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Ancient.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Ancient.webp"
-    },
-    "jlEFaUJjAK4MTsLc": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Ancient.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Ancient.webp"
-    },
-    "mXkMSlj3LldzKxB9": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Ancient.webp",
-        "scale": 2
-      }
-    },
-    "OqCiTKXZu7EWmAI0": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Ancient.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Ancient.webp",
-        "scale": 2
-      }
-    },
-    "t6Xh4fHdHi2GP87z": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Annis-Hag.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Annis-Hag.webp"
-    },
-    "9vNYtJZiseCEf4wt": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Balor.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Balor.webp",
-        "scale": 1.5
-      }
-    },
-    "JiThbhDfjUoPaTP1": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Baomal.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Baomal.webp"
-    },
-    "FIoRPHaHdYUPVKdT": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Barbazu.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Barbazu.webp",
-        "scale": 1.5
-      }
-    },
-    "x4mlZseBP5bWcy4H": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Barghest.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Barghest.webp"
-    },
-    "R9eoGwQ2tudxUKxS": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Black-Kobold-Dragon-Mage.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Black-Kobold-Dragon-Mage.webp",
-        "scale": 1.2
-      }
-    },
-    "saEPHCN5lDiylb5H": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Black-Pudding.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Black-Pudding.webp"
-    },
-    "HpD0BTfid3hnUEWj": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Bloodseeker.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Bloodseeker.webp",
-        "scale": 1.5
-      }
-    },
-    "93hZtLl9pRRfqI05": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Blue-Kobold-Dragon-Mage.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Blue-Kobold-Dragon-Mage.webp",
-        "scale": 1.2
-      }
-    },
-    "CzxQpB3p0d9hwPeR": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Bulette.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Bulette.webp"
-    },
-    "S8iX8sPaYFFYDoUq": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Bunyip.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Bunyip.webp"
-    },
-    "l05LjJTXvFS4tYTE": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Centaur.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Centaur.webp"
-    },
-    "NW1Ax1QGE9W4DmiN": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ceustodaemon.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ceustodaemon.webp"
-    },
-    "aD76W2uEQhFFUrom": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Chuul.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Chuul.webp",
-        "scale": 1.5
-      }
-    },
-    "skz8n8N9GEQY2c90": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Clay-Golem.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Clay-Golem.webp"
-    },
-    "bkaDwBD3mIBgvULs": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Cloaker.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Cloaker.webp"
-    },
-    "hNR4xZRsxUkGPI1v": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dandasuka.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dandasuka.webp"
-    },
-    "0MOWKI97bgGDf5Xi": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Naga-Dark.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Naga-Dark.webp"
-    },
-    "S35DifoycBwkxaGq": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Demilich.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Demilich.webp"
-    },
-    "GyigGu36XLPV72nW": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Djinni.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Djinni.webp"
-    },
-    "AdQVjlOWB6rmBRVp": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Doppelganger.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Doppelganger.webp"
-    },
-    "SUpy8sleRwi2Egsq": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drakauthix.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drakauthix.webp"
-    },
-    "B7eLG2k7qUo8HU6O": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drider.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drider.webp",
-        "scale": 1.5
-      }
-    },
-    "dTz1SQvJIUsB9S2w": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drow-Fighter.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drow-Fighter.webp"
-    },
-    "FaBHkmFGuEIqIYM1": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drow-Priestess.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drow-Priestess.webp"
-    },
-    "VBXjZ1jYxdKf64B7": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drow-Rogue.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drow-Rogue.webp"
-    },
-    "x23aXeWTo026pMui": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mephit-Earth.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mephit-Earth.webp",
-        "scale": 1.2
-      }
-    },
-    "c0zqasudrwZU3fdw": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Efreeti.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Efreeti.webp"
-    },
-    "ETNlci6VnSthx5V6": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Erinys.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Erinys.webp",
-        "scale": 1.5
-      }
-    },
-    "csRH8Fx0r6iMWlFc": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ether-Spider.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ether-Spider.webp",
-        "scale": 1.5
-      }
-    },
-    "skwkJmgz7mqIcStF": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ettin.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ettin.webp"
-    },
-    "k9fM0vufbdsDPQul": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mephit-Fire.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mephit-Fire.webp",
-        "scale": 1.2
-      }
-    },
-    "sNFBOw4z9KagWUHe": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Flesh-Golem.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Flesh-Golem.webp"
-    },
-    "TZcDdN5o7s4alZNE": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Gelatinous-Cube.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Gelatinous-Cube.webp"
-    },
-    "kNmRn3WfiWLsuwoe": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Gelugon.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Gelugon.webp"
-    },
-    "Iw2QccAkRc5Vnfzj": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ghaele.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ghaele.webp",
-        "scale": 1.5
-      }
-    },
-    "VC7rtYR4hLxwg7WZ": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ghast.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ghast.webp",
-        "scale": 1.5
-      }
-    },
-    "LHHgGSs0ELCR4CYK": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ghoul.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ghoul.webp"
-    },
-    "Z7xWkQKCHGyd02B1": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mantis-Giant.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mantis-Giant.webp"
-    },
-    "dEAneTvoPuQXZoLR": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Gibbering-Mouther.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Gibbering-Mouther.webp"
-    },
-    "BRo0snV2sH6TFuh6": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Glabrezu.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Glabrezu.webp"
-    },
-    "DlRe4c2XlBSpwmms": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Barghest-Greater.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Barghest-Greater.webp",
-        "scale": 2
-      }
-    },
-    "3nOBhH8j9I7ps6fC": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Green-Hag.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Green-Hag.webp"
-    },
-    "QaldZV2p9RpMXzzn": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Green-Kobold-Dragon-Mage.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Green-Kobold-Dragon-Mage.webp",
-        "scale": 1.2
-      }
-    },
-    "j1mm6bb3hZ56jSrK": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Grig.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Grig.webp",
-        "scale": 1.5
-      }
-    },
-    "aq2H1lRALUNMEGRG": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Naga-Guardian.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Naga-Guardian.webp"
-    },
-    "zq18QX6CBJNeUIgG": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Gug.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Gug.webp",
-        "scale": 1.5
-      }
-    },
-    "aqW5sp9HPgZgpXxs": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Hill-Giant.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Hill-Giant.webp"
-    },
-    "pTkz08ak9YlKRsOY": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Hive-Mother.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Hive-Mother.webp"
-    },
-    "iII08V0HlvWGWSmu": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Horned-Archon.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Horned-Archon.webp",
-        "scale": 1.5
-      }
-    },
-    "t4bHhZBBDUyVzEmf": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Iron-Golem.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Iron-Golem.webp"
-    },
-    "tMxtnGthVV01wNQb": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Janni.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Janni.webp"
-    },
-    "yq1BgQi0BsAMbU69": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Kapoacinth.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Kapoacinth.webp",
-        "scale": 1.5
-      }
-    },
-    "PgBsMyjMITjQnCs8": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Kolyarut.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Kolyarut.webp"
-    },
-    "0HjVFx8qIKDCfblg": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Lantern-Archon.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Lantern-Archon.webp"
-    },
-    "gztjujplfVCBVXv0": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Lantern-Archon-Gestalt.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Lantern-Archon-Gestalt.webp",
-        "scale": 2
-      }
-    },
-    "4B47SUq57pcl3U9u": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Legion-Archon.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Legion-Archon.webp",
-        "scale": 2
-      }
-    },
-    "qpRJOzx3bJ7rolHp": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Manticore.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Manticore.webp",
-        "scale": 1.5
-      }
-    },
-    "cuET2PHGcE7eL7DJ": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Marid.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Marid.webp"
-    },
-    "ImueS9YFhV6sxqBP": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Marilith.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Marilith.webp",
-        "scale": 1.5
-      }
-    },
-    "Br1AtKUHe3nbzjnY": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mimic.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mimic.webp"
-    },
-    "VUJrPHKOjYkIQnWn": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mu-Spore.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mu-Spore.webp"
-    },
-    "pL4sS2HZtGAryKnN": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Naunet.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Naunet.webp"
-    },
-    "WQy7HBUcgDLsfVJd": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Night-Hag.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Night-Hag.webp"
-    },
-    "uQBOJfjtzEXvpLQz": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ochre-Jelly.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ochre-Jelly.webp"
-    },
-    "kPBSSOuR8n8vZHXB": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Otyugh.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Otyugh.webp",
-        "scale": 1.5
-      }
-    },
-    "X03vq2RWi2jiA6Ri": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Owlbear.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Owlbear.webp"
-    },
-    "j7NNPfZwD19BwSEZ": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Phantasmal-Minion.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Phantasmal-Minion.webp"
-    },
-    "9jF564DF6ylEovna": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Quasit.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Quasit.webp",
-        "scale": 2
-      }
-    },
-    "Jgh0WGVetNXi5jlM": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Quatoid.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Quatoid.webp"
-    },
-    "x26dyZZZRvZpzK2X": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Quelaunt.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Quelaunt.webp"
-    },
-    "hOXpmWmXU8N3n4Bw": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Raja-Rakshasa.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Raja-Rakshasa.webp"
-    },
-    "CJuHwIRCAgTB1SEl": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Red-Kobold-Dragon-Mage.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Red-Kobold-Dragon-Mage.webp",
-        "scale": 1.2
-      }
-    },
-    "Zbvh6ChdD0TWv257": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Remorhaz.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Remorhaz.webp",
-        "scale": 2
-      }
-    },
-    "ZXbr1ke1vF0ZFKY3": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Roper.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Roper.webp"
-    },
-    "mEmWRqTRxLUZQYSh": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Rust-Monster.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Rust-Monster.webp"
-    },
-    "CHIh3vMssFixUlw8": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Salamander.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Salamander.webp",
-        "scale": 1.5
-      }
-    },
-    "HFbZ580RDOG6Rxz2": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Sea-Devil-Baron.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Sea-Devil-Baron.webp",
-        "scale": 2
-      }
-    },
-    "UrviURGu5o9LkhxN": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Sea-Devil-Brute.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Sea-Devil-Brute.webp",
-        "scale": 1.5
-      }
-    },
-    "PXru127aJljwKhSy": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Sea-Devil-Scout.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Sea-Devil-Scout.webp"
-    },
-    "xqnl2eFzy5H2NZoQ": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Shaitan.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Shaitan.webp"
-    },
-    "6XlGTt3RveX49YbC": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Shambler.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Shambler.webp"
-    },
-    "qkWkshBHyTbLP07b": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Shield-Archon.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Shield-Archon.webp",
-        "scale": 2
-      }
-    },
-    "Q3EaaLLx5kDXb5vQ": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Shoggoth.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Shoggoth.webp"
-    },
-    "ASc5sT2hU84tp1fx": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Simurgh.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Simurgh.webp",
-        "scale": 3
-      }
-    },
-    "ZSQ4M8qeAv4dkLq1": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Skum.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Skum.webp"
-    },
-    "7EpLGBoddL8Vzlha": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Ce.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Ce.webp"
-    },
-    "j0gCguJx3ILB1j9o": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Cg.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Cg.webp"
-    },
-    "X03lxGz9ELv8rG2w": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Cn.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Cn.webp",
-        "scale": 1.5
-      }
-    },
-    "RizAUQHtPy0YRUyt": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Le.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Le.webp"
-    },
-    "RAjbVzWcfrPBbgkK": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Lg.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Lg.webp"
-    },
-    "rJgUpdXBCMBrsJFf": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Ln.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Ln.webp",
-        "scale": 1.5
-      }
-    },
-    "7ptWlh4t6oHvYOcj": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Ne.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Ne.webp"
-    },
-    "iF5NeHC6ReqXLFmY": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Ng.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Ng.webp",
-        "scale": 1.5
-      }
-    },
-    "Pl3J94dvVY159G64": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Nn.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Nn.webp"
-    },
-    "Upf2fOZ6QgGG3seI": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Stone-Golem.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Stone-Golem.webp"
-    },
-    "B0QyZEjAXUG5TsJU": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Storm-Giant.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Storm-Giant.webp",
-        "scale": 1.5
-      }
-    },
-    "LUtSo30fQWj7mrDn": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Storm-Lord.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Storm-Lord.webp"
-    },
-    "cZsaAKlEYWZUO1CV": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Terotricus.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Terotricus.webp"
-    },
-    "6UczvqBDlGNXcIlW": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Tidal-Master.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Tidal-Master.webp"
-    },
-    "gvCCATlH9mPGWbsp": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Troll.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Troll.webp"
-    },
-    "FwH05kDUlC8CwWTU": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Troll-King.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Troll-King.webp"
-    },
-    "n1Mv0Q1MirfjBmfI": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Uthul.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Uthul.webp"
-    },
-    "4cPw8hZwW6uvyzvh": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Vrock.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Vrock.webp",
-        "scale": 1.5
-      }
-    },
-    "KFf6pJmFmzj7HH9i": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mephit-Water.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mephit-Water.webp",
-        "scale": 1.2
-      }
-    },
-    "ZMr28tFTA5NUcBTi": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Web-Lurker.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Web-Lurker.webp",
-        "scale": 1.5
-      }
-    },
-    "NTXm3ee7WZJ92Sww": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Wemmuth.webp",
-      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Wemmuth.webp"
-    },
-    "RDFvGocLW0OuHmlC": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Wendigo.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Wendigo.webp",
-        "scale": 1.5
-      }
-    },
-    "kCRfBZqCugMQmdpd": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/White-Kobold-Dragon-Mage.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/White-Kobold-Dragon-Mage.webp",
-        "scale": 1.2
-      }
-    },
-    "4npwV3fuBm3sBCPG": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Xorn.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Xorn.webp",
-        "scale": 1.5
-      }
-    },
-    "v0GZ6zDWhD1Y3xs9": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Young.webp",
-        "scale": 2
-      }
-    },
-    "kR1wGS61ubIpH8A6": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Young.webp",
-        "scale": 2
-      }
-    },
-    "ar0tszs8NAgQamHX": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Young.webp",
-        "scale": 2
-      }
-    },
-    "fd3Bf10lloqMg2jW": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Young.webp",
-        "scale": 2
-      }
-    },
-    "uA0cv4OT5mQnym0V": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Young.webp",
-        "scale": 2
-      }
-    },
-    "fcE9PgnC82e9haL5": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Young.webp",
-        "scale": 2
-      }
-    },
-    "uQOTCiHslczvrNpt": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Young.webp",
-        "scale": 2
-      }
-    },
-    "fsdCVADRbLxpBVT8": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Young.webp",
-        "scale": 2
-      }
-    },
-    "3W2PMV6IbVdouOB1": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Young.webp",
-        "scale": 3
-      }
-    },
-    "pzG7Od1aHj0DkTzS": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Young.webp",
-        "scale": 3
-      }
-    },
-    "DolNTN9s2p79N8Cy": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Young.webp",
-        "scale": 1.5
-      }
-    },
-    "9xdl2PpfMEfJWhSO": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Young.webp",
-        "scale": 1.5
-      }
-    },
-    "xZQIChzzIYbNIEoT": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Young.webp",
-        "scale": 2
-      }
-    },
-    "5XtCOknYJuEl4SfD": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Young.webp",
-        "scale": 2
-      }
-    },
-    "sUGKrcx7kbHkWnwG": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Young.webp",
-        "scale": 2
-      }
-    },
-    "oLdrCmarnzd62kA8": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Young.webp",
-        "scale": 2
-      }
-    },
-    "YPLZkAlOuaj3F3nZ": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Young.webp",
-        "scale": 3
-      }
-    },
-    "dYbfZnB1ngiqPm4O": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Young.webp",
-        "scale": 3
-      }
-    },
-    "3OPUMuBQThM5EXjz": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Young.webp",
-        "scale": 2
-      }
-    },
-    "csfVqep68nYGHExr": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Young.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Young.webp",
-        "scale": 2
-      }
-    },
-    "31kXa1P0LUl38jYG": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Zaramuun.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Zaramuun.webp",
-        "scale": 1.5
-      }
-    }
-  },
   "claws-of-the-tyrant-bestiary": {
     "M2Co6b3pKO3TOWQj": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Omelia.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Omelia.webp",
-        "scale": 1.6
-      }
-    },
-    "Skeletal Rat Swarm": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Skeletal-Rat-Swarm.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Skeletal-Rat-Swarm.webp",
-        "scale": 1.6
-      }
-    },
-    "Undead Murder": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Undead-Murder.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Undead-Murder.webp",
-        "scale": 1.6
-      }
-    },
-    "Zombie Bear": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Zombie-Bear.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Zombie-Bear.webp",
         "scale": 1.6
       }
     },
@@ -21920,13 +19519,6 @@
         "scale": 1.6
       }
     },
-    "Priest of Iomedae": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Priest-Of-Iomedae.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Priest-Of-Iomedae.webp",
-        "scale": 1.6
-      }
-    },
     "OZRvOYnkvEVlTx90": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Stelemora.webp",
       "token": {
@@ -21945,13 +19537,6 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Chained-Norn.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Chained-Norn.webp",
-        "scale": 1.6
-      }
-    },
-    "Divine Warden of Arazni": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Divine-Warden-Of-Arazni.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Divine-Warden-Of-Arazni.webp",
         "scale": 1.6
       }
     },
@@ -21997,20 +19582,6 @@
         "scale": 1.6
       }
     },
-    "Ossuary Warden": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Ossuary-Warden.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Ossuary-Warden.webp",
-        "scale": 1.6
-      }
-    },
-    "Radiant Veranallia": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Radiant-Veranallia.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Radiant-Veranallia.webp",
-        "scale": 1.6
-      }
-    },
     "Kqd7MVuRRYvvZQ0g": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Seldeg-Bhedlis.webp",
       "token": {
@@ -22022,13 +19593,6 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Splinter-Officer.webp",
       "token": {
         "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Splinter-Officer.webp",
-        "scale": 1.6
-      }
-    },
-    "Zombie Desecrator": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/claws-of-the-tyrant/Zombie-Desecrator.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/standalone-adventures/claws-of-the-tyrant/Zombie-Desecrator.webp",
         "scale": 1.6
       }
     }
@@ -24385,13 +21949,6 @@
         "scale": 1.5
       }
     },
-    "Tok-Nikrat Scouts": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-30.webp",
-      "token": {
-        "img": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-30.webp",
-        "scale": 1.5
-      }
-    },
     "JMFfbmnOG75RuuXv": {
       "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/symbols/Red-18.webp",
       "token": {
@@ -25907,6 +23464,1331 @@
     "lJJ81JBAIuI72Fq2": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/quest-for-the-frozen-flame/Zombie-Megaloceros.webp",
       "token": "modules/pf2e-token-pack/tokens/adventure-patch/quest-for-the-frozen-flame/Zombie-Megaloceros.webp"
+    }
+  },
+  "paizo-pregens": {
+    "ytM010QZkBllprLg": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Booker-Kaar.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Booker-Kaar.webp",
+        "scale": 1.6
+      }
+    },
+    "laZsLWc38QXHfos0": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Bottlespeaker.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Bottlespeaker.webp",
+        "scale": 1.6
+      }
+    },
+    "2A9KGg5LVa2qS5Hw": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Bottlespeaker.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Bottlespeaker.webp",
+        "scale": 1.6
+      }
+    },
+    "mgTDmRdQYUVHBs9V": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Doc-Featherton.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Doc-Featherton.webp",
+        "scale": 1.6
+      }
+    },
+    "QW5TpsCjn70RTFnL": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Ekene.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Ekene.webp",
+        "scale": 1.6
+      }
+    },
+    "MzfFXoNb28HBjajw": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Elsir-Syniras.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Elsir-Syniras.webp",
+        "scale": 1.6
+      }
+    },
+    "vCqYsDQ6UVN2fbNZ": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Eteleon.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Eteleon.webp",
+        "scale": 1.6
+      }
+    },
+    "WNX5OQKPh4uaV7mW": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Ezren.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Ezren.webp",
+        "scale": 1.6
+      }
+    },
+    "2ExvSAlBFtPbHTNk": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Fluff-Fang.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Fluff-Fang.webp",
+        "scale": 1.6
+      }
+    },
+    "k0poKizWXi4UCNS4": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Fluff-Fang.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Fluff-Fang.webp",
+        "scale": 1.6
+      }
+    },
+    "oIfXnKl0KzboCYBH": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Grimmnir.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Grimmnir.webp",
+        "scale": 1.6
+      }
+    },
+    "Ip0EDqMZqgXmcBgZ": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Izni.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Izni.webp",
+        "scale": 1.6
+      }
+    },
+    "V31KjehELRbLRMeb": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Jadren-Tagar.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Jadren-Tagar.webp",
+        "scale": 1.6
+      }
+    },
+    "WHGcdLAqIs58FJPH": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Jaithe.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Jaithe.webp",
+        "scale": 1.6
+      }
+    },
+    "9xvxgar3BO1gt2XI": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kaako-Ashfeather.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kaako-Ashfeather.webp",
+        "scale": 1.6
+      }
+    },
+    "RrZABs8PNTwLv1ah": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kalaggi-Nakutu.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kalaggi-Nakutu.webp",
+        "scale": 1.6
+      }
+    },
+    "YNu4l7cjb580XM2K": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kangir.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kangir.webp",
+        "scale": 1.6
+      }
+    },
+    "8N6zEXEsIeDSUyar": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kellsti.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kellsti.webp",
+        "scale": 1.6
+      }
+    },
+    "yoAU5rWYH4KJGPr5": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Kyra.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Kyra.webp",
+        "scale": 1.6
+      }
+    },
+    "GKuqaB0W8hbH3H90": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Lavanna-Saltspray.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Lavanna-Saltspray.webp",
+        "scale": 1.6
+      }
+    },
+    "UCrQbCrBrKBbNAEv": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Melvok.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Melvok.webp",
+        "scale": 1.6
+      }
+    },
+    "czQ0MaZBu3BqMpce": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Merisiel.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Merisiel.webp",
+        "scale": 1.6
+      }
+    },
+    "qUSE9OURRD6qNvLZ": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Muruwa.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Muruwa.webp",
+        "scale": 1.6
+      }
+    },
+    "MxVWMPD1H1o6FwQP": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Oraka.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Oraka.webp",
+        "scale": 1.6
+      }
+    },
+    "LWsUZveKng8MhJrO": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Popcorn.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Popcorn.webp",
+        "scale": 1.6
+      }
+    },
+    "VzEke2VKFA59g5rX": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Popcorn.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Popcorn.webp",
+        "scale": 1.6
+      }
+    },
+    "lpIV82IVlgatyQvO": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Precious.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Precious.webp",
+        "scale": 1.6
+      }
+    },
+    "xgadoa9HjqMhrnvX": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Quizrel.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Quizrel.webp",
+        "scale": 1.6
+      }
+    },
+    "umOntDTQXImkZhug": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Reaching-Rings.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Reaching-Rings.webp",
+        "scale": 1.6
+      }
+    },
+    "Vo1wauXo0pzTg8yL": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Reaching-Rings.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Reaching-Rings.webp",
+        "scale": 1.6
+      }
+    },
+    "NedNTpCBQhSzDAwg": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Rhin.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Rhin.webp",
+        "scale": 1.6
+      }
+    },
+    "EQWNmGmicyirnTR1": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Savshin-Starwatcher.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Savshin-Starwatcher.webp",
+        "scale": 1.6
+      }
+    },
+    "Ffnp6AbRVhjmLH9T": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Simeek.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Simeek.webp",
+        "scale": 1.6
+      }
+    },
+    "pdZNO5gqhB4hN61A": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Takemiru.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Takemiru.webp",
+        "scale": 1.6
+      }
+    },
+    "1NE3CrEExL2QZvEk": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Twinsprout.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Twinsprout.webp",
+        "scale": 1.6
+      }
+    },
+    "dezjxiDtBdnBiurc": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Ufi.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Ufi.webp",
+        "scale": 1.6
+      }
+    },
+    "vcwqnXHkhzFhrt7O": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Valeros.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Valeros.webp",
+        "scale": 1.6
+      }
+    },
+    "POKpRKV1hwHfAY6k": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Yacob.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Yacob.webp",
+        "scale": 1.6
+      }
+    },
+    "yzcXrMEuajAdIRZE": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zakzak.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zakzak.webp",
+        "scale": 1.6
+      }
+    },
+    "JiA08mYkxYMA5ZEn": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zane-Ikundi.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zane-Ikundi.webp",
+        "scale": 1.6
+      }
+    },
+    "ZZQvsGWFMS00fL7P": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zathri.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zathri.webp",
+        "scale": 1.6
+      }
+    },
+    "WQlDa6tHkKTziD0m": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zeah.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zeah.webp",
+        "scale": 1.6
+      }
+    },
+    "zo0OV4kxZ4LntHkU": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zerryd.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zerryd.webp",
+        "scale": 1.6
+      }
+    },
+    "JqHEn0seOxR10rTN": {
+      "actor": "modules/pf2e-token-pack/portraits/pregenerated-pCs/adventure-pregens/Zindarel.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/pregenerated-pCs/adventure-pregens/Zindarel.webp",
+        "scale": 1.6
+      }
+    }
+  },
+  "pathfinder-bestiary": {
+    "gDMPUL0UiOHrUUd3": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Aasimar-Redeemer.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Aasimar-Redeemer.webp"
+    },
+    "keCgklXcy4HZgQIL": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Adamantine-Golem.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Adamantine-Golem.webp",
+        "scale": 1.5
+      }
+    },
+    "irrXrWxJ0LYSUCQB": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Adult.webp",
+        "scale": 1.5
+      }
+    },
+    "AQwxOoYBwDUAwvfh": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Adult.webp",
+        "scale": 1.5
+      }
+    },
+    "i3N3udPyTGVPLpoq": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Adult.webp",
+        "scale": 2
+      }
+    },
+    "Dp6dq9Jd0TanufdU": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Adult.webp",
+        "scale": 2
+      }
+    },
+    "JnOgG1xfWleFGNt9": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Adult.webp",
+        "scale": 1.5
+      }
+    },
+    "F99r7jcWX5YZB8xw": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Adult.webp",
+        "scale": 1.5
+      }
+    },
+    "IMasNR02C74jy3cT": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Adult.webp",
+        "scale": 2
+      }
+    },
+    "oj0vzfjflUc3xMBo": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Adult.webp",
+        "scale": 2
+      }
+    },
+    "Fzn4jHusVeyytgfx": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Adult.webp",
+        "scale": 1.5
+      }
+    },
+    "ouOt6d8xUFk8NhJ9": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Adult.webp",
+        "scale": 1.5
+      }
+    },
+    "aAiuQvMGPN9QXwKY": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Adult.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Adult.webp"
+    },
+    "NgCKGq28Qvt6ZOSr": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Adult.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Adult.webp"
+    },
+    "zXi6UhZ0mXWpKk4A": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Adult.webp",
+        "scale": 2
+      }
+    },
+    "JKG3m8pFISF48Sfr": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Adult.webp",
+        "scale": 2
+      }
+    },
+    "JhQGNMlKARMx1n2D": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Adult.webp",
+        "scale": 2
+      }
+    },
+    "pFmaszqtsA2yt7dv": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Adult.webp",
+        "scale": 2
+      }
+    },
+    "v9eQFqibX6EYsmuX": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Adult.webp",
+        "scale": 2
+      }
+    },
+    "tl1aGbwuPPUDKHbN": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Adult.webp",
+        "scale": 2
+      }
+    },
+    "024PqcF8yMRBrPuq": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Adult.webp",
+        "scale": 1.5
+      }
+    },
+    "MhEfUXkSfLtgpmfE": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Adult.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Adult.webp",
+        "scale": 1.5
+      }
+    },
+    "KDRlxdIUADWHI6Vr": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mephit-Air.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mephit-Air.webp",
+        "scale": 1.2
+      }
+    },
+    "Tpuqwt6Af29EMtqX": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Alchemical-Golem.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Alchemical-Golem.webp",
+        "scale": 1.5
+      }
+    },
+    "tuIqEvsct8EO33xs": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Alghollthu-Master.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Alghollthu-Master.webp",
+        "scale": 1.5
+      }
+    },
+    "Lvdykf6wfqzZBlZd": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "pYNMxg5z2nRFmkMM": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "uPxh3VpA80zZdWfx": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Ancient.webp",
+        "scale": 2
+      }
+    },
+    "4C3Sh2lO9oWi78Zo": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Ancient.webp",
+        "scale": 2
+      }
+    },
+    "bSjF2lCgchtp2ocS": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "kbZ3t5HhHRJJ4AMn": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "BzBFDaNj51PP97RZ": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "MLmwdUIW4o7ZSUEG": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "B9KJUdZre51J3E3e": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "qGvK4f8Clc6dOwLU": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "nWiibOE9wVSlTdkx": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "VEnjCj4geJBzTgBJ": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "0FGz2eXm0SB04sJW": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "p2ECLKUzZ0GhFg22": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "9H11QHnoKz8hHKSM": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "2T2cN4j4EzfDAIEe": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Ancient.webp",
+        "scale": 1.5
+      }
+    },
+    "SWOZ0e2IQifxzlgL": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Ancient.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Ancient.webp"
+    },
+    "jlEFaUJjAK4MTsLc": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Ancient.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Ancient.webp"
+    },
+    "mXkMSlj3LldzKxB9": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Ancient.webp",
+        "scale": 2
+      }
+    },
+    "OqCiTKXZu7EWmAI0": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Ancient.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Ancient.webp",
+        "scale": 2
+      }
+    },
+    "t6Xh4fHdHi2GP87z": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Annis-Hag.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Annis-Hag.webp"
+    },
+    "9vNYtJZiseCEf4wt": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Balor.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Balor.webp",
+        "scale": 1.5
+      }
+    },
+    "JiThbhDfjUoPaTP1": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Baomal.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Baomal.webp"
+    },
+    "FIoRPHaHdYUPVKdT": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Barbazu.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Barbazu.webp",
+        "scale": 1.5
+      }
+    },
+    "x4mlZseBP5bWcy4H": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Barghest.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Barghest.webp"
+    },
+    "R9eoGwQ2tudxUKxS": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Black-Kobold-Dragon-Mage.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Black-Kobold-Dragon-Mage.webp",
+        "scale": 1.2
+      }
+    },
+    "saEPHCN5lDiylb5H": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Black-Pudding.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Black-Pudding.webp"
+    },
+    "HpD0BTfid3hnUEWj": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Bloodseeker.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Bloodseeker.webp",
+        "scale": 1.5
+      }
+    },
+    "93hZtLl9pRRfqI05": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Blue-Kobold-Dragon-Mage.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Blue-Kobold-Dragon-Mage.webp",
+        "scale": 1.2
+      }
+    },
+    "CzxQpB3p0d9hwPeR": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Bulette.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Bulette.webp"
+    },
+    "S8iX8sPaYFFYDoUq": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Bunyip.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Bunyip.webp"
+    },
+    "l05LjJTXvFS4tYTE": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Centaur.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Centaur.webp"
+    },
+    "NW1Ax1QGE9W4DmiN": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ceustodaemon.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ceustodaemon.webp"
+    },
+    "aD76W2uEQhFFUrom": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Chuul.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Chuul.webp",
+        "scale": 1.5
+      }
+    },
+    "skz8n8N9GEQY2c90": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Clay-Golem.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Clay-Golem.webp"
+    },
+    "bkaDwBD3mIBgvULs": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Cloaker.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Cloaker.webp"
+    },
+    "hNR4xZRsxUkGPI1v": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dandasuka.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dandasuka.webp"
+    },
+    "0MOWKI97bgGDf5Xi": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Naga-Dark.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Naga-Dark.webp"
+    },
+    "S35DifoycBwkxaGq": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Demilich.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Demilich.webp"
+    },
+    "GyigGu36XLPV72nW": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Djinni.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Djinni.webp"
+    },
+    "AdQVjlOWB6rmBRVp": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Doppelganger.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Doppelganger.webp"
+    },
+    "SUpy8sleRwi2Egsq": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drakauthix.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drakauthix.webp"
+    },
+    "B7eLG2k7qUo8HU6O": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drider.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drider.webp",
+        "scale": 1.5
+      }
+    },
+    "dTz1SQvJIUsB9S2w": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drow-Fighter.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drow-Fighter.webp"
+    },
+    "FaBHkmFGuEIqIYM1": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drow-Priestess.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drow-Priestess.webp"
+    },
+    "VBXjZ1jYxdKf64B7": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Drow-Rogue.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Drow-Rogue.webp"
+    },
+    "x23aXeWTo026pMui": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mephit-Earth.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mephit-Earth.webp",
+        "scale": 1.2
+      }
+    },
+    "c0zqasudrwZU3fdw": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Efreeti.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Efreeti.webp"
+    },
+    "ETNlci6VnSthx5V6": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Erinys.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Erinys.webp",
+        "scale": 1.5
+      }
+    },
+    "csRH8Fx0r6iMWlFc": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ether-Spider.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ether-Spider.webp",
+        "scale": 1.5
+      }
+    },
+    "skwkJmgz7mqIcStF": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ettin.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ettin.webp"
+    },
+    "k9fM0vufbdsDPQul": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mephit-Fire.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mephit-Fire.webp",
+        "scale": 1.2
+      }
+    },
+    "sNFBOw4z9KagWUHe": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Flesh-Golem.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Flesh-Golem.webp"
+    },
+    "TZcDdN5o7s4alZNE": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Gelatinous-Cube.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Gelatinous-Cube.webp"
+    },
+    "kNmRn3WfiWLsuwoe": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Gelugon.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Gelugon.webp"
+    },
+    "Iw2QccAkRc5Vnfzj": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ghaele.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ghaele.webp",
+        "scale": 1.5
+      }
+    },
+    "VC7rtYR4hLxwg7WZ": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ghast.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ghast.webp",
+        "scale": 1.5
+      }
+    },
+    "LHHgGSs0ELCR4CYK": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ghoul.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ghoul.webp"
+    },
+    "Z7xWkQKCHGyd02B1": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mantis-Giant.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mantis-Giant.webp"
+    },
+    "dEAneTvoPuQXZoLR": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Gibbering-Mouther.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Gibbering-Mouther.webp"
+    },
+    "BRo0snV2sH6TFuh6": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Glabrezu.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Glabrezu.webp"
+    },
+    "DlRe4c2XlBSpwmms": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Barghest-Greater.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Barghest-Greater.webp",
+        "scale": 2
+      }
+    },
+    "3nOBhH8j9I7ps6fC": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Green-Hag.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Green-Hag.webp"
+    },
+    "QaldZV2p9RpMXzzn": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Green-Kobold-Dragon-Mage.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Green-Kobold-Dragon-Mage.webp",
+        "scale": 1.2
+      }
+    },
+    "j1mm6bb3hZ56jSrK": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Grig.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Grig.webp",
+        "scale": 1.5
+      }
+    },
+    "aq2H1lRALUNMEGRG": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Naga-Guardian.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Naga-Guardian.webp"
+    },
+    "zq18QX6CBJNeUIgG": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Gug.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Gug.webp",
+        "scale": 1.5
+      }
+    },
+    "aqW5sp9HPgZgpXxs": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Hill-Giant.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Hill-Giant.webp"
+    },
+    "pTkz08ak9YlKRsOY": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Hive-Mother.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Hive-Mother.webp"
+    },
+    "iII08V0HlvWGWSmu": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Horned-Archon.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Horned-Archon.webp",
+        "scale": 1.5
+      }
+    },
+    "t4bHhZBBDUyVzEmf": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Iron-Golem.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Iron-Golem.webp"
+    },
+    "tMxtnGthVV01wNQb": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Janni.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Janni.webp"
+    },
+    "yq1BgQi0BsAMbU69": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Kapoacinth.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Kapoacinth.webp",
+        "scale": 1.5
+      }
+    },
+    "PgBsMyjMITjQnCs8": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Kolyarut.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Kolyarut.webp"
+    },
+    "0HjVFx8qIKDCfblg": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Lantern-Archon.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Lantern-Archon.webp"
+    },
+    "gztjujplfVCBVXv0": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Lantern-Archon-Gestalt.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Lantern-Archon-Gestalt.webp",
+        "scale": 2
+      }
+    },
+    "4B47SUq57pcl3U9u": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Legion-Archon.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Legion-Archon.webp",
+        "scale": 2
+      }
+    },
+    "qpRJOzx3bJ7rolHp": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Manticore.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Manticore.webp",
+        "scale": 1.5
+      }
+    },
+    "cuET2PHGcE7eL7DJ": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Marid.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Marid.webp"
+    },
+    "ImueS9YFhV6sxqBP": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Marilith.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Marilith.webp",
+        "scale": 1.5
+      }
+    },
+    "Br1AtKUHe3nbzjnY": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mimic.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mimic.webp"
+    },
+    "VUJrPHKOjYkIQnWn": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mu-Spore.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mu-Spore.webp"
+    },
+    "pL4sS2HZtGAryKnN": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Naunet.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Naunet.webp"
+    },
+    "WQy7HBUcgDLsfVJd": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Night-Hag.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Night-Hag.webp"
+    },
+    "uQBOJfjtzEXvpLQz": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Ochre-Jelly.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Ochre-Jelly.webp"
+    },
+    "kPBSSOuR8n8vZHXB": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Otyugh.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Otyugh.webp",
+        "scale": 1.5
+      }
+    },
+    "X03vq2RWi2jiA6Ri": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Owlbear.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Owlbear.webp"
+    },
+    "j7NNPfZwD19BwSEZ": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Phantasmal-Minion.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Phantasmal-Minion.webp"
+    },
+    "9jF564DF6ylEovna": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Quasit.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Quasit.webp",
+        "scale": 2
+      }
+    },
+    "Jgh0WGVetNXi5jlM": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Quatoid.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Quatoid.webp"
+    },
+    "x26dyZZZRvZpzK2X": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Quelaunt.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Quelaunt.webp"
+    },
+    "hOXpmWmXU8N3n4Bw": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Raja-Rakshasa.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Raja-Rakshasa.webp"
+    },
+    "CJuHwIRCAgTB1SEl": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Red-Kobold-Dragon-Mage.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Red-Kobold-Dragon-Mage.webp",
+        "scale": 1.2
+      }
+    },
+    "Zbvh6ChdD0TWv257": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Remorhaz.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Remorhaz.webp",
+        "scale": 2
+      }
+    },
+    "ZXbr1ke1vF0ZFKY3": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Roper.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Roper.webp"
+    },
+    "mEmWRqTRxLUZQYSh": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Rust-Monster.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Rust-Monster.webp"
+    },
+    "CHIh3vMssFixUlw8": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Salamander.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Salamander.webp",
+        "scale": 1.5
+      }
+    },
+    "HFbZ580RDOG6Rxz2": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Sea-Devil-Baron.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Sea-Devil-Baron.webp",
+        "scale": 2
+      }
+    },
+    "UrviURGu5o9LkhxN": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Sea-Devil-Brute.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Sea-Devil-Brute.webp",
+        "scale": 1.5
+      }
+    },
+    "PXru127aJljwKhSy": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Sea-Devil-Scout.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Sea-Devil-Scout.webp"
+    },
+    "xqnl2eFzy5H2NZoQ": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Shaitan.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Shaitan.webp"
+    },
+    "6XlGTt3RveX49YbC": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Shambler.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Shambler.webp"
+    },
+    "qkWkshBHyTbLP07b": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Shield-Archon.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Shield-Archon.webp",
+        "scale": 2
+      }
+    },
+    "Q3EaaLLx5kDXb5vQ": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Shoggoth.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Shoggoth.webp"
+    },
+    "ASc5sT2hU84tp1fx": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Simurgh.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Simurgh.webp",
+        "scale": 3
+      }
+    },
+    "ZSQ4M8qeAv4dkLq1": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Skum.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Skum.webp"
+    },
+    "7EpLGBoddL8Vzlha": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Ce.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Ce.webp"
+    },
+    "j0gCguJx3ILB1j9o": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Cg.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Cg.webp"
+    },
+    "X03lxGz9ELv8rG2w": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Cn.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Cn.webp",
+        "scale": 1.5
+      }
+    },
+    "RizAUQHtPy0YRUyt": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Le.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Le.webp"
+    },
+    "RAjbVzWcfrPBbgkK": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Lg.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Lg.webp"
+    },
+    "rJgUpdXBCMBrsJFf": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Ln.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Ln.webp",
+        "scale": 1.5
+      }
+    },
+    "7ptWlh4t6oHvYOcj": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Ne.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Ne.webp"
+    },
+    "iF5NeHC6ReqXLFmY": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Ng.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Ng.webp",
+        "scale": 1.5
+      }
+    },
+    "Pl3J94dvVY159G64": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Soulbound-Doll-Nn.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Soulbound-Doll-Nn.webp"
+    },
+    "Upf2fOZ6QgGG3seI": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Stone-Golem.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Stone-Golem.webp"
+    },
+    "B0QyZEjAXUG5TsJU": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Storm-Giant.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Storm-Giant.webp",
+        "scale": 1.5
+      }
+    },
+    "LUtSo30fQWj7mrDn": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Storm-Lord.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Storm-Lord.webp"
+    },
+    "cZsaAKlEYWZUO1CV": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Terotricus.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Terotricus.webp"
+    },
+    "6UczvqBDlGNXcIlW": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Tidal-Master.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Tidal-Master.webp"
+    },
+    "gvCCATlH9mPGWbsp": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Troll.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Troll.webp"
+    },
+    "FwH05kDUlC8CwWTU": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Troll-King.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Troll-King.webp"
+    },
+    "n1Mv0Q1MirfjBmfI": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Uthul.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Uthul.webp"
+    },
+    "4cPw8hZwW6uvyzvh": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Vrock.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Vrock.webp",
+        "scale": 1.5
+      }
+    },
+    "KFf6pJmFmzj7HH9i": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Mephit-Water.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Mephit-Water.webp",
+        "scale": 1.2
+      }
+    },
+    "ZMr28tFTA5NUcBTi": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Web-Lurker.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Web-Lurker.webp",
+        "scale": 1.5
+      }
+    },
+    "NTXm3ee7WZJ92Sww": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Wemmuth.webp",
+      "token": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Wemmuth.webp"
+    },
+    "RDFvGocLW0OuHmlC": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Wendigo.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Wendigo.webp",
+        "scale": 1.5
+      }
+    },
+    "kCRfBZqCugMQmdpd": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/White-Kobold-Dragon-Mage.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/White-Kobold-Dragon-Mage.webp",
+        "scale": 1.2
+      }
+    },
+    "4npwV3fuBm3sBCPG": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Xorn.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Xorn.webp",
+        "scale": 1.5
+      }
+    },
+    "v0GZ6zDWhD1Y3xs9": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Young.webp",
+        "scale": 2
+      }
+    },
+    "kR1wGS61ubIpH8A6": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Black-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Black-Young.webp",
+        "scale": 2
+      }
+    },
+    "ar0tszs8NAgQamHX": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Young.webp",
+        "scale": 2
+      }
+    },
+    "fd3Bf10lloqMg2jW": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Blue-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Blue-Young.webp",
+        "scale": 2
+      }
+    },
+    "uA0cv4OT5mQnym0V": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Young.webp",
+        "scale": 2
+      }
+    },
+    "fcE9PgnC82e9haL5": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Brass-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Brass-Young.webp",
+        "scale": 2
+      }
+    },
+    "uQOTCiHslczvrNpt": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Young.webp",
+        "scale": 2
+      }
+    },
+    "fsdCVADRbLxpBVT8": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Bronze-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Bronze-Young.webp",
+        "scale": 2
+      }
+    },
+    "3W2PMV6IbVdouOB1": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Young.webp",
+        "scale": 3
+      }
+    },
+    "pzG7Od1aHj0DkTzS": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Copper-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Copper-Young.webp",
+        "scale": 3
+      }
+    },
+    "DolNTN9s2p79N8Cy": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Young.webp",
+        "scale": 1.5
+      }
+    },
+    "9xdl2PpfMEfJWhSO": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Gold-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Gold-Young.webp",
+        "scale": 1.5
+      }
+    },
+    "xZQIChzzIYbNIEoT": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Young.webp",
+        "scale": 2
+      }
+    },
+    "5XtCOknYJuEl4SfD": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Green-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Green-Young.webp",
+        "scale": 2
+      }
+    },
+    "sUGKrcx7kbHkWnwG": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Young.webp",
+        "scale": 2
+      }
+    },
+    "oLdrCmarnzd62kA8": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Red-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Red-Young.webp",
+        "scale": 2
+      }
+    },
+    "YPLZkAlOuaj3F3nZ": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Young.webp",
+        "scale": 3
+      }
+    },
+    "dYbfZnB1ngiqPm4O": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-Silver-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-Silver-Young.webp",
+        "scale": 3
+      }
+    },
+    "3OPUMuBQThM5EXjz": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Young.webp",
+        "scale": 2
+      }
+    },
+    "csfVqep68nYGHExr": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Dragon-White-Young.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Dragon-White-Young.webp",
+        "scale": 2
+      }
+    },
+    "31kXa1P0LUl38jYG": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Zaramuun.webp",
+      "token": {
+        "img": "modules/pf2e-token-pack/tokens/bestiary/bestiary-1/Zaramuun.webp",
+        "scale": 1.5
+      }
     }
   }
 }

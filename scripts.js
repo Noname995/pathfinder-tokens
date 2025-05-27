@@ -1,51 +1,50 @@
 class PathfinderBestiaryTokenPack {
   static async initSettings() {
     this.keys = [
-    { key: "pathfinder-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Pathfinder Bestiary"), packName: "pf2e.pathfinder-bestiary" },
-    { key: "pathfinder-bestiary-2", name: game.i18n.localize("PF2E-TOKEN-PACK.Pathfinder Bestiary 2"), packName: "pf2e.pathfinder-bestiary-2"  },
-    { key: "pathfinder-bestiary-3", name: game.i18n.localize("PF2E-TOKEN-PACK.Pathfinder Bestiary 3"), packName: "pf2e.pathfinder-bestiary-3"  },
-    { key: "pathfinder-monster-core", name: game.i18n.localize("PF2E-TOKEN-PACK.Pathfinder Monster Core"), packName: "pf2e.pathfinder-monster-core"  },
-    { key: "pathfinder-npc-core", name: game.i18n.localize("PF2E-TOKEN-PACK.Pathfinder NPC Core"), packName: "pf2e.pathfinder-npc-core"  },
-    { key: "abomination-vaults-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Abomination Vaults Bestiary"), packName: "pf2e.abomination-vaults-bestiary"  },
-    { key: "age-of-ashes-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Age of Ashes Bestiary"), packName: "pf2e.age-of-ashes-bestiary"  },
-    { key: "agents-of-edgewatch-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Agents of Edgewatch Bestiary"), packName: "pf2e.agents-of-edgewatch-bestiary"  },
-    { key: "blood-lords-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Blood Lords Bestiary"), packName: "pf2e.blood-lords-bestiary"  },
-    { key: "curtain-call-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Curtain Call Bestiary"), packName: "pf2e.curtain-call-bestiary"  },
-    { key: "extinction-curse-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Extinction Curse Bestiary"), packName: "pf2e.extinction-curse-bestiary"  },
-    { key: "fists-of-the-ruby-phoenix-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Fists of the Ruby Phoenix Bestiary"), packName: "pf2e.fists-of-the-ruby-phoenix-bestiary"  },
-    { key: "gatewalkers-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Gatewalkers Bestiary"), packName: "pf2e.gatewalkers-bestiary"  },
-    { key: "outlaws-of-alkenstar-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Outlaws of Alkenstar Bestiary"), packName: "pf2e.outlaws-of-alkenstar-bestiary"  },
-    { key: "kingmaker-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Kingmaker Bestiary"), packName: "pf2e.kingmaker-bestiary"  },
-    { key: "quest-for-the-frozen-flame-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Quest for the Frozen Flame Bestiary"), packName: "pf2e.quest-for-the-frozen-flame-bestiary"  },
-    { key: "season-of-ghosts-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Season of Ghosts Bestiary"), packName: "pf2e.season-of-ghosts-bestiary"  },
-    { key: "seven-dooms-for-sandpoint-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Seven Dooms for Sandpoint Bestiary"), packName: "pf2e.seven-dooms-for-sandpoint-bestiary"  },
-    { key: "sky-kings-tomb-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Sky King's Tomb Bestiary"), packName: "pf2e.sky-kings-tomb-bestiary"  },
-    { key: "strength-of-thousands-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Strength of Thousands Bestiary"), packName: "pf2e.strength-of-thousands-bestiary"   },
-    { key: "stolen-fate-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Stolen Fate Bestiary"), packName: "pf2e.stolen-fate-bestiary"  },
-    { key: "wardens-of-wildwood-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Wardens of Wildwood Bestiary"), packName: "pf2e.wardens-of-wildwood-bestiary"  },
-    { key: "book-of-the-dead-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Book of the Dead Bestiary"), packName: "pf2e.book-of-the-dead-bestiary"  },
-    { key: "blog-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Paizo Blog Bestiary"), packName: "pf2e.blog-bestiary"  },
-    { key: "howl-of-the-wild-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Howl of the Wild Bestiary"), packName: "pf2e.howl-of-the-wild-bestiary"  },
-    { key: "lost-omens-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Lost Omens Bestiary"), packName: "pf2e.lost-omens-bestiary"  },
-    { key: "npc-gallery", name: game.i18n.localize("PF2E-TOKEN-PACK.NPC Gallery"), packName: "pf2e.npc-gallery"  },
-    { key: "pathfinder-dark-archive", name: game.i18n.localize("PF2E-TOKEN-PACK.Pathfinder Dark Archive"), packName: "pf2e.pathfinder-dark-archive"  },
-    { key: "rage-of-elements-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Rage of Elements Bestiary"), packName: "pf2e.rage-of-elements-bestiary"  },
-    { key: "war-of-immortals-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.War of Immortals Bestiary"), packName: "pf2e.war-of-immortals-bestiary"  },
-    { key: "claws-of-the-tyrant-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Claws of the Tyrant Bestiary"), packName: "pf2e.claws-of-the-tyrant-bestiary"  },
-    { key: "fall-of-plaguestone-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Fall of Plaguestone Bestiary"), packName: "pf2e.fall-of-plaguestone-bestiary"  },
-    { key: "malevolence-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Malevolence Bestiary"), packName: "pf2e.malevolence-bestiary"  },
-    { key: "menace-under-otari-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Menace Under Otari Bestiary"), packName: "pf2e.menace-under-otari-bestiary"  },
-    { key: "one-shot-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.One Shot Bestiary"), packName: "pf2e.one-shot-bestiary"  },
-    { key: "prey-for-death-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Prey for Death Bestiary"), packName: "pf2e.prey-for-death-bestiary"  },
-    { key: "rusthenge-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Rusthenge Bestiary"), packName: "pf2e.rusthenge-bestiary"  },
-    { key: "shadows-at-sundown-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Shadows at Sundown Bestiary"), packName: "pf2e.shadows-at-sundown-bestiary"  },
-    { key: "the-enmity-cycle-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.The Enmity Cycle Bestiary"), packName: "pf2e.the-enmity-cycle-bestiary"  },
-    { key: "the-slithering-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.The Slithering Bestiary"), packName: "pf2e.the-slithering-bestiary"  },
-    { key: "troubles-in-otari-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Troubles in Otari Bestiary"), packName: "pf2e.troubles-in-otari-bestiary"  },
-    { key: "night-of-the-gray-death-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Night of the Gray Death Bestiary"), packName: "pf2e.night-of-the-gray-death-bestiary"  },
-    { key: "crown-of-the-kobold-king-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Crown of the Kobold King Bestiary"), packName: "pf2e.crown-of-the-kobold-king-bestiary"  },
-    { key: "paizo-pregens", name: game.i18n.localize("PF2E-TOKEN-PACK.Paizo Pregens"), packName: "pf2e.paizo-pregens"  },
-    { key: "iconics", name: game.i18n.localize("PF2E-TOKEN-PACK.Iconics"), packName: "pf2e.iconics"  }
+    { key: "pathfinder-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.Bestiary"), packName: "pf2e.pathfinder-bestiary", category: "bestiaries" }, 
+    { key: "pathfinder-bestiary-2", name: game.i18n.localize("PF2E-TOKEN-PACK.Bestiary2"), packName: "pf2e.pathfinder-bestiary-2", category: "bestiaries" }, 
+    { key: "pathfinder-bestiary-3", name: game.i18n.localize("PF2E-TOKEN-PACK.Bestiary3"), packName: "pf2e.pathfinder-bestiary-3", category: "bestiaries" }, 
+    { key: "pathfinder-monster-core", name: game.i18n.localize("PF2E-TOKEN-PACK.MonsterCore"), packName: "pf2e.pathfinder-monster-core", category: "bestiaries" }, 
+    { key: "pathfinder-npc-core", name: game.i18n.localize("PF2E-TOKEN-PACK.NPCCore"), packName: "pf2e.pathfinder-npc-core", category: "bestiaries" }, 
+    { key: "abomination-vaults-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.AbominationVaultsBestiary"), packName: "pf2e.abomination-vaults-bestiary", category: "adventurePath" },
+    { key: "age-of-ashes-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.AgeofAshesBestiary"), packName: "pf2e.age-of-ashes-bestiary", category: "adventurePath" },
+    { key: "agents-of-edgewatch-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.AgentsofEdgewatchBestiary"), packName: "pf2e.agents-of-edgewatch-bestiary", category: "adventurePath" },
+    { key: "blood-lords-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.BloodLordsBestiary"), packName: "pf2e.blood-lords-bestiary", category: "adventurePath" },
+    { key: "curtain-call-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.CurtainCallBestiary"), packName: "pf2e.curtain-call-bestiary", category: "adventurePath" },
+    { key: "extinction-curse-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.ExtinctionCurseBestiary"), packName: "pf2e.extinction-curse-bestiary", category: "adventurePath" },
+    { key: "fists-of-the-ruby-phoenix-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.FistsoftheRubyPhoenixBestiary"), packName: "pf2e.fists-of-the-ruby-phoenix-bestiary", category: "adventurePath" },
+    { key: "gatewalkers-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.GatewalkersBestiary"), packName: "pf2e.gatewalkers-bestiary", category: "adventurePath" },
+    { key: "outlaws-of-alkenstar-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.OutlawsofAlkenstarBestiary"), packName: "pf2e.outlaws-of-alkenstar-bestiary", category: "adventurePath" },
+    { key: "kingmaker-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.KingmakerBestiary"), packName: "pf2e.kingmaker-bestiary", category: "adventurePath" },
+    { key: "quest-for-the-frozen-flame-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.QuestfortheFrozenFlameBestiary"), packName: "pf2e.quest-for-the-frozen-flame-bestiary", category: "adventurePath" },
+    { key: "season-of-ghosts-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.SeasonofGhostsBestiary"), packName: "pf2e.season-of-ghosts-bestiary", category: "adventurePath" },
+    { key: "seven-dooms-for-sandpoint-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.SevenDoomsforSandpointBestiary"), packName: "pf2e.seven-dooms-for-sandpoint-bestiary", category: "adventurePath" },
+    { key: "sky-kings-tomb-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.SkyKingsTombBestiary"), packName: "pf2e.sky-kings-tomb-bestiary", category: "adventurePath" },
+    { key: "strength-of-thousands-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.StrengthofThousandsBestiary"), packName: "pf2e.strength-of-thousands-bestiary", category: "adventurePath" },
+    { key: "stolen-fate-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.StolenFateBestiary"), packName: "pf2e.stolen-fate-bestiary", category: "adventurePath" },
+    { key: "wardens-of-wildwood-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.WardensofWildwoodBestiary"), packName: "pf2e.wardens-of-wildwood-bestiary", category: "adventurePath" },
+    { key: "book-of-the-dead-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.BookoftheDeadBestiary"), packName: "pf2e.book-of-the-dead-bestiary", category: "rulebook" },
+    { key: "blog-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.PaizoBlogBestiary"), packName: "pf2e.blog-bestiary", category: "rulebook" },
+    { key: "howl-of-the-wild-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.HowloftheWildBestiary"), packName: "pf2e.howl-of-the-wild-bestiary", category: "rulebook" },
+    { key: "lost-omens-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.LostOmensBestiary"), packName: "pf2e.lost-omens-bestiary", category: "rulebook" },
+    { key: "npc-gallery", name: game.i18n.localize("PF2E-TOKEN-PACK.NPCGallery"), packName: "pf2e.npc-gallery", category: "rulebook" },
+    { key: "pathfinder-dark-archive", name: game.i18n.localize("PF2E-TOKEN-PACK.DarkArchive"), packName: "pf2e.pathfinder-dark-archive", category: "rulebook" },
+    { key: "rage-of-elements-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.RageofElementsBestiary"), packName: "pf2e.rage-of-elements-bestiary", category: "rulebook" },
+    { key: "war-of-immortals-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.WarofImmortalsBestiary"), packName: "pf2e.war-of-immortals-bestiary", category: "rulebook" },
+    { key: "claws-of-the-tyrant-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.ClawsoftheTyrantBestiary"), packName: "pf2e.claws-of-the-tyrant-bestiary", category: "standalone" },
+    { key: "fall-of-plaguestone-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.FallofPlaguestoneBestiary"), packName: "pf2e.fall-of-plaguestone-bestiary", category: "standalone" },
+    { key: "malevolence-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.MalevolenceBestiary"), packName: "pf2e.malevolence-bestiary", category: "standalone" },
+    { key: "menace-under-otari-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.MenaceUnderOtariBestiary"), packName: "pf2e.menace-under-otari-bestiary", category: "standalone" },
+    { key: "one-shot-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.OneShotBestiary"), packName: "pf2e.one-shot-bestiary", category: "standalone" },
+    { key: "prey-for-death-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.PreyforDeathBestiary"), packName: "pf2e.prey-for-death-bestiary", category: "standalone" },
+    { key: "rusthenge-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.RusthengeBestiary"), packName: "pf2e.rusthenge-bestiary", category: "standalone" },
+    { key: "shadows-at-sundown-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.ShadowsatSundownBestiary"), packName: "pf2e.shadows-at-sundown-bestiary", category: "standalone" },
+    { key: "the-enmity-cycle-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.TheEnmityCycleBestiary"), packName: "pf2e.the-enmity-cycle-bestiary", category: "standalone" },
+    { key: "the-slithering-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.TheSlitheringBestiary"), packName: "pf2e.the-slithering-bestiary", category: "standalone" },
+    { key: "troubles-in-otari-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.TroublesinOtariBestiary"), packName: "pf2e.troubles-in-otari-bestiary", category: "standalone" },
+    { key: "night-of-the-gray-death-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.NightoftheGrayDeathBestiary"), packName: "pf2e.night-of-the-gray-death-bestiary", category: "standalone" },
+    { key: "crown-of-the-kobold-king-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.CrownoftheKoboldKingBestiary"), packName: "pf2e.crown-of-the-kobold-king-bestiary", category: "standalone" },
+    { key: "paizo-pregens", name: game.i18n.localize("PF2E-TOKEN-PACK.AdventurePregens"), packName: "pf2e.paizo-pregens", category: "pregens" }
     ];
     
     this.previousSettings = {};
@@ -56,7 +55,7 @@ class PathfinderBestiaryTokenPack {
         name: name,
         hint: hint,
         scope: "world",
-        config: true,
+        config: false,
         default: false,
         type: Boolean,
         onChange: () => this.onSettingChange(),
@@ -78,52 +77,16 @@ class PathfinderBestiaryTokenPack {
   
   static async fetchBestiaryData() {
     const response = await fetch('modules/pf2e-token-pack/bestiaries.json');
-    if (!response.ok) throw new Error(game.i18n.localize("PF2E-TOKEN-PACK.Failed to fetch"));
+    if (!response.ok) throw new Error(game.i18n.localize("PF2E-TOKEN-PACK.FailedToFetch"));
     return await response.json();
   }
   
   static async uploadBestiary(data, fileName) {
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
     const result = await FilePicker.upload("data", "modules/pf2e-token-pack", new File([blob], fileName), {});
-    if (result.status !== "success") throw new Error(game.i18n.format("PF2E-TOKEN-PACK.Failed to upload", { file: fileName }));
+    if (result.status !== "success") throw new Error(game.i18n.format("PF2E-TOKEN-PACK.FailedToUpload", { file: fileName }));
   }
-  
-  static async updateBestiary(reload = false) {
-    try {
-      let bestiaryData = await this.fetchBestiaryData();
-      let modified = false;
-      
-      for (const { key } of this.keys) {
-        const enableOverwrite = game.settings.get("pf2e-token-pack", `enableOverwrite${key}`);
-        const keyedKey = `${key}Ю`;
-        
-        if (enableOverwrite && !(keyedKey in bestiaryData)) {
-          bestiaryData = this.modifyKeys(bestiaryData, key, keyedKey);
-          modified = true;
-        } else if (!enableOverwrite && (keyedKey in bestiaryData)) {
-          bestiaryData = this.modifyKeys(bestiaryData, keyedKey, key);
-          modified = true;
-        }
-        
-        this.previousSettings[`enableOverwrite${key}`] = enableOverwrite;
-      }
-      
-      if (modified) {
-        await this.uploadBestiary(bestiaryData, "bestiaries.json");
-      }
-      
-      if (reload && modified) {
-        window.location.reload();  // Перезагружаем страницу после изменения файла
-      } else if (reload) {
-        ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.NoChanges"));
-      }
-      
-    } catch (error) {
-      console.error(error);
-      ui.notifications.error(game.i18n.format("PF2E-TOKEN-PACK.Error", { message: error.message }));
-    }
-  }
-  
+    
   static modifyKeys(data, oldKey, newKey) {
     if (oldKey in data) {
       data[newKey] = data[oldKey];
@@ -147,37 +110,6 @@ class PathfinderBestiaryTokenPack {
       }
     }, 300); // Задержка перед обновлением файла для предотвращения частых перезаписей
   }
-  
-  static async showReloadDialog() {
-    new Dialog({
-      title: game.i18n.localize("PF2E-TOKEN-PACK.ReloadDialogTitle"),
-      content: `<p>${game.i18n.localize("PF2E-TOKEN-PACK.ReloadDialogContent")}</p>`,
-      buttons: {
-        ok: {
-          label: game.i18n.localize("PF2E-TOKEN-PACK.ReloadButton"),
-          callback: () => window.location.reload(),
-        },
-        cancel: {
-          label: game.i18n.localize("PF2E-TOKEN-PACK.LaterButton"),
-          callback: () => this.showPostponeDialog(),},
-        },
-        default: "ok",
-      }).render(true);
-    }
-    
-    static async showPostponeDialog() {
-      new Dialog({
-        title: game.i18n.localize("PF2E-TOKEN-PACK.PostponeDialogTitle"),
-        content: `<p>${game.i18n.localize("PF2E-TOKEN-PACK.PostponeDialogContent")}</p>`,
-        buttons: {
-          ok: {
-            label: game.i18n.localize("PF2E-TOKEN-PACK.UnderstoodButton"),
-            callback: () => console.log(game.i18n.localize("PF2E-TOKEN-PACK.Settings notification"))
-          },
-        },
-        default: "ok",
-      }).render(true);
-    }
     
     static async checkBestiaryArt(key) {
       try {
@@ -210,46 +142,54 @@ class PathfinderBestiaryTokenPack {
         const deadIds = [];
         const filesToDelete = new Set();
         
-        for (const [actorId, expected] of Object.entries(bestiary)) {
-          const isUUID = /^[A-Za-z0-9]{16,}$/.test(actorId);
-          if (!isUUID) {
-            withoutImages.push(actorId);
-            continue;
-          }
-          
-          const entry = index.find(e => e._id === actorId);
-          if (!entry) {
-            mismatches.push(`${game.i18n.localize("PF2E-TOKEN-PACK.ActorNotFound")} ${actorId} ${game.i18n.localize("PF2E-TOKEN-PACK.InCompendium")} ${pack.metadata.label}`);
-            if (expected.actor) filesToDelete.add(expected.actor);
-            const tokenPath = typeof expected.token === "string" ? expected.token : expected.token?.img;
-            if (tokenPath) filesToDelete.add(tokenPath);
-            deadIds.push(actorId);
-            continue;
-          }
-          
-          const actor = await pack.getDocument(actorId);
-          const actorName = actor.name;
-          
-          const expectedActorImg = expected.actor;
-          const expectedTokenImg = typeof expected.token === "string" ? expected.token : expected.token.img;
-          const expectedScale = typeof expected.token === "object" && expected.token.scale !== undefined
-          ? expected.token.scale
-          : 1;
-          
-          const actualActorImg = actor.img;
-          const actualTokenImg = actor.prototypeToken.texture?.src ?? "";
-          const actualScaleX = actor.prototypeToken.texture?.scaleX ?? 1;
-          const actualScaleY = actor.prototypeToken.texture?.scaleY ?? 1;
-          
-          if (actualActorImg !== expectedActorImg)
-          mismatches.push(`${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.ArtDiffers")}\n🔺 ${actualActorImg}\n🔻 ${expectedActorImg}`);
-          if (actualTokenImg !== expectedTokenImg)
-          mismatches.push(`🧍 ${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.TokenDiffers")}\n🔺 ${actualTokenImg}\n🔻 ${expectedTokenImg}`);
-          if (expected.token?.scale !== undefined) {
-            if (Math.abs(actualScaleX - expectedScale) > 0.01 || Math.abs(actualScaleY - expectedScale) > 0.01)
-            mmismatches.push(`📏 ${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.TokenScaleDiffers")}\n🔺 ${actualScaleX}/${actualScaleY} ≠ ${expectedScale}`);
-          }
-        }
+for (const entry of index) {
+  const actorId = entry._id;
+  const actorName = entry.name;
+
+  const actor = await pack.getDocument(actorId);
+
+  // 💡 Пропускаем HAZARD-актеров
+  if (actor.type === "hazard") continue;
+
+  const expected = bestiary[actorId];
+  if (!expected) {
+    mismatches.push(`${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.MissingBestiaryKey")}`);
+    continue;
+  }
+
+  const expectedActorImg = expected.actor;
+  const expectedTokenImg = typeof expected.token === "string" ? expected.token : expected.token?.img;
+  const expectedScale = typeof expected.token === "object" && expected.token.scale !== undefined
+    ? expected.token.scale
+    : 1;
+
+  const actualActorImg = actor.img;
+  const actualTokenImg = actor.prototypeToken.texture?.src ?? "";
+  const actualScaleX = actor.prototypeToken.texture?.scaleX ?? 1;
+  const actualScaleY = actor.prototypeToken.texture?.scaleY ?? 1;
+
+  if (actualActorImg !== expectedActorImg)
+    mismatches.push(`${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.ArtDiffers")}\n🔺 ${actualActorImg}\n🔻 ${expectedActorImg}`);
+  if (actualTokenImg !== expectedTokenImg)
+    mismatches.push(`🧍 ${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.TokenDiffers")}\n🔺 ${actualTokenImg}\n🔻 ${expectedTokenImg}`);
+  if (expected.token?.scale !== undefined) {
+    if (Math.abs(actualScaleX - expectedScale) > 0.01 || Math.abs(actualScaleY - expectedScale) > 0.01)
+      mismatches.push(`📏 ${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.TokenScaleDiffers")}\n🔺 ${actualScaleX}/${actualScaleY} ≠ ${expectedScale}`);
+  }
+}
+
+// 2. Проверяем, есть ли в bestiaries.json записи, которых больше нет в компендиуме
+const compendiumActorIds = new Set(index.map(e => e._id));
+
+for (const [actorId, expected] of Object.entries(bestiary)) {
+  if (!compendiumActorIds.has(actorId)) {
+    mismatches.push(`${actorId}: ${game.i18n.localize("PF2E-TOKEN-PACK.InCompendium")}`);
+    if (expected.actor) filesToDelete.add(expected.actor);
+    const tokenPath = typeof expected.token === "string" ? expected.token : expected.token?.img;
+    if (tokenPath) filesToDelete.add(tokenPath);
+    deadIds.push(actorId);
+  }
+}
         
         const notFoundCount = deadIds.length;
         
@@ -379,43 +319,307 @@ class PathfinderBestiaryTokenPack {
   Hooks.once('init', () => PathfinderBestiaryTokenPack.init());
   Hooks.once('ready', () => PathfinderBestiaryTokenPack.initSettings());
   
-  // Заголовки и доп.текст в настройках
-  Hooks.on("renderSettingsConfig", (app, html, data) => {
-    
-    const button = $(`<button type="button" style="margin-left: 8px;">${game.i18n.localize("PF2E-TOKEN-PACK.CheckButtonLabel")}</button>`);
-    // Текст
-    $('<div>').addClass('form-group group-header').html(game.i18n.localize("PF2E-TOKEN-PACK.settingsMessage")).insertBefore('[data-setting-id="pf2e-token-pack.enableOverwritepathfinder-bestiary"]');
-    
-    // Доп заголовки
-    $('<h2>').addClass('form-group group-header').html(game.i18n.localize("PF2E-TOKEN-PACK.bestiaries")).insertBefore('[data-setting-id="pf2e-token-pack.enableOverwritepathfinder-bestiary"]');
-    $('<h2>').addClass('form-group group-header').html(game.i18n.localize("PF2E-TOKEN-PACK.adventure path")).insertBefore('[data-setting-id="pf2e-token-pack.enableOverwriteabomination-vaults-bestiary"]');
-    $('<h2>').addClass('form-group group-header').html(game.i18n.localize("PF2E-TOKEN-PACK.rulebook")).insertBefore('[data-setting-id="pf2e-token-pack.enableOverwritebook-of-the-dead-bestiary"]');
-    $('<h2>').addClass('form-group group-header').html(game.i18n.localize("PF2E-TOKEN-PACK.standalone adventure")).insertBefore('[data-setting-id="pf2e-token-pack.enableOverwriteclaws-of-the-tyrant-bestiary"]');
-    $('<h2>').addClass('form-group group-header').html(game.i18n.localize("PF2E-TOKEN-PACK.pregenerated pcs")).insertBefore('[data-setting-id="pf2e-token-pack.enableOverwritepaizo-pregens"]');
-    
-    $('section[data-tab="pf2e-token-pack"] p.notes').css("min-height", 0).css("margin", 0);
-    
-    for (const { key } of PathfinderBestiaryTokenPack.keys) {
-      const selector = `[data-setting-id="pf2e-token-pack.enableOverwrite${key}"]`;
-      const input = html.find(selector);
-      if (input.length) {
-        const button = $(`<button type="button" class="check-button" style="margin-left: 8px; display: none;">${game.i18n.localize("PF2E-TOKEN-PACK.CheckButtonLabel")}</button>`);
-        button.on("click", () => PathfinderBestiaryTokenPack.checkBestiaryArt(key));
-        input.closest(".form-group").append(button);
+  
+Hooks.once("init", () => {
+  game.settings.registerMenu("pf2e-token-pack", "tokenPackSettings", {
+    name: game.i18n.localize("PF2E-TOKEN-PACK.TokenSettingsLabel"),
+    label: game.i18n.localize("PF2E-TOKEN-PACK.TokenSettingsButton"),
+    hint: game.i18n.localize("PF2E-TOKEN-PACK.TokenSettingsHint"),
+    icon: "fas fa-dungeon",
+    type: PathfinderBestiarySettingsMenu,
+    restricted: true
+  });
+  game.settings.registerMenu("pf2e-token-pack", "restoreArtTokens", {
+    name: game.i18n.localize("PF2E-TOKEN-PACK.RestoreArtLabel"),
+    label: game.i18n.localize("PF2E-TOKEN-PACK.RestoreArtButton"),
+    hint: game.i18n.localize("PF2E-TOKEN-PACK.RestoreArtHint"),
+    icon: "fas fa-sync",
+    type: RestoreArtTokenRunner,
+    restricted: true
+});
+
+});
+
+class PathfinderBestiarySettingsMenu extends FormApplication {
+  static get defaultOptions() {
+    return mergeObject(super.defaultOptions, {
+      id: "pf2e-token-pack-settings",
+      title: game.i18n.localize("PF2E-TOKEN-PACK.SettingsMenuTitle"),
+      template: "modules/pf2e-token-pack/templates/settings-menu.html",
+      width: 700,
+      height: "auto",
+      closeOnSubmit: false
+    });
+  }
+
+async getData() {
+  const groups = {
+    bestiaries: [],
+    adventurePath: [],
+    rulebook: [],
+    standalone: [],
+    pregens: []
+  };
+
+  for (const { key, name, hint, category = "bestiaries" } of PathfinderBestiaryTokenPack.keys) {
+    const settingKey = `enableOverwrite${key}`;
+
+    if (!game.settings.settings.has(`pf2e-token-pack.${settingKey}`)) {
+      game.settings.register("pf2e-token-pack", settingKey, {
+        name,
+        hint,
+        scope: "world",
+        config: false,
+        default: false,
+        type: Boolean,
+        onChange: () => PathfinderBestiaryTokenPack.onSettingChange()
+      });
+    }
+
+    const value = game.settings.get("pf2e-token-pack", settingKey);
+    const entry = { key, settingKey, name, hint, value };
+
+    if (!groups[category]) {
+      groups[category] = [];
+    }
+    groups[category].push(entry);
+  }
+
+  return { groups };
+}
+}
+
+class RestoreArtTokenRunner extends FormApplication {
+  constructor(...args) {
+    super(...args);
+    // Сразу запускаем диалог при открытии меню
+    new Dialog({
+    title: game.i18n.localize("PF2E-TOKEN-PACK.RestoreDialogTitle"),
+    content: `<p>${game.i18n.localize("PF2E-TOKEN-PACK.RestoreDialogPrompt")}</p>`,
+      buttons: {
+        active: {
+          label: game.i18n.localize("PF2E-TOKEN-PACK.RestoreActiveScene"),
+          callback: () => syncSceneTokens(true)
+        },
+        all: {
+          label: game.i18n.localize("PF2E-TOKEN-PACK.RestoreAllScenes"),
+          callback: () => syncSceneTokens(false)
+        },
+        cancel: { label: game.i18n.localize("PF2E-TOKEN-PACK.Cancel") }
+      },
+      default: "active"
+    }).render(true);
+  }
+
+  // Не показываем форму вовсе
+  static get defaultOptions() {
+    return mergeObject(super.defaultOptions, {
+      id: "pf2e-token-restore-runner",
+      template: "", // Пусто
+      width: 0,
+      height: 0,
+      closeOnSubmit: true
+    });
+  }
+
+  getData() {
+    return {};
+  }
+}
+
+
+
+// --- Восстановление токенов и артов на сценах ---
+function getCompendiumNames() {
+  return PathfinderBestiaryTokenPack.keys.map(k => k.packName);
+}
+
+function getActorNamesFromScenes(scenes) {
+  const names = new Set();
+  for (const scene of scenes) {
+    for (const token of scene.tokens) {
+      if (token.actor && token.actor.type !== "character") {
+         names.add(token.actor.name);
       }
     }
-    
-    // Добавим глобальный чекбокс в начало секции
-    const globalToggle = $(`
-    <div class="form-group">
-    <label><input type="checkbox" id="toggle-check-buttons"/> ${game.i18n.localize("PF2E-TOKEN-PACK.EnableCheckMode")}</label>
-    </div>
-    `);
-    html.find('section[data-tab="pf2e-token-pack"]').prepend(globalToggle);
-    
-    // Обработчик на глобальный чекбокс
-    html.find("#toggle-check-buttons").on("change", function () {
-      const show = $(this).is(":checked");
-      html.find(".check-button").css("display", show ? "inline-block" : "none");
-    });
-  })
+  }
+  return names;
+}
+
+async function fetchMatchingActorsFromCompendiums(actorNames) {
+  const result = new Map();
+
+  for (const compName of getCompendiumNames()) {
+    const pack = game.packs.get(compName);
+    if (!pack) continue;
+
+    await pack.getIndex();
+    for (const name of actorNames) {
+      if (!result.has(name)) {
+        const entry = pack.index.find(e => e.name === name);
+        if (entry) {
+          const actor = await pack.getDocument(entry._id);
+          result.set(name, actor);
+        }
+      }
+    }
+
+    if (result.size === actorNames.size) break;
+  }
+
+  return result;
+}
+
+async function syncTokensOnScene(scene, compendiumActors) {
+  const result = {
+    sceneName: scene.name,
+    actors: []
+  };
+
+  for (const tokenDoc of scene.tokens) {
+    const tokenActor = tokenDoc.actor;
+    if (!tokenActor || tokenActor.type === "character") continue;
+
+    const actorName = tokenActor.name;
+    const compActor = compendiumActors.get(actorName);
+
+    const actorResult = {
+      name: actorName,
+      missing: false,
+      changes: {
+        art: false,
+        token: false,
+        size: false
+      }
+    };
+
+    if (!compActor) {
+      actorResult.missing = true;
+      result.actors.push(actorResult);
+      continue;
+    }
+
+    const tokenData = tokenDoc.toObject();
+    const compProto = compActor.prototypeToken;
+
+    const updates = {};
+
+    if (tokenData.texture?.src !== compProto.texture?.src) {
+      updates["texture.src"] = compProto.texture.src;
+      actorResult.changes.token = true;
+    }
+    if (tokenData.width !== compProto.width || tokenData.height !== compProto.height) {
+      updates["width"] = compProto.width;
+      updates["height"] = compProto.height;
+      actorResult.changes.size = true;
+    }
+    if (tokenData.texture.scaleX !== compProto.texture.scaleX) {
+      updates["texture.scaleX"] = compProto.texture.scaleX;
+      actorResult.changes.token = true;
+    }
+    if (tokenData.texture.scaleY !== compProto.texture.scaleY) {
+      updates["texture.scaleY"] = compProto.texture.scaleY;
+      actorResult.changes.token = true;
+    }
+
+    if (tokenActor.img !== compActor.img) {
+      await tokenActor.update({ "img": compActor.img });
+      actorResult.changes.art = true;
+    }
+
+    if (Object.keys(updates).length > 0) {
+      await tokenDoc.update(updates);
+    }
+
+    result.actors.push(actorResult);
+  }
+
+  return result;
+}
+
+function generateReportHTML(reportData) {
+  let html = `<style>
+      details summary { cursor: pointer; font-weight: bold; margin: 4px 0; }
+      .actor-item { margin-left: 1em; }
+      .change-modified { color: orange; }
+      .change-missing { color: red; }
+      #expand-all {
+        margin: 10px 0;
+        display: inline-block;
+        cursor: pointer;
+        color: #007bff;
+        text-decoration: none;
+      }
+      #expand-all:hover {
+        text-decoration: underline;
+      }
+      .no-changes {
+        margin-left: 1em;
+        font-style: italic;
+        color: gray;
+      }
+    </style>
+    <div id="expand-all">📂 ${game.i18n.localize("PF2E-TOKEN-PACK.ExpandAll")}</div>`;
+
+  for (const scene of reportData) {
+    const actorsWithChanges = scene.actors.filter(actor => actor.missing || actor.changes.art || actor.changes.token || actor.changes.size);
+
+    html += `<details><summary>📁 ${game.i18n.format("PF2E-TOKEN-PACK.SceneLabel", { name: scene.sceneName })}</summary>`;
+    if (actorsWithChanges.length === 0) {
+      html += `<div class="no-changes">${game.i18n.localize("PF2E-TOKEN-PACK.ActorsOK")}</div>`;
+      continue;
+    }
+
+    for (const actor of actorsWithChanges) {
+      html += `<details class="actor-item"><summary>${actor.missing ? '❓' : '🎭'} ${actor.name}</summary><ul>`;
+      if (actor.missing) {
+        html += `<li class="change-missing">${game.i18n.localize("PF2E-TOKEN-PACK.ActorMissing")}</li>`;
+      } else {
+if (actor.changes.art) html += `<li class="change-modified">${game.i18n.localize("PF2E-TOKEN-PACK.ArtChanged")}</li>`;
+if (actor.changes.token) html += `<li class="change-modified">${game.i18n.localize("PF2E-TOKEN-PACK.TokenChanged")}</li>`;
+if (actor.changes.size) html += `<li class="change-modified">${game.i18n.localize("PF2E-TOKEN-PACK.SizeChanged")}</li>`;
+      }
+      html += `</ul></details>`;
+    }
+
+    html += `</details>`;
+  }
+
+  return html;
+}
+
+async function syncSceneTokens(activeOnly = true) {
+  const scenesToCheck = activeOnly ? [game.scenes.active] : game.scenes;
+  const actorNames = getActorNamesFromScenes(scenesToCheck);
+  const compendiumActors = await fetchMatchingActorsFromCompendiums(actorNames);
+
+  let reportData = [];
+
+  for (const scene of scenesToCheck) {
+    const data = await syncTokensOnScene(scene, compendiumActors);
+    reportData.push(data);
+  }
+
+  const content = generateReportHTML(reportData);
+
+  const dlg = new Dialog({
+    title: `Результат синхронизации (${activeOnly ? "активная сцена" : "все сцены"})`,
+    content: `<div id="sync-report" style="overflow-y: auto; max-height: 500px;">${content}</div>`,
+    buttons: { ok: { label: "OK" } },
+    render: html => {
+      const dialog = dlg;
+      html[0].querySelector("#expand-all").addEventListener("click", () => {
+        html[0].querySelectorAll("details").forEach(det => det.open = true);
+        dialog.setPosition({ height: "auto" });
+      });
+      html[0].querySelectorAll("details").forEach(det => {
+        det.addEventListener("toggle", () => dialog.setPosition({ height: "auto" }));
+      });
+    },
+    width: 600
+  });
+
+  dlg.render(true);
+}
+
+
