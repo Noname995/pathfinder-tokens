@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 1.8.1
+1. Forgot about the section of code that adds a check for arts and tokens for actors on stage inside the compendium disable setting 🤣
+
 ## Version 1.8.0
 1. Updated to v13, everything works on v12 too
 2. Changed the logic of checking arts and tokens
