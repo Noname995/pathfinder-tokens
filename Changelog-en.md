@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.8.2
+1. Returned "checking arts and tokens on stage"
+2. Visually formatted the output window after "checking arts and tokens in commandiums"
+3. Slightly corrected the output window after "checking arts and tokens on stage"
+4. Beautifully formatted scripts.js
+
 ## Version 1.8.1
 1. Forgot about the section of code that adds a check for arts and tokens for actors on stage inside the compendium disable setting 🤣
 
