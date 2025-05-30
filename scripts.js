@@ -64,12 +64,43 @@ class PathfinderBestiaryTokenPack {
         config: false, // Не показывать в стандартном меню настроек
         default: false, // Значение по умолчанию
         type: Boolean, // Тип значения
-        onChange: () => this.onSettingChange(), // Колбэк при изменении
       });
       
       // Сохраняет текущее значение настройки
       this.previousSettings[`enableOverwrite${key}`] = game.settings.get("pf2e-token-pack", `enableOverwrite${key}`);
     });
+
+    // 🧠 Автоматическая синхронизация bestiaries.json с настройками (добавление/удаление "Ю")
+      try {
+    const response = await fetch("modules/pf2e-token-pack/bestiaries.json");
+    const originalData = await response.json();
+    const syncedData = {};
+
+    for (const [rawKey, content] of Object.entries(originalData)) {
+      const baseKey = rawKey.endsWith("Ю") ? rawKey.slice(0, -1) : rawKey;
+      const settingKey = `enableOverwrite${baseKey}`;
+      const enabled = game.settings.get("pf2e-token-pack", settingKey);
+      const newKey = enabled ? `${baseKey}Ю` : baseKey;
+      syncedData[newKey] = content;
+    }
+
+    // Сравниваем старый и новый JSON, если есть отличия — сохраняем
+    const originalStr = JSON.stringify(originalData, null, 2);
+    const newStr = JSON.stringify(syncedData, null, 2);
+
+    if (originalStr !== newStr) {
+      const blob = new Blob([newStr], { type: "application/json" });
+      const file = new File([blob], "bestiaries.json", { type: "application/json" });
+      const result = await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
+      if (result.status === "success") {
+        console.log(game.i18n.localize("PF2E-TOKEN-PACK.BestiariesSynced"));
+      } else {
+        console.warn(game.i18n.localize("PF2E-TOKEN-PACK.BestiariesSyncFailed"));
+      }
+    }
+  } catch (error) {
+    console.error(game.i18n.localize("PF2E-TOKEN-PACK.BestiariesSyncError"), error);
+  }
   }
   
   
@@ -105,24 +136,6 @@ class PathfinderBestiaryTokenPack {
       delete data[oldKey];
     }
     return data;
-  }
-  
-  // Колбэк при изменении любой настройки
-  static async onSettingChange() {
-    this.settingsChanged = true; // Помечаем, что настройки изменились
-    this.debouncedUpdateBestiary(); // Запускаем обновление с задержкой
-  }
-  
-  // Обновление бестиария с задержкой (debounce)
-  static debouncedUpdateBestiary() {
-    clearTimeout(this.debouncedUpdateBestiaryTimeout); // Сброс предыдущего таймера
-    this.debouncedUpdateBestiaryTimeout = setTimeout(async () => {
-      await this.updateBestiary(false); // Обновить бестиарий
-      if (this.settingsChanged) {
-        this.showReloadDialog(); // Показать диалог о необходимости перезагрузки
-        this.settingsChanged = false;
-      }
-    }, 300); // 300 мс задержка для предотвращения частых обновлений
   }
     
   // Проверка соответствия артов и токенов в компендиуме и bestiaries.json
@@ -383,12 +396,12 @@ Hooks.once("init", () => {
 class PathfinderBestiarySettingsMenu extends FormApplication {
   static get defaultOptions() {
     // Опции по умолчанию для формы настроек
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       id: "pf2e-token-pack-settings", // ID формы
       title: game.i18n.localize("PF2E-TOKEN-PACK.SettingsMenuTitle"), // Заголовок формы
       template: "modules/pf2e-token-pack/templates/settings-menu.html", // Путь к шаблону формы
       width: "700", // Ширина формы
-      height: "auto", // Автоматическая высота
+      height: "1250", // Высота формы
       closeOnSubmit: false // Не закрывать форму после отправки
     });
   }
@@ -458,6 +471,52 @@ class PathfinderBestiarySettingsMenu extends FormApplication {
       }
     });
   }
+
+  // Работа с перезаписью файла bestiaries.json
+async _updateObject(event, formData) {
+  for (const [key, value] of Object.entries(formData)) {
+    await game.settings.set("pf2e-token-pack", key, value);
+  }
+
+  // Загружаем bestiaries.json
+  const response = await fetch("modules/pf2e-token-pack/bestiaries.json");
+  const originalData = await response.json();
+  const newData = {};
+
+  for (const [rawKey, content] of Object.entries(originalData)) {
+    // Удаляем Ю если есть
+    const baseKey = rawKey.endsWith("Ю") ? rawKey.slice(0, -1) : rawKey;
+    const settingKey = `enableOverwrite${baseKey}`;
+    const enabled = formData[settingKey];
+
+    // Добавляем Ю только если чекбокс включен
+    const newKey = enabled ? `${baseKey}Ю` : baseKey;
+    newData[newKey] = content;
+  }
+
+  // Перезаписываем файл
+  const blob = new Blob([JSON.stringify(newData, null, 2)], { type: "application/json" });
+  const file = new File([blob], "bestiaries.json", { type: "application/json" });
+
+  const result = await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
+  if (result.status !== "success") {
+    ui.notifications.error(game.i18n.localize("PF2E-TOKEN-PACK.FailedToUpload"));
+    return;
+  }
+
+  new Dialog({
+    title: game.i18n.localize("PF2E-TOKEN-PACK.ReloadTitle"),
+    content: `<p>${game.i18n.localize("PF2E-TOKEN-PACK.BestiaryUpdatedMessage")}</p>`,
+    buttons: {
+      ok: {
+        label: "OK",
+        callback: () => location.reload()
+      }
+    },
+    default: "ok"
+  }).render(true);
+}
+
 }
 
 // Класс меню восстановления артов токенов

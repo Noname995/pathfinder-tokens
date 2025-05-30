@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.8.3
+1. Returned the main function of disabling compendiums, before that I broke it
+2. Slightly corrected the design of all windows.
+
+Now everything should work as it should, I hope so, I really look forward to your feedback
+
 ## Version 1.8.2
 1. Returned "checking arts and tokens on stage"
 2. Visually formatted the output window after "checking arts and tokens in commandiums"

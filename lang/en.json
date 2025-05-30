@@ -1,7 +1,7 @@
 {
     "PF2E-TOKEN-PACK": {
         "bestiaries": "Bestiaries",
-        "adventure path": "Adventure Paths",
+        "adventurePath": "Adventure Paths",
         "rulebook": "Rulebook",
         "standalone": "Standalone Adventure",
         "pregens": "Pregenerated PCs",
@@ -97,6 +97,11 @@
         "settingsMessage": "Select bestiaries and/or adventures for which you do not want to load images and portraits from this module. Default - not selected and loads art",
         "EnableCheckMode": "🔍 Enable verification mode",
         "CheckButtonLabel": "🔍 Check",
-        "SaveAndUpdate": "Save and Apply"
+        "SaveAndUpdate": "Save and Apply",
+        "ReloadTitle": "Reload Required",
+        "BestiaryUpdatedMessage": "Bestiary settings updated. Please reload the page for changes to take effect.",
+        "BestiariesSynced": "🟢 bestiaries.json has been synchronized with module settings.",
+        "BestiariesSyncFailed": "⚠️ Failed to automatically update bestiaries.json on load.",
+        "BestiariesSyncError": "❌ Error synchronizing bestiaries.json on load:"
     }
 }
