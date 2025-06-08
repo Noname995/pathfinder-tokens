@@ -2,18 +2,21 @@
   "id": "pf2e-token-pack",
   "title": "Pathfinder 2E: Token Pack",
   "description": "Модуль добавляет изображения и токены монстрам и нпс",
-  "version": "1.8.3",
+  "version": "1.9.0",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
   },
-  "scripts": [
-    "scripts.js"
+  "esmodules": [
+    "main.js"
   ],
   "flags": {
-    "pf2e-token-pack": {
-      "pf2e-art": "modules/pf2e-token-pack/bestiaries.json"
+    "compendiumArtMappings": {
+      "pf2e": {
+      "mapping": "modules/pf2e-token-pack/bestiaries.json",
+      "credit": "<em>Artwork provided by Your Module.</em>"
     }
+  }
   },
   "socket": true,
   "authors": [

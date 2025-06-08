@@ -1,5 +1,27 @@
 # Changelog
 
+## Version 1.9.0
+1. The most important thing is that now the Bestiary compendiums have dynamic tokens, but regular tokens have been removed so as not to increase the weight of the module. I'll tell you in advance that all the actors on the stage will break.
+2. The settings for Disabling the compendium, Checking the compendium paths have been completely redesigned (this setting is more for me, I found a lot of errors).
+
+4. Many unnecessary files have been removed and the paths and presence of actor images have been corrected. I put all the files in order.
+
+5. The setting for Restoring actors on the stage has been redesigned and the setting for Enabling dynamic tokens has been added. The meaning of these two settings is that due to the fact that I have two types of tokens in the module at once, both dynamic and regular, in order for the settings to work correctly, I had to masterfully solve the problem so that you don't have a headache from this. In the Dynamic Tokens Enablement settings, it allows you to enable them for all actors on stage, according to the list of compendiums, who have them, so that you don't have to manually enable each actor. But the Actors on Stage Restore setting works the same as it was, well, almost, now if an actor doesn't have dynamic tokens enabled, he won't be able to enable them by force, but will do everything as usual, the same thing and vice versa, if dynamic tokens were enabled, he will check everything and substitute everything, even substitute the actor's art instead of the standard image, as if Foundry had done it (some actors will just be renamed, since it wasn't done correctly, even the format was incorrect).
+
+As a result, to update the actors on stage, and also enable dynamic tokens for the actors from the Bestiaries, you need to do the following:
+1) Open the module settings
+2) Select the Enable dynamic tokens setting
+3) There you will see a window with two inscriptions "Enabled (number of actors who have enabled) and an active checkbox" and "Disabled (number of actors who have disabled) and an inactive checkbox", it may take time to process all the actors on stage.
+4) Checkboxes imitate the dynamic ring function in the token settings
+5) If you want to turn them on, then click on the "Disabled" checkbox, and then update the token, if you turn them off, then on "Enabled"
+6) After that, the actors on your stage will be updated, again, it may take time to process
+7) Then click on the Restore actors on stage button
+8) A message about the progress and the number of actors that were updated will appear at the top
+
+Congratulations, everything is ready. Naturally, turning on and off dynamic tokens is only needed so that you don't have to do this manually and just turn them on for the actors who were added to the module, if you turn them off, then instead of a token there will be art, since I removed the usual tokens from the module, as I wrote above.
+
+6. In principle, everything works the same with the module that adds rings, but there is a nuance. Depending on the choice in the Foundry Basic Settings in the Foundry Dynamic Token Rings Fit Modes item, if you select Standard, then the size of your tokens with other rings will decrease slightly and the rings themselves will not crawl beyond the edges of the creatures' size, but if you use standard rings from Foundry (steel and bronze), then your tokens will be slightly smaller, for this you need to enable the Grade mode so that the size is normal. In general, I hope you figure it out.
+
 ## Version 1.8.3
 1. Returned the main function of disabling compendiums, before that I broke it
 2. Slightly corrected the design of all windows.
