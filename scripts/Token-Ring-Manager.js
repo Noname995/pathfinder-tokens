@@ -3,7 +3,12 @@ const COMPENDIUM_IDS = [
   "pf2e.pathfinder-bestiary-2",
   "pf2e.pathfinder-bestiary-3",
   "pf2e.pathfinder-monster-core",
-  "pf2e.pathfinder-npc-core"
+  "pf2e.pathfinder-npc-core",
+  "pf2e.age-of-ashes-bestiary",
+  //"pf2e.spore-war-bestiary",
+  //"pf2e.triumph-of-the-tusk-bestiary",
+  //"pf2e.pfs-introductions-bestiary",
+  //"pf2e.pfs-season-1-bestiary"
 ];
 
 function isFromAllowedCompendium(actor) {

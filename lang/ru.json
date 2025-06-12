@@ -5,6 +5,7 @@
         "rulebook": "Книга правил",
         "standalone": "Приключения",
         "pregens": "Прегены",
+        "season": "Сезоны",
 
         "Bestiary": "Бестиарий 1",
         "Bestiary2": "Бестиарий 2",
@@ -52,6 +53,8 @@
         "NightoftheGrayDeathBestiary": "Night of the Gray Death",
         "CrownoftheKoboldKingBestiary": "Корона Короля кобольдов",
         "AdventurePregens": "Adventure Pregens",
+        "Intro": "Intro",
+        "Season1": "Season-1",
 
         "SettingCompendiumsTokenSettingsLabel": "Настройки компендиума",
         "SettingCompendiumsTokenSettingsHint": "Позволяет настроить активные компендиумы",
@@ -59,10 +62,9 @@
         "SettingCompendiumsSettingsMenuTitle": "Настройки компендиума",
 
         "SettingCompendiumsSettingsMessage": "Выберите бестиарии и/или приключения, изображения и портреты для которых вы не хотите подгружать из данного модуля. По умолчанию - не выбрано и загружает арты",
-        "SettingCompendiumsEnableCheckMode": "🔍 Включить режим проверки",  
+        "SettingCompendiumsEnableCheckMode": "🔍 Включить режим проверки",
         "SettingCompendiumsCheckButtonLabel": "🔍 Проверить",
         "SettingCompendiumsSaveAndUpdate": "Сохранить и применить",
-
         "SettingCompendiumsBestiaryUpdatedMessage": "Настройки бестиария обновлены. Пожалуйста, перезагрузите страницу для применения изменений.",
         "SettingCompendiumsNoSettingsChanged": "Настройки не изменились - перезагрузка не требуется.",
         "SettingCompendiumsBestiariesSynced": "🟢 bestiaries.json был синхронизирован с настройками модуля.",
@@ -70,24 +72,31 @@
         "SettingCompendiumsBestiariesSyncError": "❌ Ошибка синхронизации бестиариев.json при загрузке:",
         "SettingCompendiumsFailedToFetch": "Не удалось получить bestiaries.json",
         "SettingCompendiumsReloadTitle": "Требуется перезагрузка",
-        "SettingCompendiumsFailedToUpload": "Ошибка загрузки",
+
+        "SettingCompendiumsFailedToUpload": "Ошибка загрузки файла: {file}",
         "SettingCompendiumsWarnNoDataForKey": "❗ Нет данных для ключа \"{key}\" в bestiaries.json",
-        "SettingCompendiumsErrorCompendiumNotLoaded": "Не загружен Компендиум",
-        "SettingCompendiumsInCompendium": "❌ Не найден в компендиуме",
-        "SettingCompendiumsMissingBestiaryKey": "❌ Не найден в модуле",        
-        "SettingCompendiumsActorsNotFoundInCompendium": "Найдено актёров, которых нет в компендиуме: <strong>{count}</strong>",
-        "SettingCompendiumsActorsNotFoundInModule": "Найдено актёров, которых нет в модуле: <strong>{count}</strong>",
+        "SettingCompendiumsErrorCompendiumNotLoaded": "Компендиум '{packName}' не загружен",
         "SettingCompendiumsCheckTitle": "Проверка: {name}",
         "SettingCompendiumsAllValid": "✅ Все арты и токены корректны.",
+        "SettingCompendiumsCheckSortNeeded": "При нажатии 'ОК' будет выполнена сортировка записей в соответствии с компендиумом.",
         "SettingCompendiumsErrorCheckBestiaries": "Ошибка при проверке bestiaries.json: {message}",
-        "SettingCompendiumsTokenImageNotFound": "Файл изображения токена не найден",
-        "SettingCompendiumsRingImageNotFound": "Файл изображения кольца не найден",
-        "SettingCompendiumsActorImageNotFound": "Файл изображения арта не найден",
-        "SettingCompendiumsManualDeleteNote": "Удалите эти файлы вручную через файловый менеджер Foundry или напрямую в папке.",
-        "SettingCompendiumsUnusedFiles": "Неиспользуемые файлы: <strong>{count}</strong>",
-        "SettingCompendiumsDeleteUnused": "🗑️ Удалить в",
+        "SettingCompendiumsManualDeleteNote": "🗑️ Удалите эти файлы вручную через файловый менеджер Foundry или напрямую в папке.",
+        "SettingCompendiumsCancel": "Отмена",
+        "SettingCompendiumsCheckOk": "ОК",
+        "SettingCompendiumsCheckRootFolder": "Без папки",
+        "SettingCompendiumsCheckNoIssues": "Нет проблем в этой категории.",
+        "SettingCompendiumsCheckNoUnused": "Нет неиспользуемых файлов.",
+        "SettingCompendiumsCheckSummaryDead": "Нету в компендиуме",
+        "SettingCompendiumsCheckSummaryMissingModule": "Нету в модуле",
+        "SettingCompendiumsCheckSummaryMissingImages": "Нет изображений",
+        "SettingCompendiumsCheckSummaryUnused": "Неиспользуемые файлы",
+        "SettingCompendiumsCheckImgTypeArt": "🖼️ Арт",
+        "SettingCompendiumsCheckImgTypeToken": "⭕ Токен",
+        "SettingCompendiumsCheckImgTypeRing": "⭕ Кольцо",
+        "SettingCompendiumsCheckFileUpdated": "Файл bestiaries.json обновлен. Изменения применены.",
+        "SettingCompendiumsCheckNoChanges": "Изменений не требуется. Файл bestiaries.json не был изменен.",
+        "SettingCompendiumsCheckCancelled": "Операция отменена. Файл bestiaries.json не был изменен.",
 
-        
         "TokenRingManagerName": "Управление кольцами актеров на сцене",
         "TokenRingManagerHint": "Позволяет управлять динамическими кольцами у актеров на сцене",
         "TokenRingManagerOpen": "Открыть",
@@ -96,14 +105,14 @@
         "TokenRingManagerEnabled": "Включено",
         "TokenRingManagerDisabled": "Выключено",
         "TokenRingManagerUpdateError": "Ошибка обновления токена: {error}",
-        
+
         "FixTokensMenuName": "Восстановление актеров на сцене",
         "FixTokensMenuHint": "Восстановливает пути и масштаб актера на сцене",
-        "FixTokensOpen": "Открыть",       
+        "FixTokensOpen": "Открыть",
         "FixTokensTitle": "Восстановление актеров на сцене",
         "FixTokensDescription": "Нажмите кнопку ниже, чтобы приступить к восстановлению актеров на сцене.",
         "FixTokensRefreshTokens": "Обновить токены",
         "FixTokensTokensUpdated": "Обновлено {count} объектов на сцене.",
-        "FixTokensNoUpdatesNeeded": "Все объекты соответствуют компендиуму. Обновление не требуется."        
+        "FixTokensNoUpdatesNeeded": "Все объекты соответствуют компендиуму. Обновление не требуется."
     }
 }

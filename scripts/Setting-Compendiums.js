@@ -50,6 +50,8 @@ class PathfinderBestiaryTokenPack {
       { key: "pf2e.night-of-the-gray-death-bestiary"   , name: game.i18n.localize("PF2E-TOKEN-PACK.NightoftheGrayDeathBestiary")   , category: "standalone"    },
       { key: "pf2e.crown-of-the-kobold-king-bestiary"  , name: game.i18n.localize("PF2E-TOKEN-PACK.CrownoftheKoboldKingBestiary")  , category: "standalone"    },
       { key: "pf2e.paizo-pregens"                      , name: game.i18n.localize("PF2E-TOKEN-PACK.AdventurePregens")              , category: "pregens"       },
+      //{ key: "pf2e.pfs-introductions-bestiary"         , name: game.i18n.localize("PF2E-TOKEN-PACK.Intro")                         , category: "season"        },
+      //{ key: "pf2e.pfs-season-1-bestiary"              , name: game.i18n.localize("PF2E-TOKEN-PACK.Season1")                       , category: "season"        },
     ];
     
     // Хранит предыдущие значения настроек
@@ -140,12 +142,15 @@ class PathfinderBestiaryTokenPack {
     return data;
   }
     
-  // Проверка соответствия артов и токенов в компендиуме и bestiaries.json
+
+
+// Проверка соответствия артов и токенов в компендиуме и bestiaries.json
 static async checkBestiaryArt(key) {
   try {
     const response = await fetch("modules/pf2e-token-pack/bestiaries.json");
     const originalData = await response.json();
     const bestiary = originalData[key];
+
     if (!bestiary) {
       ui.notifications.warn(game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsWarnNoDataForKey", { key }));
       return;
@@ -157,180 +162,302 @@ static async checkBestiaryArt(key) {
       return;
     }
 
-    const index = await pack.getIndex();
-    const sortedIndex = [...index].sort((a, b) => a.name.localeCompare(b.name, game.i18n.lang || undefined));
+    // --- Сбор и сортировка данных из компендиума ---
+    const index = await pack.getIndex({ fields: ["name", "type", "folder", "sort"] });
+    const naturalSort = (a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
 
-    const mismatches = [];
-    const missingInModule = [];
-    const deadIds = [];
+    let sortedIndex = [];
+    const rootDocuments = index.filter(doc => doc.folder === null || doc.folder === undefined);
+    rootDocuments.sort(naturalSort);
+    sortedIndex.push(...rootDocuments);
+
+    const folders = [...pack.folders].sort(naturalSort);
+    for (const folder of folders) {
+        const folderContents = index.filter(doc => doc.folder === folder.id);
+        folderContents.sort(naturalSort);
+        sortedIndex.push(...folderContents);
+    }
+
+    // --- Подготовка к анализу ---
     const reorderedBestiary = {};
+    const compendiumIds = new Set(sortedIndex.map(e => e._id));
+
+    // --- Анализ проблем ---
+    const deadIds = Object.keys(bestiary).filter(id => !compendiumIds.has(id)).map(id => ({ id, name: bestiary[id]?.name || 'Имя не найдено' }));
+    const missingInModuleByFolder = {};
+    const missingImagesByFolder = { art: {}, token: {}, ring: {} };
     const usedFiles = new Set();
     const relatedDirs = new Set();
-
-    for (const entry of sortedIndex) {
-      const actorId = entry._id;
-      if (bestiary[actorId]) reorderedBestiary[actorId] = bestiary[actorId];
-    }
-
-    async function fileExists(path) {
-      if (!path) return false;
-      const segments = path.split("/");
-      const filename = segments.pop();
-      const directory = segments.join("/");
-      try {
-        const result = await FilePicker.browse("data", directory);
-        return result.files.some(f => f.endsWith(filename));
-      } catch {
-        return false;
-      }
-    }
-
-    async function listAllFilesRecursive(dir) {
-      const files = [];
-      try {
-        const result = await FilePicker.browse("data", dir);
-        for (const file of result.files) {
-          const relPath = file.replace(/^.*?modules\//, "modules/");
-          files.push(relPath);
-        }
-        for (const subdir of result.dirs) {
-          const subFiles = await listAllFilesRecursive(subdir);
-          files.push(...subFiles);
-        }
-      } catch (err) {
-        console.warn(`Ошибка при обходе ${dir}:`, err);
-      }
-      return files;
-    }
 
     const collectPath = (p) => {
       if (p) {
         usedFiles.add(p);
         const dir = p.split("/").slice(0, -1).join("/");
-        relatedDirs.add(dir);
+        if (dir.startsWith("modules/pf2e-token-pack")) relatedDirs.add(dir);
       }
     };
+    
+    async function fileExists(path) {
+      if (!path) return false;
+      try {
+        const dir = path.substring(0, path.lastIndexOf('/'));
+        return (await FilePicker.browse("data", dir)).files.some(f => f === path);
+      } catch { return false; }
+    }
 
+    const folderIdToNameMap = new Map();
+    folders.forEach(f => folderIdToNameMap.set(f.id, f.name));
+    const rootFolderName = game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckRootFolder");
+    
     for (const entry of sortedIndex) {
-      const actorId = entry._id;
-      const actorName = entry.name;
-      const actor = await pack.getDocument(actorId);
-      if (actor.type === "hazard") continue;
+      const { _id: actorId, name: actorName, type, folder } = entry;
+      if (type === "hazard") continue;
 
+      const groupName = folderIdToNameMap.get(folder) || rootFolderName;
       const expected = bestiary[actorId];
-      if (!expected) {
-        missingInModule.push(actorId);
-        mismatches.push(`${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsMissingBestiaryKey")}`);
-        continue;
+
+      if (expected) {
+        reorderedBestiary[actorId] = expected;
+        collectPath(expected.actor);
+        collectPath(expected.token?.texture?.src);
+        collectPath(expected.token?.ring?.subject?.texture);
+        
+        const addMissingImage = (imgType, path) => {
+          if (!missingImagesByFolder[imgType][groupName]) missingImagesByFolder[imgType][groupName] = [];
+          missingImagesByFolder[imgType][groupName].push({ name: actorName, path });
+        };
+
+        if (expected.actor && !(await fileExists(expected.actor))) addMissingImage('art', expected.actor);
+        if (expected.token?.texture?.src && !(await fileExists(expected.token.texture.src))) addMissingImage('token', expected.token.texture.src);
+        if (expected.token?.ring?.subject?.texture && !(await fileExists(expected.token.ring.subject.texture))) addMissingImage('ring', expected.token.ring.subject.texture);
+      } else {
+        if (!missingInModuleByFolder[groupName]) missingInModuleByFolder[groupName] = [];
+        missingInModuleByFolder[groupName].push({ id: actorId, name: actorName });
       }
-
-      const actorToken = actor.prototypeToken;
-      const PLACEHOLDER = "icons/svg/mystery-man.svg";
-
-      const tokenImg = actorToken.texture?.src ?? "";
-      const ringImg = actorToken.ring?.subject?.texture ?? "";
-
-      const hasTextureInExpected = !!expected.token?.texture?.src;
-      const hasRingInExpected = !!expected.token?.ring?.subject?.texture;
-
-      collectPath(expected.actor);
-      collectPath(expected.token?.texture?.src);
-      collectPath(expected.token?.ring?.subject?.texture);
-
-      if (expected.actor && !(await fileExists(expected.actor))) {
-        mismatches.push(`📁 ${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsActorImageNotFound")}`);
-      }
-
-      if (hasTextureInExpected) {
-        const expectedImg = expected.token.texture.src;
-        if (!(await fileExists(expectedImg))) {
-          mismatches.push(`📁 ${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsTokenImageNotFound")}`);
+    }
+    
+    // --- Финальные вычисления и проверки ---
+    let allModuleFiles = new Set();
+    async function listAllFilesRecursive(dir) {
+      const files = [];
+      try {
+        const result = await FilePicker.browse("data", dir);
+        files.push(...result.files);
+        for (const subdir of result.dirs) {
+          files.push(...await listAllFilesRecursive(subdir));
         }
-      }
-
-      if (hasRingInExpected) {
-        const expectedImg = expected.token.ring.subject.texture;
-        if (!(await fileExists(expectedImg))) {
-          mismatches.push(`📁 ${actorName}: ${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsRingImageNotFound")}`);
-        }
-      }
+      } catch (err) {}
+      return files;
     }
-
-    const compendiumIds = new Set(sortedIndex.map(e => e._id));
-    for (const [actorId, expected] of Object.entries(bestiary)) {
-      if (!compendiumIds.has(actorId)) {
-        deadIds.push(actorId);
-        mismatches.push(`${actorId}: ${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsInCompendium")}`);
-      }
-    }
-
-    const orderedKeys = Object.keys(reorderedBestiary);
-    if (JSON.stringify(orderedKeys) !== JSON.stringify(Object.keys(bestiary))) {
-      originalData[key] = reorderedBestiary;
-      const blob = new Blob([JSON.stringify(originalData, null, 2)], { type: "application/json" });
-      const file = new File([blob], "bestiaries.json", { type: "application/json" });
-      await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
-    }
-
-    const unusedFiles = [];
     for (const dir of relatedDirs) {
-      const files = await listAllFilesRecursive(dir);
-      for (const file of files) {
-        if (!usedFiles.has(file)) unusedFiles.push(file);
-      }
+        const filesInDir = await listAllFilesRecursive(dir);
+        filesInDir.forEach(f => allModuleFiles.add(f));
     }
+    const unusedFiles = [...allModuleFiles].filter(f => !usedFiles.has(f));
 
-    const showCleanupDialog = () => {
-      if (unusedFiles.length === 0) return;
+    // --- Группируем неиспользуемые файлы по их родительской папке ---
+    const unusedFilesByFolder = {};
+    for (const path of unusedFiles) {
+      const fullDir = path.substring(0, path.lastIndexOf('/'));
+      const shortDirName = fullDir.split('/').pop(); // Получаем только имя последней папки
+      if (!unusedFilesByFolder[shortDirName]) {
+        unusedFilesByFolder[shortDirName] = [];
+      }
+      unusedFilesByFolder[shortDirName].push(path);
+    }
+    
+    const totalMissingInModule = Object.values(missingInModuleByFolder).flat().length;
+    const totalMissingArt = Object.values(missingImagesByFolder.art).flat().length;
+    const totalMissingToken = Object.values(missingImagesByFolder.token).flat().length;
+    const totalMissingRing = Object.values(missingImagesByFolder.ring).flat().length;
+    const totalMissingImages = totalMissingArt + totalMissingToken + totalMissingRing;
+    const noProblems = deadIds.length === 0 && totalMissingInModule === 0 && unusedFiles.length === 0 && totalMissingImages === 0;
 
-      const groupedList = unusedFiles.map(path => {
-        const name = decodeURIComponent(path.split("/").pop());
-        const type = path.includes("/portraits/") ? "portraits" :
-                     path.includes("/tokens/")    ? "tokens" :
-                     path.includes("/subjects/")  ? "subjects" : "unknown";
-        return `🗂️ <strong>${type}</strong> — <code>${name}</code>`;
-      }).join("<br>");
-
-      new Dialog({
-        title: ` ${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsDeleteUnused")} ${keyObj?.name ?? key}`,
-        content: `<p>${game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsUnusedFiles", { count: unusedFiles.length })}</p>
-                  <div style="max-height: 300px; overflow-y: auto; font-size: 0.9em;">${groupedList}</div>
-                  <p><em>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsManualDeleteNote")}</em></p>`,
-        buttons: { ok: { label: "OK" } },
-        default: "ok"
-      }, { width: 600 }).render(true);
-    };
-
+    const originalValidKeys = Object.keys(bestiary).filter(id => compendiumIds.has(id));
+    const isOrderDifferent = JSON.stringify(originalValidKeys) !== JSON.stringify(Object.keys(reorderedBestiary));
+    
     const keyObj = PathfinderBestiaryTokenPack.keys.find(k => k.key === key);
     const title = game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsCheckTitle", { name: keyObj?.name ?? key });
 
-    const dialogData = {
-      title,
-      content: mismatches.length > 0
-        ? `<p>${game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsActorsNotFoundInCompendium", { count: deadIds.length })}</p>
-           <p>${game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsActorsNotFoundInModule", { count: missingInModule.length })}</p>
-           <div id="mismatch-results" style="white-space: nowrap;">${mismatches.join("<br>")}</div>`
-        : `<p> ${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsAllValid")}</p>`,
-      buttons: {
-        ok: {
-          label: "OK",
-          callback: () => showCleanupDialog()
-        }
-      },
-      default: "ok"
-    };
+    // --- ЛОГИКА ВЫБОРА ОКНА ---
+    if (noProblems) {
+      // СЛУЧАЙ 1: Проблем с файлами нет, показываем простое окно
+      new Dialog({
+        title: title,
+        content: `<p style="text-align: center; font-size: 1.2em;">${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsAllValid")}</p>` +
+                 (isOrderDifferent ? `<p style="text-align: center; color: var(--color-text-dark-primary);">${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSortNeeded")}</p>` : ''),
+        buttons: {
+          ok: {
+            label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckOk"),
+            icon: "<i class='fas fa-check'></i>",
+            callback: async () => {
+              if (isOrderDifferent) {
+                originalData[key] = reorderedBestiary;
+                const blob = new Blob([JSON.stringify(originalData, null, 2)], { type: "application/json" });
+                const file = new File([blob], "bestiaries.json", { type: "application/json" });
+                await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
+                ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckFileUpdated"));
+              } else {
+                ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoChanges"));
+              }
+            }
+          },
+          cancel: {
+            label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCancel"),
+            icon: "<i class='fas fa-times'></i>",
+          }
+        },
+        default: "ok"
+      }).render(true);
 
-    new Dialog(dialogData, { width: "auto" }).render(true);
+    } else {
+      // СЛУЧАЙ 2: Есть проблемы, показываем детализированный отчет
+      const sortedDisplayGroups = [];
+      if (rootDocuments.length > 0) sortedDisplayGroups.push(rootFolderName);
+      folders.forEach(folder => {
+        if (index.some(doc => doc.folder === folder.id)) sortedDisplayGroups.push(folder.name);
+      });
+      
+      const createList = (items, type) => {
+          if (items.length === 0) return `<li>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoIssues")}</li>`;
+          return items.map(item => {
+              let details = '';
+              if (type === 'id') details = `<br><small>(${item.id})</small>`;
+              else if (type === 'path') details = `<br><small>(${item.path || item})</small>`;
+              return `<li><strong>${item.name || 'File'}</strong>${details}</li>`;
+          }).join('');
+      };
+      
+      const createFolderizedList = (dataByFolder, sortedGroups, type) => {
+          if (Object.keys(dataByFolder).length === 0) return `<li>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoIssues")}</li>`;
+          let html = '';
+          for (const groupName of sortedGroups) {
+              if (dataByFolder[groupName] && dataByFolder[groupName].length > 0) {
+                  html += `<li class="folder-header"><h3>${Handlebars.escapeExpression(groupName)}</h3></li>`;
+                  html += createList(dataByFolder[groupName], type);
+              }
+          }
+          return html || `<li>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoIssues")}</li>`;
+      };
+  
+      const createUnusedList = (filesByFolder) => {
+      const sortedFolders = Object.keys(filesByFolder).sort();
+      if (sortedFolders.length === 0) {
+        return `<li>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoUnused")}</li>`;
+      }
+
+      let html = '';
+      for (const folder of sortedFolders) {
+        html += `<li class="folder-header"><h3>${Handlebars.escapeExpression(folder)}</h3></li>`;
+        const files = filesByFolder[folder].sort();
+        html += files.map(path => {
+          const name = decodeURIComponent(path.split("/").pop());
+          return `<li><strong>${name}</strong><br><small>(${path})</small></li>`;
+        }).join('');
+      }
+      return html;
+    };
+  
+      const dialogContent = `
+        <style>
+          .check-results-dialog .window-content { display: flex; flex-direction: column; height: 100%; }
+          .check-results-dialog .dialog-content { flex-grow: 1; overflow-y: auto; }
+          .check-results-dialog .dialog-buttons { flex-shrink: 0; flex: 0}
+          .check-results-container details { border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px; }
+          .check-results-container summary { font-weight: bold; padding: 10px; background-color: rgba(0, 0, 0, 0.1); cursor: pointer; }
+          .check-results-container .content-wrapper, .check-results-container .image-sub-content { max-height: 450px; overflow-y: auto; padding: 5px 10px; }
+          .check-results-container .image-sub-container { padding: 5px; border-top: 1px solid #444; margin-top: 5px; }
+          .check-results-container .image-sub-container details { border-color: #555; margin-left: 10px; }
+          .check-results-container .image-sub-container summary { background-color: rgba(0, 0, 0, 0.2); padding: 8px; }
+          .check-results-container .image-sub-content { max-height: 250px; }
+          .check-results-container ul { list-style-type: none; padding-left: 0; margin: 0; }
+          .check-results-container li { padding: 5px 0; border-bottom: 1px solid #282828; }
+          .check-results-container li:last-child { border-bottom: none; }
+          .check-results-container li.folder-header {
+              padding: 8px 4px; background-color: rgba(0, 0, 0, 0.3);
+              border-top: 1px solid #444; border-bottom: 1px solid #444;
+              margin-top: 10px;
+          }
+          .check-results-container ul > li.folder-header:first-child { margin-top: 0; }
+          .check-results-container li.folder-header h3 { margin: 0; font-size: 1.1em; }
+        </style>
+        <div class="check-results-container">
+          <details>
+            <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSummaryDead")} (${deadIds.length})</summary>
+            <div class="content-wrapper"><ul>${createList(deadIds, 'id')}</ul></div>
+          </details>
+          <details>
+            <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSummaryMissingModule")} (${totalMissingInModule})</summary>
+            <div class="content-wrapper"><ul>${createFolderizedList(missingInModuleByFolder, sortedDisplayGroups, 'id')}</ul></div>
+          </details>
+          <details>
+            <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSummaryMissingImages")} (${totalMissingImages})</summary>
+            <div class="image-sub-container">
+              <details>
+                  <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckImgTypeArt")} (${totalMissingArt})</summary>
+                  <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.art, sortedDisplayGroups, 'path')}</ul></div>
+              </details>
+              <details>
+                  <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckImgTypeToken")} (${totalMissingToken})</summary>
+                  <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.token, sortedDisplayGroups, 'path')}</ul></div>
+              </details>
+              <details>
+                  <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckImgTypeRing")} (${totalMissingRing})</summary>
+                  <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.ring, sortedDisplayGroups, 'path')}</ul></div>
+              </details>
+            </div>
+          </details>
+          <details>
+              <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSummaryUnused")} (${unusedFiles.length})</summary>
+              <div class="content-wrapper">
+                  <p><em><small>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsManualDeleteNote")}</small></em></p>
+                  <ul>${createUnusedList(unusedFilesByFolder)}</ul>
+              </div>
+          </details>
+        </div>
+      `;
+
+      new Dialog({
+        title,
+        content: dialogContent,
+        buttons: {
+          ok: {
+            label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckOk"),
+            icon: "<i class='fas fa-check'></i>",
+            callback: async () => {
+              const needsUpdate = deadIds.length > 0 || isOrderDifferent;
+              if (needsUpdate) {
+                originalData[key] = reorderedBestiary;
+                const blob = new Blob([JSON.stringify(originalData, null, 2)], { type: "application/json" });
+                const file = new File([blob], "bestiaries.json", { type: "application/json" });
+                await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
+                ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckFileUpdated"));
+              } else {
+                ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoChanges"));
+              }
+            }
+          },
+          cancel: {
+            label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCancel"),
+            icon: "<i class='fas fa-times'></i>",
+            callback: () => {
+              ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckCancelled"));
+            }
+          }
+        },
+        default: "cancel"
+      }, {
+          width: 800,
+          height: 750,
+          resizable: true,
+          classes: ["dialog", "check-results-dialog"]
+      }).render(true);
+    }
   } catch (e) {
     console.error(e);
     ui.notifications.error(game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsErrorCheckBestiaries", { message: e.message }));
   }
 }
-
-
-
-
-
 }
 
 // Инициализация модуля
@@ -359,7 +486,8 @@ class PathfinderBestiarySettingsMenu extends FormApplication {
       title: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsSettingsMenuTitle"), // Заголовок формы
       template: "modules/pf2e-token-pack/templates/Setting-Compendiums.html", // Путь к шаблону формы
       width: "700", // Ширина формы
-      height: "1250", // Высота формы
+      height: "auto", // Высота теперь автоматическая
+      classes: ["pf2e-token-pack-settings-form"],
       closeOnSubmit: false // Не закрывать форму после отправки
     });
   }
@@ -371,7 +499,8 @@ class PathfinderBestiarySettingsMenu extends FormApplication {
       adventurePath: [],
       rulebook: [],
       standalone: [],
-      pregens: []
+      pregens: [],
+      season: []
     };
 
     // Для каждого ключа — добавляем в нужную группу
@@ -430,37 +559,7 @@ class PathfinderBestiarySettingsMenu extends FormApplication {
     });
 
     // Добавляем стили для закрепления кнопки
-    const style = document.createElement("style");
-    style.innerHTML = `
-      .settings-form {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-      }
-
-      .scrollable-content {
-        overflow-y: auto;
-        flex: 1 1 auto;
-        padding-right: 5px; /* чтобы не перекрывалось скроллбаром */
-      }
-
-      .form-footer {
-        flex-shrink: 0;
-        background: inherit;
-        padding: 10px;
-        text-align: right;
-        z-index: 1;
-        border-top: 1px solid #CCC;
-      }
-
-      .form-footer .button {
-        margin: 0;
-        width: 100%;
-        border: none;
-        border-radius: 0;
-      }
-    `;
-    document.head.appendChild(style);
+    // Этот блок стилей больше не нужен, так как высота окна 'auto'
   }
 
   // Работа с перезаписью файла bestiaries.json
@@ -474,7 +573,7 @@ async _updateObject(event, formData) {
 
   if (!changed) {
     ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsNoSettingsChanged"));
-    return;
+    return this.close();
   }
 
   // Загружаем bestiaries.json
@@ -507,7 +606,10 @@ async _updateObject(event, formData) {
       return;
     }
   }
-  // Сохдаем диалог об успешном обновлении
+  // Закрываем текущее окно настроек
+  await this.close();
+  
+  // Создаем диалог об успешном обновлении и требовании перезагрузки
   new Dialog({
     title: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsReloadTitle"),
     content: `<p>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsBestiaryUpdatedMessage")}</p>`,
