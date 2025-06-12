@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 1.9.1
+1. Work is underway on Season, Spore War, Triumph of the Tuck, Season 1: part 1-00, 1-01
+2. Added dynamic tokens for Age of Ashes at the request of the Fairytale Merchant
+3. The setting for checking the bestiary and compendium file has been completely redesigned. Improved visual display style and search and sorting logic
+3. Due to the different type of sorting, book folders will appear in each folder to make it easier to search. At the moment, I'm optimizing everything more for myself so that it's convenient and easier to search for everything.
+4. Reduced module weight by compressing art and tokens
+
 ## Version 1.9.0
 1. The most important thing is that now the Bestiary compendiums have dynamic tokens, but regular tokens have been removed so as not to increase the weight of the module. I'll tell you in advance that all the actors on the stage will break.
 2. The settings for Disabling the compendium, Checking the compendium paths have been completely redesigned (this setting is more for me, I found a lot of errors).
