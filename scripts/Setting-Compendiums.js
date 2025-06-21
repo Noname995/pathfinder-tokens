@@ -23,9 +23,9 @@ class PathfinderBestiaryTokenPack {
       { key: "pf2e.season-of-ghosts-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.SeasonofGhostsBestiary")        , category: "adventurePath" },
       { key: "pf2e.seven-dooms-for-sandpoint-bestiary" , name: game.i18n.localize("PF2E-TOKEN-PACK.SevenDoomsforSandpointBestiary"), category: "adventurePath" },
       { key: "pf2e.sky-kings-tomb-bestiary"            , name: game.i18n.localize("PF2E-TOKEN-PACK.SkyKingsTombBestiary")          , category: "adventurePath" },
-      //{ key: "pf2e.spore-war-bestiary"                 , name: game.i18n.localize("PF2E-TOKEN-PACK.SporeWar")                      , category: "adventurePath" },
+      { key: "pf2e.spore-war-bestiary"                 , name: game.i18n.localize("PF2E-TOKEN-PACK.SporeWar")                      , category: "adventurePath" },
       { key: "pf2e.strength-of-thousands-bestiary"     , name: game.i18n.localize("PF2E-TOKEN-PACK.StrengthofThousandsBestiary")   , category: "adventurePath" },
-      //{ key: "pf2e.triumph-of-the-tusk-bestiary"       , name: game.i18n.localize("PF2E-TOKEN-PACK.TriumphoftheTtusk")             , category: "adventurePath" },
+      { key: "pf2e.triumph-of-the-tusk-bestiary"       , name: game.i18n.localize("PF2E-TOKEN-PACK.TriumphoftheTtusk")             , category: "adventurePath" },
       { key: "pf2e.stolen-fate-bestiary"               , name: game.i18n.localize("PF2E-TOKEN-PACK.StolenFateBestiary")            , category: "adventurePath" },
       { key: "pf2e.wardens-of-wildwood-bestiary"       , name: game.i18n.localize("PF2E-TOKEN-PACK.WardensofWildwoodBestiary")     , category: "adventurePath" },
       { key: "pf2e.book-of-the-dead-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.BookoftheDeadBestiary")         , category: "rulebook"      },
@@ -49,9 +49,9 @@ class PathfinderBestiaryTokenPack {
       { key: "pf2e.troubles-in-otari-bestiary"         , name: game.i18n.localize("PF2E-TOKEN-PACK.TroublesinOtariBestiary")       , category: "standalone"    },
       { key: "pf2e.night-of-the-gray-death-bestiary"   , name: game.i18n.localize("PF2E-TOKEN-PACK.NightoftheGrayDeathBestiary")   , category: "standalone"    },
       { key: "pf2e.crown-of-the-kobold-king-bestiary"  , name: game.i18n.localize("PF2E-TOKEN-PACK.CrownoftheKoboldKingBestiary")  , category: "standalone"    },
-      { key: "pf2e.paizo-pregens"                      , name: game.i18n.localize("PF2E-TOKEN-PACK.AdventurePregens")              , category: "pregens"       },
       //{ key: "pf2e.pfs-introductions-bestiary"         , name: game.i18n.localize("PF2E-TOKEN-PACK.Intro")                         , category: "season"        },
       //{ key: "pf2e.pfs-season-1-bestiary"              , name: game.i18n.localize("PF2E-TOKEN-PACK.Season1")                       , category: "season"        },
+      { key: "pf2e.paizo-pregens"                      , name: game.i18n.localize("PF2E-TOKEN-PACK.AdventurePregens")              , category: "pregens"       }
     ];
     
     // Хранит предыдущие значения настроек
@@ -499,8 +499,8 @@ class PathfinderBestiarySettingsMenu extends FormApplication {
       adventurePath: [],
       rulebook: [],
       standalone: [],
-      pregens: [],
-      season: []
+      season: [],
+      pregens: []
     };
 
     // Для каждого ключа — добавляем в нужную группу

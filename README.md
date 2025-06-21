@@ -10,65 +10,60 @@
 
 <b>Бестиарий:</b>
 
-1.	Bestiary 1
-2.	Bestiary 2
-3.	Bestiary 3
-4.	Monster core
-5.  NPC core
+1.	Bestiary 1 - динамические токены
+2.	Bestiary 2 - динамические токены
+3.	Bestiary 3 - динамические токены
+4.	Monster core - динамические токены
+5.  NPC core - динамические токены
 
 <b>Пути Приключений:</b>
 
 1.	Abomination Vaults
-2.	Age of Ashes
-3.	Blood Lords
-4.  Curtain Call
-5.	Gatewalkers
-6.	Outlaws of Alkenstar
-7.	Kingmaker
-8.	Quest for the Frozen
-9.	Season of Ghosts
-10.	Sky Kings Tomb
-11.	Stolen Fate
-12.	Extinction Curse
-13. Agents of Edgewatch
-14. Fist of the Ruby Phoenix
-15. Seven Dooms for Sandpoint
+2.	Age of Ashes - динамические токены
+3.  Agents of Edgewatch
+4.	Blood Lords
+5.  Curtain Call
+6.	Extinction Curse
+7. Fist of the Ruby Phoenix - динамические токены
+8.	Gatewalkers
+9.	Outlaws of Alkenstar
+10.	Kingmaker
+11.	Quest for the Frozen - динамические токены
+12.	Season of Ghosts
+13. Seven Dooms for Sandpoint
+14.	Sky Kings Tomb
+15. Spore War - динамические токены
 16. Strength of Thousands
-17. Wardens of Wildwood
+17. Triumph of the Tusk - динамические токены
+18.	Stolen Fate
+19. Wardens of Wildwood
 
 <b>Книга правил:</b>
 
 1. Book of the Dead
 2. Paizo Blog
 3. Howl of the Wild
-4. Lost Omens Impossible Lands
-5. Lost Omens Mwangi Expanse
-6. Lost Omens Highhelm
-7. Lost Omens Monsters of Myth
-8. Lost Omens Tian Xia World Guide
-9. Lost Omens Travel Guide
-10. Npc Gallery
-11. Rage of Elements
-12. Dark Archive
-13. Howl of the Wild
-14. Lost Omens Tian Xia World Guide
-15. War of Immortals
+4. Lost Omens Bestiary - динамические токены
+5. NPC Gallery
+6. Dark Archive
+7. Rage of Elements
+8. War of Immortals
 
 <b>Приключения</b>
 
-1. Fall of Plaguestone
-2. Malevolence
-3. Menace Under Otari
-4. One-Shots
-5. Prey for Death
-6. Rusthenge
-7. Shadows at Sundown
-8. the Enmity Cycle
-9. the Slithering
-10. Troubles in Otari
-11. Night of the Gray Death
-12. Crown of the Kobold King
-13. Claws of the Tyrant
+1. Claws of the Tyrant
+2. Fall of Plaguestone
+3. Malevolence
+4. Menace Under Otari
+5. One-Shots
+6. Prey for Death
+7. Rusthenge
+8. Shadows at Sundown
+9. the Enmity Cycle
+10. the Slithering
+11. Troubles in Otari
+12. Night of the Gray Death
+13. Crown of the Kobold King
 
 <b>Прочее:</b>
 

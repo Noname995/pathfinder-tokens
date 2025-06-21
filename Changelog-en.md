@@ -1,5 +1,15 @@
 # Changelog
 
+## Version 1.9.5
+1. Added AP Spore War
+2. Added AP Triumph of the Tusk(there are problems with the number of arts)
+3. Dynamic tokens for Rulebooks Lost Omens Bestiary
+4. Changed the art of Weathered Wail in Age of Ashes
+5. Dynamic tokens for AP Quest for the Frozen Flame
+6. Dynamic tokens for AP Fists of the Ruby Phoenix(all arts have been supplemented, many thanks to Vamp1red for giving the go-ahead for his arts)
+7. Removed the setting for controlling the actor's ring on stage
+8. Reworked the setting for restoring actors, now it restores actors both on stage and in the sidebar of actors and takes over control of the ring. Searches first by ID, and then by original name.
+
 ## Version 1.9.1
 1. Work is underway on Season, Spore War, Triumph of the Tuck, Season 1: part 1-00, 1-01
 2. Added dynamic tokens for Age of Ashes at the request of the Fairytale Merchant

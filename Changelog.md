@@ -2,6 +2,16 @@
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog-en.md)
 
+## Version 1.9.5
+1. Добавлен AP Spore War
+2. Добавлен AP Triumph of the Tusk(тут есть проблемы с количеством артов)
+3. Динамические токены для Ruleboocks Lost Omens Bestiary
+4. Изменен арт Weathered Wail в Age of Ashes
+5. Динамические токены для AP Quest for the Frozen Flame
+6. Динамические токены для AP Fists of the Ruby Phoenix(дополнены все арты, огромное спасибо Vamp1red, что дал добро на его арты)
+7. Удалена настройка контроля кольца актера на сцене
+8. Переработана настройка восстановления актеров, теперь она актеров восстанавливает как на сцене, так и в боковой панели актеров и забирает на себя контроль кольца. Ищет сначала по ID, а потом по оригинальному имени.
+
 ## Version 1.9.1
 1. Идет наработка по Season, Spore War, Triumph of the Tusk, Season 1: часть 1-00, 1-01
 2. Добавлены динамические токены для Age of Ashes по просьбе Торговца Сказками
