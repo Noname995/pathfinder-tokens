@@ -49,8 +49,8 @@ class PathfinderBestiaryTokenPack {
       { key: "pf2e.troubles-in-otari-bestiary"         , name: game.i18n.localize("PF2E-TOKEN-PACK.TroublesinOtariBestiary")       , category: "standalone"    },
       { key: "pf2e.night-of-the-gray-death-bestiary"   , name: game.i18n.localize("PF2E-TOKEN-PACK.NightoftheGrayDeathBestiary")   , category: "standalone"    },
       { key: "pf2e.crown-of-the-kobold-king-bestiary"  , name: game.i18n.localize("PF2E-TOKEN-PACK.CrownoftheKoboldKingBestiary")  , category: "standalone"    },
-      //{ key: "pf2e.pfs-introductions-bestiary"         , name: game.i18n.localize("PF2E-TOKEN-PACK.Intro")                         , category: "season"        },
-      //{ key: "pf2e.pfs-season-1-bestiary"              , name: game.i18n.localize("PF2E-TOKEN-PACK.Season1")                       , category: "season"        },
+      { key: "pf2e.pfs-introductions-bestiary"         , name: game.i18n.localize("PF2E-TOKEN-PACK.Intro")                         , category: "season"        },
+      { key: "pf2e.pfs-season-1-bestiary"              , name: game.i18n.localize("PF2E-TOKEN-PACK.Season1")                       , category: "season"        },
       { key: "pf2e.paizo-pregens"                      , name: game.i18n.localize("PF2E-TOKEN-PACK.AdventurePregens")              , category: "pregens"       }
     ];
     

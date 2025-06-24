@@ -65,7 +65,12 @@
 12. Night of the Gray Death
 13. Crown of the Kobold King
 
+<b>Pathfinder Society:</b>
+
+1. Intro - динамические токены
+2. Season 1 - динамические токены
+
 <b>Прочее:</b>
 
-1. Pregenerated PCs
+1. Pregenerated PCs - динамические токены
 

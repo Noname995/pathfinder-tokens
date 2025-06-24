@@ -63,6 +63,11 @@ This module is designed for the Foundry VTT program, adds bestiary and API art/t
 12. Night of the Gray Death
 13. Crown of the Kobold King
 
+<b>Pathfinder Society:</b>
+
+1. Intro - dynamic tokens
+2. Season 1 - dynamic tokens
+
 <b>Other:</b>
 
-1. Pregenerated PCs
+1. Pregenerated PCs - dynamic tokens

@@ -2,6 +2,11 @@
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog-en.md)
 
+## Version 1.9.7
+1. Добавлен Pathfinder Society Intro и Season 1
+2. Динамические токены для Adventure Pregens и добавлены пару артов
+3. Теперь у меня есть [boosty](https://boosty.to/metofay). Там же я запустил голосование, какому приключению будем делать дальше динамические токены
+
 ## Version 1.9.5
 1. Добавлен AP Spore War
 2. Добавлен AP Triumph of the Tusk(тут есть проблемы с количеством артов)

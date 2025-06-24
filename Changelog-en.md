@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.9.7
+1. Added Pathfinder Society Intro and Season 1
+2. Dynamic tokens for Adventure Pregens and added a couple of arts
+3. Now I have [boosty](https://boosty.to/metofay). There I also launched a vote on which adventure we will make dynamic tokens for next
+
 ## Version 1.9.5
 1. Added AP Spore War
 2. Added AP Triumph of the Tusk(there are problems with the number of arts)
