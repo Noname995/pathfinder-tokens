@@ -1,5 +1,6 @@
 [![Version (latest)](https://img.shields.io/github/v/release/Metofay/pf2e-token-pack)](https://github.com/Metofay/pf2e-token-pack/releases/latest)
 ![Data-release](https://img.shields.io/github/release-date/Metofay/pf2e-token-pack)
+[![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
 ## Pathfinder 2E: Token Pack
 This module is designed for the Foundry VTT program, adds bestiary and API art/tokens to the Pathfinder 2e system
