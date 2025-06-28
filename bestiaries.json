@@ -41620,15 +41620,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Aecora-Silverfire.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Aecora-Silverfire.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Aecora-Silverfire.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Aecora-Silverfire.webp",
+            "scale": 2
           }
         }
       }
@@ -41637,15 +41636,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Agai.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Agai.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Agai.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Agai.webp",
+            "scale": 2
           }
         }
       }
@@ -41654,15 +41652,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Akiros-Ismort.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Akiros-Ismort.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Akiros-Ismort.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Akiros-Ismort.webp",
+            "scale": 2
           }
         }
       }
@@ -41671,15 +41668,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Akuzhail.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Akuzhail.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Akuzhail.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Akuzhail.webp",
+            "scale": 2
           }
         }
       }
@@ -41688,15 +41684,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Alasen.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Alasen.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Alasen.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Alasen.webp",
+            "scale": 2
           }
         }
       }
@@ -41705,15 +41700,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Aldori-Sister.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Aldori-Sister.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Aldori-Sister.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Aldori-Sister.webp",
+            "scale": 2
           }
         }
       }
@@ -41722,15 +41716,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ameon-Trask.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ameon-Trask.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ameon-Trask.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ameon-Trask.webp",
+            "scale": 2
           }
         }
       }
@@ -41739,15 +41732,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Amiri.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Amiri.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Amiri.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Amiri.webp",
+            "scale": 2
           }
         }
       }
@@ -41756,15 +41748,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Amiri.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Amiri.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Amiri.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Amiri.webp",
+            "scale": 2
           }
         }
       }
@@ -41773,15 +41764,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ancient-Wisp.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ancient-Wisp.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ancient-Wisp.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ancient-Wisp.webp",
+            "scale": 2
           }
         }
       }
@@ -41790,15 +41780,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ankou-Assassin.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ankou-Assassin.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ankou-Assassin.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ankou-Assassin.webp",
+            "scale": 2
           }
         }
       }
@@ -41807,15 +41796,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Annamede-Belavarah.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Annamede-Belavarah.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Annamede-Belavarah.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Annamede-Belavarah.webp",
+            "scale": 2
           }
         }
       }
@@ -41824,15 +41812,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Armag-Twice-Born.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Armag-Twice-Born.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Armag-Twice-Born.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Armag-Twice-Born.webp",
+            "scale": 2
           }
         }
       }
@@ -41841,15 +41828,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Auchs.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Auchs.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Auchs.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Auchs.webp",
+            "scale": 2
           }
         }
       }
@@ -41858,15 +41844,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Avatar-Of-The-Lantern-King.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Avatar-Of-The-Lantern-King.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Avatar-Of-The-Lantern-King.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Avatar-Of-The-Lantern-King.webp",
+            "scale": 2
           }
         }
       }
@@ -41875,15 +41860,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Barbtongued-Wyvern.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Barbtongued-Wyvern.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Barbtongued-Wyvern.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Barbtongued-Wyvern.webp",
+            "scale": 2
           }
         }
       }
@@ -41892,15 +41876,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Black-Smilodon.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Black-Smilodon.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Black-Smilodon.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Black-Smilodon.webp",
+            "scale": 2
           }
         }
       }
@@ -41909,15 +41892,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Black-Tear-Cutthroat.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Black-Tear-Cutthroat.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Black-Tear-Cutthroat.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Black-Tear-Cutthroat.webp",
+            "scale": 2
           }
         }
       }
@@ -41926,15 +41908,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Bloom-Cultist.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Bloom-Cultist.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Bloom-Cultist.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Bloom-Cultist.webp",
+            "scale": 2
           }
         }
       }
@@ -41943,15 +41924,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Bloom-Of-Lamashtu.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Bloom-Of-Lamashtu.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Bloom-Of-Lamashtu.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Bloom-Of-Lamashtu.webp",
+            "scale": 2
           }
         }
       }
@@ -41960,15 +41940,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Bloom-Wyvern.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Bloom-Wyvern.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Bloom-Wyvern.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Bloom-Wyvern.webp",
+            "scale": 2
           }
         }
       }
@@ -41977,15 +41956,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Bloomborn-Athach.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Bloomborn-Athach.webp",
           "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleY": 2.5
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Bloomborn-Athach.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Bloomborn-Athach.webp",
+            "scale": 2
           }
         }
       }
@@ -41994,15 +41972,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Bog-Mummy-Cultist.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Bog-Mummy-Cultist.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Bog-Mummy-Cultist.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Bog-Mummy-Cultist.webp",
+            "scale": 2
           }
         }
       }
@@ -42011,15 +41988,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Boggard-Cultist.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Boggard-Cultist.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Boggard-Cultist.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Boggard-Cultist.webp",
+            "scale": 2
           }
         }
       }
@@ -42028,15 +42004,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Boggard-Warden.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Boggard-Warden.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Boggard-Warden.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Boggard-Warden.webp",
+            "scale": 2
           }
         }
       }
@@ -42045,15 +42020,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Thylacine.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Thylacine.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Thylacine.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Thylacine.webp",
+            "scale": 2
           }
         }
       }
@@ -42062,15 +42036,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Castruccio-Irovetti.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Castruccio-Irovetti.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Castruccio-Irovetti.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Castruccio-Irovetti.webp",
+            "scale": 2
           }
         }
       }
@@ -42079,15 +42052,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Centaur-Scout.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Centaur-Scout.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Centaur-Scout.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Centaur-Scout.webp",
+            "scale": 2
           }
         }
       }
@@ -42096,15 +42068,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Cephal-Lorentus.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Cephal-Lorentus.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Cephal-Lorentus.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Cephal-Lorentus.webp",
+            "scale": 2
           }
         }
       }
@@ -42113,15 +42084,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Spider-Swarm.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Spider-Swarm.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Spider-Swarm.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Spider-Swarm.webp",
+            "scale": 2
           }
         }
       }
@@ -42130,15 +42100,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Chief-Sootscale.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Chief-Sootscale.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Chief-Sootscale.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Chief-Sootscale.webp",
+            "scale": 2
           }
         }
       }
@@ -42147,15 +42116,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Cleansed-Cultist.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Cleansed-Cultist.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Cleansed-Cultist.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Cleansed-Cultist.webp",
+            "scale": 2
           }
         }
       }
@@ -42164,15 +42132,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Corax.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Corax.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Corax.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Corax.webp",
+            "scale": 2
           }
         }
       }
@@ -42181,15 +42148,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Cursed-Guardian.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Cursed-Guardian.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Cursed-Guardian.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Cursed-Guardian.webp",
+            "scale": 2
           }
         }
       }
@@ -42198,15 +42164,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Cyclops-Zombie.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Cyclops-Zombie.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Cyclops-Zombie.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Cyclops-Zombie.webp",
+            "scale": 2
           }
         }
       }
@@ -42215,15 +42180,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Darivan.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Darivan.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Darivan.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Darivan.webp",
+            "scale": 2
           }
         }
       }
@@ -42232,15 +42196,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Davik-Nettles.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Davik-Nettles.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Davik-Nettles.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Davik-Nettles.webp",
+            "scale": 2
           }
         }
       }
@@ -42249,15 +42212,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Defaced-Naiad-Queen.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Defaced-Naiad-Queen.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Defaced-Naiad-Queen.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Defaced-Naiad-Queen.webp",
+            "scale": 2
           }
         }
       }
@@ -42266,15 +42228,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Dog.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Dog.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Dog.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Dog.webp",
+            "scale": 2
           }
         }
       }
@@ -42283,15 +42244,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Dovan-From-Nisroch.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Dovan-From-Nisroch.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Dovan-From-Nisroch.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Dovan-From-Nisroch.webp",
+            "scale": 2
           }
         }
       }
@@ -42300,15 +42260,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Drelev-Guard.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Drelev-Guard.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Drelev-Guard.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Drelev-Guard.webp",
+            "scale": 2
           }
         }
       }
@@ -42317,15 +42276,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ekundayo.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ekundayo.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ekundayo.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ekundayo.webp",
+            "scale": 2
           }
         }
       }
@@ -42334,15 +42292,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ekundayo.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ekundayo.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ekundayo.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ekundayo.webp",
+            "scale": 2
           }
         }
       }
@@ -42351,15 +42308,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Elder-Elemental-Tsunami.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Elder-Elemental-Tsunami.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Elder-Elemental-Tsunami.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Elder-Elemental-Tsunami.webp",
+            "scale": 2
           }
         }
       }
@@ -42368,15 +42324,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Elga-Verniex.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Elga-Verniex.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Elga-Verniex.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Elga-Verniex.webp",
+            "scale": 2
           }
         }
       }
@@ -42385,15 +42340,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Engelidis.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Engelidis.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Engelidis.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Engelidis.webp",
+            "scale": 2
           }
         }
       }
@@ -42402,15 +42356,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Enormous-Dragonfly.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Enormous-Dragonfly.webp",
           "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleY": 2.5
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Enormous-Dragonfly.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Enormous-Dragonfly.webp",
+            "scale": 2
           }
         }
       }
@@ -42419,15 +42372,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Enormous-Flame-Drake.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Enormous-Flame-Drake.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Enormous-Flame-Drake.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Enormous-Flame-Drake.webp",
+            "scale": 2
           }
         }
       }
@@ -42436,15 +42388,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Eobald.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Eobald.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Eobald.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Eobald.webp",
+            "scale": 2
           }
         }
       }
@@ -42453,15 +42404,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Evindra.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Evindra.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Evindra.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Evindra.webp",
+            "scale": 2
           }
         }
       }
@@ -42470,15 +42420,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/False-Priestess.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/False-Priestess.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/False-Priestess.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/False-Priestess.webp",
+            "scale": 2
           }
         }
       }
@@ -42487,15 +42436,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Fen-Pudding.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Fen-Pudding.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Fen-Pudding.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Fen-Pudding.webp",
+            "scale": 2
           }
         }
       }
@@ -42504,15 +42452,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Fetch-Behemoth.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Fetch-Behemoth.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Fetch-Behemoth.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Fetch-Behemoth.webp",
+            "scale": 2
           }
         }
       }
@@ -42521,15 +42468,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Fetch-Stalker.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Fetch-Stalker.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Fetch-Stalker.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Fetch-Stalker.webp",
+            "scale": 2
           }
         }
       }
@@ -42538,15 +42484,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Fionn.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Fionn.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Fionn.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Fionn.webp",
+            "scale": 2
           }
         }
       }
@@ -42555,15 +42500,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Foras.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Foras.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Foras.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Foras.webp",
+            "scale": 2
           }
         }
       }
@@ -42572,15 +42516,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Freshly-Bloomed-Basilisk.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Freshly-Bloomed-Basilisk.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Freshly-Bloomed-Basilisk.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Freshly-Bloomed-Basilisk.webp",
+            "scale": 2
           }
         }
       }
@@ -42589,15 +42532,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Gaetane.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Gaetane.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gaetane.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Gaetane.webp",
+            "scale": 2
           }
         }
       }
@@ -42606,15 +42548,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Gedovius.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Gedovius.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gedovius.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Gedovius.webp",
+            "scale": 2
           }
         }
       }
@@ -42623,15 +42564,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/General-Avinash-Jurrg.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/General-Avinash-Jurrg.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/General-Avinash-Jurrg.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/General-Avinash-Jurrg.webp",
+            "scale": 2
           }
         }
       }
@@ -42640,15 +42580,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ghostly-Guard.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ghostly-Guard.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ghostly-Guard.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ghostly-Guard.webp",
+            "scale": 2
           }
         }
       }
@@ -42657,15 +42596,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Giant-Trapdoor-Spider.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Giant-Trapdoor-Spider.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Giant-Trapdoor-Spider.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Giant-Trapdoor-Spider.webp",
+            "scale": 2
           }
         }
       }
@@ -42674,15 +42612,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Goblin-Bat-Dog.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Goblin-Bat-Dog.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Goblin-Bat-Dog.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Goblin-Bat-Dog.webp",
+            "scale": 2
           }
         }
       }
@@ -42691,15 +42628,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Grabbles.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Grabbles.webp",
           "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleY": 2.6
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Grabbles.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Grabbles.webp",
+            "scale": 2
           }
         }
       }
@@ -42708,15 +42644,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Grigori.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Grigori.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Grigori.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Grigori.webp",
+            "scale": 2
           }
         }
       }
@@ -42725,15 +42660,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Gromog.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Gromog.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gromog.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Gromog.webp",
+            "scale": 2
           }
         }
       }
@@ -42742,15 +42676,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Gurija.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Gurija.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gurija.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Gurija.webp",
+            "scale": 2
           }
         }
       }
@@ -42759,15 +42692,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Hannis-Drelev.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Hannis-Drelev.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hannis-Drelev.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Hannis-Drelev.webp",
+            "scale": 2
           }
         }
       }
@@ -42776,15 +42708,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Happs-Bydon.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Happs-Bydon.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Happs-Bydon.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Happs-Bydon.webp",
+            "scale": 2
           }
         }
       }
@@ -42793,15 +42724,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Hargulka.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Hargulka.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hargulka.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Hargulka.webp",
+            "scale": 2
           }
         }
       }
@@ -42810,15 +42740,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Hateful-Hermit.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Hateful-Hermit.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hateful-Hermit.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Hateful-Hermit.webp",
+            "scale": 2
           }
         }
       }
@@ -42827,15 +42756,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Hill-Giant-Butcher.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Hill-Giant-Butcher.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hill-Giant-Butcher.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Hill-Giant-Butcher.webp",
+            "scale": 2
           }
         }
       }
@@ -42844,15 +42772,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Hillstomper.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Hillstomper.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hillstomper.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Hillstomper.webp",
+            "scale": 2
           }
         }
       }
@@ -42861,15 +42788,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Hooktongue.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Hooktongue.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hooktongue.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Hooktongue.webp",
+            "scale": 2
           }
         }
       }
@@ -42878,15 +42804,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Hooktongue-Hydra.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Hooktongue-Hydra.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hooktongue-Hydra.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Hooktongue-Hydra.webp",
+            "scale": 2
           }
         }
       }
@@ -42895,15 +42820,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Horagnamon.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Horagnamon.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Horagnamon.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Horagnamon.webp",
+            "scale": 2
           }
         }
       }
@@ -42912,15 +42836,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ilora-Nuski.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ilora-Nuski.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ilora-Nuski.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ilora-Nuski.webp",
+            "scale": 2
           }
         }
       }
@@ -42929,15 +42852,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ilthuliak.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ilthuliak.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ilthuliak.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ilthuliak.webp",
+            "scale": 2
           }
         }
       }
@@ -42946,15 +42868,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Imeckus-Stroon.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Imeckus-Stroon.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Imeckus-Stroon.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Imeckus-Stroon.webp",
+            "scale": 2
           }
         }
       }
@@ -42963,15 +42884,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Immense-Mandragora.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Immense-Mandragora.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Immense-Mandragora.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Immense-Mandragora.webp",
+            "scale": 2
           }
         }
       }
@@ -42980,15 +42900,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Irahkatu.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Irahkatu.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Irahkatu.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Irahkatu.webp",
+            "scale": 2
           }
         }
       }
@@ -42997,15 +42916,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Irovettis-Fetch.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Irovettis-Fetch.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Irovettis-Fetch.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Irovettis-Fetch.webp",
+            "scale": 2
           }
         }
       }
@@ -43014,15 +42932,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Jaggedbriar-Hag.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Jaggedbriar-Hag.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Jaggedbriar-Hag.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Jaggedbriar-Hag.webp",
+            "scale": 2
           }
         }
       }
@@ -43031,15 +42948,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Jamandi-Aldori.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Jamandi-Aldori.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Jamandi-Aldori.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Jamandi-Aldori.webp",
+            "scale": 2
           }
         }
       }
@@ -43048,15 +42964,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Jewel.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Jewel.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Jewel.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Jewel.webp",
+            "scale": 2
           }
         }
       }
@@ -43065,15 +42980,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Jin-Durwhimmer.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Jin-Durwhimmer.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Jin-Durwhimmer.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Jin-Durwhimmer.webp",
+            "scale": 2
           }
         }
       }
@@ -43082,15 +42996,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Jubilost.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Jubilost.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Jubilost.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Jubilost.webp",
+            "scale": 2
           }
         }
       }
@@ -43099,15 +43012,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Jubilost.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Jubilost.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Jubilost.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Jubilost.webp",
+            "scale": 2
           }
         }
       }
@@ -43116,15 +43028,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Jurgrindor.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Jurgrindor.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Jurgrindor.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Jurgrindor.webp",
+            "scale": 2
           }
         }
       }
@@ -43133,15 +43044,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Kargstaad.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Kargstaad.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kargstaad.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Kargstaad.webp",
+            "scale": 2
           }
         }
       }
@@ -43150,15 +43060,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Kargstaads-Giant.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Kargstaads-Giant.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kargstaads-Giant.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Kargstaads-Giant.webp",
+            "scale": 2
           }
         }
       }
@@ -43167,15 +43076,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Kellid-Graveknight.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Kellid-Graveknight.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kellid-Graveknight.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Kellid-Graveknight.webp",
+            "scale": 2
           }
         }
       }
@@ -43184,15 +43092,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Kereek.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Kereek.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kereek.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Kereek.webp",
+            "scale": 2
           }
         }
       }
@@ -43201,15 +43108,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/King-Vesket.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/King-Vesket.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/King-Vesket.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/King-Vesket.webp",
+            "scale": 2
           }
         }
       }
@@ -43218,15 +43124,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Kob-Moleg.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Kob-Moleg.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kob-Moleg.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Kob-Moleg.webp",
+            "scale": 2
           }
         }
       }
@@ -43235,15 +43140,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Korog.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Korog.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Korog.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Korog.webp",
+            "scale": 2
           }
         }
       }
@@ -43252,15 +43156,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Kressle.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Kressle.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kressle.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Kressle.webp",
+            "scale": 2
           }
         }
       }
@@ -43269,15 +43172,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Kundal.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Kundal.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kundal.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Kundal.webp",
+            "scale": 2
           }
         }
       }
@@ -43286,15 +43188,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Leng-Envoy.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Leng-Envoy.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Leng-Envoy.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Leng-Envoy.webp",
+            "scale": 2
           }
         }
       }
@@ -43303,15 +43204,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Lesser-Jabberwock.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Lesser-Jabberwock.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Lesser-Jabberwock.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Lesser-Jabberwock.webp",
+            "scale": 2
           }
         }
       }
@@ -43320,15 +43220,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Lickweed.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Lickweed.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Lickweed.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Lickweed.webp",
+            "scale": 2
           }
         }
       }
@@ -43337,15 +43236,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Lintwerth.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Lintwerth.webp",
           "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleY": 2.5
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Lintwerth.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Lintwerth.webp",
+            "scale": 2
           }
         }
       }
@@ -43354,15 +43252,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Linzi.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Linzi.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Linzi.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Linzi.webp",
+            "scale": 2
           }
         }
       }
@@ -43371,15 +43268,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Linzi.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Linzi.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Linzi.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Linzi.webp",
+            "scale": 2
           }
         }
       }
@@ -43388,15 +43284,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Lizardfolk-Warrior.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Lizardfolk-Warrior.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Lizardfolk-Warrior.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Lizardfolk-Warrior.webp",
+            "scale": 2
           }
         }
       }
@@ -43405,15 +43300,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Logger.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Logger.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Logger.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Logger.webp",
+            "scale": 2
           }
         }
       }
@@ -43422,15 +43316,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Malgorzata-Niska.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Malgorzata-Niska.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Malgorzata-Niska.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Malgorzata-Niska.webp",
+            "scale": 2
           }
         }
       }
@@ -43439,15 +43332,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Mandragora-Swarm.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Mandragora-Swarm.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Mandragora-Swarm.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Mandragora-Swarm.webp",
+            "scale": 2
           }
         }
       }
@@ -43456,15 +43348,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Mastiff-Of-Tindalos.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Mastiff-Of-Tindalos.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Mastiff-Of-Tindalos.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Mastiff-Of-Tindalos.webp",
+            "scale": 2
           }
         }
       }
@@ -43473,15 +43364,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Melianse.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Melianse.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Melianse.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Melianse.webp",
+            "scale": 2
           }
         }
       }
@@ -43490,15 +43380,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Minognos-Ushad.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Minognos-Ushad.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Minognos-Ushad.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Minognos-Ushad.webp",
+            "scale": 2
           }
         }
       }
@@ -43507,15 +43396,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Murder-Of-Crows.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Murder-Of-Crows.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Murder-Of-Crows.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Murder-Of-Crows.webp",
+            "scale": 2
           }
         }
       }
@@ -43524,15 +43412,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ngara.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ngara.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ngara.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ngara.webp",
+            "scale": 2
           }
         }
       }
@@ -43541,15 +43428,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Nightmare-Rook.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Nightmare-Rook.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Nightmare-Rook.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Nightmare-Rook.webp",
+            "scale": 2
           }
         }
       }
@@ -43558,15 +43444,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Nilak.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Nilak.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Nilak.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Nilak.webp",
+            "scale": 2
           }
         }
       }
@@ -43575,15 +43460,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Niodrhast.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Niodrhast.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Niodrhast.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Niodrhast.webp",
+            "scale": 2
           }
         }
       }
@@ -43592,15 +43476,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Nishkiv-The-Knife.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Nishkiv-The-Knife.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Nishkiv-The-Knife.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Nishkiv-The-Knife.webp",
+            "scale": 2
           }
         }
       }
@@ -43609,15 +43492,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Nok-Nok.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Nok-Nok.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Nok-Nok.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Nok-Nok.webp",
+            "scale": 2
           }
         }
       }
@@ -43626,15 +43508,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Nok-Nok.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Nok-Nok.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Nok-Nok.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Nok-Nok.webp",
+            "scale": 2
           }
         }
       }
@@ -43643,15 +43524,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Ntavi.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Ntavi.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ntavi.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Ntavi.webp",
+            "scale": 2
           }
         }
       }
@@ -43660,15 +43540,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Nugrah.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Nugrah.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Nugrah.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Nugrah.webp",
+            "scale": 2
           }
         }
       }
@@ -43677,15 +43556,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Numerian-Adamantine-Golem.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Numerian-Adamantine-Golem.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Numerian-Adamantine-Golem.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Numerian-Adamantine-Golem.webp",
+            "scale": 2
           }
         }
       }
@@ -43694,15 +43572,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Numerian-Guthallah.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Numerian-Guthallah.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Numerian-Guthallah.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Numerian-Guthallah.webp",
+            "scale": 2
           }
         }
       }
@@ -43711,15 +43588,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Numerian-Radiant-Warden.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Numerian-Radiant-Warden.webp",
           "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleY": 2.5
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Numerian-Radiant-Warden.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Numerian-Radiant-Warden.webp",
+            "scale": 2
           }
         }
       }
@@ -43728,15 +43604,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Nyrissa.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Nyrissa.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Nyrissa.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Nyrissa.webp",
+            "scale": 2
           }
         }
       }
@@ -43745,15 +43620,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Old-Crackjaw.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Old-Crackjaw.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Old-Crackjaw.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Old-Crackjaw.webp",
+            "scale": 2
           }
         }
       }
@@ -43762,15 +43636,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Oleg.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Oleg.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Oleg.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Oleg.webp",
+            "scale": 2
           }
         }
       }
@@ -43779,15 +43652,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Overgrown-Viper-Vine.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Overgrown-Viper-Vine.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Overgrown-Viper-Vine.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Overgrown-Viper-Vine.webp",
+            "scale": 2
           }
         }
       }
@@ -43796,15 +43668,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Oversized-Chimera.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Oversized-Chimera.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Oversized-Chimera.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Oversized-Chimera.webp",
+            "scale": 2
           }
         }
       }
@@ -43813,15 +43684,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Pavetta-Stroon-Drelev.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Pavetta-Stroon-Drelev.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Pavetta-Stroon-Drelev.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Pavetta-Stroon-Drelev.webp",
+            "scale": 2
           }
         }
       }
@@ -43830,15 +43700,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Phomandala.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Phomandala.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Phomandala.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Phomandala.webp",
+            "scale": 2
           }
         }
       }
@@ -43847,15 +43716,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Pitax-Warden.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Pitax-Warden.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Pitax-Warden.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Pitax-Warden.webp",
+            "scale": 2
           }
         }
       }
@@ -43864,15 +43732,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Prank-Workshop-Mitflit.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Prank-Workshop-Mitflit.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Prank-Workshop-Mitflit.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Prank-Workshop-Mitflit.webp",
+            "scale": 2
           }
         }
       }
@@ -43881,15 +43748,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Prazil.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Prazil.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Prazil.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Prazil.webp",
+            "scale": 2
           }
         }
       }
@@ -43898,15 +43764,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Primal-Bandersnatch.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Primal-Bandersnatch.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Primal-Bandersnatch.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Primal-Bandersnatch.webp",
+            "scale": 2
           }
         }
       }
@@ -43915,15 +43780,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Quintessa-Maray.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Quintessa-Maray.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Quintessa-Maray.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Quintessa-Maray.webp",
+            "scale": 2
           }
         }
       }
@@ -43932,15 +43796,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Rezatha.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Rezatha.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Rezatha.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Rezatha.webp",
+            "scale": 2
           }
         }
       }
@@ -43949,15 +43812,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Rigg-Gargadilly.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Rigg-Gargadilly.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Rigg-Gargadilly.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Rigg-Gargadilly.webp",
+            "scale": 2
           }
         }
       }
@@ -43966,15 +43828,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Risen-Fetch.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Risen-Fetch.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Risen-Fetch.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Risen-Fetch.webp",
+            "scale": 2
           }
         }
       }
@@ -43983,15 +43844,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/River-Elasmosaurus.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/River-Elasmosaurus.webp",
-          "scaleX": 3,
-          "scaleY": 3
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/River-Elasmosaurus.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/River-Elasmosaurus.webp",
+            "scale": 2
           }
         }
       }
@@ -44000,15 +43860,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Satinder-Morne.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Satinder-Morne.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Satinder-Morne.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Satinder-Morne.webp",
+            "scale": 2
           }
         }
       }
@@ -44017,15 +43876,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Sepoko.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Sepoko.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Sepoko.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Sepoko.webp",
+            "scale": 2
           }
         }
       }
@@ -44034,15 +43892,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Shambler.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Shambler.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Shambler.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Shambler.webp",
+            "scale": 2
           }
         }
       }
@@ -44051,15 +43908,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Sir-Fredero-Sinnet.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Sir-Fredero-Sinnet.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Sir-Fredero-Sinnet.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Sir-Fredero-Sinnet.webp",
+            "scale": 2
           }
         }
       }
@@ -44068,15 +43924,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Sister-Of-The-Bloodshot-Eye.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Sister-Of-The-Bloodshot-Eye.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Sister-Of-The-Bloodshot-Eye.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Sister-Of-The-Bloodshot-Eye.webp",
+            "scale": 2
           }
         }
       }
@@ -44085,15 +43940,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Skeletal-Tiger-Lord.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Skeletal-Tiger-Lord.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Skeletal-Tiger-Lord.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Skeletal-Tiger-Lord.webp",
+            "scale": 2
           }
         }
       }
@@ -44102,15 +43956,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Spirit-Of-Stisshak.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Spirit-Of-Stisshak.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Spirit-Of-Stisshak.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Spirit-Of-Stisshak.webp",
+            "scale": 2
           }
         }
       }
@@ -44119,15 +43972,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Stag-Lord-Bandit.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Stag-Lord-Bandit.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Stag-Lord-Bandit.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Stag-Lord-Bandit.webp",
+            "scale": 2
           }
         }
       }
@@ -44136,15 +43988,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Storm-Struck-Arboreal.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Storm-Struck-Arboreal.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Storm-Struck-Arboreal.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Storm-Struck-Arboreal.webp",
+            "scale": 2
           }
         }
       }
@@ -44153,15 +44004,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Svetlana.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Svetlana.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Svetlana.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Svetlana.webp",
+            "scale": 2
           }
         }
       }
@@ -44170,15 +44020,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Talon-Peak-Roc.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Talon-Peak-Roc.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Talon-Peak-Roc.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Talon-Peak-Roc.webp",
+            "scale": 2
           }
         }
       }
@@ -44187,15 +44036,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Tartuccio.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Tartuccio.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Tartuccio.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Tartuccio.webp",
+            "scale": 2
           }
         }
       }
@@ -44204,15 +44052,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Terrion-Numesti.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Terrion-Numesti.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Terrion-Numesti.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Terrion-Numesti.webp",
+            "scale": 2
           }
         }
       }
@@ -44221,15 +44068,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Beast.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Beast.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Beast.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Beast.webp",
+            "scale": 2
           }
         }
       }
@@ -44238,15 +44084,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Dancing-Lady.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Dancing-Lady.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Dancing-Lady.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Dancing-Lady.webp",
+            "scale": 2
           }
         }
       }
@@ -44255,15 +44100,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-First-Faithful.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-First-Faithful.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-First-Faithful.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-First-Faithful.webp",
+            "scale": 2
           }
         }
       }
@@ -44272,15 +44116,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Gardener.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Gardener.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Gardener.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Gardener.webp",
+            "scale": 2
           }
         }
       }
@@ -44289,15 +44132,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Horned-Hunter.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Horned-Hunter.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Horned-Hunter.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Horned-Hunter.webp",
+            "scale": 2
           }
         }
       }
@@ -44306,15 +44148,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Knurly-Witch.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Knurly-Witch.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Knurly-Witch.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Knurly-Witch.webp",
+            "scale": 2
           }
         }
       }
@@ -44323,15 +44164,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Lonely-Warrior.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Lonely-Warrior.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Lonely-Warrior.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Lonely-Warrior.webp",
+            "scale": 2
           }
         }
       }
@@ -44340,15 +44180,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Misbegotten-Troll.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Misbegotten-Troll.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Misbegotten-Troll.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Misbegotten-Troll.webp",
+            "scale": 2
           }
         }
       }
@@ -44357,15 +44196,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Stag-Lord.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Stag-Lord.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Stag-Lord.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Stag-Lord.webp",
+            "scale": 2
           }
         }
       }
@@ -44374,15 +44212,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/The-Wriggling-Man.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/The-Wriggling-Man.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Wriggling-Man.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/The-Wriggling-Man.webp",
+            "scale": 2
           }
         }
       }
@@ -44391,15 +44228,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Thorn-River-Bandit.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Thorn-River-Bandit.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Thorn-River-Bandit.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Thorn-River-Bandit.webp",
+            "scale": 2
           }
         }
       }
@@ -44408,15 +44244,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Thresholder-Disciple.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Thresholder-Disciple.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Thresholder-Disciple.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Thresholder-Disciple.webp",
+            "scale": 2
           }
         }
       }
@@ -44425,15 +44260,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Thresholder-Hermeticist.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Thresholder-Hermeticist.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Thresholder-Hermeticist.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Thresholder-Hermeticist.webp",
+            "scale": 2
           }
         }
       }
@@ -44442,15 +44276,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Thresholder-Mystic.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Thresholder-Mystic.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Thresholder-Mystic.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Thresholder-Mystic.webp",
+            "scale": 2
           }
         }
       }
@@ -44459,15 +44292,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Thylacine.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Thylacine.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Thylacine.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Thylacine.webp",
+            "scale": 2
           }
         }
       }
@@ -44476,15 +44308,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Tiger-Lord.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Tiger-Lord.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Tiger-Lord.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Tiger-Lord.webp",
+            "scale": 2
           }
         }
       }
@@ -44493,15 +44324,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Tiger-Lord-Hill-Giant.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Tiger-Lord-Hill-Giant.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Tiger-Lord-Hill-Giant.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Tiger-Lord-Hill-Giant.webp",
+            "scale": 2
           }
         }
       }
@@ -44510,15 +44340,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Trapdoor-Ogre-Spider.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Trapdoor-Ogre-Spider.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Trapdoor-Ogre-Spider.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Trapdoor-Ogre-Spider.webp",
+            "scale": 2
           }
         }
       }
@@ -44527,15 +44356,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Tree-That-Weeps.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Tree-That-Weeps.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Tree-That-Weeps.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Tree-That-Weeps.webp",
+            "scale": 2
           }
         }
       }
@@ -44544,15 +44372,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Tristian.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Tristian.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Tristian.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Tristian.webp",
+            "scale": 2
           }
         }
       }
@@ -44561,15 +44388,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Tristian.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Tristian.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Tristian.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Tristian.webp",
+            "scale": 2
           }
         }
       }
@@ -44578,15 +44404,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Troll-Guard.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Troll-Guard.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Troll-Guard.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Troll-Guard.webp",
+            "scale": 2
           }
         }
       }
@@ -44595,15 +44420,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Tulvak.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Tulvak.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Tulvak.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Tulvak.webp",
+            "scale": 2
           }
         }
       }
@@ -44612,15 +44436,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Valerie.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Valerie.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Valerie.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Valerie.webp",
+            "scale": 2
           }
         }
       }
@@ -44629,15 +44452,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Valerie.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Valerie.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Valerie.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Valerie.webp",
+            "scale": 2
           }
         }
       }
@@ -44646,15 +44468,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Vicious-Army-Ant-Swarm.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Vicious-Army-Ant-Swarm.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Vicious-Army-Ant-Swarm.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Vicious-Army-Ant-Swarm.webp",
+            "scale": 2
           }
         }
       }
@@ -44663,15 +44484,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Vilderavn-Herald.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Vilderavn-Herald.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Vilderavn-Herald.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Vilderavn-Herald.webp",
+            "scale": 2
           }
         }
       }
@@ -44680,15 +44500,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Villamor-Koth.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Villamor-Koth.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Villamor-Koth.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Villamor-Koth.webp",
+            "scale": 2
           }
         }
       }
@@ -44697,15 +44516,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Virthad.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Virthad.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Virthad.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Virthad.webp",
+            "scale": 2
           }
         }
       }
@@ -44714,15 +44532,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Volodmyra.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Volodmyra.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Volodmyra.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Volodmyra.webp",
+            "scale": 2
           }
         }
       }
@@ -44731,15 +44548,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Vordakai.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Vordakai.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Vordakai.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Vordakai.webp",
+            "scale": 2
           }
         }
       }
@@ -44748,15 +44564,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Werendegar.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Werendegar.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Werendegar.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Werendegar.webp",
+            "scale": 2
           }
         }
       }
@@ -44765,15 +44580,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Whimwyrm.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Whimwyrm.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Whimwyrm.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Whimwyrm.webp",
+            "scale": 2
           }
         }
       }
@@ -44782,15 +44596,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Wild-Hunt-Archer.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Wild-Hunt-Archer.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Wild-Hunt-Archer.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Wild-Hunt-Archer.webp",
+            "scale": 2
           }
         }
       }
@@ -44799,15 +44612,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Wild-Hunt-Horse.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Wild-Hunt-Horse.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Wild-Hunt-Horse.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Wild-Hunt-Horse.webp",
+            "scale": 2
           }
         }
       }
@@ -44816,15 +44628,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Wild-Hunt-Hound.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Wild-Hunt-Hound.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Wild-Hunt-Hound.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Wild-Hunt-Hound.webp",
+            "scale": 2
           }
         }
       }
@@ -44833,15 +44644,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Wild-Hunt-Monarch.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Wild-Hunt-Monarch.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Wild-Hunt-Monarch.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Wild-Hunt-Monarch.webp",
+            "scale": 2
           }
         }
       }
@@ -44850,15 +44660,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Wild-Hunt-Scout.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Wild-Hunt-Scout.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Wild-Hunt-Scout.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Wild-Hunt-Scout.webp",
+            "scale": 2
           }
         }
       }
@@ -44867,15 +44676,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Windchaser.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Windchaser.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Windchaser.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Windchaser.webp",
+            "scale": 2
           }
         }
       }
@@ -44884,15 +44692,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Winged-Owlbear.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Winged-Owlbear.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Winged-Owlbear.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Winged-Owlbear.webp",
+            "scale": 2
           }
         }
       }
@@ -44901,15 +44708,14 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Xae.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Xae.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Xae.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Xae.webp",
+            "scale": 2
           }
         }
       }
@@ -44918,390 +44724,235 @@
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/Zorek.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/Zorek.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Zorek.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/kingmaker/Zorek.webp",
+            "scale": 2
           }
         }
       }
     },
     "MN2Bw4uzDJxuIOWa": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Gray-10.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Basic-Cavalry.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Gray-10.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Basic-Cavalry.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gray-10.webp",
-            "scale": 1
-          }
         }
       }
     },
     "FLmrdtZlP2LZTkyr": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Gray-03.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Basic-Infantry.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Gray-03.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Basic-Infantry.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gray-03.webp",
-            "scale": 1
-          }
         }
       }
     },
     "rRFSwMaphI2v0CCZ": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/symbols/Gray-22.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Basic-Siege-Engines.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/symbols/Gray-22.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Basic-Siege-Engines.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gray-22.webp",
-            "scale": 1
-          }
         }
       }
     },
     "WFKh1twN246LMp8Z": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Gray-28.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Basic-Skirmishers.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Gray-28.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Basic-Skirmishers.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gray-28.webp",
-            "scale": 1
-          }
         }
       }
     },
     "NeOFdBMSjhuZKEwG": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-30.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Catspaw-Tigers.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-30.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Catspaw-Tigers.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Yellow-30.webp",
-            "scale": 1
-          }
         }
       }
     },
     "E5rhB1dzkBVnaEDX": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Red-01.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Drelev-Irregulars.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Red-01.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Drelev-Irregulars.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Red-01.webp",
-            "scale": 1
-          }
         }
       }
     },
     "2nCGeGTO7HQjEETs": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Green-05.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/First-World-Army.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Green-05.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/First-World-Army.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Green-05.webp",
-            "scale": 1
-          }
         }
       }
     },
     "2El6FqQzlbmAXUjG": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Green-16.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Greengripe-Bombardiers.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Green-16.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Greengripe-Bombardiers.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Green-16.webp",
-            "scale": 1
-          }
         }
       }
     },
     "gNnyvSLsItTN0Ks4": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Green-25.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Lizardfolk-Defenders.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Green-25.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Lizardfolk-Defenders.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Green-25.webp",
-            "scale": 1
-          }
         }
       }
     },
     "mwn9zBaCeYfEmmIa": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Green-13.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Mbotuu-Frog-Riders.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Green-13.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Mbotuu-Frog-Riders.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Green-13.webp",
-            "scale": 1
-          }
         }
       }
     },
     "EM8SeGIwho2W1EMX": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Blue-23.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Narlmarch-Hunters.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Blue-23.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Narlmarch-Hunters.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Blue-23.webp",
-            "scale": 1
-          }
         }
       }
     },
     "NnpIpHnF79DRLl61": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-20.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Nomen-Scouts.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-20.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Nomen-Scouts.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Yellow-20.webp",
-            "scale": 1
-          }
         }
       }
     },
     "EJ0a2F8Z01HfeFy9": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Purple-06.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Pitax-Horde.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Purple-06.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Pitax-Horde.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Purple-06.webp",
-            "scale": 1
-          }
         }
       }
     },
     "mCUB9NQUkbEayP7d": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Purple-24.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Pitaxian-Raiders.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Purple-24.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Pitaxian-Raiders.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Purple-24.webp",
-            "scale": 1
-          }
         }
       }
     },
     "pz4U2u7oUA76JlJm": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Purple-21.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Pitax-War-Machines.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Purple-21.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Pitax-War-Machines.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Purple-21.webp",
-            "scale": 1
-          }
         }
       }
     },
     "mbasYZ9EQcttMLAf": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Gray-08.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Sootscale-Warriors.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Gray-08.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Sootscale-Warriors.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gray-08.webp",
-            "scale": 1
-          }
         }
       }
     },
     "CfSo8UrTJic4zroJ": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Blue-03.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Tatzlford-Town-Guard.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Blue-03.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Tatzlford-Town-Guard.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Blue-03.webp",
-            "scale": 1
-          }
         }
       }
     },
     "KTVhFf20HeFjmrwr": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-30.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Catspaw-Tigers.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-30.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Catspaw-Tigers.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Yellow-30.webp",
-            "scale": 1
-          }
         }
       }
     },
     "v5NeW4MzzWRfNd6r": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Silver-12.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Tok-Nikrat-Scouts.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Silver-12.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Tok-Nikrat-Scouts.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Silver-12.webp",
-            "scale": 1
-          }
         }
       }
     },
     "JMFfbmnOG75RuuXv": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/symbols/Red-18.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Troll-Marauders.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/symbols/Red-18.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Troll-Marauders.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Red-18.webp",
-            "scale": 1
-          }
         }
       }
     },
     "s8Ol97yji6CbWt1l": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-26.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Tusker-Riders.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Yellow-26.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Tusker-Riders.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Yellow-26.webp",
-            "scale": 1
-          }
         }
       }
     },
     "B9FuY1XYxU5SOcuI": {
-      "actor": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Purple-04.webp",
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Wyvern-Flight.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/adventure-patch/kingmaker/party/creatures/Purple-04.webp",
+          "src": "modules/pf2e-token-pack/portraits/adventure-patch/kingmaker/armies/Wyvern-Flight.webp",
           "scaleX": 1.5,
           "scaleY": 1.5
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Purple-04.webp",
-            "scale": 1
-          }
         }
       }
     }

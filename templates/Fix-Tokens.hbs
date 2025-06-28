@@ -1,0 +1,70 @@
+<form>
+    <h2>{{title}}</h2>
+    <p>{{header}}</p>
+    <hr>
+
+    {{#if isActors}}
+    <div class="form-group" style="margin-bottom: 10px;">
+        <input type="text" id="actor-search" placeholder="{{localize 'PF2E-TOKEN-PACK.FixTokensSearchPlaceholder'}}" style="width: 100%;">
+    </div>
+    {{/if}}
+
+    <div class="form-fields">
+        {{#*inline "treePartial"}}
+            {{#each this}}
+                <div class="tree-node" data-id="{{this.id}}" data-name="{{this.name}}">
+                    {{#if this.children.length}}
+                        <details>
+                            <summary class="tree-item folder">
+                                <span class="tree-toggle-icon"></span>
+                                <input type="checkbox" name="{{this.id}}" id="check-{{this.id}}" {{#if this.checked}}checked{{/if}}>
+                                <label for="check-{{this.id}}"><i class="fas fa-folder"></i>&nbsp;{{this.name}}</label>
+                            </summary>
+                            <div class="tree-children">
+                                {{> treePartial this.children}}
+                            </div>
+                        </details>
+                    {{else}}
+                        <div class="form-group tree-item leaf">
+                            <input type="checkbox" name="{{this.id}}" id="check-{{this.id}}" {{#if this.checked}}checked{{/if}}>
+                            <label for="check-{{this.id}}">
+                                {{#if this.isFolder}}<i class="fas fa-folder"></i>
+                                {{else}}<i class="fas fa-user"></i>
+                                {{/if}}
+                                &nbsp;{{this.name}}
+                            </label>
+                        </div>
+                    {{/if}}
+                </div>
+            {{/each}}
+        {{/inline}}
+        
+        {{#if isTree}}
+            {{> treePartial options}}
+        {{else}}
+             {{#each options}}
+                <div class="form-group">
+                    <label for="{{this.id}}">{{this.name}}</label>
+                    <input type="checkbox" name="{{this.id}}" {{#if this.checked}}checked{{/if}}>
+                </div>
+            {{/each}}
+        {{/if}}
+    </div>
+
+    <hr>
+    <button type="submit">
+        <i class="fas fa-save"></i> {{localize "PF2E-TOKEN-PACK.FixTokensSave"}}
+    </button>
+</form>
+
+<style>
+.tree-item { display: flex; align-items: center; padding: 2px 0; gap: 0.5em; }
+.tree-item label { margin: 0; cursor: pointer; }
+.tree-item input[type="checkbox"] { margin: 0; }
+details { padding-left: 1.2em; }
+details > summary { list-style: none; margin-left: -1.2em; cursor: pointer;}
+details > summary .tree-toggle-icon::before { content: '▶'; }
+details[open] > summary .tree-toggle-icon::before { content: '▼'; }
+.tree-children { padding-left: 1.2em; border-left: 1px solid #ccc; margin-left: 5px; }
+.leaf { padding-left: 1.2em; }
+</style>

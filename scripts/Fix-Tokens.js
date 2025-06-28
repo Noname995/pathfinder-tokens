@@ -1,304 +1,282 @@
-async function showMyScriptDialog() {
-  const actorsToSelect = game.actors.contents.filter(a => !["character", "hazard", "loot"].includes(a.type));
-
-  if (actorsToSelect.length === 0) {
-    ui.notifications.warn(game.i18n.localize("PF2E-TOKEN-PACK.FixTokensNoActorsFound"));
-    return;
-  }
-
-  let dialogContent = `
-    <p>${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensDialogDescription")}</p>
-
-    <div style="margin-bottom: 10px;">
-        <input type="text" id="actor-search" placeholder="${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensSearchPlaceholder")}" style="width: 100%; padding: 5px; border-radius: 3px; border: 1px solid #ccc;" />
-    </div>
-
-    <form>
-        <div id="actor-list" style="height: 350px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-  `;
-
-  actorsToSelect.sort((a, b) => a.name.localeCompare(b.name)).forEach(actor => {
-    dialogContent += `
-        <div class="actor-item" style="padding: 2px; display: flex; align-items: center;">
-            <input type="checkbox" id="${actor.id}" name="excluded-actors" value="${actor.id}" style="margin-right: 8px;">
-            <label for="${actor.id}">${actor.name}</label>
-        </div>
-    `;
-  });
-
-  dialogContent += `</div></form>`;
-
-  new Dialog({
-    title: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensDialogTitle"),
-    content: dialogContent,
-    buttons: {
-      run: {
-        icon: '<i class="fas fa-play"></i>',
-        label: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensRunButton"),
-        callback: (html) => {
-          const excludedActorIds = html.find('input[name="excluded-actors"]:checked').map((i, el) => $(el).val()).get();
-          runUpdateScript(excludedActorIds);
-        }
-      },
-      cancel: {
-        icon: '<i class="fas fa-times"></i>',
-        label: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensCancelButton"),
-        callback: () => {
-          ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.FixTokensOperationCanceled"));
-        }
-      }
-    },
-    default: "run",
-    render: html => {
-      $(html).closest(".dialog").css("width", "400px");
-      const searchInput = html.find('#actor-search');
-      const actorList = html.find('#actor-list');
-
-      searchInput.on('input', event => {
-        const searchTerm = event.currentTarget.value.toLowerCase().trim();
-        actorList.find('.actor-item').each((i, el) => {
-          const actorName = $(el).find('label').text().toLowerCase();
-          $(el).toggle(actorName.includes(searchTerm));
-        });
-      });
+// --- КЛАССЫ ИНТЕРФЕЙСА ---
+class ExclusionForm extends FormApplication {
+    static get defaultOptions() { 
+        return mergeObject(super.defaultOptions, { 
+            width: 550, 
+            height: 'auto', 
+            classes: ['pf2e-token-pack', 'exclusion-form'], 
+            template: `modules/pf2e-token-pack/templates/Fix-Tokens.hbs`, 
+            resizable: true, 
+            closeOnSubmit: true, 
+        }); 
     }
-  }).render(true);
+    activateListeners(html) { super.activateListeners(html); html.on('change', 'input[type="checkbox"]', (event) => { const checkbox = event.currentTarget; const details = $(checkbox).closest('details'); if(details.length) { details.find('.tree-node input[type="checkbox"]').prop('checked', checkbox.checked); } }); }
+    async _updateObject(event, formData) { const selectedIds = Object.keys(formData).filter(key => formData[key]); await game.settings.set('pf2e-token-pack', this.options.setting, selectedIds); ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.FixTokensExclusionsSaved")); }
 }
 
-async function runUpdateScript(excludedActorIds = []) {
-    ui.notifications.info("Приступаем к проверке...");
+class ExcludeTypesForm extends ExclusionForm {
+    static get defaultOptions() { return mergeObject(super.defaultOptions, { id: 'fix-tokens-exclude-types', title: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensExcludeTypesTitle"), setting: 'fix-tokens-excluded-types', header: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensExcludeTypesHeader") }); }
+    
+    async getData() {
+        const saved = game.settings.get('pf2e-token-pack', 'fix-tokens-excluded-types');
+        // <<< ИСПРАВЛЕНИЕ: Добавлен фильтр, чтобы убрать 'party' из списка
+        const allTypes = [...new Set(game.actors.map(a => a.type).filter(t => t && t !== 'party'))].sort();
+        const getLocalizedType = (type) => game.i18n.localize(`PF2E-TOKEN-PACK.FixTokensActorTypes.${type}`) ?? type;
+        
+        return { 
+            title: this.options.title, 
+            header: this.options.header, 
+            options: allTypes.map(type => ({ 
+                id: type, 
+                name: getLocalizedType(type), 
+                checked: saved.includes(type) 
+            })) 
+        };
+    }
+}
 
-    const updatedActors = [];
-    const notUpdatedActors = [];
-    const updatedTokens = [];
-    const notUpdatedTokens = [];
+// Замените этот класс целиком
+class ExcludeActorsForm extends ExclusionForm {
+    static get defaultOptions() { return mergeObject(super.defaultOptions, { id: 'fix-tokens-exclude-actors', title: "Исключение по актерам", setting: 'fix-tokens-manual-excluded-actors', header: "Выберите актеров для исключения из обработки", height: 700 }); }
+    
+    buildActorTree() {
+        // <<< ИСПРАВЛЕНИЕ: Аккуратно добавляем логику выбора по умолчанию в вашу рабочую версию
+        let saved = game.settings.get('pf2e-token-pack', 'fix-tokens-manual-excluded-actors');
+        const defaultSet = game.settings.get('pf2e-token-pack', 'actor-default-set');
+        const partyForDefault = game.actors.find(a => a.type === 'party');
+
+        if (!defaultSet && partyForDefault) {
+            const idsToDefault = [partyForDefault.id, ...partyForDefault.members.map(m => m.id)];
+            saved = Array.from(new Set([...saved, ...idsToDefault]));
+        }
+        // Конец блока по умолчанию. Дальше идет ваша оригинальная, рабочая логика.
+
+        const nodeMap = new Map();
+        const party = game.actors.find(a => a.type === 'party');
+        const partyMemberIds = new Set(party ? party.members.map(m => m.id) : []);
+        const folders = game.folders.filter(f => f.type === 'Actor');
+        const actors = game.actors.filter(a => a.type !== "party" && !partyMemberIds.has(a.id));
+
+        folders.forEach(f => nodeMap.set(f.id, { id: f.id, name: f.name, checked: saved.includes(f.id), children: [], isFolder: true, parentId: f.folder?.id || null, sort: f.sort }));
+        actors.forEach(a => nodeMap.set(a.id, { id: a.id, name: a.name, checked: saved.includes(a.id), children: [], isActor: true, parentId: a.folder?.id || null, sort: a.sort }));
+        
+        if (party) {
+            const partyNode = { id: party.id, name: party.name, checked: saved.includes(party.id), children: [], isFolder: true, parentId: null, sort: -1 };
+            party.members.forEach(member => {
+                const memberNode = { id: member.id, name: member.name, checked: saved.includes(member.id), children: [], isActor: true, parentId: party.id, sort: member.sort };
+                partyNode.children.push(memberNode);
+            });
+            nodeMap.set(party.id, partyNode);
+        }
+
+        const tree = [];
+        nodeMap.forEach(node => {
+            const parent = node.parentId ? nodeMap.get(node.parentId) : null;
+            if (parent) {
+                parent.children.push(node);
+            } else {
+                tree.push(node);
+            }
+        });
+        
+        const sortRecursive = (nodes) => {
+            nodes.sort((a, b) => (a.isFolder === b.isFolder ? 0 : a.isFolder ? -1 : 1) || a.sort - b.sort || a.name.localeCompare(b.name, "ru"));
+            nodes.forEach(node => sortRecursive(node.children));
+        };
+        sortRecursive(tree);
+        return tree;
+    }
+
+    async getData() { return { title: this.options.title, header: this.options.header, options: this.buildActorTree(), isTree: true, isActors: true }; }
+    
+    // <<< ИСПРАВЛЕНИЕ: Добавляем метод для установки флага после первого сохранения
+    async _updateObject(event, formData) {
+        await super._updateObject(event, formData);
+        if (!game.settings.get('pf2e-token-pack', 'actor-default-set')) {
+            await game.settings.set('pf2e-token-pack', 'actor-default-set', true);
+        }
+    }
+
+    activateListeners(html) {
+        super.activateListeners(html);
+        const searchInput = html.find('#actor-search');
+        if (!searchInput.length) return;
+        searchInput.on('input', (event) => {
+            const searchTerm = $(event.currentTarget).val().toLowerCase().trim();
+            const allNodes = html.find('.tree-node');
+            if (!searchTerm) { allNodes.show(); return; }
+            const visibleIds = new Set();
+            allNodes.filter((i, el) => $(el).data('name').toLowerCase().includes(searchTerm) && $(el).find('input').length > 0 && !$(el).find('.tree-node').length).each((i, el) => {
+                const node = $(el);
+                visibleIds.add(node.data('id'));
+                node.parents('.tree-node').each((i, parent) => { visibleIds.add($(parent).data('id')); });
+            });
+            allNodes.each((i, el) => {
+                const node = $(el);
+                if (visibleIds.has(node.data('id'))) { node.show(); node.parents('details').prop('open', true); } else { node.hide(); }
+            });
+        });
+    }
+}
+class MainMenuForm extends FormApplication {
+    static get defaultOptions() { return mergeObject(super.defaultOptions, { id: "fix-tokens-main-menu", title: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensMainMenuTitle"), width: 550, height: "auto", classes: ["pf2e-token-pack"], template: `data:text/html,`, closeOnSubmit: false }); }
+    
+    _renderInner() {
+        const menuItems = [ { key: 'ExcludedTypes', hint: 'ExcludedTypesHint', action: 'manage-types' }, { key: 'ExcludedActors', hint: 'ExcludedActorsHint', action: 'manage-actors' }];
+        let content = `<div class="form-group"><h3>${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensManageExclusions")}</h3></div>`;
+        menuItems.forEach(item => { content += `<div class="form-group main-menu-row"><label>${game.i18n.localize("PF2E-TOKEN-PACK.FixTokens" + item.key) ?? item.key}</label><button type="button" data-action="${item.action}" title="${game.i18n.localize("PF2E-TOKEN-PACK.FixTokens"+item.hint)}"><i class="fas fa-cogs"></i> ${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensButtonManage")}</button></div>`; });
+        content += `<hr><div class="form-group main-menu-row"><label>${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensMenuName")}</label><button type="button" class="run-button" data-action="run-fix" title="${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensRunFixHint")}"><i class="fas fa-play"></i> ${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensButtonRun")}</button></div>`;
+        const styles = `<style>.main-menu-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }.main-menu-row label { flex-grow: 1; margin: 0; }.main-menu-row button { flex-basis: 120px; }.run-button { background-color: #4caf50; color: white; }</style>`;
+        return $(styles + content);
+    }
+    async render(force, options) { const content = this._renderInner(); const template = `<form>${content[1].outerHTML}</form>`; this.options.template = `data:text/html,${encodeURIComponent(template)}`; return super.render(force, options); }
+    
+    activateListeners(html) { super.activateListeners(html); html.on('click', 'button', this._onButtonClick.bind(this)); }
+    
+    async _onButtonClick(event) {
+        event.preventDefault();
+        const action = event.currentTarget.dataset.action;
+        switch (action) {
+            case 'manage-types': new ExcludeTypesForm().render(true); break;
+            case 'manage-actors': new ExcludeActorsForm().render(true); break;
+            case 'run-fix': this.close(); runUpdateScript(); break;
+        }
+    }
+}
+
+// --- ОСНОВНАЯ ЛОГИКА ---
+function isActorExcludedBySettings(actor) {
+    const excludedTypes = game.settings.get('pf2e-token-pack', 'fix-tokens-excluded-types');
+    if (excludedTypes.includes(actor.type)) return true;
+    return false;
+}
+
+async function runUpdateScript() {
+    ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.FixTokensCheckStarted"));
+    const manualExcludedIds = game.settings.get('pf2e-token-pack', 'fix-tokens-manual-excluded-actors');
+    const updatedActors = [], notUpdatedActors = [], updatedTokens = [];
 
     for (const actor of game.actors.contents) {
-        // Пропускаем персонажей игроков, ловушки, добычу и актеров, выбранных для исключения.
-        if (["character", "hazard", "loot"].includes(actor.type) || excludedActorIds.includes(actor.id)) {
-            continue;
-        }
-
+        if (isActorExcludedBySettings(actor) || manualExcludedIds.includes(actor.id) || actor.type === 'party') continue;
+        
         let original = null;
-        let actorId = null;
-        let reasonForFailure = "";
-
-        // --- Поиск Method 1: По ID из compendiumSource ---
         const source = actor._stats?.compendiumSource;
-        const match = source?.match(/\.([A-Za-z0-9]{16})$/);
-
-        if (match) {
-            actorId = match[1];
-            for (const pack of game.packs.values()) {
-                if (pack.documentName !== "Actor") continue;
-                if (pack.index.size === 0) await pack.getIndex();
-                if (pack.index.get(actorId)) {
-                    original = await pack.getDocument(actorId);
-                    break;
-                }
-            }
-        }
-
-        // --- Поиск Method 2: Резервный поиск по имени из флагов Babele ---
+        if (source) { const doc = await fromUuid(source); if (doc?.pack) original = doc; }
+        if (!original && source) { const match = source.match(/^Actor\.(\w{16})$/); if (match) { const actorId = match[1]; for (const pack of game.packs.filter(p => p.documentName === "Actor")) { if (pack.index.size === 0) await pack.getIndex({ fields: ["_id"] }); if (pack.index.has(actorId)) { original = await pack.getDocument(actorId); break; } } } }
+        if (!original) { const babeleName = actor.flags?.babele?.originalName; if (babeleName) { for (const pack of game.packs.filter(p => p.documentName === "Actor")) { if (pack.index.size === 0) await pack.getIndex({ fields: ["name"] }); const entry = pack.index.find(i => i.name === babeleName); if (entry) { original = await pack.getDocument(entry._id); break; } } } }
         if (!original) {
-            const babeleName = actor.flags?.babele?.originalName;
-            if (babeleName) {
-                reasonForFailure = game.i18n.format("PF2E-TOKEN-PACK.FixTokensBabeleNameNotFound", { actorId: actorId || game.i18n.localize("PF2E-TOKEN-PACK.FixTokensNotFound"), babeleName });
-                for (const pack of game.packs.values()) {
-                    if (pack.documentName !== "Actor") continue;
-                    if (pack.index.size === 0) await pack.getIndex();
-                    const entry = pack.index.find(i => i.name === babeleName);
-                    if (entry) {
-                        original = await pack.getDocument(entry._id);
-                        break;
-                    }
-                }
-            }
-        }
-
-        // Если оригинал не найден — логируем и пропускаем
-        if (!original) {
-            if (!reasonForFailure) {
-                reasonForFailure = game.i18n.format("PF2E-TOKEN-PACK.FixTokensInvalidCompendiumSource", { source });
-            }
-            notUpdatedActors.push({ name: actor.name, reason: reasonForFailure });
+            notUpdatedActors.push({ name: actor.name, reason: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensSourceNotFound") });
             continue;
         }
 
-        // --- Сравнение и подготовка данных для обновления актера ---
+        // --- ЛОГИКА ОБНОВЛЕНИЯ, ОСНОВАННАЯ НА ВАШЕМ ОРИГИНАЛЬНОМ СКРИПТЕ ---
+
+        // 1. Обновление прототипа токена актера
         const currentPT = actor.prototypeToken.toObject();
         const originalPT = original.prototypeToken.toObject();
         const updatedPT = foundry.utils.deepClone(currentPT);
-        let needsUpdate = false;
-        let actorImgUpdate = null;
-
-        // Масштаб токена
-        if (currentPT.texture.scaleX !== originalPT.texture.scaleX) {
-            updatedPT.texture.scaleX = originalPT.texture.scaleX;
-            needsUpdate = true;
-        }
-        if (currentPT.texture.scaleY !== originalPT.texture.scaleY) {
-            updatedPT.texture.scaleY = originalPT.texture.scaleY;
-            needsUpdate = true;
-        }
-
-        // Обновление изображения актёра
-        if (actor.img !== original.img) {
-            actorImgUpdate = original.img;
-        }
-
-        // Восстановление ring.enabled
-        if (originalPT.ring?.enabled !== undefined && updatedPT.ring?.enabled !== originalPT.ring.enabled) {
-            foundry.utils.setProperty(updatedPT, "ring.enabled", originalPT.ring.enabled);
-            needsUpdate = true;
-        }
-
-        // Обновление свойств кольца и текстуры
+        let needsPrototypeUpdate = false;
+        
+        if (currentPT.texture.scaleX !== originalPT.texture.scaleX) { updatedPT.texture.scaleX = originalPT.texture.scaleX; needsPrototypeUpdate = true; }
+        if (currentPT.texture.scaleY !== originalPT.texture.scaleY) { updatedPT.texture.scaleY = originalPT.texture.scaleY; needsPrototypeUpdate = true; }
+        if (originalPT.ring?.enabled !== undefined && updatedPT.ring?.enabled !== originalPT.ring.enabled) { foundry.utils.setProperty(updatedPT, "ring.enabled", originalPT.ring.enabled); needsPrototypeUpdate = true; }
         if (originalPT.ring?.enabled) {
-            if (currentPT.ring?.subject?.scale !== originalPT.ring.subject.scale) {
-                foundry.utils.setProperty(updatedPT, "ring.subject.scale", originalPT.ring.subject.scale);
-                needsUpdate = true;
-            }
-            if (currentPT.ring?.subject?.texture !== originalPT.ring.subject.texture) {
-                foundry.utils.setProperty(updatedPT, "ring.subject.texture", originalPT.ring.subject.texture);
-                needsUpdate = true;
-            }
-            if (currentPT.texture.src !== original.img) {
-                updatedPT.texture.src = original.img;
-                needsUpdate = true;
-            }
+            if (currentPT.ring?.subject?.scale !== originalPT.ring.subject.scale) { foundry.utils.setProperty(updatedPT, "ring.subject.scale", originalPT.ring.subject.scale); needsPrototypeUpdate = true; }
+            if (currentPT.ring?.subject?.texture !== originalPT.ring.subject.texture) { foundry.utils.setProperty(updatedPT, "ring.subject.texture", originalPT.ring.subject.texture); needsPrototypeUpdate = true; }
+            if (currentPT.texture.src !== original.img) { updatedPT.texture.src = original.img; needsPrototypeUpdate = true; }
         } else {
-            // Если ring отключён — восстанавливаем оригинальную текстуру
-            if (currentPT.texture.src !== originalPT.texture.src) {
-                updatedPT.texture.src = originalPT.texture.src;
-                needsUpdate = true;
-            }
+            if (currentPT.texture.src !== originalPT.texture.src) { updatedPT.texture.src = originalPT.texture.src; needsPrototypeUpdate = true; }
         }
+        if (foundry.utils.getProperty(updatedPT, "flags.pf2e.autoscale") !== false) { foundry.utils.setProperty(updatedPT, "flags.pf2e.autoscale", false); needsPrototypeUpdate = true; }
+        
+        const actorUpdateData = {};
+        if (actor.img !== original.img) { actorUpdateData.img = original.img; }
+        if (needsPrototypeUpdate) { actorUpdateData.prototypeToken = updatedPT; }
 
-        // Автоматическое масштабирование выключаем
-        if (foundry.utils.getProperty(updatedPT, "flags.pf2e.autoscale") !== false) {
-            foundry.utils.setProperty(updatedPT, "flags.pf2e.autoscale", false);
-            needsUpdate = true;
-        }
-
-        // --- Применение изменений к актеру ---
-        if (actorImgUpdate || needsUpdate) {
-            let updateData = {};
-            if (actorImgUpdate) updateData.img = actorImgUpdate;
-            if (needsUpdate) updateData.prototypeToken = updatedPT;
-            await actor.update(updateData);
+        if (Object.keys(actorUpdateData).length > 0) {
+            await actor.update(actorUpdateData);
             updatedActors.push(actor.name);
         }
 
-        // === Обработка токенов на сценах ===
-        for (const scene of game.scenes.contents) {
-            for (const tokenDoc of scene.tokens.filter(t => t.actorId === actor.id)) {
-                if (!tokenDoc.actor) continue;
-
-                // --- Сравнение и обновление токена ---
-                const current = tokenDoc.toObject();
-                const originalForToken = original; // Используем уже найденный оригинал
-                const originalPTToken = originalForToken.prototypeToken.toObject();
-                let tokenUpdateData = {};
-
-                const patch = (path, currentVal, originalVal) => {
-                    if (currentVal !== originalVal) {
-                        tokenUpdateData[path] = originalVal;
-                    }
-                };
+        // 2. Обновление токенов на сценах
+        for (const scene of game.scenes) {
+            for (const tokenDoc of scene.tokens.filter(t => t.actorId === actor.id && !t.isLinked)) {
+                const currentToken = tokenDoc.toObject();
+                const tokenUpdateData = {};
+                const patch = (path, currentVal, originalVal) => { if (currentVal !== originalVal) tokenUpdateData[path] = originalVal; };
                 
-                patch("texture.scaleX", current.texture.scaleX, originalPTToken.texture.scaleX);
-                patch("texture.scaleY", current.texture.scaleY, originalPTToken.texture.scaleY);
-                patch("ring.enabled", current.ring?.enabled, originalPTToken.ring?.enabled);
+                patch("texture.scaleX", currentToken.texture.scaleX, originalPT.texture.scaleX);
+                patch("texture.scaleY", currentToken.texture.scaleY, originalPT.texture.scaleY);
+                patch("ring.enabled", currentToken.ring?.enabled, originalPT.ring?.enabled);
 
-                if (originalPTToken.ring?.enabled) {
-                    patch("ring.subject.scale", current.ring?.subject?.scale, originalPTToken.ring?.subject?.scale);
-                    patch("ring.subject.texture", current.ring?.subject?.texture, originalPTToken.ring?.subject?.texture);
-                    patch("texture.src", current.texture.src, originalForToken.img);
+                if (originalPT.ring?.enabled) {
+                    patch("ring.subject.scale", currentToken.ring?.subject?.scale, originalPT.ring?.subject?.scale);
+                    patch("ring.subject.texture", currentToken.ring?.subject?.texture, originalPT.ring?.subject?.texture);
+                    patch("texture.src", currentToken.texture.src, original.img);
                 } else {
-                    patch("texture.src", current.texture.src, originalPTToken.texture.src);
+                    patch("texture.src", currentToken.texture.src, originalPT.texture.src);
                 }
-
-                patch("flags.pf2e.autoscale", current.flags?.pf2e?.autoscale, false);
+                patch("flags.pf2e.autoscale", currentToken.flags?.pf2e?.autoscale, false);
 
                 if (Object.keys(tokenUpdateData).length > 0) {
-                    try {
-                        await tokenDoc.update(tokenUpdateData);
-                        if (tokenDoc.object) tokenDoc.object.refresh();
-                        updatedTokens.push(`${tokenDoc.name} (${scene.name})`);
-                    } catch (err) {
-                        notUpdatedTokens.push({
-                            name: tokenDoc.name, scene: scene.name, reason: game.i18n.format("PF2E-TOKEN-PACK.FixTokensUpdateTokenError", { error: err.message })
-                        });
+                    await tokenDoc.update(tokenUpdateData);
+                    if (!updatedTokens.find(t => t.startsWith(actor.name))) {
+                        updatedTokens.push(`${actor.name} ${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensOnScenes")}`);
                     }
                 }
             }
         }
     }
 
-  console.groupCollapsed("%cPathfinder 2E: Token Pack", "color: #4CAF50; font-weight: bold; font-size: 14px;");
-  if (updatedActors.length) {
-    console.groupCollapsed(`✅ ${game.i18n.format("PF2E-TOKEN-PACK.FixTokensUpdatedActors", { count: updatedActors.length })}`);
-    updatedActors.forEach(name => console.log(name));
-    console.groupEnd();
-  }
-  if (notUpdatedActors.length) {
-    console.groupCollapsed(`❌ ${game.i18n.format("PF2E-TOKEN-PACK.FixTokensFailedActors", { count: notUpdatedActors.length })}`);
-    notUpdatedActors.forEach(({ name, reason }) => console.log(`${name}: ${reason}`));
-    console.groupEnd();
-  }
-  if (updatedTokens.length) {
-    console.groupCollapsed(`✅ ${game.i18n.format("PF2E-TOKEN-PACK.FixTokensUpdatedTokens", { count: updatedTokens.length })}`);
-    updatedTokens.forEach(name => console.log(name));
-    console.groupEnd();
-  }
-  if (notUpdatedTokens.length) {
-    console.groupCollapsed(`❌ ${game.i18n.format("PF2E-TOKEN-PACK.FixTokensFailedTokens", { count: notUpdatedTokens.length })}`);
-    notUpdatedTokens.forEach(({ name, scene, reason }) => console.log(`${name} (${scene}): ${reason}`));
-    console.groupEnd();
-  }
-  console.groupEnd();
+    // Финальный отчет
+    if (updatedActors.length === 0 && updatedTokens.length === 0 && notUpdatedActors.length === 0) {
+        const style = "color: #4CAF50; font-weight: bold;";
+        console.log(`%c[PF2E-TOKEN-PACK]`, style, game.i18n.localize("PF2E-TOKEN-PACK.FixTokensAllOk")); 
+        ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.FixTokensAllOk"));
+        return;
+    }
 
-  ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.FixTokensCheckComplete"));
+    const reportTitle = game.i18n.localize("PF2E-TOKEN-PACK.FixTokensReportTitle");
+    console.groupCollapsed(`%c[PF2E-TOKEN-PACK] ${reportTitle}`, "color: #4CAF50; font-weight: bold; font-size: 14px;");
 
-  new Dialog({
-    title: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensReloadDialogTitle"),
-    content: `<p>${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensReloadDialogContent")}</p>`,
-    buttons: {
-      cancel: {
-        icon: '<i class="fas fa-check"></i>',
-        label: "Ок"
-      }
-    },
-    default: "cancel"
-  }).render(true);
+    if (updatedActors.length) { console.groupCollapsed(`✅ ${game.i18n.format("PF2E-TOKEN-PACK.FixTokensUpdatedActors", { count: updatedActors.length })}`); updatedActors.forEach(name => console.log(name)); console.groupEnd(); }
+    if (notUpdatedActors.length) { console.groupCollapsed(`❌ ${game.i18n.format("PF2E-TOKEN-PACK.FixTokensFailedActors", { count: notUpdatedActors.length })}`); notUpdatedActors.forEach(({ name, reason }) => console.log(`${name}: ${reason}`)); console.groupEnd(); }
+    if (updatedTokens.length) { console.groupCollapsed(`✅ ${game.i18n.format("PF2E-TOKEN-PACK.FixTokensUpdatedTokens", { count: updatedTokens.length })}`); updatedTokens.forEach(name => console.log(name)); console.groupEnd(); }
+    console.groupEnd();
+    ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.FixTokensCheckComplete"));
+    new Dialog({ title: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensReloadDialogTitle"), content: `<p>${game.i18n.localize("PF2E-TOKEN-PACK.FixTokensReloadDialogContent")}</p>`, buttons: { cancel: { icon: '<i class="fas fa-check"></i>', label: "Ок" } }, default: "cancel" }).render(true);
 }
 
-class MyScriptDialog extends FormApplication {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "my-script-dialog",
-      title: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensDialogTitle"),
-      template: null,
-      width: 420,
-      height: "auto",
-      closeOnSubmit: true
-    });
-  }
-
-  async render(force = true, options = {}) {
-    await showMyScriptDialog();
-    this.close();
-  }
-}
-
+// --- РЕГИСТРАЦИЯ В FOUNDRY ---
 Hooks.once("init", () => {
-  game.settings.registerMenu("pf2e-token-pack", "myScriptMenu", {
-    name: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensMenuName"),
-    label: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensMenuLabel"),
-    hint: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensMenuHint"),
-    icon: "fas fa-play-circle",
-    type: MyScriptDialog,
-    restricted: true
-  });
+    game.settings.register("pf2e-token-pack", "fix-tokens-excluded-types", { 
+        scope: "world", 
+        config: false, 
+        type: Array, 
+        default: ["character", "hazard", "loot", "familiar", "vehicle"] 
+    });
+
+    game.settings.register("pf2e-token-pack", "fix-tokens-manual-excluded-actors", { 
+        scope: "world", 
+        config: false, 
+        type: Array, 
+        default: [] 
+    });
+    
+    // <<< ДОБАВЛЕНА НАСТРОЙКА-ФЛАГ
+    game.settings.register("pf2e-token-pack", "actor-default-set", { 
+        scope: "world", 
+        config: false, 
+        type: Boolean, 
+        default: false 
+    });
+
+    game.settings.registerMenu("pf2e-token-pack", "myScriptMenu", { 
+        name: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensMenuName"), 
+        label: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensMenuLabel"), 
+        hint: game.i18n.localize("PF2E-TOKEN-PACK.FixTokensMenuHint"), 
+        icon: "fas fa-cogs", 
+        type: MainMenuForm, 
+        restricted: true 
+    });
 });

@@ -1,4 +1,12 @@
 # Changelog
+[![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
+
+## Version 2.0.0
+1. Dynamic tokens for AP Kingmaker
+2. I forgot how the module versions were conducted, ideally, the first digit (1) of the version is just a number, the second digit(9) is adding and updating compendiums, and the third digit(7) is minor corrections of jambs in files, something is not critical
+3. Don't forget to check out Boosty, where I can chat with you and you'll find out what's going on behind the scenes.
+4. I hope, at least on Boosty, you will write to me about the mistakes that you encounter, well, write about the art too, maybe I forgot to erase the excess somewhere and now it gets in the way (I still did it on a white background, I could have missed it). There's also a more detailed description and more information for you.
+5. I changed the "Restore token" setting, now there are more options for you and it is beautifully designed.
 
 ## Version 1.9.7
 1. Added Pathfinder Society Intro and Season 1
