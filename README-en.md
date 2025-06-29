@@ -29,7 +29,7 @@ This module is designed for the Foundry VTT program, adds bestiary and API art/t
 7. Fist of the Ruby Phoenix ✅
 8. Gatewalkers ❌(1)
 9. Outlaws of Alkenstar
-10. Kingmaker
+10. Kingmaker ✅
 11. Quest for the Frozen ✅
 12. Season of Ghosts ❌ (1)
 13. Seven Dooms for Sandpoint ❌(14)
