@@ -3,7 +3,7 @@
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
 ## Pathfinder 2E: Token Pack
-This module is designed for the Foundry VTT program, adds bestiary and API art/tokens to the Pathfinder 2e system
+This module is designed for the Foundry VTT program, adds bestiary and AP art/tokens to the Pathfinder 2e system
 
 <b><i>This module contains art/tokens for:</i></b>
 
