@@ -1,6 +1,16 @@
 # Changelog
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.1.0
+1. Added dynamic AP tokens Season of Ghosts. Missing art only in v13, this actor is not on v12
+2. Added dynamic AP tokens Blood Lords
+3. Added dynamic AP tokens Abomination Vaults
+4. Added dynamic AP tokens Seven Dooms for Sandpoint
+5. Added dynamic AP tokens Sky Kings Tomb
+6. Added dynamic AP tokens Curtain Call
+
+I'm taking a break from this rush for now, check out [boosty](https://boosty.to/metofay), I'll be posting more often what I'm working on there
+
 ## Version 2.0.0
 1. Dynamic tokens for AP Kingmaker
 2. I forgot how the module versions were conducted, ideally, the first digit (1) of the version is just a number, the second digit(9) is adding and updating compendiums, and the third digit(7) is minor corrections of jambs in files, something is not critical

@@ -22,20 +22,20 @@
 
 <b>Пути Приключений:</b>
 
-1. Abomination Vaults
+1. Abomination Vaults ✅
 2. Age of Ashes ✅ ❌(1)
 3. Agents of Edgewatch ❌(6)
-4. Blood Lords ❌ (2)
-5. Curtain Call
+4. Blood Lords ✅ ❌ (2)
+5. Curtain Call ✅
 6. Extinction Curse ❌ (8)
 7. Fist of the Ruby Phoenix ✅
 8. Gatewalkers ❌(1)
 9. Outlaws of Alkenstar
 10. Kingmaker ✅
 11. Quest for the Frozen ✅
-12. Season of Ghosts ❌ (1)
-13. Seven Dooms for Sandpoint ❌(14)
-14. Sky Kings Tomb ❌ (5)
+12. Season of Ghosts ✅
+13. Seven Dooms for Sandpoint ✅
+14. Sky Kings Tomb ✅ ❌ (4)
 15. Spore War ✅
 16. Strength of Thousands ❌ (14)
 17. Triumph of the Tusk ✅ ❌(32)

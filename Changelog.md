@@ -1,7 +1,17 @@
 # Changelog
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog-en.md)
+[![Changelog-en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog-en.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
+
+## Version 2.1.0
+1. Добавлены динамические токены AP Season of Ghosts. Отсутствующий арт тоько у v13, на v12 этого актера нету
+2. Добавлены динамические токены AP Blood Lords
+3. Добавлены динамические токены AP Abomination Vaults
+4. Добавлены динамические токены AP Seven Dooms for Sandpoint
+5. Добавлены динамические токены AP Sky Kings Tomb
+6. Добавлены динамические токены AP Curtain Call
+
+Я пока беру перерыв от такого марш-броска, заходите на [boosty](https://boosty.to/metofay), там я буду чаще сообщать, над чем я работаю
 
 ## Version 2.0.0
 1. Динамические токены для AP Kingmaker
