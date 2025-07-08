@@ -25,15 +25,16 @@ Restores actors in the sidebar and on the scene to their compendium appearance. 
 
 ![Actor Restoration](./assets/actor-restoration.png)
 
-### 3. Character Gallery
+### 3. NPC Disguise
+Allows you to change an actor's appearance, create "phases" (completely separate, editable character sheets), and easily switch between them or revert to the original actor.
+
+![NPC Disguise](./assets/npc-disguise.png)
+
+### 4. Character Gallery
 Adds a new, fully localized "Character Gallery" feature—a large library of art for images not found in the standard compendiums.
 
 ![Character Gallery](./assets/character-gallery.png)
 
-### 4. NPC Disguise
-Allows you to change an actor's appearance, create "phases" (completely separate, editable character sheets), and easily switch between them or revert to the original actor.
-
-![NPC Disguise](./assets/npc-disguise.png)
 
 ## 📥 Installation
 
