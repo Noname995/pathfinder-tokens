@@ -41,7 +41,7 @@ Allows you to change an actor's appearance, create "phases" (completely separate
 2.  Click **"Install Module"**.
 3.  In the "Manifest URL" field, paste the following link:
     ```
-    [YOUR_MANIFEST_URL_HERE]
+    [https://raw.githubusercontent.com/Metofay/pf2e-token-pack//main/module.json]
     ```
 4.  Click **"Install"** and wait for the installation to complete.
 5.  Activate the module in your game world's settings.

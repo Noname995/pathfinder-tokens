@@ -40,7 +40,7 @@
 1.  В меню настройки модулей Foundry VTT нажмите **"Install Module"**.
 2.  В поле "Manifest URL" вставьте следующую ссылку:
     ```
-    [ССЫЛКА_НА_ВАШ_MANIFEST.json]
+    [https://raw.githubusercontent.com/Metofay/pf2e-token-pack//main/module.json]
     ```
 3.  Нажмите **"Install"** и дождитесь окончания установки.
 4.  Активируйте модуль в настройках вашего игрового мира.
