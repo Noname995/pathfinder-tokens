@@ -1,77 +1,138 @@
+# Pathfinder 2E: Token Pack by Metofay
+
 [![Version (latest)](https://img.shields.io/github/v/release/Metofay/pf2e-token-pack)](https://github.com/Metofay/pf2e-token-pack/releases/latest)
 ![Data-release](https://img.shields.io/github/release-date/Metofay/pf2e-token-pack)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
+[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/README.md)
 
-## Pathfinder 2E: Token Pack
-This module is designed for the Foundry VTT program, adds bestiary and AP art/tokens to the Pathfinder 2e system
+![Module Banner](./assets/banner.png)
 
-<b><i>This module contains art/tokens for:</i></b>
+## 🐲 About the Module
 
-✅ - dynamic tokens
-❌ - missing art(quantity)
+This module for **Foundry VTT** adds a large collection of tokens and art for the **Pathfinder 2e** system, as well as tools to manage your content.
 
-<b>Bestiaries:</b>
+## ⚙️ Module Features
 
-1.	Bestiary 1 ✅
-2.	Bestiary 2 ✅
-3.	Bestiary 3 ✅
-4.	Monster core ✅
-5.  NPC core ✅
+In addition to simply adding content, the module offers several powerful tools:
 
-<b>Adventure Patch:</b>
+### 1. Compendium Settings
+Allows you to check paths for art and tokens, delete unnecessary files, view the number of missing actors, and disable loading of unneeded compendiums.
 
-1. Abomination Vaults ✅
-2. Age of Ashes ✅ ❌(1)
-3. Agents of Edgewatch ❌(6)
-4. Blood Lords ✅ ❌ (2)
-5. Curtain Call ✅
-6. Extinction Curse ❌ (8)
-7. Fist of the Ruby Phoenix ✅
-8. Gatewalkers ❌(1)
-9. Outlaws of Alkenstar
-10. Kingmaker ✅
-11. Quest for the Frozen ✅
-12. Season of Ghosts ✅
-13. Seven Dooms for Sandpoint ✅
-14. Sky Kings Tomb ✅ ❌ (4)
-15. Spore War ✅
-16. Strength of Thousands ❌ (14)
-17. Triumph of the Tusk ✅ ❌(32)
-18. Stolen Fate
-19. Wardens of Wildwood ❌ (1)
+![Compendium Settings](./assets/compendium-settings.png)
 
-<b>Ruleboock:</b>
+### 2. Actor Restoration
+Restores actors in the sidebar and on the scene to their compendium appearance. You can configure exceptions by actor type and folder.
 
-1. Book of the Dead
-2. Paizo Blog ❌ (3)
-3. Howl of the Wild ❌ (16)
-4. Lost Omens Bestiary ✅ ❌ (22)
-5. NPC Gallery ❌ (3)
-6. Dark Archive ❌ (1)
-7. Rage of Elements ❌ (13)
-8. War of Immortals
+![Actor Restoration](./assets/actor-restoration.png)
 
-<b>Standalone Adventures</b>
+### 3. Character Gallery
+Adds a new, fully localized "Character Gallery" feature—a large library of art for images not found in the standard compendiums.
 
-1. Claws of the Tyrant ❌ (9)
-2. Fall of Plaguestone ❌ (1)
-3. Malevolence ❌ (3)
-4. Menace Under Otari
-5. One-Shots ❌ (9)
-6. Prey for Death
-7. Rusthenge
-8. Shadows at Sundown
-9. the Enmity Cycle
-10. the Slithering
-11. Troubles in Otari
-12 Night of the Gray Death ❌ (3)
-13. Crown of the Kobold King ❌2)
+![Character Gallery](./assets/character-gallery.png)
 
-<b>Pathfinder Society:</b>
+### 4. NPC Disguise
+Allows you to change an actor's appearance, create "phases" (completely separate, editable character sheets), and easily switch between them or revert to the original actor.
 
-1. Intro ✅
-2. Season 1 ✅ ❌ (67)
+![NPC Disguise](./assets/npc-disguise.png)
 
-<b>Pregenerated PCs::</b>
+## 📥 Installation
 
-1. Adventure Pregens ✅
+1.  In the Foundry VTT Setup screen, go to the **Add-on Modules** tab.
+2.  Click **"Install Module"**.
+3.  In the "Manifest URL" field, paste the following link:
+    ```
+    [YOUR_MANIFEST_URL_HERE]
+    ```
+4.  Click **"Install"** and wait for the installation to complete.
+5.  Activate the module in your game world's settings.
+
+## 📚 Content Coverage
+
+* ✅ - Dynamic tokens are available.
+* ❌ - Missing art (quantity noted).
+
+### Bestiary
+
+| Source | Status |
+| :--- | :---: |
+| Bestiary 1 | ✅ |
+| Bestiary 2 | ✅ |
+| Bestiary 3 | ✅ |
+| Monster Core | ✅ |
+| NPC Core | ✅ |
+
+### Adventure Paths
+
+| Source | Status | Notes |
+| :--- | :---: | :--- |
+| Abomination Vaults | ✅ | |
+| Age of Ashes | ✅❌ | Missing 1 art |
+| Agents of Edgewatch | ❌ | Missing 6 arts |
+| Blood Lords | ✅❌ | Missing 2 arts |
+| Curtain Call | ✅ | |
+| Extinction Curse | ❌ | Missing 8 arts |
+| Fist of the Ruby Phoenix | ✅ | |
+| Gatewalkers | ❌ | Missing 1 art |
+| Outlaws of Alkenstar | | |
+| Kingmaker | ✅ | |
+| Quest for the Frozen | ✅ | |
+| Season of Ghosts | ✅ | |
+| Seven Dooms for Sandpoint | ✅ | |
+| Sky King's Tomb | ✅❌ | Missing 4 arts |
+| Spore War | ✅ | |
+| Strength of Thousands | ❌ | Missing 14 arts |
+| Triumph of the Tusk | ✅❌ | Missing 32 arts |
+| Stolen Fate | | |
+| Wardens of Wildwood | ❌ | Missing 1 art |
+
+### Rulebooks
+
+| Source | Status | Notes |
+| :--- | :---: | :--- |
+| Book of the Dead | | |
+| Paizo Blog | ❌ | Missing 3 arts |
+| Howl of the Wild | ❌ | Missing 16 arts |
+| Lost Omens Bestiary | ✅❌ | Missing 22 arts |
+| NPC Gallery | ❌ | Missing 3 arts |
+| Dark Archive | ❌ | Missing 1 art |
+| Rage of Elements | ❌ | Missing 13 arts |
+| War of Immortals | | |
+
+### Adventures
+
+| Source | Status | Notes |
+| :--- | :---: | :--- |
+| Claws of the Tyrant | ❌ | Missing 9 arts |
+| Fall of Plaguestone | ❌ | Missing 1 art |
+| Malevolence | ❌ | Missing 3 arts |
+| Menace Under Otari | | |
+| One-Shots | ❌ | Missing 9 arts |
+| Prey for Death | | |
+| Rusthenge | | |
+| Shadows at Sundown | | |
+| The Enmity Cycle | | |
+| The Slithering | | |
+| Troubles in Otari | | |
+| Night of the Gray Death | ❌ | Missing 3 arts |
+| Crown of the Kobold King | ❌ | Missing 2 arts |
+
+### Pathfinder Society
+
+| Source | Status | Notes |
+| :--- | :---: | :--- |
+| Intro | ✅ | |
+| Season 1 | ✅❌ | Missing 67 arts |
+
+### Pregenerated PCs
+
+| Source | Status |
+| :--- | :---: |
+| Adventure Pregens | ✅ |
+
+---
+
+## ❤️ Support the Author
+
+If you enjoy my work, you can support me on Boosty. It's a great motivation to continue developing the module!
+
+[![Support on Boosty](https://img.shields.io/badge/Support%20on%20Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)

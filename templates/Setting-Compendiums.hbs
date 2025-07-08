@@ -1,0 +1,41 @@
+<form class="settings-form" style="font-family: 'Noto Sans', 'Segoe UI', sans-serif; font-weight: 500; height: 80%; display: flex; flex-direction: column;">
+  <!-- Прокручиваемая область -->
+  <div class="scrollable-content" style="overflow-y: auto; flex: 1; padding-right: 10px;">
+    <p>{{localize "SettingCompendiums.SettingsMessage"}}</p>
+
+    <div class="form-group">
+      <label>
+        <input type="checkbox" id="toggle-check-buttons" />
+        {{localize "SettingCompendiums.EnableCheckMode"}}
+      </label>
+    </div>
+
+    {{#each groups}}
+      <h2>{{localize (concat "SettingCompendiums." @key)}}</h2>
+      {{#each this}}
+        <div class="form-group">
+          <label for="{{settingKey}}">{{name}}</label>
+          <input type="checkbox" name="{{settingKey}}" {{#if value}}checked{{/if}}>
+          <button type="button" class="check-button" data-key="{{key}}" style="display: none;">
+            {{localize "SettingCompendiums.CheckButtonLabel"}}
+          </button>
+          {{#if hint}}<p class="hint">{{hint}}</p>{{/if}}
+        </div>
+      {{/each}}
+    {{/each}}
+  </div>
+
+  <!-- Футер с кнопкой -->
+  <div class="form-footer" style="
+    flex-shrink: 0;
+    padding: 10px 0 0;
+    border-top: 1px solid var(--color-border-light-tertiary);
+    background-color: var(--color-bg);
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+  ">
+    <button type="submit" class="button">{{localize "SettingCompendiums.SaveAndUpdate"}}</button>
+  </div>
+</form>
+
+

@@ -4,54 +4,54 @@ class PathfinderBestiaryTokenPack {
   static async initSettings() {
     // Список всех поддерживаемых бестиариев и их метаданных
     this.keys = [
-      { key: "pf2e.pathfinder-bestiary"                , name: game.i18n.localize("PF2E-TOKEN-PACK.Bestiary")                      , category: "bestiaries"    },
-      { key: "pf2e.pathfinder-bestiary-2"              , name: game.i18n.localize("PF2E-TOKEN-PACK.Bestiary2")                     , category: "bestiaries"    },
-      { key: "pf2e.pathfinder-bestiary-3"              , name: game.i18n.localize("PF2E-TOKEN-PACK.Bestiary3")                     , category: "bestiaries"    },
-      { key: "pf2e.pathfinder-monster-core"            , name: game.i18n.localize("PF2E-TOKEN-PACK.MonsterCore")                   , category: "bestiaries"    },
-      { key: "pf2e.pathfinder-npc-core"                , name: game.i18n.localize("PF2E-TOKEN-PACK.NPCCore")                       , category: "bestiaries"    },
-      { key: "pf2e.abomination-vaults-bestiary"        , name: game.i18n.localize("PF2E-TOKEN-PACK.AbominationVaultsBestiary")     , category: "adventurePath" },
-      { key: "pf2e.age-of-ashes-bestiary"              , name: game.i18n.localize("PF2E-TOKEN-PACK.AgeofAshesBestiary")            , category: "adventurePath" },
-      { key: "pf2e.agents-of-edgewatch-bestiary"       , name: game.i18n.localize("PF2E-TOKEN-PACK.AgentsofEdgewatchBestiary")     , category: "adventurePath" },
-      { key: "pf2e.blood-lords-bestiary"               , name: game.i18n.localize("PF2E-TOKEN-PACK.BloodLordsBestiary")            , category: "adventurePath" },
-      { key: "pf2e.curtain-call-bestiary"              , name: game.i18n.localize("PF2E-TOKEN-PACK.CurtainCallBestiary")           , category: "adventurePath" },
-      { key: "pf2e.extinction-curse-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.ExtinctionCurseBestiary")       , category: "adventurePath" },
-      { key: "pf2e.fists-of-the-ruby-phoenix-bestiary" , name: game.i18n.localize("PF2E-TOKEN-PACK.FistsoftheRubyPhoenixBestiary") , category: "adventurePath" },
-      { key: "pf2e.gatewalkers-bestiary"               , name: game.i18n.localize("PF2E-TOKEN-PACK.GatewalkersBestiary")           , category: "adventurePath" },
-      { key: "pf2e.outlaws-of-alkenstar-bestiary"      , name: game.i18n.localize("PF2E-TOKEN-PACK.OutlawsofAlkenstarBestiary")    , category: "adventurePath" },
-      { key: "pf2e.kingmaker-bestiary"                 , name: game.i18n.localize("PF2E-TOKEN-PACK.KingmakerBestiary")             , category: "adventurePath" },
-      { key: "pf2e.quest-for-the-frozen-flame-bestiary", name: game.i18n.localize("PF2E-TOKEN-PACK.QuestfortheFrozenFlameBestiary"), category: "adventurePath" },
-      { key: "pf2e.season-of-ghosts-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.SeasonofGhostsBestiary")        , category: "adventurePath" },
-      { key: "pf2e.seven-dooms-for-sandpoint-bestiary" , name: game.i18n.localize("PF2E-TOKEN-PACK.SevenDoomsforSandpointBestiary"), category: "adventurePath" },
-      { key: "pf2e.sky-kings-tomb-bestiary"            , name: game.i18n.localize("PF2E-TOKEN-PACK.SkyKingsTombBestiary")          , category: "adventurePath" },
-      { key: "pf2e.spore-war-bestiary"                 , name: game.i18n.localize("PF2E-TOKEN-PACK.SporeWar")                      , category: "adventurePath" },
-      { key: "pf2e.strength-of-thousands-bestiary"     , name: game.i18n.localize("PF2E-TOKEN-PACK.StrengthofThousandsBestiary")   , category: "adventurePath" },
-      { key: "pf2e.triumph-of-the-tusk-bestiary"       , name: game.i18n.localize("PF2E-TOKEN-PACK.TriumphoftheTtusk")             , category: "adventurePath" },
-      { key: "pf2e.stolen-fate-bestiary"               , name: game.i18n.localize("PF2E-TOKEN-PACK.StolenFateBestiary")            , category: "adventurePath" },
-      { key: "pf2e.wardens-of-wildwood-bestiary"       , name: game.i18n.localize("PF2E-TOKEN-PACK.WardensofWildwoodBestiary")     , category: "adventurePath" },
-      { key: "pf2e.book-of-the-dead-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.BookoftheDeadBestiary")         , category: "rulebook"      },
-      { key: "pf2e.blog-bestiary"                      , name: game.i18n.localize("PF2E-TOKEN-PACK.PaizoBlogBestiary")             , category: "rulebook"      },
-      { key: "pf2e.howl-of-the-wild-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.HowloftheWildBestiary")         , category: "rulebook"      },
-      { key: "pf2e.lost-omens-bestiary"                , name: game.i18n.localize("PF2E-TOKEN-PACK.LostOmensBestiary")             , category: "rulebook"      },
-      { key: "pf2e.npc-gallery"                        , name: game.i18n.localize("PF2E-TOKEN-PACK.NPCGallery")                    , category: "rulebook"      },
-      { key: "pf2e.pathfinder-dark-archive"            , name: game.i18n.localize("PF2E-TOKEN-PACK.DarkArchive")                   , category: "rulebook"      },
-      { key: "pf2e.rage-of-elements-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.RageofElementsBestiary")        , category: "rulebook"      },
-      { key: "pf2e.war-of-immortals-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.WarofImmortalsBestiary")        , category: "rulebook"      },
-      { key: "pf2e.claws-of-the-tyrant-bestiary"       , name: game.i18n.localize("PF2E-TOKEN-PACK.ClawsoftheTyrantBestiary")      , category: "standalone"    },
-      { key: "pf2e.fall-of-plaguestone-bestiary"       , name: game.i18n.localize("PF2E-TOKEN-PACK.FallofPlaguestoneBestiary")     , category: "standalone"    },
-      { key: "pf2e.malevolence-bestiary"               , name: game.i18n.localize("PF2E-TOKEN-PACK.MalevolenceBestiary")           , category: "standalone"    },
-      { key: "pf2e.menace-under-otari-bestiary"        , name: game.i18n.localize("PF2E-TOKEN-PACK.MenaceUnderOtariBestiary")      , category: "standalone"    },
-      { key: "pf2e.one-shot-bestiary"                  , name: game.i18n.localize("PF2E-TOKEN-PACK.OneShotBestiary")               , category: "standalone"    },
-      { key: "pf2e.prey-for-death-bestiary"            , name: game.i18n.localize("PF2E-TOKEN-PACK.PreyforDeathBestiary")          , category: "standalone"    },
-      { key: "pf2e.rusthenge-bestiary"                 , name: game.i18n.localize("PF2E-TOKEN-PACK.RusthengeBestiary")             , category: "standalone"    },
-      { key: "pf2e.shadows-at-sundown-bestiary"        , name: game.i18n.localize("PF2E-TOKEN-PACK.ShadowsatSundownBestiary")      , category: "standalone"    },
-      { key: "pf2e.the-enmity-cycle-bestiary"          , name: game.i18n.localize("PF2E-TOKEN-PACK.TheEnmityCycleBestiary")        , category: "standalone"    },
-      { key: "pf2e.the-slithering-bestiary"            , name: game.i18n.localize("PF2E-TOKEN-PACK.TheSlitheringBestiary")         , category: "standalone"    },
-      { key: "pf2e.troubles-in-otari-bestiary"         , name: game.i18n.localize("PF2E-TOKEN-PACK.TroublesinOtariBestiary")       , category: "standalone"    },
-      { key: "pf2e.night-of-the-gray-death-bestiary"   , name: game.i18n.localize("PF2E-TOKEN-PACK.NightoftheGrayDeathBestiary")   , category: "standalone"    },
-      { key: "pf2e.crown-of-the-kobold-king-bestiary"  , name: game.i18n.localize("PF2E-TOKEN-PACK.CrownoftheKoboldKingBestiary")  , category: "standalone"    },
-      { key: "pf2e.pfs-introductions-bestiary"         , name: game.i18n.localize("PF2E-TOKEN-PACK.Intro")                         , category: "season"        },
-      { key: "pf2e.pfs-season-1-bestiary"              , name: game.i18n.localize("PF2E-TOKEN-PACK.Season1")                       , category: "season"        },
-      { key: "pf2e.paizo-pregens"                      , name: game.i18n.localize("PF2E-TOKEN-PACK.AdventurePregens")              , category: "pregens"       }
+      { key: "pf2e.pathfinder-bestiary"                , name: game.i18n.localize("SettingCompendiums.Bestiary")                      , category: "bestiaries"    },
+      { key: "pf2e.pathfinder-bestiary-2"              , name: game.i18n.localize("SettingCompendiums.Bestiary2")                     , category: "bestiaries"    },
+      { key: "pf2e.pathfinder-bestiary-3"              , name: game.i18n.localize("SettingCompendiums.Bestiary3")                     , category: "bestiaries"    },
+      { key: "pf2e.pathfinder-monster-core"            , name: game.i18n.localize("SettingCompendiums.MonsterCore")                   , category: "bestiaries"    },
+      { key: "pf2e.pathfinder-npc-core"                , name: game.i18n.localize("SettingCompendiums.NPCCore")                       , category: "bestiaries"    },
+      { key: "pf2e.abomination-vaults-bestiary"        , name: game.i18n.localize("SettingCompendiums.AbominationVaultsBestiary")     , category: "adventurePath" },
+      { key: "pf2e.age-of-ashes-bestiary"              , name: game.i18n.localize("SettingCompendiums.AgeofAshesBestiary")            , category: "adventurePath" },
+      { key: "pf2e.agents-of-edgewatch-bestiary"       , name: game.i18n.localize("SettingCompendiums.AgentsofEdgewatchBestiary")     , category: "adventurePath" },
+      { key: "pf2e.blood-lords-bestiary"               , name: game.i18n.localize("SettingCompendiums.BloodLordsBestiary")            , category: "adventurePath" },
+      { key: "pf2e.curtain-call-bestiary"              , name: game.i18n.localize("SettingCompendiums.CurtainCallBestiary")           , category: "adventurePath" },
+      { key: "pf2e.extinction-curse-bestiary"          , name: game.i18n.localize("SettingCompendiums.ExtinctionCurseBestiary")       , category: "adventurePath" },
+      { key: "pf2e.fists-of-the-ruby-phoenix-bestiary" , name: game.i18n.localize("SettingCompendiums.FistsoftheRubyPhoenixBestiary") , category: "adventurePath" },
+      { key: "pf2e.gatewalkers-bestiary"               , name: game.i18n.localize("SettingCompendiums.GatewalkersBestiary")           , category: "adventurePath" },
+      { key: "pf2e.outlaws-of-alkenstar-bestiary"      , name: game.i18n.localize("SettingCompendiums.OutlawsofAlkenstarBestiary")    , category: "adventurePath" },
+      { key: "pf2e.kingmaker-bestiary"                 , name: game.i18n.localize("SettingCompendiums.KingmakerBestiary")             , category: "adventurePath" },
+      { key: "pf2e.quest-for-the-frozen-flame-bestiary", name: game.i18n.localize("SettingCompendiums.QuestfortheFrozenFlameBestiary"), category: "adventurePath" },
+      { key: "pf2e.season-of-ghosts-bestiary"          , name: game.i18n.localize("SettingCompendiums.SeasonofGhostsBestiary")        , category: "adventurePath" },
+      { key: "pf2e.seven-dooms-for-sandpoint-bestiary" , name: game.i18n.localize("SettingCompendiums.SevenDoomsforSandpointBestiary"), category: "adventurePath" },
+      { key: "pf2e.sky-kings-tomb-bestiary"            , name: game.i18n.localize("SettingCompendiums.SkyKingsTombBestiary")          , category: "adventurePath" },
+      { key: "pf2e.spore-war-bestiary"                 , name: game.i18n.localize("SettingCompendiums.SporeWar")                      , category: "adventurePath" },
+      { key: "pf2e.strength-of-thousands-bestiary"     , name: game.i18n.localize("SettingCompendiums.StrengthofThousandsBestiary")   , category: "adventurePath" },
+      { key: "pf2e.triumph-of-the-tusk-bestiary"       , name: game.i18n.localize("SettingCompendiums.TriumphoftheTtusk")             , category: "adventurePath" },
+      { key: "pf2e.stolen-fate-bestiary"               , name: game.i18n.localize("SettingCompendiums.StolenFateBestiary")            , category: "adventurePath" },
+      { key: "pf2e.wardens-of-wildwood-bestiary"       , name: game.i18n.localize("SettingCompendiums.WardensofWildwoodBestiary")     , category: "adventurePath" },
+      { key: "pf2e.book-of-the-dead-bestiary"          , name: game.i18n.localize("SettingCompendiums.BookoftheDeadBestiary")         , category: "rulebook"      },
+      { key: "pf2e.blog-bestiary"                      , name: game.i18n.localize("SettingCompendiums.PaizoBlogBestiary")             , category: "rulebook"      },
+      { key: "pf2e.howl-of-the-wild-bestiary"          , name: game.i18n.localize("SettingCompendiums.HowloftheWildBestiary")         , category: "rulebook"      },
+      { key: "pf2e.lost-omens-bestiary"                , name: game.i18n.localize("SettingCompendiums.LostOmensBestiary")             , category: "rulebook"      },
+      { key: "pf2e.npc-gallery"                        , name: game.i18n.localize("SettingCompendiums.NPCGallery")                    , category: "rulebook"      },
+      { key: "pf2e.pathfinder-dark-archive"            , name: game.i18n.localize("SettingCompendiums.DarkArchive")                   , category: "rulebook"      },
+      { key: "pf2e.rage-of-elements-bestiary"          , name: game.i18n.localize("SettingCompendiums.RageofElementsBestiary")        , category: "rulebook"      },
+      { key: "pf2e.war-of-immortals-bestiary"          , name: game.i18n.localize("SettingCompendiums.WarofImmortalsBestiary")        , category: "rulebook"      },
+      { key: "pf2e.claws-of-the-tyrant-bestiary"       , name: game.i18n.localize("SettingCompendiums.ClawsoftheTyrantBestiary")      , category: "standalone"    },
+      { key: "pf2e.fall-of-plaguestone-bestiary"       , name: game.i18n.localize("SettingCompendiums.FallofPlaguestoneBestiary")     , category: "standalone"    },
+      { key: "pf2e.malevolence-bestiary"               , name: game.i18n.localize("SettingCompendiums.MalevolenceBestiary")           , category: "standalone"    },
+      { key: "pf2e.menace-under-otari-bestiary"        , name: game.i18n.localize("SettingCompendiums.MenaceUnderOtariBestiary")      , category: "standalone"    },
+      { key: "pf2e.one-shot-bestiary"                  , name: game.i18n.localize("SettingCompendiums.OneShotBestiary")               , category: "standalone"    },
+      { key: "pf2e.prey-for-death-bestiary"            , name: game.i18n.localize("SettingCompendiums.PreyforDeathBestiary")          , category: "standalone"    },
+      { key: "pf2e.rusthenge-bestiary"                 , name: game.i18n.localize("SettingCompendiums.RusthengeBestiary")             , category: "standalone"    },
+      { key: "pf2e.shadows-at-sundown-bestiary"        , name: game.i18n.localize("SettingCompendiums.ShadowsatSundownBestiary")      , category: "standalone"    },
+      { key: "pf2e.the-enmity-cycle-bestiary"          , name: game.i18n.localize("SettingCompendiums.TheEnmityCycleBestiary")        , category: "standalone"    },
+      { key: "pf2e.the-slithering-bestiary"            , name: game.i18n.localize("SettingCompendiums.TheSlitheringBestiary")         , category: "standalone"    },
+      { key: "pf2e.troubles-in-otari-bestiary"         , name: game.i18n.localize("SettingCompendiums.TroublesinOtariBestiary")       , category: "standalone"    },
+      { key: "pf2e.night-of-the-gray-death-bestiary"   , name: game.i18n.localize("SettingCompendiums.NightoftheGrayDeathBestiary")   , category: "standalone"    },
+      { key: "pf2e.crown-of-the-kobold-king-bestiary"  , name: game.i18n.localize("SettingCompendiums.CrownoftheKoboldKingBestiary")  , category: "standalone"    },
+      { key: "pf2e.pfs-introductions-bestiary"         , name: game.i18n.localize("SettingCompendiums.Intro")                         , category: "season"        },
+      { key: "pf2e.pfs-season-1-bestiary"              , name: game.i18n.localize("SettingCompendiums.Season1")                       , category: "season"        },
+      { key: "pf2e.paizo-pregens"                      , name: game.i18n.localize("SettingCompendiums.AdventurePregens")              , category: "pregens"       }
     ];
     
     // Хранит предыдущие значения настроек
@@ -97,13 +97,13 @@ class PathfinderBestiaryTokenPack {
       const file = new File([blob], "bestiaries.json", { type: "application/json" });
       const result = await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
       if (result.status === "success") {
-        console.log(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsBestiariesSynced"));
+        console.log(game.i18n.localize("SettingCompendiums.BestiariesSynced"));
       } else {
-        console.warn(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsBestiariesSyncFailed"));
+        console.warn(game.i18n.localize("SettingCompendiums.BestiariesSyncFailed"));
       }
     }
   } catch (error) {
-    console.error(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsBestiariesSyncError"), error);
+    console.error(game.i18n.localize("SettingCompendiums.BestiariesSyncError"), error);
   }
   }
   
@@ -122,7 +122,7 @@ class PathfinderBestiaryTokenPack {
   // Получение данных бестиария из файла bestiaries.json
   static async fetchBestiaryData() {
     const response = await fetch('modules/pf2e-token-pack/bestiaries.json');
-    if (!response.ok) throw new Error(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsFailedToFetch"));
+    if (!response.ok) throw new Error(game.i18n.localize("SettingCompendiums.FailedToFetch"));
     return await response.json();
   }
   
@@ -130,7 +130,7 @@ class PathfinderBestiaryTokenPack {
   static async uploadBestiary(data, fileName) {
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
     const result = await FilePicker.upload("data", "modules/pf2e-token-pack", new File([blob], fileName), {});
-    if (result.status !== "success") throw new Error(game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsFailedToUpload", { file: fileName }));
+    if (result.status !== "success") throw new Error(game.i18n.format("SettingCompendiums.FailedToUpload", { file: fileName }));
   }
     
   // Переименование ключа в объекте данных
@@ -152,13 +152,13 @@ static async checkBestiaryArt(key) {
     const bestiary = originalData[key];
 
     if (!bestiary) {
-      ui.notifications.warn(game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsWarnNoDataForKey", { key }));
+      ui.notifications.warn(game.i18n.format("SettingCompendiums.WarnNoDataForKey", { key }));
       return;
     }
 
     const pack = game.packs.get(key);
     if (!pack) {
-      ui.notifications.error(game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsErrorCompendiumNotLoaded", { packName: key }));
+      ui.notifications.error(game.i18n.format("SettingCompendiums.ErrorCompendiumNotLoaded", { packName: key }));
       return;
     }
 
@@ -207,7 +207,7 @@ static async checkBestiaryArt(key) {
 
     const folderIdToNameMap = new Map();
     folders.forEach(f => folderIdToNameMap.set(f.id, f.name));
-    const rootFolderName = game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckRootFolder");
+    const rootFolderName = game.i18n.localize("SettingCompendiums.CheckRootFolder");
     
     for (const entry of sortedIndex) {
       const { _id: actorId, name: actorName, type, folder } = entry;
@@ -277,18 +277,18 @@ static async checkBestiaryArt(key) {
     const isOrderDifferent = JSON.stringify(originalValidKeys) !== JSON.stringify(Object.keys(reorderedBestiary));
     
     const keyObj = PathfinderBestiaryTokenPack.keys.find(k => k.key === key);
-    const title = game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsCheckTitle", { name: keyObj?.name ?? key });
+    const title = game.i18n.format("SettingCompendiums.CheckTitle", { name: keyObj?.name ?? key });
 
     // --- ЛОГИКА ВЫБОРА ОКНА ---
     if (noProblems) {
       // СЛУЧАЙ 1: Проблем с файлами нет, показываем простое окно
       new Dialog({
         title: title,
-        content: `<p style="text-align: center; font-size: 1.2em;">${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsAllValid")}</p>` +
-                 (isOrderDifferent ? `<p style="text-align: center; color: var(--color-text-dark-primary);">${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSortNeeded")}</p>` : ''),
+        content: `<p style="text-align: center; font-size: 1.2em;">${game.i18n.localize("SettingCompendiums.AllValid")}</p>` +
+                 (isOrderDifferent ? `<p style="text-align: center; color: var(--color-text-dark-primary);">${game.i18n.localize("SettingCompendiums.CheckSortNeeded")}</p>` : ''),
         buttons: {
           ok: {
-            label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckOk"),
+            label: game.i18n.localize("SettingCompendiums.CheckOk"),
             icon: "<i class='fas fa-check'></i>",
             callback: async () => {
               if (isOrderDifferent) {
@@ -296,14 +296,14 @@ static async checkBestiaryArt(key) {
                 const blob = new Blob([JSON.stringify(originalData, null, 2)], { type: "application/json" });
                 const file = new File([blob], "bestiaries.json", { type: "application/json" });
                 await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
-                ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckFileUpdated"));
+                ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckFileUpdated"));
               } else {
-                ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoChanges"));
+                ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
               }
             }
           },
           cancel: {
-            label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCancel"),
+            label: game.i18n.localize("SettingCompendiums.Cancel"),
             icon: "<i class='fas fa-times'></i>",
           }
         },
@@ -319,7 +319,7 @@ static async checkBestiaryArt(key) {
       });
       
       const createList = (items, type) => {
-          if (items.length === 0) return `<li>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoIssues")}</li>`;
+          if (items.length === 0) return `<li>${game.i18n.localize("SettingCompendiums.CheckNoIssues")}</li>`;
           return items.map(item => {
               let details = '';
               if (type === 'id') details = `<br><small>(${item.id})</small>`;
@@ -329,7 +329,7 @@ static async checkBestiaryArt(key) {
       };
       
       const createFolderizedList = (dataByFolder, sortedGroups, type) => {
-          if (Object.keys(dataByFolder).length === 0) return `<li>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoIssues")}</li>`;
+          if (Object.keys(dataByFolder).length === 0) return `<li>${game.i18n.localize("SettingCompendiums.CheckNoIssues")}</li>`;
           let html = '';
           for (const groupName of sortedGroups) {
               if (dataByFolder[groupName] && dataByFolder[groupName].length > 0) {
@@ -337,13 +337,13 @@ static async checkBestiaryArt(key) {
                   html += createList(dataByFolder[groupName], type);
               }
           }
-          return html || `<li>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoIssues")}</li>`;
+          return html || `<li>${game.i18n.localize("SettingCompendiums.CheckNoIssues")}</li>`;
       };
   
       const createUnusedList = (filesByFolder) => {
       const sortedFolders = Object.keys(filesByFolder).sort();
       if (sortedFolders.length === 0) {
-        return `<li>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoUnused")}</li>`;
+        return `<li>${game.i18n.localize("SettingCompendiums.CheckNoUnused")}</li>`;
       }
 
       let html = '';
@@ -383,34 +383,34 @@ static async checkBestiaryArt(key) {
         </style>
         <div class="check-results-container">
           <details>
-            <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSummaryDead")} (${deadIds.length})</summary>
+            <summary>${game.i18n.localize("SettingCompendiums.CheckSummaryDead")} (${deadIds.length})</summary>
             <div class="content-wrapper"><ul>${createList(deadIds, 'id')}</ul></div>
           </details>
           <details>
-            <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSummaryMissingModule")} (${totalMissingInModule})</summary>
+            <summary>${game.i18n.localize("SettingCompendiums.CheckSummaryMissingModule")} (${totalMissingInModule})</summary>
             <div class="content-wrapper"><ul>${createFolderizedList(missingInModuleByFolder, sortedDisplayGroups, 'id')}</ul></div>
           </details>
           <details>
-            <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSummaryMissingImages")} (${totalMissingImages})</summary>
+            <summary>${game.i18n.localize("SettingCompendiums.CheckSummaryMissingImages")} (${totalMissingImages})</summary>
             <div class="image-sub-container">
               <details>
-                  <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckImgTypeArt")} (${totalMissingArt})</summary>
+                  <summary>${game.i18n.localize("SettingCompendiums.CheckImgTypeArt")} (${totalMissingArt})</summary>
                   <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.art, sortedDisplayGroups, 'path')}</ul></div>
               </details>
               <details>
-                  <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckImgTypeToken")} (${totalMissingToken})</summary>
+                  <summary>${game.i18n.localize("SettingCompendiums.CheckImgTypeToken")} (${totalMissingToken})</summary>
                   <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.token, sortedDisplayGroups, 'path')}</ul></div>
               </details>
               <details>
-                  <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckImgTypeRing")} (${totalMissingRing})</summary>
+                  <summary>${game.i18n.localize("SettingCompendiums.CheckImgTypeRing")} (${totalMissingRing})</summary>
                   <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.ring, sortedDisplayGroups, 'path')}</ul></div>
               </details>
             </div>
           </details>
           <details>
-              <summary>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckSummaryUnused")} (${unusedFiles.length})</summary>
+              <summary>${game.i18n.localize("SettingCompendiums.CheckSummaryUnused")} (${unusedFiles.length})</summary>
               <div class="content-wrapper">
-                  <p><em><small>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsManualDeleteNote")}</small></em></p>
+                  <p><em><small>${game.i18n.localize("SettingCompendiums.ManualDeleteNote")}</small></em></p>
                   <ul>${createUnusedList(unusedFilesByFolder)}</ul>
               </div>
           </details>
@@ -422,7 +422,7 @@ static async checkBestiaryArt(key) {
         content: dialogContent,
         buttons: {
           ok: {
-            label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckOk"),
+            label: game.i18n.localize("SettingCompendiums.CheckOk"),
             icon: "<i class='fas fa-check'></i>",
             callback: async () => {
               const needsUpdate = deadIds.length > 0 || isOrderDifferent;
@@ -431,17 +431,17 @@ static async checkBestiaryArt(key) {
                 const blob = new Blob([JSON.stringify(originalData, null, 2)], { type: "application/json" });
                 const file = new File([blob], "bestiaries.json", { type: "application/json" });
                 await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
-                ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckFileUpdated"));
+                ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckFileUpdated"));
               } else {
-                ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckNoChanges"));
+                ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
               }
             }
           },
           cancel: {
-            label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCancel"),
+            label: game.i18n.localize("SettingCompendiums.Cancel"),
             icon: "<i class='fas fa-times'></i>",
             callback: () => {
-              ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsCheckCancelled"));
+              ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckCancelled"));
             }
           }
         },
@@ -455,7 +455,7 @@ static async checkBestiaryArt(key) {
     }
   } catch (e) {
     console.error(e);
-    ui.notifications.error(game.i18n.format("PF2E-TOKEN-PACK.SettingCompendiumsErrorCheckBestiaries", { message: e.message }));
+    ui.notifications.error(game.i18n.format("SettingCompendiums.ErrorCheckBestiaries", { message: e.message }));
   }
 }
 }
@@ -468,9 +468,9 @@ Hooks.once('ready', () => PathfinderBestiaryTokenPack.initSettings()); // При
 // Регистрируем меню настроек модуля
 Hooks.once("init", () => {
   game.settings.registerMenu("pf2e-token-pack", "tokenPackSettings", {
-    name: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsTokenSettingsLabel"), // Название меню настроек
-    label: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsTokenSettingsButton"), // Текст кнопки меню
-    hint: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsTokenSettingsHint"), // Подсказка для меню
+    name: game.i18n.localize("SettingCompendiums.TokenSettingsLabel"), // Название меню настроек
+    label: game.i18n.localize("SettingCompendiums.TokenSettingsButton"), // Текст кнопки меню
+    hint: game.i18n.localize("SettingCompendiums.TokenSettingsHint"), // Подсказка для меню
     icon: "fas fa-dungeon", // Иконка меню
     type: PathfinderBestiarySettingsMenu, // Класс формы настроек
     restricted: true // Только для GM
@@ -483,10 +483,10 @@ class PathfinderBestiarySettingsMenu extends FormApplication {
     // Опции по умолчанию для формы настроек
     return foundry.utils.mergeObject(super.defaultOptions, {
       id: "pf2e-token-pack-settings", // ID формы
-      title: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsSettingsMenuTitle"), // Заголовок формы
-      template: "modules/pf2e-token-pack/templates/Setting-Compendiums.html", // Путь к шаблону формы
+      title: game.i18n.localize("SettingCompendiums.SettingsMenuTitle"), // Заголовок формы
+      template: "modules/pf2e-token-pack/templates/Setting-Compendiums.hbs", // Путь к шаблону формы
       width: "700", // Ширина формы
-      height: "auto", // Высота теперь автоматическая
+      height: "1200", // Высота теперь автоматическая
       classes: ["pf2e-token-pack-settings-form"],
       closeOnSubmit: false // Не закрывать форму после отправки
     });
@@ -572,7 +572,7 @@ async _updateObject(event, formData) {
   }
 
   if (!changed) {
-    ui.notifications.info(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsNoSettingsChanged"));
+    ui.notifications.info(game.i18n.localize("SettingCompendiums.NoSettingsChanged"));
     return this.close();
   }
 
@@ -602,7 +602,7 @@ async _updateObject(event, formData) {
 
     const result = await FilePicker.upload("data", "modules/pf2e-token-pack", file, {});
     if (result.status !== "success") {
-      ui.notifications.error(game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsFailedToUpload"));
+      ui.notifications.error(game.i18n.localize("SettingCompendiums.FailedToUpload"));
       return;
     }
   }
@@ -611,8 +611,8 @@ async _updateObject(event, formData) {
   
   // Создаем диалог об успешном обновлении и требовании перезагрузки
   new Dialog({
-    title: game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsReloadTitle"),
-    content: `<p>${game.i18n.localize("PF2E-TOKEN-PACK.SettingCompendiumsBestiaryUpdatedMessage")}</p>`,
+    title: game.i18n.localize("SettingCompendiums.ReloadTitle"),
+    content: `<p>${game.i18n.localize("SettingCompendiums.BestiaryUpdatedMessage")}</p>`,
     buttons: {
       ok: {
         label: "OK",

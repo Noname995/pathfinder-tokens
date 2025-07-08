@@ -1,6 +1,13 @@
 # Changelog
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.2.0
+1. Added NPC Actor Masking, only for them. Allows you to change art and token, or phases with different stats, like with bosses in some games, and you can edit the character sheets of the phases to make it as you like. So far, without integration with Character Gallery, you will have to create an actor separately, apply as a Visual, after that you can delete the created actor for this, the image will be saved in the manager
+
+2. A monstrous addition. I added two modules and their mechanism, removed static tokens. THIS IS Pathfinder Tokens: Character Gallery and Pathfinder Tokens: Myth and Magic. I tried to make a full localization, I had to dig into the code, it seems to have worked, I can't vouch for the translation, since I am a layman in English (heh-heh), so please write translation errors in the post or Discord.
+
+3. Now the module weighs under 1 gigabyte, and will only expand, perhaps I will split it into two different ones, one is purely for compendiums, that is, the main one, and the second will consist of such modules as Character Gallery and Myth and Magic. Some art may be repeated and different, since the modules were also added to the compendium itself, I will clean it later so that there is no duplication, the code has already been edited, all that remains is to check it manually.
+
 ## Version 2.1.0
 1. Added dynamic AP tokens Season of Ghosts. Missing art only in v13, this actor is not on v12
 2. Added dynamic AP tokens Blood Lords

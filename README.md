@@ -1,80 +1,137 @@
+# Pathfinder 2E: Token Pack от Metofay
+
 [![Version (latest)](https://img.shields.io/github/v/release/Metofay/pf2e-token-pack)](https://github.com/Metofay/pf2e-token-pack/releases/latest)
 ![Data-release](https://img.shields.io/github/release-date/Metofay/pf2e-token-pack)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
-
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/README-en.md)
 
-## Pathfinder 2E: Token Pack
-Данный модуль предназначен для программы Foundry VTT, добавляет арты/токены бестиария и АП в систему НРИ Pathfinder 2e.
+![Баннер модуля](./assets/banner.png)
 
-<b><i>В данном модуле присутствуют арты/токены для:</i></b>
+## 🐲 О модуле
 
-✅ - динамические токены
-❌ - отсутствуют арты(количество)
+Этот модуль для **Foundry VTT** добавляет в систему **Pathfinder 2e** большую коллекцию токенов и артов, а также предоставляет инструменты для управления вашим контентом.
 
-<b>Бестиарий:</b>
+## ⚙️ Функционал модуля
 
-1.	Bestiary 1 ✅
-2.	Bestiary 2 ✅
-3.	Bestiary 3 ✅
-4.	Monster core ✅
-5.  NPC core ✅
+Помимо простого добавления контента, модуль предлагает несколько мощных инструментов:
 
-<b>Пути Приключений:</b>
+### 1. Настройка компендиумов
+Позволяет проверять пути к артам и токенам, удалять лишние файлы, видеть количество пропущенных актеров и отключать погрузку ненужных компендиумов.
 
-1. Abomination Vaults ✅
-2. Age of Ashes ✅ ❌(1)
-3. Agents of Edgewatch ❌(6)
-4. Blood Lords ✅ ❌ (2)
-5. Curtain Call ✅
-6. Extinction Curse ❌ (8)
-7. Fist of the Ruby Phoenix ✅
-8. Gatewalkers ❌(1)
-9. Outlaws of Alkenstar
-10. Kingmaker ✅
-11. Quest for the Frozen ✅
-12. Season of Ghosts ✅
-13. Seven Dooms for Sandpoint ✅
-14. Sky Kings Tomb ✅ ❌ (4)
-15. Spore War ✅
-16. Strength of Thousands ❌ (14)
-17. Triumph of the Tusk ✅ ❌(32)
-18. Stolen Fate
-19. Wardens of Wildwood ❌ (1)
+![Настройка компендиумов](./assets/compendium-settings.png)
 
-<b>Книга правил:</b>
+### 2. Восстановление актеров
+Восстанавливает актеров в боковой панели и на сцене до их вида в компендиуме. Можно настроить исключения по типам актеров и папкам.
 
-1. Book of the Dead
-2. Paizo Blog ❌ (3)
-3. Howl of the Wild ❌ (16)
-4. Lost Omens Bestiary ✅ ❌ (22)
-5. NPC Gallery ❌ (3)
-6. Dark Archive ❌ (1)
-7. Rage of Elements ❌ (13)
-8. War of Immortals
+![Восстановление актеров](./assets/actor-restoration.png)
 
-<b>Приключения</b>
+### 3. Маскировка NPC
+Позволяет менять внешность актера, создавать "фазы" (полностью отдельные изменяемые листы персонажа), а также легко переключаться между ними и возвращаться к оригинальному виду актера.
 
-1. Claws of the Tyrant ❌ (9)
-2. Fall of Plaguestone ❌ (1)
-3. Malevolence ❌ (3)
-4. Menace Under Otari
-5. One-Shots ❌ (9)
-6. Prey for Death
-7. Rusthenge
-8. Shadows at Sundown
-9. the Enmity Cycle
-10. the Slithering
-11. Troubles in Otari
-12 Night of the Gray Death ❌ (3)
-13. Crown of the Kobold King ❌2)
+![Маскировка NPC](./assets/npc-disguise.png)
 
-<b>Pathfinder Society:</b>
+### 4. Галерея персонажей
+Добавляет новую механику большой, полностью локализованной библиотеки артов "Character Gallery" для изображений, которых нет в стандартных компендиумах.
 
-1. Intro ✅
-2. Season 1 ✅ ❌ (67)
+![Галерея персонажей](./assets/character-gallery.png)
 
-<b>Pregenerated PCs::</b>
+## 📥 Установка
 
-1. Adventure Pregens ✅
+1.  В меню настройки модулей Foundry VTT нажмите **"Install Module"**.
+2.  В поле "Manifest URL" вставьте следующую ссылку:
+    ```
+    [ССЫЛКА_НА_ВАШ_MANIFEST.json]
+    ```
+3.  Нажмите **"Install"** и дождитесь окончания установки.
+4.  Активируйте модуль в настройках вашего игрового мира.
 
+## 📚 Покрытие контента
+
+* ✅ - Есть динамические токены.
+* ❌ - Есть недостающие арты (указано количество).
+
+### Бестиарий
+
+| Источник | Статус |
+| :--- | :---: |
+| Bestiary 1 | ✅ |
+| Bestiary 2 | ✅ |
+| Bestiary 3 | ✅ |
+| Monster Core | ✅ |
+| NPC Core | ✅ |
+
+### Пути Приключений
+
+| Источник | Статус | Примечания |
+| :--- | :---: | :--- |
+| Abomination Vaults | ✅ | |
+| Age of Ashes | ✅❌ | Отсутствует 1 арт |
+| Agents of Edgewatch | ❌ | Отсутствует 6 артов |
+| Blood Lords | ✅❌ | Отсутствует 2 арта |
+| Curtain Call | ✅ | |
+| Extinction Curse | ❌ | Отсутствует 8 артов |
+| Fist of the Ruby Phoenix | ✅ | |
+| Gatewalkers | ❌ | Отсутствует 1 арт |
+| Outlaws of Alkenstar | | |
+| Kingmaker | ✅ | |
+| Quest for the Frozen | ✅ | |
+| Season of Ghosts | ✅ | |
+| Seven Dooms for Sandpoint | ✅ | |
+| Sky King's Tomb | ✅❌ | Отсутствует 4 арта |
+| Spore War | ✅ | |
+| Strength of Thousands | ❌ | Отсутствует 14 артов |
+| Triumph of the Tusk | ✅❌ | Отсутствует 32 арта |
+| Stolen Fate | | |
+| Wardens of Wildwood | ❌ | Отсутствует 1 арт |
+
+### Книга правил
+
+| Источник | Статус | Примечания |
+| :--- | :---: | :--- |
+| Book of the Dead | | |
+| Paizo Blog | ❌ | Отсутствует 3 арта |
+| Howl of the Wild | ❌ | Отсутствует 16 артов |
+| Lost Omens Bestiary | ✅❌ | Отсутствует 22 арта |
+| NPC Gallery | ❌ | Отсутствует 3 арта |
+| Dark Archive | ❌ | Отсутствует 1 арт |
+| Rage of Elements | ❌ | Отсутствует 13 артов |
+| War of Immortals | | |
+
+### Приключения
+
+| Источник | Статус | Примечания |
+| :--- | :---: | :--- |
+| Claws of the Tyrant | ❌ | Отсутствует 9 артов |
+| Fall of Plaguestone | ❌ | Отсутствует 1 арт |
+| Malevolence | ❌ | Отсутствует 3 арта |
+| Menace Under Otari | | |
+| One-Shots | ❌ | Отсутствует 9 артов |
+| Prey for Death | | |
+| Rusthenge | | |
+| Shadows at Sundown | | |
+| The Enmity Cycle | | |
+| The Slithering | | |
+| Troubles in Otari | | |
+| Night of the Gray Death | ❌ | Отсутствует 3 арта |
+| Crown of the Kobold King | ❌ | Отсутствует 2 арта |
+
+### Pathfinder Society
+
+| Источник | Статус | Примечания |
+| :--- | :---: | :--- |
+| Intro | ✅ | |
+| Season 1 | ✅❌ | Отсутствует 67 артов |
+
+### Pregenerated PCs
+
+| Источник | Статус |
+| :--- | :---: |
+| Adventure Pregens | ✅ |
+
+---
+
+## ❤️ Поддержать автора
+
+Если вам нравится моя работа, вы можете поддержать меня на Boosty. Это очень мотивирует на дальнейшее развитие модуля!
+
+[![Boosty](https://img.shields.io/badge/Поддержать%20на%20Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
