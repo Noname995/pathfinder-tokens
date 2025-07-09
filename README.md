@@ -135,3 +135,4 @@
 Если вам нравится моя работа, вы можете поддержать меня на Boosty. Это очень мотивирует на дальнейшее развитие модуля!
 
 [![Boosty](https://img.shields.io/badge/Поддержать%20на%20Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
+![Баннер модуля](./assets/metofay.png)

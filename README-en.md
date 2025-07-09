@@ -137,3 +137,4 @@ Adds a new, fully localized "Character Gallery" feature—a large library of art
 If you enjoy my work, you can support me on Boosty. It's a great motivation to continue developing the module!
 
 [![Support on Boosty](https://img.shields.io/badge/Support%20on%20Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
+![Баннер модуля](./assets/metofay.png)
