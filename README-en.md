@@ -5,7 +5,7 @@
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/README.md)
 
-![Module Banner](./assets/banner.png)
+![Module Banner](./data/assets/banner.png)
 
 ## 🐲 About the Module
 
@@ -18,22 +18,23 @@ In addition to simply adding content, the module offers several powerful tools:
 ### 1. Compendium Settings
 Allows you to check paths for art and tokens, delete unnecessary files, view the number of missing actors, and disable loading of unneeded compendiums.
 
-![Compendium Settings](./assets/compendium-settings.png)
+![Compendium Settings](./data/assets/compendium-settings.png)
 
 ### 2. Actor Restoration
 Restores actors in the sidebar and on the scene to their compendium appearance. You can configure exceptions by actor type and folder.
 
-![Actor Restoration](./assets/actor-restoration.png)
+![Actor Restoration](./data/assets/actor-restoration.png)
 
 ### 3. NPC Disguise
 Allows you to change an actor's appearance, create "phases" (completely separate, editable character sheets), and easily switch between them or revert to the original actor.
 
-![NPC Disguise](./assets/npc-disguise.png)
+![NPC Disguise](./data/assets/npc-disguise.png)
 
 ### 4. Character Gallery
 Adds a new, fully localized "Character Gallery" feature—a large library of art for images not found in the standard compendiums.
+Requires installation of the additional module [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). This additional module works both separately and with integration into the main one, in the future, art from the compendium will be added, and the Character Gallery will be dependent on the main module.
 
-![Character Gallery](./assets/character-gallery.png)
+![Character Gallery](./data/assets/character-gallery.png)
 
 
 ## 📥 Installation
@@ -42,7 +43,7 @@ Adds a new, fully localized "Character Gallery" feature—a large library of art
 2.  Click **"Install Module"**.
 3.  In the "Manifest URL" field, paste the following link:
     ```
-    [https://raw.githubusercontent.com/Metofay/pf2e-token-pack//main/module.json]
+    https://raw.githubusercontent.com/Metofay/pf2e-token-pack//main/module.json
     ```
 4.  Click **"Install"** and wait for the installation to complete.
 5.  Activate the module in your game world's settings.
@@ -137,4 +138,4 @@ Adds a new, fully localized "Character Gallery" feature—a large library of art
 If you enjoy my work, you can support me on Boosty. It's a great motivation to continue developing the module!
 
 [![Support on Boosty](https://img.shields.io/badge/Support%20on%20Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
-![Баннер модуля](./assets/metofay.png)
+![Баннер модуля](./data/assets/metofay.png)

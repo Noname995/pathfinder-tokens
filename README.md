@@ -5,7 +5,7 @@
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/README-en.md)
 
-![Баннер модуля](./assets/banner.png)
+![Баннер модуля](./data/assets/banner.png)
 
 ## 🐲 О модуле
 
@@ -18,29 +18,30 @@
 ### 1. Настройка компендиумов
 Позволяет проверять пути к артам и токенам, удалять лишние файлы, видеть количество пропущенных актеров и отключать погрузку ненужных компендиумов.
 
-![Настройка компендиумов](./assets/compendium-settings.png)
+![Настройка компендиумов](./data/assets/compendium-settings.png)
 
 ### 2. Восстановление актеров
 Восстанавливает актеров в боковой панели и на сцене до их вида в компендиуме. Можно настроить исключения по типам актеров и папкам.
 
-![Восстановление актеров](./assets/actor-restoration.png)
+![Восстановление актеров](./data/assets/actor-restoration.png)
 
 ### 3. Маскировка NPC
 Позволяет менять внешность актера, создавать "фазы" (полностью отдельные изменяемые листы персонажа), а также легко переключаться между ними и возвращаться к оригинальному виду актера.
 
-![Маскировка NPC](./assets/npc-disguise.png)
+![Маскировка NPC](./data/assets/npc-disguise.png)
 
 ### 4. Галерея персонажей
 Добавляет новую механику большой, полностью локализованной библиотеки артов "Character Gallery" для изображений, которых нет в стандартных компендиумах.
+Требуется установить дополнительный модуль [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). Этот дополнительный модуль работает как отдельно, так и с интеграцией в основной, в будущем будут добавлены и арты из компендиума, и Character Gallery будет зависим от основного модуля.
 
-![Галерея персонажей](./assets/character-gallery.png)
+![Галерея персонажей](./data/assets/character-gallery.png)
 
 ## 📥 Установка
 
 1.  В меню настройки модулей Foundry VTT нажмите **"Install Module"**.
 2.  В поле "Manifest URL" вставьте следующую ссылку:
     ```
-    [https://raw.githubusercontent.com/Metofay/pf2e-token-pack//main/module.json]
+    https://raw.githubusercontent.com/Metofay/pf2e-token-pack//main/module.json
     ```
 3.  Нажмите **"Install"** и дождитесь окончания установки.
 4.  Активируйте модуль в настройках вашего игрового мира.
@@ -135,4 +136,4 @@
 Если вам нравится моя работа, вы можете поддержать меня на Boosty. Это очень мотивирует на дальнейшее развитие модуля!
 
 [![Boosty](https://img.shields.io/badge/Поддержать%20на%20Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
-![Баннер модуля](./assets/metofay.png)
+![Баннер модуля](./data/assets/metofay.png)

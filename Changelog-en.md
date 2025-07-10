@@ -1,6 +1,9 @@
 # Changelog
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.2.1
+1. The module is divided into two parts, as the main [**Pathfinder 2E: Token Pack**](https://github.com/Metofay/pf2e-token-pack) and as an additional [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). At the moment, Character Gallery can work both separately and together, but in the future I plan to add compendium art to it, which will already tie it to the main module.
+
 ## Version 2.2.0
 1. Added NPC Actor Masking, only for them. Allows you to change art and token, or phases with different stats, like with bosses in some games, and you can edit the character sheets of the phases to make it as you like. So far, without integration with Character Gallery, you will have to create an actor separately, apply as a Visual, after that you can delete the created actor for this, the image will be saved in the manager
 

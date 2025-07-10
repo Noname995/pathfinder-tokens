@@ -3,6 +3,9 @@
 [![Changelog-en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog-en.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.2.1
+1. Модуль разделен на две части, как основной [**Pathfinder 2E: Token Pack**](https://github.com/Metofay/pf2e-token-pack) и как дополнительный [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). На данный момент Character Gallery может работать как отдельно, так и совместно, но в будущем я планирую добавить в него и арты компендиума, что уже привяжет его к основному модулю.
+
 ## Version 2.2.0
 1. Добавлен Маскировка актеров NPC, только для них. Дает возможность менять арт и токен, либо фазы с разными статами, как с боссами в некоторых играх и вы можете редактировать листы персонажей фаз, чтобы было так, как вам удобно. Пока что без интеграции с Character Gallery, придется отдельно создавать актера, применять как Визуал, после этого можете удалит созданного актера для этого, образ сохраниться в менеджере
 
