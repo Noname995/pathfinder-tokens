@@ -5,7 +5,7 @@
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/README-en.md)
 
-![Баннер модуля](./data/assets/banner.png)
+![Баннер модуля](./data/assets/Banner.png)
 
 ## 🐲 О модуле
 
