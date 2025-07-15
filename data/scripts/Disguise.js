@@ -30,19 +30,31 @@ async function applyFullDisguise(targetActor, sourceData, targetToken = null, sh
     if (targetToken) {
         const tokenUpdate = {
             'flags.pf2e.linkToActorSize': foundry.utils.getProperty(sourceClone.prototypeToken, "flags.pf2e.linkToActorSize"),
-            'flags.pf2e.autoscale': false, 'texture.scaleX': sourceClone.prototypeToken.texture.scaleX, 'texture.scaleY': sourceClone.prototypeToken.texture.scaleY,
+            'flags.pf2e.autoscale': false, 
+            'texture.scaleX': sourceClone.prototypeToken.texture.scaleX, 
+            'texture.scaleY': sourceClone.prototypeToken.texture.scaleY,
         };
+
+        // Логика для texture.src в зависимости от ring.enabled
         if (sourceClone.prototypeToken.ring.enabled) {
             tokenUpdate.ring = sourceClone.prototypeToken.ring;
-            tokenUpdate['texture.src'] = CONST.DEFAULT_TOKEN;
+            tokenUpdate['texture.src'] = sourceClone.img; // Если кольцо включено, используем img актера
         } else {
             tokenUpdate['ring.enabled'] = false;
-            tokenUpdate['texture.src'] = sourceClone.prototypeToken.texture.src;
+            tokenUpdate['texture.src'] = sourceClone.prototypeToken.texture.src; // Если кольцо выключено, копируем texture.src
         }
         await targetToken.update(tokenUpdate);
         if (targetToken.object) targetToken.object.refresh();
     }
     
+    // Обновление изображения в панели Combat
+    if (game.combat && targetActor.isOwner) { // Проверяем, что есть активный бой и что мы владеем актером
+        const combatant = game.combat.combatants.find(c => c.actor.id === targetActor.id);
+        if (combatant) {
+            await combatant.update({ img: targetToken.texture.src });
+        }
+    }
+
     await targetActor.setFlag('pf2e-token-pack', 'active_mode', 'full');
     const message = game.i18n.format("Disguise.Applied", { name: sourceData.name });
     ui.notifications.info(message);
@@ -79,14 +91,18 @@ async function applyVisualDisguise(targetActor, visualData, targetToken = null, 
     
     const tokenUpdate = {
         'flags.pf2e.linkToActorSize': foundry.utils.getProperty(visualData.prototypeToken, "flags.pf2e.linkToActorSize"),
-        'flags.pf2e.autoscale': false, 'texture.scaleX': visualData.prototypeToken.texture.scaleX, 'texture.scaleY': visualData.prototypeToken.texture.scaleY,
+        'flags.pf2e.autoscale': false, 
+        'texture.scaleX': visualData.prototypeToken.texture.scaleX, 
+        'texture.scaleY': visualData.prototypeToken.texture.scaleY,
     };
+
+    // Логика для texture.src в зависимости от ring.enabled
     if (visualData.prototypeToken.ring.enabled) {
         tokenUpdate.ring = visualData.prototypeToken.ring;
-        tokenUpdate['texture.src'] = CONST.DEFAULT_TOKEN;
+        tokenUpdate['texture.src'] = visualData.img; // Если кольцо включено, используем img актера
     } else {
         tokenUpdate['ring.enabled'] = false;
-        tokenUpdate['texture.src'] = visualData.prototypeToken.texture.src;
+        tokenUpdate['texture.src'] = visualData.prototypeToken.texture.src; // Если кольцо выключено, копируем texture.src
     }
     
     const actorVisualUpdate = {
@@ -100,6 +116,14 @@ async function applyVisualDisguise(targetActor, visualData, targetToken = null, 
         if (targetToken.object) targetToken.object.refresh();
     }
     await targetActor.update(actorVisualUpdate);
+
+    // Обновление изображения в панели Combat
+    if (game.combat && targetActor.isOwner) { // Проверяем, что есть активный бой и что мы владеем актером
+        const combatant = game.combat.combatants.find(c => c.actor.id === targetActor.id);
+        if (combatant) {
+            await combatant.update({ img: targetToken.texture.src });
+        }
+    }
 
     await targetActor.setFlag('pf2e-token-pack', 'active_mode', 'hybrid');
     ui.notifications.info(game.i18n.format("Disguise.AppliedSuccess", { name: visualData.name }));
@@ -142,6 +166,8 @@ class DisguiseApp extends Application {
         sourceData = sourceActor.toObject();
         sourceData.prototypeToken.texture.scaleX = sourceTokenDoc.texture.scaleX;
         sourceData.prototypeToken.texture.scaleY = sourceTokenDoc.texture.scaleY;
+        sourceData.prototypeToken.texture.src = sourceTokenDoc.texture.src; // Копируем texture.src с токена
+        sourceData.prototypeToken.ring = sourceTokenDoc.ring; // Копируем состояние ring
     } else {
         return;
     }
@@ -332,6 +358,8 @@ async function openMainMenu(actor, token, sheet) {
             protoTokenData.ring = token.ring;
             protoTokenData.texture.scaleX = token.texture.scaleX;
             protoTokenData.texture.scaleY = token.texture.scaleY;
+            // Здесь мы сохраняем оригинальный texture.src актера/токена
+            protoTokenData.texture.src = token.texture.src; 
         }
         
         const newOriginalVisualData = {

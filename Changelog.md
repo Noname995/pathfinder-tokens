@@ -3,6 +3,12 @@
 [![Changelog-en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog-en.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.3.0
+1. Добавлен AP Shades of Blood
+2. Добавлено 2 арта в Sky Kings Tomb
+3. Исправлена проблема отображения актера в панели "Боя" при смене маскировки
+4. Character Gallery будет самостоятельным модулем, но с интеграцией настроек в основной
+
 ## Version 2.2.1
 1. Модуль разделен на две части, как основной [**Pathfinder 2E: Token Pack**](https://github.com/Metofay/pf2e-token-pack) и как дополнительный [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). На данный момент Character Gallery может работать как отдельно, так и совместно, но в будущем я планирую добавить в него и арты компендиума, что уже привяжет его к основному модулю.
 

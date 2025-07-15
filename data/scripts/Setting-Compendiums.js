@@ -26,6 +26,7 @@ class PathfinderBestiaryTokenPack {
       { key: "pf2e.spore-war-bestiary"                 , name: game.i18n.localize("SettingCompendiums.SporeWar")                      , category: "adventurePath" },
       { key: "pf2e.strength-of-thousands-bestiary"     , name: game.i18n.localize("SettingCompendiums.StrengthofThousandsBestiary")   , category: "adventurePath" },
       { key: "pf2e.triumph-of-the-tusk-bestiary"       , name: game.i18n.localize("SettingCompendiums.TriumphoftheTtusk")             , category: "adventurePath" },
+      { key: "pf2e.shades-of-blood-bestiary"           , name: game.i18n.localize("SettingCompendiums.ShadesofBlood")             , category: "adventurePath" },
       { key: "pf2e.stolen-fate-bestiary"               , name: game.i18n.localize("SettingCompendiums.StolenFateBestiary")            , category: "adventurePath" },
       { key: "pf2e.wardens-of-wildwood-bestiary"       , name: game.i18n.localize("SettingCompendiums.WardensofWildwoodBestiary")     , category: "adventurePath" },
       { key: "pf2e.book-of-the-dead-bestiary"          , name: game.i18n.localize("SettingCompendiums.BookoftheDeadBestiary")         , category: "rulebook"      },

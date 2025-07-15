@@ -78,10 +78,11 @@
 | Quest for the Frozen | ✅ | |
 | Season of Ghosts | ✅ | |
 | Seven Dooms for Sandpoint | ✅ | |
-| Sky King's Tomb | ✅❌ | Отсутствует 4 арта |
+| Sky King's Tomb | ✅❌ | Отсутствует 2 арта |
 | Spore War | ✅ | |
 | Strength of Thousands | ❌ | Отсутствует 14 артов |
 | Triumph of the Tusk | ✅❌ | Отсутствует 32 арта |
+| Shades of Blood | ✅ |  |
 | Stolen Fate | | |
 | Wardens of Wildwood | ❌ | Отсутствует 1 арт |
 

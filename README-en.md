@@ -80,10 +80,11 @@ Requires installation of the additional module [**Pathfinder 2E: Token Pack (Cha
 | Quest for the Frozen | ✅ | |
 | Season of Ghosts | ✅ | |
 | Seven Dooms for Sandpoint | ✅ | |
-| Sky King's Tomb | ✅❌ | Missing 4 arts |
+| Sky King's Tomb | ✅❌ | Missing 2 arts |
 | Spore War | ✅ | |
 | Strength of Thousands | ❌ | Missing 14 arts |
 | Triumph of the Tusk | ✅❌ | Missing 32 arts |
+| Shades of Blood | ✅ |  |
 | Stolen Fate | | |
 | Wardens of Wildwood | ❌ | Missing 1 art |
 
