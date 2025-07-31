@@ -2930,6 +2930,22 @@
         }
       }
     },
+    "2JCCY55vijSJF6vu": {
+      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-2/Ankou.webp",
+      "token": {
+        "texture": {
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/bestiary/bestiary-2/Ankou.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
     "DWQzgPL1WjXfu4rV": {
       "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-2/Assassin-Vine.webp",
       "token": {

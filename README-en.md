@@ -9,7 +9,7 @@
 
 ## 🐲 About the Module
 
-This module for **Foundry VTT** adds a large collection of tokens and art for the **Pathfinder 2e** system, as well as tools to manage your content.
+This module for **Foundry VTT** adds a large collection of tokens and art for the **Pathfinder 2e** system, and also provides tools to manage your content.
 
 ## ⚙️ Module Features
 
@@ -17,23 +17,30 @@ In addition to simply adding content, the module offers several powerful tools:
 
 ### 1. Compendium Settings
 Allows you to check paths for art and tokens, delete unnecessary files, view the number of missing actors, and disable loading of unneeded compendiums.
-
 ![Compendium Settings](./data/assets/compendium-settings.png)
 
 ### 2. Actor Restoration
-Restores actors in the sidebar and on the scene to their compendium appearance. You can configure exceptions by actor type and folder.
-
+Restores actors in the sidebar and on the scene to their appearance in the compendium. You can configure exceptions by actor type and folder.
 ![Actor Restoration](./data/assets/actor-restoration.png)
 
 ### 3. NPC Disguise
-Allows you to change an actor's appearance, create "phases" (completely separate, editable character sheets), and easily switch between them or revert to the original actor.
-
+Allows you to change an actor's appearance, create "phases" (completely separate, editable character sheets), and easily switch between them or revert to the original appearance.
 ![NPC Disguise](./data/assets/npc-disguise.png)
 
-### 4. Character Gallery
-Adds a new, fully localized "Character Gallery" feature—a large library of art for images not found in the standard compendiums.
-Requires installation of the additional module [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). This additional module works both separately and with integration into the main one, in the future, art from the compendium will be added, and the Character Gallery will be dependent on the main module.
+Now with additional functionality:
+1. Quick access for changing appearances.
+2. Option to apply size when creating an appearance.
+3. Works for both NPCs and other actor types (Visual only).
+4. Token highlighting if it has alternate appearances (visible only to GM), with an option to disable highlighting for the token.
+5. You can now control the token highlight color in the settings.
+6. You can change the name of the original appearance.
+7. Setting for the location of the HUD element on the token.
+![NPC Disguise-2](./data/assets/npc-disguise-2.png)
+![NPC Disguise-3](./data/assets/npc-disguise-3.png)
 
+### 4. Character Gallery
+Adds a new feature: a large, fully localized "Character Gallery" art library for images not found in the standard compendiums.
+Requires the installation of the additional module [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). This add-on module can work both separately and in conjunction with the main one. In the future, art from the compendium will be added, and the Character Gallery will become dependent on the main module.
 ![Character Gallery](./data/assets/character-gallery.png)
 
 
@@ -68,63 +75,63 @@ Requires installation of the additional module [**Pathfinder 2E: Token Pack (Cha
 | Source | Status | Notes |
 | :--- | :---: | :--- |
 | Abomination Vaults | ✅ | |
-| Age of Ashes | ✅❌ | Missing 1 art |
-| Agents of Edgewatch | ❌ | Missing 6 arts |
-| Blood Lords | ✅❌ | Missing 2 arts |
+| Age of Ashes | ✅❌ | 1 art missing |
+| Agents of Edgewatch | ❌ | 6 arts missing |
+| Blood Lords | ✅❌ | 2 arts missing |
 | Curtain Call | ✅ | |
-| Extinction Curse | ❌ | Missing 8 arts |
+| Extinction Curse | ❌ | 8 arts missing |
 | Fist of the Ruby Phoenix | ✅ | |
-| Gatewalkers | ❌ | Missing 1 art |
+| Gatewalkers | ❌ | 1 art missing |
 | Outlaws of Alkenstar | | |
 | Kingmaker | ✅ | |
 | Quest for the Frozen | ✅ | |
 | Season of Ghosts | ✅ | |
 | Seven Dooms for Sandpoint | ✅ | |
-| Sky King's Tomb | ✅❌ | Missing 2 arts |
+| Sky King's Tomb | ✅❌ | 2 arts missing |
 | Spore War | ✅ | |
-| Strength of Thousands | ❌ | Missing 14 arts |
-| Triumph of the Tusk | ✅❌ | Missing 32 arts |
+| Strength of Thousands | ❌ | 14 arts missing |
+| Triumph of the Tusk | ✅❌ | 32 arts missing |
 | Shades of Blood | ✅ |  |
 | Stolen Fate | | |
-| Wardens of Wildwood | ❌ | Missing 1 art |
+| Wardens of Wildwood | ❌ | 1 art missing |
 
 ### Rulebooks
 
 | Source | Status | Notes |
 | :--- | :---: | :--- |
 | Book of the Dead | | |
-| Paizo Blog | ❌ | Missing 3 arts |
-| Howl of the Wild | ❌ | Missing 16 arts |
-| Lost Omens Bestiary | ✅❌ | Missing 22 arts |
-| NPC Gallery | ❌ | Missing 3 arts |
-| Dark Archive | ❌ | Missing 1 art |
-| Rage of Elements | ❌ | Missing 13 arts |
+| Paizo Blog | ❌ | 3 arts missing |
+| Howl of the Wild | ❌ | 16 arts missing |
+| Lost Omens Bestiary | ✅❌ | 22 arts missing |
+| NPC Gallery | ❌ | 3 arts missing |
+| Dark Archive | ❌ | 1 art missing |
+| Rage of Elements | ❌ | 13 arts missing |
 | War of Immortals | | |
 
 ### Adventures
 
 | Source | Status | Notes |
 | :--- | :---: | :--- |
-| Claws of the Tyrant | ❌ | Missing 9 arts |
-| Fall of Plaguestone | ❌ | Missing 1 art |
-| Malevolence | ❌ | Missing 3 arts |
+| Claws of the Tyrant | ❌ | 9 arts missing |
+| Fall of Plaguestone | ❌ | 1 art missing |
+| Malevolence | ❌ | 3 arts missing |
 | Menace Under Otari | | |
-| One-Shots | ❌ | Missing 9 arts |
+| One-Shots | ❌ | 9 arts missing |
 | Prey for Death | | |
 | Rusthenge | | |
 | Shadows at Sundown | | |
 | The Enmity Cycle | | |
 | The Slithering | | |
 | Troubles in Otari | | |
-| Night of the Gray Death | ❌ | Missing 3 arts |
-| Crown of the Kobold King | ❌ | Missing 2 arts |
+| Night of the Gray Death | ❌ | 3 arts missing |
+| Crown of the Kobold King | ❌ | 2 arts missing |
 
 ### Pathfinder Society
 
 | Source | Status | Notes |
 | :--- | :---: | :--- |
 | Intro | ✅ | |
-| Season 1 | ✅❌ | Missing 67 arts |
+| Season 1 | ✅❌ | 67 arts missing |
 
 ### Pregenerated PCs
 
@@ -136,7 +143,7 @@ Requires installation of the additional module [**Pathfinder 2E: Token Pack (Cha
 
 ## ❤️ Support the Author
 
-If you enjoy my work, you can support me on Boosty. It's a great motivation to continue developing the module!
+If you enjoy my work, you can support me on Boosty. It's a great motivation for the module's continued development!
 
 [![Support on Boosty](https://img.shields.io/badge/Support%20on%20Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
-![Баннер модуля](./data/assets/metofay.png)
+![Module Banner](./data/assets/metofay.png)

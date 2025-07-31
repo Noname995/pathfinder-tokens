@@ -10,7 +10,8 @@
         {{#if hybrids.length}}
             <h3 class="list-header">{{localize "Disguise.HybridSkinsHeader"}}</h3>
             {{#each hybrids}}
-            <li class="phase-item {{#if this.isActive}}active{{/if}}" data-id="{{this.id}}" data-type="{{this.type}}">
+            {{!-- ИЗМЕНЕНИЕ: Добавлен data-apply-size --}}
+            <li class="phase-item {{#if this.isActive}}active{{/if}}" data-id="{{this.id}}" data-type="{{this.type}}" data-apply-size="{{this.shouldApplySize}}">
                 <img src="{{this.img}}" class="phase-icon"/>
                 <span class="phase-name">{{this.name}}</span>
                 <a class="apply-phase" title="{{localize 'Disguise.ApplyTitle'}}"><i class="fas fa-play"></i></a>
@@ -23,7 +24,8 @@
         {{#if fulls.length}}
             <h3 class="list-header">{{localize "Disguise.FullCopiesHeader"}}</h3>
             {{#each fulls}}
-            <li class="phase-item {{#if this.isActive}}active{{/if}}" data-id="{{this.id}}" data-type="{{this.type}}">
+            {{!-- ИЗМЕНЕНИЕ: Добавлен data-apply-size --}}
+            <li class="phase-item {{#if this.isActive}}active{{/if}}" data-id="{{this.id}}" data-type="{{this.type}}" data-apply-size="{{this.shouldApplySize}}">
                 <img src="{{this.img}}" class="phase-icon"/>
                 <span class="phase-name">{{this.name}}</span>
                 <a class="apply-phase" title="{{localize 'Disguise.ApplyTitle'}}"><i class="fas fa-play"></i></a>
@@ -58,14 +60,10 @@
 {{!-- ###################################################################### --}}
 {{else}}
 <form>
-    {{!-- ИЗМЕНЕНИЯ ЗДЕСЬ: Заголовок и переключатель разделены на независимые блоки --}}
-
-    {{!-- Блок 1: Заголовок --}}
+    {{#unless isHybridOnly}}
     <div class="form-group" style="text-align: center; margin-bottom: 5px;">
         <p style="font-weight: bold; margin: 0;">{{localize "Disguise.Step1Mode"}}</p>
     </div>
-
-    {{!-- Блок 2: Переключатель --}}
     <div class="form-group" style="text-align: center;">
         <div class="save-mode-switch" style="display:flex;align-items:center;justify-content:center;gap:10px;">
             <span>{{localize "Disguise.HybridMode"}}</span>
@@ -76,11 +74,19 @@
             <span>{{localize "Disguise.FullCopyMode"}}</span>
         </div>
     </div>
-    
-    {{!-- КОНЕЦ ИЗМЕНЕНИЙ --}}
+    {{/unless}}
+
+    <div class="form-group" style="display: flex; justify-content: center; align-items: center; margin-top: 15px;">
+        <input type="checkbox" id="apply-size-toggle" name="apply-size" checked style="margin-right: 5px;"/>
+        <label for="apply-size-toggle">Применить размер</label>
+    </div>
 
     <p class="notes" style="text-align:center;margin:15px 0;">
-        {{localize "Disguise.SelectModeThenDrag"}}
+        {{#if isHybridOnly}}
+            {{localize "Disguise.DragActorForHybrid"}}
+        {{else}}
+            {{localize "Disguise.SelectModeThenDrag"}}
+        {{/if}}
     </p>
 
     <div class="drop-target" style="height: 150px; display:flex;flex-direction:column;justify-content:center;align-items:center;border:2px dashed #666;border-radius:5px;">
@@ -102,12 +108,7 @@
     .phase-list .phase-icon { width:36px;height:36px;object-fit:cover;margin-right:10px;border:none; }
     .phase-list .phase-name { flex-grow:1; }
     .phase-list .phase-item a { cursor:pointer; margin-left: 10px; }
-    .phase-list {
-        max-height: 440px; /* Немного меньше высоты окна, чтобы учесть заголовок */
-        overflow-y: auto;  /* Полоса прокрутки появится автоматически, когда нужно */
-    }
-    .phase-list .list-header { text-align:center;border-bottom:1px solid #ccc;margin:10px 0 5px 0;font-size:16px; }
-    .phase-list .phase-item { display:flex;align-items:center;padding:5px;border-bottom:1px solid #ccc; border-left: 3px solid transparent; }
+    .phase-list { max-height: 440px; overflow-y: auto; }
 
     /* Стили для Окна Создания */
     .disguise-app-window .toggle-switch{position:relative;display:inline-block;width:50px;height:24px;}
@@ -116,4 +117,43 @@
     .disguise-app-window .slider:before{position:absolute;content:"";height:16px;width:16px;left:4px;bottom:4px;background-color:white;transition:.4s;border-radius:50%;}
     .disguise-app-window input:checked+.slider{background-color:#3f9934;}
     .disguise-app-window input:checked+.slider:before{transform:translateX(26px);}
+
+    /* СТИЛИ ДЛЯ МЕНЮ В HUD */
+    .disguise-hud-menu {
+        background: rgba(0, 0, 0, 0.85);
+        border: 1px solid #f0f0e0;
+        border-radius: 5px;
+        padding: 5px;
+        width: 220px;
+        max-height: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        overflow-y: auto;
+    }
+    .disguise-hud-item {
+        display: flex;
+        align-items: center;
+        padding: 4px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    .disguise-hud-item:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .disguise-hud-item img {
+        width: 36px;
+        height: 36px;
+        margin-right: 8px;
+        border: none;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+    .disguise-hud-item span {
+        color: #f0f0e0;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 </style>

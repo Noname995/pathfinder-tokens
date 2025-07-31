@@ -1,233 +1,239 @@
 # Changelog
+[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.3.5
+Disguise Improvements:
+1. Quick access for changing.
+2. Option to apply size when creating an appearance.
+3. For both NPCs and other actor types (Visual only).
+4. Token highlighting if it has appearances (visible only to GM), with a function to disable this highlighting for the token.
+5. In the settings, you can now control the color of the token highlighting.
+6. You can change the name of the original appearance.
+7. Setting for the location of the HUD element on the token.
+8. Fixed the Actor Restoration setting for actors on stage. It now restores tokens as they are in the compendium, even if dynamic rings were enabled/disabled. The line for ignoring the token's binding to the parent actor in the sidebar has been removed.
+
 ## Version 2.3.0
-1. Added AP Shades of Blood
-2. Added 2 arts in Sky Kings Tomb
-3. Fixed the problem of displaying the actor in the "Battle" panel when changing disguise
-4. Character Gallery will be a standalone module, but with the integration of settings into the main one
+1. Added AP "Shades of Blood".
+2. Added 2 art pieces to "Sky King's Tomb".
+3. Fixed an issue with actor display in the "Combat" panel when changing disguise.
+4. Character Gallery will be a standalone module, but with its settings integrated into the main one.
 
 ## Version 2.2.1
-1. The module is divided into two parts, as the main [**Pathfinder 2E: Token Pack**](https://github.com/Metofay/pf2e-token-pack) and as an additional [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). At the moment, Character Gallery can work both separately and together, but in the future I plan to add compendium art to it, which will already tie it to the main module.
+1. The module is divided into two parts: the main [**Pathfinder 2E: Token Pack**](https://github.com/Metofay/pf2e-token-pack) and an additional [**Pathfinder 2E: Token Pack (Character Gallery)**](https://github.com/Metofay/pf2e-token-pack-character-gallery). At the moment, Character Gallery can work both separately and together, but in the future, I plan to add compendium art to it, which will tie it to the main module.
 
 ## Version 2.2.0
-1. Added NPC Actor Masking, only for them. Allows you to change art and token, or phases with different stats, like with bosses in some games, and you can edit the character sheets of the phases to make it as you like. So far, without integration with Character Gallery, you will have to create an actor separately, apply as a Visual, after that you can delete the created actor for this, the image will be saved in the manager
-
-2. A monstrous addition. I added two modules and their mechanism, removed static tokens. THIS IS Pathfinder Tokens: Character Gallery and Pathfinder Tokens: Myth and Magic. I tried to make a full localization, I had to dig into the code, it seems to have worked, I can't vouch for the translation, since I am a layman in English (heh-heh), so please write translation errors in the post or Discord.
-
-3. Now the module weighs under 1 gigabyte, and will only expand, perhaps I will split it into two different ones, one is purely for compendiums, that is, the main one, and the second will consist of such modules as Character Gallery and Myth and Magic. Some art may be repeated and different, since the modules were also added to the compendium itself, I will clean it later so that there is no duplication, the code has already been edited, all that remains is to check it manually.
+1. Added NPC Actor Disguise, for them only. It allows changing art and token, or creating phases with different stats, like bosses in some games, and you can edit the character sheets of the phases to your liking. For now, without integration with Character Gallery, you will have to create an actor separately, apply it as a Visual, after which you can delete the created actor; the appearance will be saved in the manager.
+2. A monstrous addition. I've added two modules and their mechanisms, and removed static tokens. These are Pathfinder Tokens: Character Gallery and Pathfinder Tokens: Myth and Magic. I tried to do a full localization, which required digging into the code. It seems to have worked, but I can't vouch for the translation, as I am a layman in English (heh-heh), so please report translation errors in an issue or on Discord.
+3. The module now weighs nearly 1 GB and will only expand. I might split it into two different modules later: one purely for compendiums (the main one), and the second consisting of modules like Character Gallery and Myth and Magic. Some art may be repeated and different, as the modules also added to the compendium itself. I will clean it up later to avoid duplication; the code has already been edited, all that remains is to check it manually.
 
 ## Version 2.1.0
-1. Added dynamic AP tokens Season of Ghosts. Missing art only in v13, this actor is not on v12
-2. Added dynamic AP tokens Blood Lords
-3. Added dynamic AP tokens Abomination Vaults
-4. Added dynamic AP tokens Seven Dooms for Sandpoint
-5. Added dynamic AP tokens Sky Kings Tomb
-6. Added dynamic AP tokens Curtain Call
+1. Added dynamic tokens for AP "Season of Ghosts". The only missing art is in v13; this actor is not in v12.
+2. Added dynamic tokens for AP "Blood Lords".
+3. Added dynamic tokens for AP "Abomination Vaults".
+4. Added dynamic tokens for AP "Seven Dooms for Sandpoint".
+5. Added dynamic tokens for AP "Sky King's Tomb".
+6. Added dynamic tokens for AP "Curtain Call".
 
-I'm taking a break from this rush for now, check out [boosty](https://boosty.to/metofay), I'll be posting more often what I'm working on there
+I'm taking a break from this marathon for now. Check out my [boosty](https://boosty.to/metofay), where I'll be posting more often about what I'm working on.
 
 ## Version 2.0.0
-1. Dynamic tokens for AP Kingmaker
-2. I forgot how the module versions were conducted, ideally, the first digit (1) of the version is just a number, the second digit(9) is adding and updating compendiums, and the third digit(7) is minor corrections of jambs in files, something is not critical
+1. Dynamic tokens for AP "Kingmaker".
+2. I forgot how I was versioning the module. Ideally, the first digit (1) is just a number, the second digit (9) is for adding and updating compendiums, and the third digit (7) is for minor fixes in files, nothing critical.
 3. Don't forget to check out Boosty, where I can chat with you and you'll find out what's going on behind the scenes.
-4. I hope, at least on Boosty, you will write to me about the mistakes that you encounter, well, write about the art too, maybe I forgot to erase the excess somewhere and now it gets in the way (I still did it on a white background, I could have missed it). There's also a more detailed description and more information for you.
-5. I changed the "Restore token" setting, now there are more options for you and it is beautifully designed.
+4. I hope you will write to me, at least on Boosty, about the errors you encounter. Also, write about the art; maybe I forgot to erase something extra somewhere and now it's in the way (I was working on a white background, I could have missed it). There's also a more detailed description and more information for you there.
+5. I changed the "Restore Token" setting; now there are more options for you and it's nicely designed.
 
 ## Version 1.9.7
-1. Added Pathfinder Society Intro and Season 1
-2. Dynamic tokens for Adventure Pregens and added a couple of arts
-3. Now I have [boosty](https://boosty.to/metofay). There I also launched a vote on which adventure we will make dynamic tokens for next
+1. Added "Pathfinder Society Intro" and "Season 1".
+2. Dynamic tokens for "Adventure Pregens" and added a couple of art pieces.
+3. I now have a [boosty](https://boosty.to/metofay). I also started a poll there on which adventure we will make dynamic tokens for next.
 
 ## Version 1.9.5
-1. Added AP Spore War
-2. Added AP Triumph of the Tusk(there are problems with the number of arts)
-3. Dynamic tokens for Rulebooks Lost Omens Bestiary
-4. Changed the art of Weathered Wail in Age of Ashes
-5. Dynamic tokens for AP Quest for the Frozen Flame
-6. Dynamic tokens for AP Fists of the Ruby Phoenix(all arts have been supplemented, many thanks to Vamp1red for giving the go-ahead for his arts)
-7. Removed the setting for controlling the actor's ring on stage
-8. Reworked the setting for restoring actors, now it restores actors both on stage and in the sidebar of actors and takes over control of the ring. Searches first by ID, and then by original name.
+1. Added AP "Spore War".
+2. Added AP "Triumph of the Tusk" (there are issues with the number of art pieces).
+3. Dynamic tokens for Rulebooks "Lost Omens Bestiary".
+4. Changed the art for "Weathered Wail" in "Age of Ashes".
+5. Dynamic tokens for AP "Quest for the Frozen Flame".
+6. Dynamic tokens for AP "Fists of the Ruby Phoenix" (all art has been added, many thanks to Vamp1red for giving the go-ahead for his art).
+7. Removed the setting for controlling the actor's ring on the scene.
+8. Reworked the actor restoration setting. It now restores actors both on the scene and in the actors sidebar and takes control of the ring. It searches first by ID, and then by original name.
 
 ## Version 1.9.1
-1. Work is underway on Season, Spore War, Triumph of the Tuck, Season 1: part 1-00, 1-01
-2. Added dynamic tokens for Age of Ashes at the request of the Fairytale Merchant
-3. The setting for checking the bestiary and compendium file has been completely redesigned. Improved visual display style and search and sorting logic
-3. Due to the different type of sorting, book folders will appear in each folder to make it easier to search. At the moment, I'm optimizing everything more for myself so that it's convenient and easier to search for everything.
-4. Reduced module weight by compressing art and tokens
+1. Work is underway on "Season", "Spore War", "Triumph of the Tusk", "Season 1: part 1-00, 1-01".
+2. Added dynamic tokens for "Age of Ashes" at the request of the Fairytale Merchant.
+3. The setting for checking the bestiary and compendium file has been completely redesigned. Improved visual display style and search and sorting logic.
+4. Due to a different sorting type, book folders will appear in each folder to make searching easier. At the moment, I'm optimizing everything more for myself to make it convenient and easier to find everything.
+5. Reduced module weight by compressing art and tokens.
 
 ## Version 1.9.0
-1. The most important thing is that now the Bestiary compendiums have dynamic tokens, but regular tokens have been removed so as not to increase the weight of the module. I'll tell you in advance that all the actors on the stage will break.
-2. The settings for Disabling the compendium, Checking the compendium paths have been completely redesigned (this setting is more for me, I found a lot of errors).
+1. Most importantly, the Bestiary compendiums now have dynamic tokens, but regular tokens have been removed to not increase the module's weight. I'll warn you in advance that all actors on the scene will break.
+2. The settings for Disabling Compendiums and Checking Compendium Paths have been completely redesigned (this setting is more for me; I found a lot of errors).
+3. Many unnecessary files have been removed and the paths and presence of actor images have been corrected. I've put all the files in order.
+4. The setting for Restoring Actors on Scene has been redesigned and a setting for Enabling Dynamic Tokens has been added. The point of these two settings is that since I have two types of tokens in the module (dynamic and regular), I had to find a clever solution for the settings to work correctly without giving you a headache. The Enable Dynamic Tokens setting allows you to enable them for all actors on the scene who have them, according to the compendium list, so you don't have to enable each actor manually. The Restore Actors on Scene setting works as it did before, well, almost. Now, if an actor doesn't have dynamic tokens enabled, it won't force them on, but will do everything as usual. The same goes in reverse: if dynamic tokens were enabled, it will check and substitute everything, even substituting the actor's art instead of the standard image, as Foundry would have done it (some actors will just be renamed, as it wasn't done correctly, even the format was wrong).
 
-4. Many unnecessary files have been removed and the paths and presence of actor images have been corrected. I put all the files in order.
+As a result, to update the actors on the scene and also enable dynamic tokens for the actors from the Bestiaries, you need to do the following:
+1) Open the module settings.
+2) Select the Enable Dynamic Tokens setting.
+3) You will see a window with two labels: "Enabled (number of actors who have it enabled) and an active checkbox" and "Disabled (number of actors who have it disabled) and an inactive checkbox". It may take time to process all actors on the scene.
+4) The checkboxes mimic the dynamic ring function in the token settings.
+5) If you want to turn them on, click the "Disabled" checkbox, and then update the token. If you want to turn them off, click "Enabled".
+6) After that, the actors on your scene will be updated; again, it may take time to process.
+7) Then click the Restore Actors on Scene button.
+8) A message about the progress and the number of updated actors will appear at the top.
 
-5. The setting for Restoring actors on the stage has been redesigned and the setting for Enabling dynamic tokens has been added. The meaning of these two settings is that due to the fact that I have two types of tokens in the module at once, both dynamic and regular, in order for the settings to work correctly, I had to masterfully solve the problem so that you don't have a headache from this. In the Dynamic Tokens Enablement settings, it allows you to enable them for all actors on stage, according to the list of compendiums, who have them, so that you don't have to manually enable each actor. But the Actors on Stage Restore setting works the same as it was, well, almost, now if an actor doesn't have dynamic tokens enabled, he won't be able to enable them by force, but will do everything as usual, the same thing and vice versa, if dynamic tokens were enabled, he will check everything and substitute everything, even substitute the actor's art instead of the standard image, as if Foundry had done it (some actors will just be renamed, since it wasn't done correctly, even the format was incorrect).
+Congratulations, everything is ready. Naturally, enabling and disabling dynamic tokens is only needed so that you don't have to do this manually and can just turn them on for the actors added to the module. If you turn them off, there will be art instead of a token, since I removed the usual tokens from the module, as I wrote above.
 
-As a result, to update the actors on stage, and also enable dynamic tokens for the actors from the Bestiaries, you need to do the following:
-1) Open the module settings
-2) Select the Enable dynamic tokens setting
-3) There you will see a window with two inscriptions "Enabled (number of actors who have enabled) and an active checkbox" and "Disabled (number of actors who have disabled) and an inactive checkbox", it may take time to process all the actors on stage.
-4) Checkboxes imitate the dynamic ring function in the token settings
-5) If you want to turn them on, then click on the "Disabled" checkbox, and then update the token, if you turn them off, then on "Enabled"
-6) After that, the actors on your stage will be updated, again, it may take time to process
-7) Then click on the Restore actors on stage button
-8) A message about the progress and the number of actors that were updated will appear at the top
-
-Congratulations, everything is ready. Naturally, turning on and off dynamic tokens is only needed so that you don't have to do this manually and just turn them on for the actors who were added to the module, if you turn them off, then instead of a token there will be art, since I removed the usual tokens from the module, as I wrote above.
-
-6. In principle, everything works the same with the module that adds rings, but there is a nuance. Depending on the choice in the Foundry Basic Settings in the Foundry Dynamic Token Rings Fit Modes item, if you select Standard, then the size of your tokens with other rings will decrease slightly and the rings themselves will not crawl beyond the edges of the creatures' size, but if you use standard rings from Foundry (steel and bronze), then your tokens will be slightly smaller, for this you need to enable the Grade mode so that the size is normal. In general, I hope you figure it out.
+5. In principle, everything works the same with the module that adds rings, but there is a nuance. Depending on the choice in the Foundry Core Settings in the "Dynamic Token Rings Fit Modes" item, if you select Standard, the size of your tokens with other rings will decrease slightly and the rings themselves will not go beyond the edges of the creature's size. But if you use standard rings from Foundry (steel and bronze), then your tokens will be slightly smaller. For this, you need to enable the Grade mode so that the size is normal. In general, I hope you figure it out.
 
 ## Version 1.8.3
-1. Returned the main function of disabling compendiums, before that I broke it
+1. Restored the main function of disabling compendiums; I broke it before.
 2. Slightly corrected the design of all windows.
 
-Now everything should work as it should, I hope so, I really look forward to your feedback
+Now everything should work as it should. I hope so, and I'm really looking forward to your feedback.
 
 ## Version 1.8.2
-1. Returned "checking arts and tokens on stage"
-2. Visually formatted the output window after "checking arts and tokens in commandiums"
-3. Slightly corrected the output window after "checking arts and tokens on stage"
-4. Beautifully formatted scripts.js
+1. Restored "check arts and tokens on scene".
+2. Visually formatted the output window after "check arts and tokens in compendiums".
+3. Slightly corrected the output window after "check arts and tokens on scene".
+4. Nicely formatted scripts.js.
 
 ## Version 1.8.1
-1. Forgot about the section of code that adds a check for arts and tokens for actors on stage inside the compendium disable setting 🤣
+1. Forgot about the section of code that adds a check for arts and tokens for actors on stage inside the compendium disable setting 🤣.
 
 ## Version 1.8.0
-1. Updated to v13, everything works on v12 too
-2. Changed the logic of checking arts and tokens
-3. Removed iconics, since they already exist in the system
-4. Added a button in the settings to check the paths of arts/tokens of actors on the stage (both one and all scenes)
-5. Removed the extra code that was used for the previous settings window
+1. Updated to v13, everything works on v12 too.
+2. Changed the logic of checking arts and tokens.
+3. Removed iconics, since they already exist in the system.
+4. Added a button in the settings to check the paths of arts/tokens of actors on the scene (both one and all scenes).
+5. Removed the extra code that was used for the previous settings window.
 
 ## Version 1.7.0
-1. Updated Beginner Box
-2. Updated Lost Omens
-3. Reduced the size of the NPC Core files (I forgot last time), also changed the case of the names
-4. Added Adventure Claws of the Tyrant
-5. The data of unnecessary actors in the library (compendium) was deleted, a total of 354 actors were released (so to speak, cleaning the module from excess):
-1) Bestiary 1 = 292 actors
-2) Bestiary 2 = 42 actors
-3) Bestiary 3 = 18 actors
-4) Fist of the Ruby Phoenix = 1 actor
-5) Rage of Elements = 1 actor
-6) the Slithering = 1 actor
-6. No one informed me that the art and token files have not been updated, so now it's a clean download and I advise you to download it from github again.
-7. Oh yes, I didn't write it, but okay, now there's a button to check the paths to the art and the token, as well as the presence of extra actors in the bestiary file, including even those who don't display, if there are extra ones, suggests making a script) However, you need to run it with handles.
+1. Updated "Beginner Box".
+2. Updated "Lost Omens".
+3. Reduced the size of the "NPC Core" files (I forgot last time), also changed the case of the names.
+4. Added Adventure "Claws of the Tyrant".
+5. Deleted data of unnecessary actors in the library (compendium), a total of 354 actors were released (cleaning the module from excess, so to speak):
+    1) Bestiary 1 = 292 actors
+    2) Bestiary 2 = 42 actors
+    3) Bestiary 3 = 18 actors
+    4) Fist of the Ruby Phoenix = 1 actor
+    5) Rage of Elements = 1 actor
+    6) The Slithering = 1 actor
+6. No one informed me that the art and token files have not been updated, so now it's a clean download and I advise you to download it from GitHub again.
+7. Oh yes, I didn't write it, but okay, now there's a button to check the paths to the art and the token, as well as the presence of extra actors in the bestiary file, including even those who don't display. If there are extra ones, it suggests making a script) However, you need to run it manually.
 
 ## Version 1.6.0
-1. Separated by NPC core and NPC Gallery
+1. Separated "NPC Core" and "NPC Gallery".
 2. The spelling of the path to art/tokens was changed due to a conflict with the Carousel Combat Tracker, when there was no Art in the carousel at the initiative.
-3. Fixed art in AP Age of Ashes "Spiritbound Album"
-4. Added art in AP Agents of Edge watch "Carvey"
-5. Added army flags in AP Kingmaker
-6. Added NPC Core
-7. The name of the module folder has been changed
-8. Changed the spelling of art and tokens, instead of spaces in the name, now a hyphen -
+3. Fixed art in AP "Age of Ashes" for "Spiritbound Aluum".
+4. Added art in AP "Agents of Edgewatch" for "Carvey".
+5. Added army flags in AP "Kingmaker".
+6. Added "NPC Core".
+7. The name of the module folder has been changed.
+8. Changed the spelling of art and tokens; instead of spaces in the name, there is now a hyphen -.
 
 ## Version 1.5.2
-1. The 1.5.1 release was flooded crookedly, I did a full reload of the repository so that it would be like mine. At the moment, everything is working normally.
+1. The 1.5.1 release was uploaded incorrectly. I did a full re-upload of the repository to match my local version. At the moment, everything is working normally.
 
 ## Version 1.5.1
-1. The bestiaries file is provided.json and the name of the art/tokens to a common format, such as Child Of Belcora.webp. Something + is the same as monsters are called in the foundry itself. I hope for feedback on GitHub or Discord, because something might have broken in the process, not taking into account everything that is, etc.
+1. The `bestiaries.json` file and the names of art/tokens have been brought to a common format, like `Child-Of-Belcorra.webp`. Something more or less like how monsters are named in Foundry itself. I hope for feedback on GitHub or Discord, because something might have broken in the process, not taking into account everything that is, etc.
 
 ## Version 1.5.0
-1. Updated flags in Kingmaker
-2. Updated SA Rusthenge
-3. Added Rulebooks War of Immortals
-4. I converted the bestiaries file so that the name of the art and tokens is capitalized with the first letter of each word. Kind of like for Linux systems, as I understand it.
+1. Updated flags in "Kingmaker".
+2. Updated SA "Rusthenge".
+3. Added Rulebooks "War of Immortals".
+4. I converted the `bestiaries.json` file so that the name of the art and tokens is capitalized with the first letter of each word. Kind of like for Linux systems, as I understand it.
 
 ## Version 1.4.3
-1. Correction of the settings display
+1. Correction of the settings display.
 
 ## Version 1.4.2
-1. Correction of the settings display
+1. Correction of the settings display.
 
 ## Version 1.4.1
-1. The modified bestiaries file has been added (Thanks danielrab)
+1. The modified `bestiaries` file has been added (Thanks danielrab).
 
 ## Version 1.4.0
-1. Added AP Curtain Call
+1. Added AP "Curtain Call".
 
 ## Version 1.3.0
-1. Added AP Wardens of Wildwood
-2. Added Rulebooks Howl of the Wild
-3. Added Rulebooks Lost Omens Tian Xia World Guide
-4. Added code and folders for the Curtain Call API
-5. Added Adventure Prey for Death
+1. Added AP "Wardens of Wildwood".
+2. Added Rulebooks "Howl of the Wild".
+3. Added Rulebooks "Lost Omens Tian Xia World Guide".
+4. Added code and folders for the "Curtain Call" AP.
+5. Added Adventure "Prey for Death".
 
 ## Version 1.2.0
-1. Added tokens for the Strength of Thousands API, forgot to add
-2. Updated Monster Core (from a new separate module)
+1. Added tokens for the "Strength of Thousands" AP, forgot to add them.
+2. Updated "Monster Core" (from a new separate module).
 
 ## Version 1.1.0
-1. Added Dark Archive
-2. Added One-Shots (i had to cut out four leshies manually from group art. Decided not to color Meliosas-Leshy-WisteriaMeliosas-Leshy-Wisteria)
-3. I intended tof add Vehicles, but there were only 15 arts, and had issues with making tokens.
-4. Added missing arts in Extinction Curse (4 arts), Age of Ashes (1 art)
-5. Added AP Agents of Edgewatch
-6. Added AP Fists of the Ruby Phoenix
-7. Added AP Seven Dooms for Sandpoint
-8. Added AP Strength of Thousands
-9. Updated Menace Under Otari
+1. Added "Dark Archive".
+2. Added "One-Shots" (I had to cut out four leshies manually from group art. Decided not to color Meliosas-Leshy-Wisteria).
+3. I intended to add "Vehicles", but there were only 15 art pieces, and I had issues with making tokens.
+4. Added missing art in "Extinction Curse" (4 pieces), "Age of Ashes" (1 piece).
+5. Added AP "Agents of Edgewatch".
+6. Added AP "Fists of the Ruby Phoenix".
+7. Added AP "Seven Dooms for Sandpoint".
+8. Added AP "Strength of Thousands".
+9. Updated "Menace Under Otari".
 10. Added links to bug report and changelog.
-11. Added settings to turn off parts of code in bestiaries.json. By default, you can turn off parts of bestiary you already have modules and arts for.
-12. Added localisation file for module, description and changelog (English and Russian).
+11. Added settings to turn off parts of code in `bestiaries.json`. By default, you can turn off parts of the bestiary you already have modules and art for.
+12. Added localization file for module, description and changelog (English and Russian).
 
-<b>First 3 changes were already added in 1.0.6, but i forgot about it, because I was compressing the whole module.</b>
+<b>First 3 changes were already added in 1.0.6, but I forgot about it, because I was compressing the whole module.</b>
 
 <b>Changed version release numeration for better understanding when you should update.</b>
 
 ## Version 1.0.6
-Decreased module size almost by 2 times, by compressing files to 100kb or less. Compressed arts were saved. I'll restore them if quality will worsen to much.
+Decreased module size by almost 2 times by compressing files to 100kb or less. Compressed art was saved. I'll restore them if the quality worsens too much.
 
 ## Version 1.0.5
-While waiting for arts from Agents of Edgewatch from other person I made some progress:
+While waiting for art for "Agents of Edgewatch" from another person, I made some progress:
 
-1. Added Pregenerated PCs
-2. Added Paizo Blog (some arts were taken from web)
-3. Added missing monsters from Book of the Dead
-4. Added Lost Omens Impossible Lands
-5. Added Lost Omens Travel Guide
-6. Added Lost Omens Highhelm
-7. Finished Npc Gallery
-8. Added Rage of Elements
-9. Added some arts from Lost Omens Monsters of Myth
-10. Added a few arts from Crown of the Kobold King
-11. Added one monster from Malevolence
-12. Added two arts from Menace Under Otari
-13. Added last art from Outlaws of Alkenstar
+1. Added "Pregenerated PCs".
+2. Added "Paizo Blog" (some art was taken from the web).
+3. Added missing monsters from "Book of the Dead".
+4. Added "Lost Omens Impossible Lands".
+5. Added "Lost Omens Travel Guide".
+6. Added "Lost Omens Highhelm".
+7. Finished "NPC Gallery".
+8. Added "Rage of Elements".
+9. Added some art from "Lost Omens Monsters of Myth".
+10. Added a few art pieces from "Crown of the Kobold King".
+11. Added one monster from "Malevolence".
+12. Added two art pieces from "Menace Under Otari".
+13. Added the last art piece from "Outlaws of Alkenstar".
 
-<b>Additionaly added code lines for Fists of the Ruby Phoenix, Seven Dooms for Sandpoint, Strength-of-thousands, and Agents of Edgewatch.</b>
+<b>Additionally added code lines for "Fists of the Ruby Phoenix", "Seven Dooms for Sandpoint", "Strength of Thousands", and "Agents of Edgewatch".</b>
 
 ## Version 1.0.4
-Added AP Sky Kings Tomb
+Added AP "Sky King's Tomb".
 
-<b>Additionaly reuploaded all folders due to the minor changes.</b>
+<b>Additionally re-uploaded all folders due to minor changes.</b>
 
 ## Version 1.0.3
-Added AP Gatewalkers
+Added AP "Gatewalkers".
 
 ## Version 1.0.2
-Added AP Extinction Curse and Stolen Fate.
+Added AP "Extinction Curse" and "Stolen Fate".
 
-<b>Additionaly I looked for missing arts/tokens and added what I could. I have no idea where to find left arts.</b>
+<b>Additionally, I looked for missing art/tokens and added what I could. I have no idea where to find the remaining art.</b>
 
 ## Version 1.0.1
-Added tokens and decreased the size of arts for Monster Core.
+Added tokens and decreased the size of art for "Monster Core".
 
 ## Version 1.0.0
-Pay attention that this is still work in progress, and some APs are missing arts/tokens. I intend to patch it in future updates if I could find missing arts. Additionaly, Monster core was added with the same issue.
+Pay attention that this is still a work in progress, and some APs are missing art/tokens. I intend to patch this in future updates if I can find the missing art. Additionally, "Monster Core" was added with the same issue.
 
 <b>Bestiary:</b>
-
 1. Bestiary 1
 2. Bestiary 2
 3. Bestiary 3
 4. Monster core - Added only arts
 
-<b>Adventure Patch:</b>
-
+<b>Adventure Paths:</b>
 1. Abomination Vaults
 2. Age of Ashes
 3. Blood Lords
@@ -239,22 +245,20 @@ Pay attention that this is still work in progress, and some APs are missing arts
 9. Sky Kings Tomb
 10. Stolen Fate
 
-<b>Rulebook:</b>
-
+<b>Rulebooks:</b>
 1. Book of the Dead
 2. Lost Omens Mwangi Expanse
 3. Lost Omens Monsters of Myth
 4. Npc Gallery
 
-<b>Standalone Adventures</b>
-
+<b>Standalone Adventures:</b>
 1. Fall of Plaguestone
 2. Malevolence
 3. Menace Under Otari
 4. Rusthenge
 5. Shadows at Sundown
-6. the Enmity Cycle
-7. the Slithering
+6. The Enmity Cycle
+7. The Slithering
 8. Troubles in Otari
 9. Night of the Gray Death
 10. Crown of the Kobold King

@@ -19,7 +19,6 @@ class ExcludeTypesForm extends ExclusionForm {
     
     async getData() {
         const saved = game.settings.get('pf2e-token-pack', 'fix-tokens-excluded-types');
-        // <<< ИСПРАВЛЕНИЕ: Добавлен фильтр, чтобы убрать 'party' из списка
         const allTypes = [...new Set(game.actors.map(a => a.type).filter(t => t && t !== 'party'))].sort();
         const getLocalizedType = (type) => game.i18n.localize(`FixTokens.ActorTypes.${type}`) ?? type;
         
@@ -35,12 +34,10 @@ class ExcludeTypesForm extends ExclusionForm {
     }
 }
 
-// Замените этот класс целиком
 class ExcludeActorsForm extends ExclusionForm {
     static get defaultOptions() { return mergeObject(super.defaultOptions, { id: 'fix-tokens-exclude-actors', title: "Исключение по актерам", setting: 'fix-tokens-manual-excluded-actors', header: "Выберите актеров для исключения из обработки", height: 700 }); }
     
     buildActorTree() {
-        // <<< ИСПРАВЛЕНИЕ: Аккуратно добавляем логику выбора по умолчанию в вашу рабочую версию
         let saved = game.settings.get('pf2e-token-pack', 'fix-tokens-manual-excluded-actors');
         const defaultSet = game.settings.get('pf2e-token-pack', 'actor-default-set');
         const partyForDefault = game.actors.find(a => a.type === 'party');
@@ -49,7 +46,6 @@ class ExcludeActorsForm extends ExclusionForm {
             const idsToDefault = [partyForDefault.id, ...partyForDefault.members.map(m => m.id)];
             saved = Array.from(new Set([...saved, ...idsToDefault]));
         }
-        // Конец блока по умолчанию. Дальше идет ваша оригинальная, рабочая логика.
 
         const nodeMap = new Map();
         const party = game.actors.find(a => a.type === 'party');
@@ -89,7 +85,6 @@ class ExcludeActorsForm extends ExclusionForm {
 
     async getData() { return { title: this.options.title, header: this.options.header, options: this.buildActorTree(), isTree: true, isActors: true }; }
     
-    // <<< ИСПРАВЛЕНИЕ: Добавляем метод для установки флага после первого сохранения
     async _updateObject(event, formData) {
         await super._updateObject(event, formData);
         if (!game.settings.get('pf2e-token-pack', 'actor-default-set')) {
@@ -168,10 +163,7 @@ async function runUpdateScript() {
             notUpdatedActors.push({ name: actor.name, reason: game.i18n.localize("FixTokens.SourceNotFound") });
             continue;
         }
-
-        // --- ЛОГИКА ОБНОВЛЕНИЯ, ОСНОВАННАЯ НА ВАШЕМ ОРИГИНАЛЬНОМ СКРИПТЕ ---
-
-        // 1. Обновление прототипа токена актера
+        
         const currentPT = actor.prototypeToken.toObject();
         const originalPT = original.prototypeToken.toObject();
         const updatedPT = foundry.utils.deepClone(currentPT);
@@ -179,15 +171,22 @@ async function runUpdateScript() {
         
         if (currentPT.texture.scaleX !== originalPT.texture.scaleX) { updatedPT.texture.scaleX = originalPT.texture.scaleX; needsPrototypeUpdate = true; }
         if (currentPT.texture.scaleY !== originalPT.texture.scaleY) { updatedPT.texture.scaleY = originalPT.texture.scaleY; needsPrototypeUpdate = true; }
-        if (originalPT.ring?.enabled !== undefined && updatedPT.ring?.enabled !== originalPT.ring.enabled) { foundry.utils.setProperty(updatedPT, "ring.enabled", originalPT.ring.enabled); needsPrototypeUpdate = true; }
-        if (originalPT.ring?.enabled) {
-            if (currentPT.ring?.subject?.scale !== originalPT.ring.subject.scale) { foundry.utils.setProperty(updatedPT, "ring.subject.scale", originalPT.ring.subject.scale); needsPrototypeUpdate = true; }
-            if (currentPT.ring?.subject?.texture !== originalPT.ring.subject.texture) { foundry.utils.setProperty(updatedPT, "ring.subject.texture", originalPT.ring.subject.texture); needsPrototypeUpdate = true; }
-            if (currentPT.texture.src !== original.img) { updatedPT.texture.src = original.img; needsPrototypeUpdate = true; }
+        if (foundry.utils.getProperty(updatedPT, "flags.pf2e.autoscale") !== false) { foundry.utils.setProperty(updatedPT, "flags.pf2e.autoscale", false); needsPrototypeUpdate = true; }
+        
+        const originalRingEnabled = originalPT.ring?.enabled ?? false;
+        if ((updatedPT.ring?.enabled ?? false) !== originalRingEnabled) {
+             foundry.utils.setProperty(updatedPT, "ring.enabled", originalRingEnabled);
+             needsPrototypeUpdate = true;
+        }
+
+        if (originalRingEnabled) {
+            if (originalPT.ring.subject) {
+                if (currentPT.ring?.subject?.scale !== originalPT.ring.subject.scale) { foundry.utils.setProperty(updatedPT, "ring.subject.scale", originalPT.ring.subject.scale); needsPrototypeUpdate = true; }
+                if (currentPT.ring?.subject?.texture !== originalPT.ring.subject.texture) { foundry.utils.setProperty(updatedPT, "ring.subject.texture", originalPT.ring.subject.texture); needsPrototypeUpdate = true; }
+            }
         } else {
             if (currentPT.texture.src !== originalPT.texture.src) { updatedPT.texture.src = originalPT.texture.src; needsPrototypeUpdate = true; }
         }
-        if (foundry.utils.getProperty(updatedPT, "flags.pf2e.autoscale") !== false) { foundry.utils.setProperty(updatedPT, "flags.pf2e.autoscale", false); needsPrototypeUpdate = true; }
         
         const actorUpdateData = {};
         if (actor.img !== original.img) { actorUpdateData.img = original.img; }
@@ -199,24 +198,28 @@ async function runUpdateScript() {
         }
 
         // 2. Обновление токенов на сценах
+        // <<< ИЗМЕНЕНО: Возвращен цикл по сценам
         for (const scene of game.scenes) {
-            for (const tokenDoc of scene.tokens.filter(t => t.actorId === actor.id && !t.isLinked)) {
+            for (const tokenDoc of scene.tokens.filter(t => t.actorId === actor.id)) {
                 const currentToken = tokenDoc.toObject();
                 const tokenUpdateData = {};
-                const patch = (path, currentVal, originalVal) => { if (currentVal !== originalVal) tokenUpdateData[path] = originalVal; };
                 
-                patch("texture.scaleX", currentToken.texture.scaleX, originalPT.texture.scaleX);
-                patch("texture.scaleY", currentToken.texture.scaleY, originalPT.texture.scaleY);
-                patch("ring.enabled", currentToken.ring?.enabled, originalPT.ring?.enabled);
+                if (currentToken.texture.scaleX !== originalPT.texture.scaleX) tokenUpdateData["texture.scaleX"] = originalPT.texture.scaleX;
+                if (currentToken.texture.scaleY !== originalPT.texture.scaleY) tokenUpdateData["texture.scaleY"] = originalPT.texture.scaleY;
+                if (foundry.utils.getProperty(currentToken, "flags.pf2e.autoscale") !== false) tokenUpdateData["flags.pf2e.autoscale"] = false;
 
-                if (originalPT.ring?.enabled) {
-                    patch("ring.subject.scale", currentToken.ring?.subject?.scale, originalPT.ring?.subject?.scale);
-                    patch("ring.subject.texture", currentToken.ring?.subject?.texture, originalPT.ring?.subject?.texture);
-                    patch("texture.src", currentToken.texture.src, original.img);
-                } else {
-                    patch("texture.src", currentToken.texture.src, originalPT.texture.src);
+                if ((currentToken.ring?.enabled ?? false) !== originalRingEnabled) {
+                    tokenUpdateData["ring.enabled"] = originalRingEnabled;
                 }
-                patch("flags.pf2e.autoscale", currentToken.flags?.pf2e?.autoscale, false);
+
+                if (originalRingEnabled) {
+                    if (originalPT.ring.subject) {
+                        if (currentToken.ring?.subject?.scale !== originalPT.ring.subject.scale) tokenUpdateData["ring.subject.scale"] = originalPT.ring.subject.scale;
+                        if (currentToken.ring?.subject?.texture !== originalPT.ring.subject.texture) tokenUpdateData["ring.subject.texture"] = originalPT.ring.subject.texture;
+                    }
+                } else {
+                    if (currentToken.texture.src !== originalPT.texture.src) tokenUpdateData["texture.src"] = originalPT.texture.src;
+                }
 
                 if (Object.keys(tokenUpdateData).length > 0) {
                     await tokenDoc.update(tokenUpdateData);
@@ -263,7 +266,6 @@ Hooks.once("init", () => {
         default: [] 
     });
     
-    // <<< ДОБАВЛЕНА НАСТРОЙКА-ФЛАГ
     game.settings.register("pf2e-token-pack", "actor-default-set", { 
         scope: "world", 
         config: false, 
