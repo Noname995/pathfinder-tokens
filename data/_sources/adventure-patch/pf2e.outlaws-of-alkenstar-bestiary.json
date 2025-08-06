@@ -1,0 +1,1398 @@
+{
+  "pf2e.outlaws-of-alkenstar-bestiary": {
+    "9Fmj4LRJ40803rEK": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Bristlebane.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Bristlebane.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bristlebane.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "NR74QIX0qE7AeZmg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clearwater-Cleaner.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clearwater-Cleaner.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clearwater-Cleaner.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Lck0FIlp4kLFeLfg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Brewer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Brewer.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Brewer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "e2YnAE6qJUkGRS6p": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Fabricator.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Fabricator.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Fabricator.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BbTS7MMkz0Ob7qAF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Handler.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Handler.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Handler.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RNvLscZ5sMpYzExB": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Hunter.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Hunter.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Hunter.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "IX2EDNagTD0YEfS5": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Dewey-Daystar.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Dewey-Daystar.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Dewey-Daystar.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "0hy54Fyobwdb7AGN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Follower-Of-Shumfallow.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Follower-Of-Shumfallow.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Follower-Of-Shumfallow.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ktnfNng6W5Welsn3": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Glaz-Nixbrix.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Glaz-Nixbrix.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Glaz-Nixbrix.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3SvdfSjrr5jXMrjF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Gold-Tank-Broker.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Gold-Tank-Broker.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gold-Tank-Broker.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vnZFO1jNZSJieqpo": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Gold-Tank-Investor.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Gold-Tank-Investor.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gold-Tank-Investor.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "EjQYuMP3t0J4OI3I": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Gunmarshal.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Gunmarshal.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gunmarshal.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "FMnoyAlVppHvcu8I": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Ioton.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Ioton.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ioton.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "GyrL5Q66shXthhZL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Irkem-Dresh.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Irkem-Dresh.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Irkem-Dresh.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3dL5oBOLaFaAmDR4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Powderkeg-Punk-Bombardier.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Powderkeg-Punk-Bombardier.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Powderkeg-Punk-Bombardier.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "7qaFFvXAYHp2G0CX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Powderkeg-Punk-Gunner.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Powderkeg-Punk-Gunner.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Powderkeg-Punk-Gunner.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "34HKPYSau0ugfMTv": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Prairie-Drake.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Prairie-Drake.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Prairie-Drake.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "R9DlBcLJ5YbrXSuQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Prairie-Drake.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Prairie-Drake.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Prairie-Drake.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "X4tOSkr3WLvh0NIN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Rust-Ooze.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Rust-Ooze.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Rust-Ooze.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5B6jpwqblxrqJHog": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Shoma-Lyzerius.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Shoma-Lyzerius.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shoma-Lyzerius.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "A1o0TVBwnrdFyKBz": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Slick.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Slick.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Slick.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8zInanrJXHN6zmdq": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Sludgespine-Killer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Sludgespine-Killer.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sludgespine-Killer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "sUleYLWZG3O9LlKC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Yeast-Ooze.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Yeast-Ooze.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Yeast-Ooze.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "eBM6yUAHDyEp8Ewi": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Lucky-Lanks.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Lucky-Lanks.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lucky-Lanks.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zLy98F3VPHwJPgih": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Akrida.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Akrida.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Akrida.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Wr08A69Iu5pXNWXj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Ambrost-Mugland.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Ambrost-Mugland.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ambrost-Mugland.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8jYqoyei7X2Bikb0": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Brighite-Herexen.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Brighite-Herexen.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Brighite-Herexen.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wHbf1jbqcHFY6rnj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Chimeric-Manticore.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Chimeric-Manticore.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Chimeric-Manticore.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RqV8n5CxdDQ6ZahH": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Disposer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Disposer.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Disposer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "661SdyR6HhzsmYJN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Door-Warden.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Door-Warden.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Door-Warden.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "o2nLVCZVOacqkWus": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Gunner.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Gunner.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Gunner.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lM7vowMNtvLnz8Q6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Sphinx.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Sphinx.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Sphinx.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jaJxIGaNxmcLZ0jK": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Door-Warden.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Door-Warden.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Door-Warden.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zUHMrJZKcKIv6IpM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Daelum.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Daelum.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Daelum.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "WtpeHbOQdK5CiaLf": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Drela.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Drela.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Drela.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2IjwfgmGutHhpg7B": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Follower-Of-Shumfallow.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Follower-Of-Shumfallow.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Follower-Of-Shumfallow.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "aJCzNXYDKsTGyaaN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Gilded-Gunner-Goon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Gilded-Gunner-Goon.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gilded-Gunner-Goon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "TDLiOXhnBxC0n3jr": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Gilded-Gunner-Safecracker.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Gilded-Gunner-Safecracker.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gilded-Gunner-Safecracker.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "rN4Q66R0601txrHg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Hansin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Hansin.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hansin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "YsSpSUB1jeLSifFg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/I.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/I.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/I.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8KUB92Ljms7hS7vq": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Kreeth-Ni.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Kreeth-Ni.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kreeth-Ni.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "T9vLIrNIbcNkYx1M": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Masu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Masu.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Masu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ceKqkc0c86gh6cI1": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Mutant-Desert-Drake.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Mutant-Desert-Drake.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mutant-Desert-Drake.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BO72SUjG83p8p9UU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Mutant-Giant-Toad.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Mutant-Giant-Toad.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mutant-Giant-Toad.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JuN7m62ohqdb4mL5": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Palzu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Palzu.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Palzu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "TfyWBoNpR1iNBcLV": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Sabora-Sharkosa.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Sabora-Sharkosa.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sabora-Sharkosa.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "q7bUVljOk9Xy55Bt": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Scarecophagus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Scarecophagus.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Scarecophagus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "AAkT7x3eYV1hn1I6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Smog-Giant.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Smog-Giant.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Smog-Giant.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jXiIATJxyBLgjkm7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Spellscar-Sky-Marauder.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Spellscar-Sky-Marauder.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Spellscar-Sky-Marauder.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "LhjQnXhGFWhWVdmg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Steaming-Kingdom-Bartender.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Steaming-Kingdom-Bartender.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Steaming-Kingdom-Bartender.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "VfFt5YAVe7d9fonE": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Swee-Pup.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Swee-Pup.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Swee-Pup.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3ibFfE1X8thaWb8A": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/The-Claws-Of-Time.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/The-Claws-Of-Time.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Claws-Of-Time.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ENCh6fX1xGwwrjCf": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Trapjaw-Tangle.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Trapjaw-Tangle.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Trapjaw-Tangle.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "nFON8nzSt6wTcK9A": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Vivielle-Ramslay.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Vivielle-Ramslay.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vivielle-Ramslay.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "KCnloN7xxY0UOhML": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Alethsia.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Alethsia.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Alethsia.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4tXjSKUChH1W9I6P": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Anjelique-Loveless.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Anjelique-Loveless.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Anjelique-Loveless.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "c1v4Xb3x6nvpFmth": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Atticus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Atticus.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Atticus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5GgDdZKPHB0uJYEu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Broken-Centurion.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Broken-Centurion.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Broken-Centurion.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "kJNnY2a4bu0Q7hnl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Captured-Dezullon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Captured-Dezullon.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Captured-Dezullon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "TLF3QsSKubSBsSOG": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Chemical-Zombie.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Chemical-Zombie.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Chemical-Zombie.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "oriWalYkx3CUSPdN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Buccaneer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Buccaneer.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Buccaneer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "dPVX37fMzAzb3mkv": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Puppeteer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Puppeteer.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Puppeteer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "V3la31QNaidyHUnU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Shambler.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Shambler.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Shambler.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "WwDdD9FI3ololycu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Clockwork-Shambler-Horde.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Clockwork-Shambler-Horde.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Shambler-Horde.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "CNFAfmVoVebnj7bY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Corrupt-Shieldmarshal.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Corrupt-Shieldmarshal.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Corrupt-Shieldmarshal.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RpGReUxsaT8wCz2u": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Corrupt-Shieldmarshal.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Corrupt-Shieldmarshal.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Corrupt-Shieldmarshal.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "irkdc3CACxbhd2MN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Cranium-Preserver.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Cranium-Preserver.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Cranium-Preserver.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pgYXyo7Qs9b84bQh": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Disgorged-Zombie.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Disgorged-Zombie.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Disgorged-Zombie.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "omcS9Zvq7ZDd35A2": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Glass-Buccaneer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Glass-Buccaneer.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Glass-Buccaneer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "t60zBqM2apOZtOaC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Glass-Elephant.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Glass-Elephant.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Glass-Elephant.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RgGijwS8Z9fNFFO3": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Glass-Sentry.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Glass-Sentry.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Glass-Sentry.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "hm6S6xdvn0pL2t3D": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Headless-Rustler.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Headless-Rustler.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Headless-Rustler.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ChBr4WYIeCnRUbHL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Ibrium.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Ibrium.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ibrium.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zNlQRFJcijptkQQ4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Leadsmith.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Leadsmith.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Leadsmith.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2o6t3FioEbPT3M6U": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Mutant-Bat.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Mutant-Bat.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mutant-Bat.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5jRhf7NP9thQtYCe": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Ogre-Slug.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Ogre-Slug.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ogre-Slug.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "GmK9VzDtB1i7pmGI": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Parsus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Parsus.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Parsus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "aT6c5oEPV8U5zfRD": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Pyronite-Ooze.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Pyronite-Ooze.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Pyronite-Ooze.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "SuFVqL1LRxsGWB1B": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Disgorged-Zombie.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Disgorged-Zombie.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Disgorged-Zombie.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3BFECcR5ggVH69Gu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Skeletal-Crocodile.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Skeletal-Crocodile.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Skeletal-Crocodile.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "UgaIxXmbPe7qcrNk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Smog-Wraith.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Smog-Wraith.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Smog-Wraith.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "UdgI6p5FlE7Xcrl7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/outlaws-of-alkenstar/Vewslog.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/outlaws-of-alkenstar/Vewslog.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vewslog.webp",
+            "scale": 1
+          }
+        }
+      }
+    }
+  }
+}

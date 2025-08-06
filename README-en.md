@@ -90,7 +90,7 @@ Requires the installation of the additional module [**Pathfinder 2E: Token Pack 
 | Sky King's Tomb | ✅❌ | 2 arts missing |
 | Spore War | ✅ | |
 | Strength of Thousands | ❌ | 14 arts missing |
-| Triumph of the Tusk | ✅❌ | 32 arts missing |
+| Triumph of the Tusk | ✅❌ | 10 arts missing |
 | Shades of Blood | ✅ |  |
 | Stolen Fate | | |
 | Wardens of Wildwood | ❌ | 1 art missing |
@@ -105,14 +105,14 @@ Requires the installation of the additional module [**Pathfinder 2E: Token Pack 
 | Lost Omens Bestiary | ✅❌ | 22 arts missing |
 | NPC Gallery | ❌ | 3 arts missing |
 | Dark Archive | ❌ | 1 art missing |
-| Rage of Elements | ❌ | 13 arts missing |
+| Rage of Elements | ❌ | 17 arts missing |
 | War of Immortals | | |
 
 ### Adventures
 
 | Source | Status | Notes |
 | :--- | :---: | :--- |
-| Claws of the Tyrant | ❌ | 9 arts missing |
+| Claws of the Tyrant | ❌ | 11 arts missing |
 | Fall of Plaguestone | ❌ | 1 art missing |
 | Malevolence | ❌ | 3 arts missing |
 | Menace Under Otari | | |

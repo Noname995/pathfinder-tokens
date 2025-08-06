@@ -1,0 +1,2452 @@
+{
+  "pf2e.agents-of-edgewatch-bestiary": {
+    "gsn4NsJLwZCQUwgf": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Almiraj.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Almiraj.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Almiraj.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "MONwgTbrcZFzr6vC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Antaro-Boldblade.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Antaro-Boldblade.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Antaro-Boldblade.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4ffoPNBKdEwBmYgL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Battle-Leader-Rekarek.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Battle-Leader-Rekarek.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Battle-Leader-Rekarek.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "fvOjtzuRNpmpEHXA": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Binumir.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Binumir.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Binumir.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qY1NrXKmL0y18qoz": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Bolar-Of-Stonemoor.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Bolar-Of-Stonemoor.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bolar-Of-Stonemoor.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Wb4Md6byPhBWe56J": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Cobbleswarm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Cobbleswarm.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Cobbleswarm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "sn9Pjkr2jlMEqc3E": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Eunice.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Eunice.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Eunice.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pE5GxoB1FtXBqnF7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Gref.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Gref.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gref.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Bv1s6xJ55HS3Gxgs": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Grick.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Grick.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Grick.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "gd0sVQtCHbhP8iHI": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Grospek-Lavarsus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Grospek-Lavarsus.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Grospek-Lavarsus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "181ucNY1zpp2Lz3x": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Grunka.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Grunka.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Grunka.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jJ1UTNLiRCoN1O3i": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Hendrid-Pratchett.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Hendrid-Pratchett.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hendrid-Pratchett.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "6c5CnrSxMYEgP6Fz": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Kekker.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Kekker.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kekker.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "yR6p0KVvZ3tPflRt": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Kemeneles.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Kemeneles.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kemeneles.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lzmGdArS3kjJOqT6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Lyrma-Swampwalker.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Lyrma-Swampwalker.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lyrma-Swampwalker.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "GWO6vweLGT2J6q62": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Miriel-Grayleaf.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Miriel-Grayleaf.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Miriel-Grayleaf.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "oWASKud0jwlGSfJg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Pelmo.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Pelmo.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Pelmo.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8HTPdiH6yEk0jlNF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Pickled-Punk.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Pickled-Punk.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Pickled-Punk.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JZUYQzQtzIwOGYvd": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Ralso.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Ralso.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ralso.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "eQc0ADMuHl1JzL8z": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Shredskin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Shredskin.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shredskin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "XDt87cqF85zWnlC8": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Siege-Shard.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Siege-Shard.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Siege-Shard.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "nTn2szBbqQNdXhOr": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Skebs.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Skebs.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Skebs.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "uFU6dQfcNeKq68YT": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Vargouille.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Vargouille.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vargouille.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "PEjcy9CxelKC3Kp6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Zrukbat.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Zrukbat.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zrukbat.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5u7luLMeRNJ4en65": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Bone-Skipper-Swarm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Bone-Skipper-Swarm.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bone-Skipper-Swarm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "MQnhyCM9LInNYtl0": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Carvey.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Carvey.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Carvey.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JuCLvgvxYbSRXqON": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Copper-Hand-Illusionist.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Copper-Hand-Illusionist.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Copper-Hand-Illusionist.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "9M1YJxTXqya55HDx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Copper-Hand-Rogue.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Copper-Hand-Rogue.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Copper-Hand-Rogue.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ZL2qLXwomKfBB8Eu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Dreadsong-Dancer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Dreadsong-Dancer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Dreadsong-Dancer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "SgkV5RtcK72d0HwI": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Excorion.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Excorion.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Excorion.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "rM6ix6XTroJod3Vr": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Fayati-Alummur.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Fayati-Alummur.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Fayati-Alummur.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8AdsRaXftoR1beTk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Frefferth.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Frefferth.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Frefferth.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Xi53GFvTgBApltjp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Giant-Bone-Skipper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Giant-Bone-Skipper.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Giant-Bone-Skipper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3JEiwAFwkEjCDEYa": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Kolo-Harvan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Kolo-Harvan.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kolo-Harvan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ZY3q7AV1qbwWwNl2": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Mobana.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Mobana.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mobana.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zj2sCM8tQSMG9Qm6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Najra-Lizard.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Najra-Lizard.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Najra-Lizard.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ySpOZlKUbcxWhKQ6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Ofalth-Zombie.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Ofalth-Zombie.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ofalth-Zombie.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "MqfZxoxFwzqAXhTP": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Prospecti-Statues.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Prospecti-Statues.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Prospecti-Statues.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "oTa25rAxytm03T3X": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Shristi-Melipdra.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Shristi-Melipdra.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shristi-Melipdra.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8PRqUfkHLvu9ufGL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Skinsaw-Murderer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Skinsaw-Murderer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Skinsaw-Murderer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "y1tw2ohNagqQJ6RV": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Skinsaw-Seamer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Skinsaw-Seamer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Skinsaw-Seamer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "AYNIAAxV7TbIKPI4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Skitterstitch.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Skitterstitch.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Skitterstitch.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zrh3MrS68H2gPlVs": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Tenome.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Tenome.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Tenome.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8jjEOs99Bmo1v0Qc": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Teraphant.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Teraphant.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Teraphant.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Rinxhe1cRXKEsXuW": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Tyrroicese.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Tyrroicese.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Tyrroicese.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "tm8vQ7gdAe9zVdDg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Vaultbreaker-Ooze.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Vaultbreaker-Ooze.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vaultbreaker-Ooze.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "syUXLdUsEDYgni5R": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Wrent-Dicaspiron.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Wrent-Dicaspiron.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Wrent-Dicaspiron.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "7bMhDg4DNqoPlRsF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Avarek.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Avarek.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Avarek.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "10fEM7T48FUZRo6l": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Barnacle-Ghoul.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Barnacle-Ghoul.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Barnacle-Ghoul.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "TIaZIUb9Mq9B4Mf2": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Bloody-Berleth.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Bloody-Berleth.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bloody-Berleth.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "WXwvWHRpwK17YABQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Bregdi.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Bregdi.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bregdi.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "9vt9Dr2a8MkkD83z": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Chalky.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Chalky.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Chalky.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JdMqHbaTwtOHVE7Y": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Diobel-Sweeper-Chemist.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Diobel-Sweeper-Chemist.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Diobel-Sweeper-Chemist.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "xkkj0TW6BKNT3Bg4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Diobel-Sweeper-Chemist.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Diobel-Sweeper-Chemist.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Diobel-Sweeper-Chemist.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "1eMDYXXf2leLTYHV": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Eberark.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Eberark.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Eberark.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HF0ymYmKC6KydPQ1": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Franca-Laurentz.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Franca-Laurentz.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Franca-Laurentz.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "eqwAdGsAk5JZKxUY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Gage-Carlyle.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Gage-Carlyle.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gage-Carlyle.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pK1tlsgkmzkaaCe5": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Iroran-Skeleton.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Iroran-Skeleton.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Iroran-Skeleton.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "t9m4ikMZsDwo9TQ1": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Maurrisa-Jonne.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Maurrisa-Jonne.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Maurrisa-Jonne.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "aDgVmO3afhIgXQSN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Ravenile-Rager.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Ravenile-Rager.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ravenile-Rager.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "CLntGVs7cAIL9Trk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Scathka.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Scathka.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Scathka.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "DKReNCapWWubM3pm": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Shikwashim-Mercenary.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Shikwashim-Mercenary.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shikwashim-Mercenary.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ai7Q9vBHHAGj7uFE": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Svartalfar-Killer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Svartalfar-Killer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Svartalfar-Killer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5pBr5aWUb7yGCqN7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Washboard-Dog-Tough.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Washboard-Dog-Tough.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Washboard-Dog-Tough.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "phkvSUK6WXxgJOoC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Alchemist-Aspirant.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Alchemist-Aspirant.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Alchemist-Aspirant.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "fV5VIoXMtixmI3Wc": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Clockwork-Assassin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Clockwork-Assassin.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Assassin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Uhi3wX4KveuMSARt": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Giant-Joro-Spider.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Giant-Joro-Spider.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Giant-Joro-Spider.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JnNPdvOXtkGQHyfQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Gloaming-Will-O-Wisp.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Gloaming-Will-O-Wisp.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gloaming-Will-O-Wisp.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "H4bY8v6e3drOIoUe": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Grabble-Forden.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Grabble-Forden.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Grabble-Forden.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "gIcReNQOZceZBBlw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Jonis-Flakfatter.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Jonis-Flakfatter.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Jonis-Flakfatter.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "cQMM2Ld0IBM9GcDo": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Norgorberite-Poisoner.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Norgorberite-Poisoner.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Norgorberite-Poisoner.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "LkaB8RH73DY4TO9V": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Priest-Of-Blackfingers.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Priest-Of-Blackfingers.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Priest-Of-Blackfingers.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BCMkxoQB4xK4BniG": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Secret-Keeper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Secret-Keeper.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Secret-Keeper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "1xGAktpj6N2Ugh0r": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Shatterling.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Shatterling.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shatterling.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "xN3FDmrCKWW0psBu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Sleepless-Sun-Veteran.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Sleepless-Sun-Veteran.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sleepless-Sun-Veteran.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "WplBGSeB9pK9AULX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/The-Rabbit-Prince.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/The-Rabbit-Prince.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Rabbit-Prince.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BoFg19e3N8WiNa3Z": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/The-Stabbing-Beast.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/The-Stabbing-Beast.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Stabbing-Beast.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "GYhV5eYNDO1Llbv2": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Venom-Mage.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Venom-Mage.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Venom-Mage.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8eBXEszbl4gOHGdU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Wynsal-Starborn.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Wynsal-Starborn.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Wynsal-Starborn.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "azyIfDNNW44jY8YX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Clockwork-Assassin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Clockwork-Assassin.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Assassin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BLRsSDFSMbZHcGDQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Black-Whale-Guard.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Black-Whale-Guard.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Black-Whale-Guard.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "d3TzpCuRJF78xHZK": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Black-Whale-Guard.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Black-Whale-Guard.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Black-Whale-Guard.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "y0bIU9FCWHOJxUzG": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Bloody-Barber-Goon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Bloody-Barber-Goon.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bloody-Barber-Goon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "a3pTQfLzsJThQvI9": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Calennia.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Calennia.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Calennia.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wsVW8MdOTeGgGM59": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Child-Of-Venom.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Child-Of-Venom.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Child-Of-Venom.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HifZEgdCuZearOG2": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Clockwork-Amalgam.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Clockwork-Amalgam.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Amalgam.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "D36nL0YjCVHfjBNw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Clockwork-Chopper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Clockwork-Chopper.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Chopper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "w2J6GpuMYM24U4sb": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Clockwork-Assassin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Clockwork-Assassin.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Clockwork-Assassin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pfHOwcITyC4gdCVu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Garrote-Master-Assassin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Garrote-Master-Assassin.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Garrote-Master-Assassin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3GNq4Vy40vk9zwMQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Graem.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Graem.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Graem.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "r3j5KEvULFP3fZS7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Grimwold.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Grimwold.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Grimwold.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "rXePwiS4iecWNMGU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Grinlowe.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Grinlowe.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Grinlowe.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "M8ONVV7yl4uu0zcz": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Ixusoth.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Ixusoth.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ixusoth.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "E7NEf3kmsY3YjRrz": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Kapral.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Kapral.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kapral.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "94yI4TrNag0jMaYy": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Lie-Master.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Lie-Master.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lie-Master.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "B4kIfCimsz8wfc0k": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Lord-Guirden.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Lord-Guirden.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lord-Guirden.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "oFCgiGFipWeit9sl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Lusca.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Lusca.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lusca.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pTkvg8OITTl6lsJY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Minchgorm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Minchgorm.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Minchgorm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Sq0Kb92nGkqj19Xx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Miogimo.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Miogimo.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Miogimo.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "07AGJt4ZRjwH85Xp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Mother-Venom.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Mother-Venom.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mother-Venom.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Wk2T0Wr8Sebo4br5": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Mr.snips.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Mr.snips.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mr.snips.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vPMmTtvl5UPOcCoa": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Myrna-Rath.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Myrna-Rath.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Myrna-Rath.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "WDTdWiC9Rdl6rqh8": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Myrucarx.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Myrucarx.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Myrucarx.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "1bPc2rjR4MghbMwD": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Obrousian.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Obrousian.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Obrousian.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2uxm1SxZXaG0ynCp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Pulping-Golem.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Pulping-Golem.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Pulping-Golem.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BuPf7xtqfwCjNOQv": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Reginald-Vancaskerkin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Reginald-Vancaskerkin.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Reginald-Vancaskerkin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4TB1eo3O22khMyDU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Sad-Liza.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Sad-Liza.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sad-Liza.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "rsKf8ixrl3yBq1gb": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Starwatch-Commando.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Starwatch-Commando.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Starwatch-Commando.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "tt5eaS28C4PrHmZD": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/The-Inkmaster.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/The-Inkmaster.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Inkmaster.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "N1IpUIW2Ry7uBN3G": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Tiderunner-Aquamancer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Tiderunner-Aquamancer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Tiderunner-Aquamancer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4BXo2a305RHmspMX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Twisted-Jack.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Twisted-Jack.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Twisted-Jack.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "nfULZbf8OOUDdrZM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Water-Elemental-Vessel.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Water-Elemental-Vessel.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Water-Elemental-Vessel.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JhYJUNlcxiurcZcl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Water-Elemental-Vessel.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Water-Elemental-Vessel.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Water-Elemental-Vessel.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "QBlBYsxySiBMxf22": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Zeal-Damned-Ghoul.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Zeal-Damned-Ghoul.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zeal-Damned-Ghoul.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JmHyHwaPMNKXzBts": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Zealborn.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Zealborn.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zealborn.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8LlqjWcqiFq7YMmQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Agent-Of-The-Gray-Queen.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Agent-Of-The-Gray-Queen.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Agent-Of-The-Gray-Queen.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qUhxXE2yT0qwSJQm": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Agradaemon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Agradaemon.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Agradaemon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RtWlzHaOrfFdJyJY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Alchemical-Horror.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Alchemical-Horror.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Alchemical-Horror.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Z6R8YjgX8Jvt9Ds4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Avsheros-The-Betrayer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Avsheros-The-Betrayer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Avsheros-The-Betrayer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "0UbehYHzOGlNK8Hc": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Baatamidar.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Baatamidar.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Baatamidar.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "sUrJ7jxzBiJTbwVo": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Blune-Bandersworth.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Blune-Bandersworth.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blune-Bandersworth.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "IKfYWE1NLVNLCXZm": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Blunes-Illusory-Toady.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Blunes-Illusory-Toady.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blunes-Illusory-Toady.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "QRcIVhQV2vlpADSf": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Camarach.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Camarach.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Camarach.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "EGQgqBfV80ll3pcf": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Chaos-Gulgamodh.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Chaos-Gulgamodh.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Chaos-Gulgamodh.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "gkRxUi9VrbPWOPGC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Daemonic-Infector.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Daemonic-Infector.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Daemonic-Infector.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JsyO7yBf6YaF4YwF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Daemonic-Rumormonger.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Daemonic-Rumormonger.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Daemonic-Rumormonger.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lgbJbeSeC1f8otvH": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Daemonic-Skinner.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Daemonic-Skinner.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Daemonic-Skinner.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "1UtsScuNjmgwMZRn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Excorion.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Excorion.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Excorion.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "D5UF1i0f1IRcQcNB": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Ghaele-Of-Kharnas.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Ghaele-Of-Kharnas.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ghaele-Of-Kharnas.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "rGTq4qItRB5H7nEk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Graveknight-Of-Kharnas.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Graveknight-Of-Kharnas.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Graveknight-Of-Kharnas.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3If8bjsXeA2413dB": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Hegessik.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Hegessik.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hegessik.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "LAamprMlzk7k5auj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Hestriviniaas.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Hestriviniaas.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hestriviniaas.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vwxNCuBksHYU2Dwf": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Hundun-Chaos-Mage.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Hundun-Chaos-Mage.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hundun-Chaos-Mage.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "cLlOUUpCIAQwUuOP": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Ilsetsya-Wyrmtouched.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Ilsetsya-Wyrmtouched.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ilsetsya-Wyrmtouched.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "QQkbvOCif8Bm1wws": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Izfiitar.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Izfiitar.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Izfiitar.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RyXA4wOGY8lenKVw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Nenchuuj.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Nenchuuj.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Nenchuuj.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "rm0iJOMwruWSE93I": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Olansa-Terimor.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Olansa-Terimor.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Olansa-Terimor.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qSL6PtsHPekEEEjx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Overdrive-Imentesh.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Overdrive-Imentesh.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Overdrive-Imentesh.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3XbjmNeUtPLzxDge": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Penqual.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Penqual.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Penqual.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "kcvU9CatCyBUJRr2": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Rhevanna.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Rhevanna.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Rhevanna.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "P9Wg0sGcNkemOvm3": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Slithering-Rift.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Slithering-Rift.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Slithering-Rift.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "MfW7O5Ba8r2GR9ZQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Sordesdaemon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Sordesdaemon.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sordesdaemon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "q61A6EsMnDDtnqxH": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Ulressia-The-Blessed.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Ulressia-The-Blessed.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ulressia-The-Blessed.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Fmsw7P5CF3uHtD5W": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/Veksciralenix.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/agents-of-edgewatch/Veksciralenix.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Veksciralenix.webp",
+            "scale": 1
+          }
+        }
+      }
+    }
+  }
+}

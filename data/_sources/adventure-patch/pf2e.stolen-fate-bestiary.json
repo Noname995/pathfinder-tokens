@@ -1,0 +1,1568 @@
+{
+  "pf2e.stolen-fate-bestiary": {
+    "oWFqioYktqayWFlS": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Arodeth.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Arodeth.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Arodeth.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "eF3ndkXtyeMHpzZb": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Bhanyada-Behemoth.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Bhanyada-Behemoth.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bhanyada-Behemoth.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ax9j12x0JqBBPE5M": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Bhanyada-Scavenger.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Bhanyada-Scavenger.webp",
+          "scaleX": 1.2,
+          "scaleY": 1.2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bhanyada-Scavenger.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ttUZn9WMNZzG9YdZ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Bhanyada-Behemoth.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Bhanyada-Behemoth.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bhanyada-Behemoth.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "7ze52pL9OFjZBGWa": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Blade-Magus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Blade-Magus.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blade-Magus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pLbDF5JJoF93vgwL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Blade-Mercenary.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Blade-Mercenary.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blade-Mercenary.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Bn7bG2gbyXYj7mzT": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Dieral-Myrnese.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Dieral-Myrnese.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Dieral-Myrnese.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "nBhR5WE7M1cp1fEm": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Drustan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Drustan.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Drustan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3OE96zZHIAnMbYWj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Endlo-Kiver.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Endlo-Kiver.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Endlo-Kiver.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "0C9muUhjn4vAL5UW": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Ferrugon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Ferrugon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ferrugon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "bsjCqkz0jIv9LOBS": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Harpy-Warbird.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Harpy-Warbird.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Harpy-Warbird.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "bmCBmw4pQeEIelkY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Hurlilu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Hurlilu.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hurlilu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "590fsfQ1S0dF1C3Z": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Kannijo.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Kannijo.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kannijo.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pFs3lFkXrwNNUsDf": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Mercenary-Assassin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Mercenary-Assassin.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mercenary-Assassin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "d68XkPVTpU42q8Gj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Mivanian-Soldier.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Mivanian-Soldier.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mivanian-Soldier.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Zglw4NiZRVgmuI5x": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Ndede.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Ndede.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ndede.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "mJyUqZYPGrCx13oT": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Oppali.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Oppali.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Oppali.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "88n1uQqK5XbIGnUF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Queen-Kawlinawk.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Queen-Kawlinawk.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Queen-Kawlinawk.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Yg5xl1lu0211JVi7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Raskus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Raskus.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Raskus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "tVZ7ijV3W1HmMwzz": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Scaleseed-Nagaji.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Scaleseed-Nagaji.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Scaleseed-Nagaji.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "IKlSxZfyN1wRZsQn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Shaldar-Falls-Far.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Shaldar-Falls-Far.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shaldar-Falls-Far.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "WguseVujp1LjEzq4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Uniila.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Uniila.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Uniila.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "F902rCNyW8cVyBEp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Uniila.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Uniila.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Uniila.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "mgFca9LCxEI3pqc7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Vharnev-The-Butcher.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Vharnev-The-Butcher.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vharnev-The-Butcher.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "u5o9uU9Saweij7mF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Hurlilu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Hurlilu.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hurlilu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "okLgvERf3ul8JxKk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/All-Seeing-Hajeck.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/All-Seeing-Hajeck.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/All-Seeing-Hajeck.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lJnVbE89rKEYJ3Hw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Aquatic-Viper-Vine.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Aquatic-Viper-Vine.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Aquatic-Viper-Vine.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vooxDReQX3ztMXNj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Arzuu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Arzuu.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Arzuu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zw2JQhb4cHkDk2zb": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Blood-Pear-Tree.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Blood-Pear-Tree.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blood-Pear-Tree.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2J1wbM7u7rU7yDzo": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Crystal-Sentinel.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Crystal-Sentinel.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Crystal-Sentinel.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "26mSMWZwuYBRDhBM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Arzuu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Arzuu.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Arzuu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2crt0oeOnu3G3Nhw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Demongate-Colossus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Demongate-Colossus.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Demongate-Colossus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "mLDzt35dEHUimp1E": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Demonic-Rabble.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Demonic-Rabble.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Demonic-Rabble.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Rb85EObfBTL5Q3tU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Derhii.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Derhii.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Derhii.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "334vtiUd5J507PsX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Ephialtes.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Ephialtes.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ephialtes.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ZBMuaCCbIdv8euNx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Fates-Prophet.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Fates-Prophet.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Fates-Prophet.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "9uUmyAyVVq3bowo7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Ghalzarokh.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Ghalzarokh.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ghalzarokh.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "KPwAtJ0wFmMTFfWV": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Guardian-Aluum.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Guardian-Aluum.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Guardian-Aluum.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jH57QwQxH7aBs56G": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Hadi-Mob.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Hadi-Mob.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hadi-Mob.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "s8pBIwZjOdep4Lfp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Katpaskir.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Katpaskir.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Katpaskir.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "J7QJMfQZlOd7DOq5": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Markish-Aghayarea.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Markish-Aghayarea.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Markish-Aghayarea.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RLuLdBW6SSs9u2hL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Mogaran.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Mogaran.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mogaran.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "VCn8GC3XXCES5Cns": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Quoppopak-Mummy.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Quoppopak-Mummy.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Quoppopak-Mummy.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "9CR1pTY23jFPi5Xn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Sonnorae.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Sonnorae.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sonnorae.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "asagrj8H4W7ioops": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Prince-Of-Wolves.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Prince-Of-Wolves.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Prince-Of-Wolves.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jXjo59pIAMteUtUD": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Shadow-Prince.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Shadow-Prince.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Shadow-Prince.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jYHPxFsTUS6jGY4a": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Ticktock.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Ticktock.webp",
+          "scaleX": 1.2,
+          "scaleY": 1.2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ticktock.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "a5B1GrGkM97l20Wk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Ghalzarokh.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Ghalzarokh.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ghalzarokh.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "25cRUcUTP3rK5qjU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Trexima-Butoi.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Trexima-Butoi.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Trexima-Butoi.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "VoGTpuwRkzzqwMgS": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Usilket.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Usilket.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Usilket.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "6z5AD99UV8IWMtRU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Vehanezhad.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Vehanezhad.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vehanezhad.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "fcMf5NrHPZS54Hkd": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Vincuvicar.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Vincuvicar.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vincuvicar.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Cj0oleWD4YOmT1Mn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Voricose.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Voricose.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Voricose.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "FHBQg45hdMXLqy3I": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Wrath-Riot.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Wrath-Riot.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Wrath-Riot.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "31xsWAhXQnk2jfIx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Xiuli-Cachu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Xiuli-Cachu.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xiuli-Cachu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "LhyMBLVsJMaUKGME": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Bolti-Sorrinson.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Bolti-Sorrinson.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bolti-Sorrinson.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "WddCUSjH70mHmzK3": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Diskrasia-The-Sharp.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Diskrasia-The-Sharp.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Diskrasia-The-Sharp.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5jXQKIwhlOfs9F6e": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Harrowkin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Harrowkin.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Harrowkin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "TQXPhj5Adm4pfX31": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Fabrina-The-Spinster.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Fabrina-The-Spinster.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Fabrina-The-Spinster.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "KgwkUtJ8czIC0KFj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Gegnir.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Gegnir.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gegnir.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "P604YfY14wo4Uu56": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Hala-The-Rod.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Hala-The-Rod.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hala-The-Rod.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "hqnAjx8pamSAzAmb": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Ildamir.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Ildamir.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ildamir.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JkEOtgyLkiuw5Nod": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Mighty-Bul-Gae.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Mighty-Bul-Gae.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mighty-Bul-Gae.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zsITxVss3vTQHISh": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Nornhound.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Nornhound.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Nornhound.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "eC0O1nNWMjWydbPG": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Obcisidaemon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Obcisidaemon.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Obcisidaemon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "laVap7VG0MRaoQnO": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Phasmadaemon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Phasmadaemon.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Phasmadaemon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "XJocGEuiyg9TJiti": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Raven-Nicoletta.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Raven-Nicoletta.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Raven-Nicoletta.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "QiRja8LrBQUwh6St": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Sickened-Doprillu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Sickened-Doprillu.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sickened-Doprillu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "7SoxdXIjPQzUahDz": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Harrowkin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Harrowkin.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Harrowkin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "mcCHcnMN1gYBHbqA": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Speaker-Of-Svaryr.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Speaker-Of-Svaryr.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Speaker-Of-Svaryr.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "a3NvKzSDBQzPwCc4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Harrowkin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Harrowkin.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Harrowkin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "UQabwMtqQucqBDsy": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Ildamir.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Ildamir.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ildamir.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qHCZeqTMADZcqqBp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Svaryr-Commander.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Svaryr-Commander.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Svaryr-Commander.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "c5PsLzWosNiKXU6o": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Svaryr-Soldier.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Svaryr-Soldier.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Svaryr-Soldier.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "GzkJGkSYO512zr80": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Betrayal.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Betrayal.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Betrayal.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Q2LlaVrQAl5BxG0E": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Courtesan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Courtesan.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Courtesan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "gmY1qb5fZFsc80d0": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Cricket.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Cricket.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Cricket.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4kD2KUouTP95mkxy": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Crows.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Crows.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Crows.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HncSxwlRvg3gtlks": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Dance.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Dance.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Dance.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "H1gnvsCIzt89left": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Fool.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Fool.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Fool.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "dr6JPHvDMs9YavIq": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Inquisitor.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Inquisitor.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Inquisitor.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "EkPs0okirh66YKa0": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Joke.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Joke.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Joke.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Ig4g6cJOqCVOJiLv": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Keeper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Keeper.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Keeper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "58rzKemMr1sFBTfv": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Peacock.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Peacock.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Peacock.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "KxJBLDk06713Aupl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Queen-Mother.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Queen-Mother.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Queen-Mother.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "dbzt5TU3fXSManTU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Teamster.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Teamster.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Teamster.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "M8Ud2zb5KwfocEd2": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Trader.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Trader.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Trader.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "6aK7JsTs5zVTjyZN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Twin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Twin.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Twin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "GF2jJ55guDQX3sWt": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Unicorn.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Unicorn.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Unicorn.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "cm2OW6wghO7xIC0R": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Wanderer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Wanderer.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Wanderer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "o8DGfZKaz1TELyzU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/The-Winged-Serpent.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/The-Winged-Serpent.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Winged-Serpent.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "sl9QX8iAen1Aquyp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/Zellara-Esmeranda.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/stolen-fate/Zellara-Esmeranda.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zellara-Esmeranda.webp",
+            "scale": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,939 @@
+{
+  "pf2e.gatewalkers-bestiary": {
+    "7VoxPNp1BMlhGrss": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Amelekana.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Amelekana.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Amelekana.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qsRrYCsKLiMwZ1I9": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Bolan-Nogasso.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Bolan-Nogasso.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bolan-Nogasso.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "EfoaqozIWUdm8unh": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Captain-Salah.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Captain-Salah.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Captain-Salah.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "AihjWbZiorAJ80gE": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Cliffhunter-Pteranodon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Cliffhunter-Pteranodon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Cliffhunter-Pteranodon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "bz5OjD8rYMm1M4EC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Delphon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Delphon.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Delphon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "CBCMrAi44SYguevM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Desa-Desa.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Desa-Desa.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Desa-Desa.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "h5S6ayqQTa7r6p8w": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Tree-Fisher.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Tree-Fisher.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Tree-Fisher.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "X7ScCatwncmk5P9o": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Immolis.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Immolis.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Immolis.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ZzVs5T27LnLhRZ5u": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Kaneepo-The-Slim.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Kaneepo-The-Slim.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kaneepo-The-Slim.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "yJSqKx1kBbadhQX6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Kareq.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Kareq.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kareq.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "kneoApQfhlRhhp1R": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Oaksteward-Enforcer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Oaksteward-Enforcer.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Oaksteward-Enforcer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "MmyFD8SI0IvzCTuR": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Oaksteward-Enforcer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Oaksteward-Enforcer.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Oaksteward-Enforcer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RwdczmexMQkSckwL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Ocluai.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Ocluai.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ocluai.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "itAkkjCM3EUQ4heC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Quarry-Construct.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Quarry-Construct.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Quarry-Construct.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HypIeplCDn0Phqs4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Symbiotic-Amoeba.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Symbiotic-Amoeba.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Symbiotic-Amoeba.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "DAfDg86y1mWHHQEy": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Temagyr.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Temagyr.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Temagyr.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "cgCENLL4fwwGxvzo": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/The-Looksee-Man.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/The-Looksee-Man.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Looksee-Man.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JrMv2lQ1hRTpMumk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Alkoasha.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Alkoasha.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Alkoasha.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "eRRWMgdYHwNIm6zp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Aspect-Of-Ruun.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Aspect-Of-Ruun.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Aspect-Of-Ruun.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "9pu5FhW9oW1mZaaC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Capstan-Swabbie.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Capstan-Swabbie.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Capstan-Swabbie.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "SbJe7zmuevvBFhad": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Abyssal-Muckrager.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Abyssal-Muckrager.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Abyssal-Muckrager.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "NeNIMJO0P1KA8KCM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Demontangle.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Demontangle.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Demontangle.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "rrMtTABR1587fJGU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Ghodrak-The-Quick.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Ghodrak-The-Quick.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ghodrak-The-Quick.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "16Ru7zfHAHD544xO": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Glimmervine.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Glimmervine.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Glimmervine.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "yTREQiKhDqp16UeO": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Green-Monkey.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Green-Monkey.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Green-Monkey.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "eR1tzQX7WrTsJMb3": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Kitari-Lambossa.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Kitari-Lambossa.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kitari-Lambossa.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ESgndiwI8BzwhDLi": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Kithangian.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Kithangian.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kithangian.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "7LdB1zPPNiWX4Ji5": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Kvernknurr.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Kvernknurr.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kvernknurr.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "A9gKXEQXwKb4U6wA": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Myroga.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Myroga.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Myroga.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "mcNpKicW6L1E327u": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Pholebis.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Pholebis.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Pholebis.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wdeje31VJ7Ivcdd6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Sakuachi.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Sakuachi.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sakuachi.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BlF4FiqivSuigBxy": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Skin-Beetle.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Skin-Beetle.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Skin-Beetle.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "COyGm2KW6YKFE67u": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Skin-Beetle-Swarm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Skin-Beetle-Swarm.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Skin-Beetle-Swarm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "DWT0VLHV9MCbbjbx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Stone-Breasted-Owl.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Stone-Breasted-Owl.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Stone-Breasted-Owl.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "f1Wpj3sqUrfr4m6K": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Valmar.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Valmar.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Valmar.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wt9kH6AwMRuSeGBV": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Vhisa-Resgrido.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Vhisa-Resgrido.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vhisa-Resgrido.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "kgW2ycNTgQsMmkTC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Ainamuuren.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Ainamuuren.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ainamuuren.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "bnKUnG9XzsKzIUxK": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Ancient-Tupilaq.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Ancient-Tupilaq.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ancient-Tupilaq.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Yy2DDehhj47BMWgP": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Blackfrost-Guecubu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Blackfrost-Guecubu.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blackfrost-Guecubu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5kcL1xtNY0apAwhO": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Blackfrost-Prophet.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Blackfrost-Prophet.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blackfrost-Prophet.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2mq2bKfkW7gtxKla": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Blackfrost-Zombie.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Blackfrost-Zombie.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blackfrost-Zombie.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "6HB8S40uMTxM9prV": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Crownbound-Constellaton.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Crownbound-Constellaton.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Crownbound-Constellaton.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8typuC7n5nE01Gzu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Dreamscraper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Dreamscraper.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Dreamscraper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "tjDGU0T5RYZG49EN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Elder-Thing.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Elder-Thing.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Elder-Thing.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4LTBKID3ZcZgyOVw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Elder-Thing.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Elder-Thing.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Elder-Thing.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "AeM32zT3kFOOAugS": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Equendia.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Equendia.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Equendia.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "MnOXwpGD3vJIFydk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Etward-Ritalson.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Etward-Ritalson.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Etward-Ritalson.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "PAQHiQqCcfFo8koZ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Ilakni.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Ilakni.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ilakni.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "N659rGqG2uyI2gp5": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Ilverani-Sentry.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Ilverani-Sentry.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ilverani-Sentry.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qbTNd1UeIxYEihNs": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Mindmoppet.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Mindmoppet.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mindmoppet.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "m1M7f4Rd5zuBRVDe": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Ogmunzorius.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Ogmunzorius.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ogmunzorius.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "78E4gYNIFP3jd8Bt": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Protosoul.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Protosoul.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Protosoul.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "DP1XF7ygEPlBOdVB": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Snowy-Owl.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Snowy-Owl.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Snowy-Owl.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "FGOMsKi1Z0a7uJJy": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/The-Guest.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/The-Guest.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Guest.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "piLAtgB51zXEHmFt": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/Yaiafineti.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/gatewalkers/Yaiafineti.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Yaiafineti.webp",
+            "scale": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -2,6 +2,11 @@
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.4.0
+1. The logic for disabling compendiums has been reworked. Now, each compendium has its own file, which is then assembled into a single bestiaries-master file. On module load, a bestiaries file is generated in the module root according to the compendium disable settings, copying data from bestiaries-master. For users, this is not a major change, but it is much more convenient for me.
+2. Fixed the check logic: in some compendiums, actors could have folders assigned that did not actually exist, causing them to be lost in the results. For example, in the Rage of Elements compendium without art, there are 17 actors, but the check previously showed only 13. Now, the check correctly shows 17 missing, but 4 of them are considered "lost" — they have a folder assigned that no longer exists.
+3. Updated the Triumph of the Tusk APP, the first and second books are filled out.
+
 ## Version 2.3.5
 Disguise Improvements:
 1. Quick access for changing.

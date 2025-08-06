@@ -1,0 +1,1228 @@
+{
+  "pf2e.wardens-of-wildwood-bestiary": {
+    "6EFWsv18TiO3uNRb": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Alyce-Quinley.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Alyce-Quinley.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Alyce-Quinley.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "9qCcLskO4Z3nkBD6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Arboreal-Sapling.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Arboreal-Sapling.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Arboreal-Sapling.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "mnuaGhIOwPNUoXYF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Arboreal-Shepherd.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Arboreal-Shepherd.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Arboreal-Shepherd.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "CMw41oIFKvdTgd0m": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Azhana.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Azhana.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Azhana.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "MWwgjlNph9kqsGjo": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Bee-Covered-Ohancanu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Bee-Covered-Ohancanu.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bee-Covered-Ohancanu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pO47dwHY2ulSpg7F": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Besieged-Logging-Crew.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Besieged-Logging-Crew.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Besieged-Logging-Crew.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "aUSYu3w1TSufTlLP": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Bystander.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Bystander.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bystander.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "6j0rhjMwsLCYMvwI": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Chetamog.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Chetamog.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Chetamog.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "CBDVKK0zhmcS8Pxn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Cythnophorian.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Cythnophorian.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Cythnophorian.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lPePtLExbp8sqNoo": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Emorga-All-Seer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Emorga-All-Seer.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Emorga-All-Seer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "uctziqpGJSJU50rl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Hateful-Bear.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Hateful-Bear.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hateful-Bear.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "N8YG3THrSgSwtzIn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Hateful-Hodag.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Hateful-Hodag.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hateful-Hodag.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "upP0w940TKNkLO1k": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Hateful-Logger.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Hateful-Logger.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hateful-Logger.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Jp7g8OKgIkrhVmsI": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Inrik-Vanderholl.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Inrik-Vanderholl.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Inrik-Vanderholl.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "TJ7fH93NWXXMyM8m": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Lloyd-The-Leaper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Lloyd-The-Leaper.webp",
+          "scaleX": 1.2,
+          "scaleY": 1.2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lloyd-The-Leaper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5GbRsrENVq0SjqBH": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Ohancanu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Ohancanu.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ohancanu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "WHvAA8nScHw3448B": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Otis.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Otis.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Otis.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RKj2Ovrwcz7bCGF4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Sigrid-Jandevik.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Sigrid-Jandevik.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sigrid-Jandevik.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "M7iUWn7SDzSDFidX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Silene.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Silene.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Silene.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "oFZvM54qFh9OVctJ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Splintershank.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Splintershank.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Splintershank.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qyQnrF170l8bpwWi": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Stormdrinker.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Stormdrinker.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Stormdrinker.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "IKpUFi5yeegXdahw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/The-Bee-Man-Of-Bellis.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/The-Bee-Man-Of-Bellis.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/The-Bee-Man-Of-Bellis.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "0KhATx3SL7qpqJJ0": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Tumbo.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Tumbo.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Tumbo.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "yW6weKrIkjL3UIqD": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Twigjack-Bramble.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Twigjack-Bramble.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Twigjack-Bramble.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "dkg9CbjEjjOlpCkX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Usher.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Usher.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Usher.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ibgHT0HBOi6eB26U": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Wraithvine.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Wraithvine.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Wraithvine.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "xV8QIBCeKOm2GQXL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Wraithvine-Offshoot.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Wraithvine-Offshoot.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Wraithvine-Offshoot.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "SscxN3m8bRuXhgWk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Avathrael-Realmshaper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Avathrael-Realmshaper.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Avathrael-Realmshaper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "cNy6Zt9zImma5aPQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Drinesh.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Drinesh.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Drinesh.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "kGZ9TvZWq4eOG9hk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Durnolith.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Durnolith.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Durnolith.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "C0aQ8ndBb5hr32HS": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Eyelet.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Eyelet.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Eyelet.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "NYzgI3QFklyAmMo4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Eyelet-Swarm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Eyelet-Swarm.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Eyelet-Swarm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "kisnb8UHvS72yYH4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Glitterspore.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Glitterspore.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Glitterspore.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "7ZtPLXR6jw1ZWLJc": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Izurran.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Izurran.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Izurran.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "YU2EwouEWCKNcjGK": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Khasprickle.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Khasprickle.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Khasprickle.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "316J8ZDsHytVX162": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Koata-Inuu.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Koata-Inuu.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Koata-Inuu.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wxtJK9oRXGE61CLn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Luruvin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Luruvin.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Luruvin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vVzhD0o96ivHjKMj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Ogre-Bully.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Ogre-Bully.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ogre-Bully.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "v7Atpv0BQql0XB7W": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Putrifer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Putrifer.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Putrifer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3ZpG9ukdfGQlBb0H": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Ruzadoyas-Chosen.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Ruzadoyas-Chosen.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ruzadoyas-Chosen.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lAQZ903Y1psxFAcT": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Shadebound-Pixie.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Shadebound-Pixie.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shadebound-Pixie.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "b5aessbWq2CWlBAk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Shadow-Sage.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Shadow-Sage.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shadow-Sage.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "sEQfFPOrdCiSddtV": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Sylvarindarian.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Sylvarindarian.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sylvarindarian.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "bqNDx6G7OVyeu7Kg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Thrailorn.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Thrailorn.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Thrailorn.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vOeCcqkOZsYalDol": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Timber-Titan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Timber-Titan.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Timber-Titan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "m05K0hO2UL5VIuyh": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Unaasi.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Unaasi.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Unaasi.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Cqojdf1w1uPitolZ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Verdant-Swordkeeper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Verdant-Swordkeeper.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Verdant-Swordkeeper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "W0XeFUfyvJdQLKQY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Zasir.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Zasir.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zasir.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "ec7JXhGV8mqrS4tn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Ardande-Ghost.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Ardande-Ghost.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ardande-Ghost.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zH0xAdq6qxv5ARSO": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Blighted-Speaker-In-Spores.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Blighted-Speaker-In-Spores.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blighted-Speaker-In-Spores.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "xf2V2i0J3oJlXMnF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Bonebleacher-Bugbear.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Bonebleacher-Bugbear.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bonebleacher-Bugbear.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "EdZm8SanOd6pJXUs": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Caustic-Wraith.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Caustic-Wraith.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Caustic-Wraith.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "24Mybh3pBJN5mQ7R": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Coiled-Conifer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Coiled-Conifer.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Coiled-Conifer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "oZpXqQDC3ggyNK4Z": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Creeping-Cone-Swarm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Creeping-Cone-Swarm.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Creeping-Cone-Swarm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "YqDrvGRd3dmXoC2T": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Druulbach.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Druulbach.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Druulbach.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lHAK5I1ksuuhZsRu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Gritblight.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Gritblight.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gritblight.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Cm96cXbKhov2TqJq": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Leshy-Mob.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Leshy-Mob.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Leshy-Mob.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "PpKV5h6ZQALfgJKY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Old-Thornbarker.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Old-Thornbarker.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Old-Thornbarker.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "j39LXy9R6i6y4coq": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Phytohydra.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Phytohydra.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Phytohydra.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Lbeii1aQcByS3oKV": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Phytomancer-Ghost.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Phytomancer-Ghost.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Phytomancer-Ghost.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BiNtR3JSahC0Yv07": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Primal-Mantis.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Primal-Mantis.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Primal-Mantis.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "s2oc6zKIGTyJkOlA": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Primal-Warden-Of-Zibik.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Primal-Warden-Of-Zibik.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Primal-Warden-Of-Zibik.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "bO3DhcY4fumsjnW4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Rancorous-Druids.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Rancorous-Druids.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Rancorous-Druids.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "N0LZl2XaP8pFByuq": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Reborn-Devotee.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Reborn-Devotee.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Reborn-Devotee.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "z8bNDLO8O4BhPVRl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Redwood-Leshy.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Redwood-Leshy.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Redwood-Leshy.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "8ikKo7zxWm0rjoUu": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Rootridden.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Rootridden.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Rootridden.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "zjJn0DDIMxt4L77S": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Ruzadoya-Swiftmane.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Ruzadoya-Swiftmane.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ruzadoya-Swiftmane.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "6lPHKb53ZG98ZTLL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Spitting-Sawfly.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Spitting-Sawfly.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Spitting-Sawfly.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vKdkG4JJSfzTz2RK": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Timberweb.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Timberweb.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Timberweb.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vougIGMOqsn85wqx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Wildwood-Sentry.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Wildwood-Sentry.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Wildwood-Sentry.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "mPLImUv6yvOKgSNY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Woodweave-Caterpillar.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Woodweave-Caterpillar.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Woodweave-Caterpillar.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4l5JArUXizR8CdMM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/wardens-of-wildwood/Zibik.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/wardens-of-wildwood/Zibik.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zibik.webp",
+            "scale": 1
+          }
+        }
+      }
+    }
+  }
+}

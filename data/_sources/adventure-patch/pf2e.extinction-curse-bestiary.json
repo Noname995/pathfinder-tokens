@@ -1,0 +1,2248 @@
+{
+  "pf2e.extinction-curse-bestiary": {
+    "dP6sDHTZrDcV2I9w": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Abberton-Ruffian.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Abberton-Ruffian.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Abberton-Ruffian.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HFAhDmrkxg6YLhdF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Blood-Wolf.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Blood-Wolf.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Blood-Wolf.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "SAqbWugp2NcdEtrr": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Bone-Croupier.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Bone-Croupier.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bone-Croupier.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BBamjhcpvwXGhlbM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Cavnakash.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Cavnakash.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Cavnakash.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wi94WddixQEID9Jl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Corrupted-Priest.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Corrupted-Priest.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Corrupted-Priest.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Q3Z0rIINoWYxVSrS": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Corrupted-Retainer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Corrupted-Retainer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Corrupted-Retainer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "NBCqA1NLRlhMuqGl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Daring-Danika.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Daring-Danika.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Daring-Danika.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wS2SN0dnQMybLzSA": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Flea-Swarm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Flea-Swarm.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Flea-Swarm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "gN8VuDZ8b9dp0Ep0": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Flea-Swarm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Flea-Swarm.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Flea-Swarm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "16cZVZxsXVRHfuuQ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Jellico-Bounce-Bounce.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Jellico-Bounce-Bounce.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Jellico-Bounce-Bounce.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "a2FCggU8UCQl6RDx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Juvenile-Boar.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Juvenile-Boar.webp",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Juvenile-Boar.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Plig7vUF9cEY1VBJ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Lakkai-One-Fang.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Lakkai-One-Fang.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lakkai-One-Fang.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "b5creqUAlBl0Tmmc": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Leandrus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Leandrus.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Leandrus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RIZDryL3Wnk6ucks": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Luminous-Ooze.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Luminous-Ooze.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Luminous-Ooze.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "3Fxih1eU4IXABxpy": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Mechanical-Carny.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Mechanical-Carny.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mechanical-Carny.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "IacftcXDDMBNcKbY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Nemmia-Bramblecloak.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Nemmia-Bramblecloak.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Nemmia-Bramblecloak.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "KXNSBeUWLxMfd2Zg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Pinacosaurus.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Pinacosaurus.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Pinacosaurus.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4QgC23j1wzfaCecR": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Pruana-Two-Punch.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Pruana-Two-Punch.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Pruana-Two-Punch.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "U6jOmV5RAkj32qOi": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Smiler.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Smiler.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Smiler.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "rxGByemLAAeM4h29": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Smoldering-Leopards.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Smoldering-Leopards.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Smoldering-Leopards.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "YAKZUBOth75W2mWT": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Vermlek.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Vermlek.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vermlek.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JvSCGGnexk7CmVke": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Viktor-Volkano.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Viktor-Volkano.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Viktor-Volkano.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lM9j6lc5MkBlGfzD": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Violet.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Violet.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Violet.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "xWsfcDcgbubVpjow": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Bilebearer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Bilebearer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Bilebearer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "beb9LqlOBFseROnY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Adrivallo.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Adrivallo.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Adrivallo.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "pOlP9ZR0eFS57c27": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Aives-The-Smoke-Dragon.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Aives-The-Smoke-Dragon.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Aives-The-Smoke-Dragon.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "oYstle5FAR800UQT": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Andera-Paldreen.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Andera-Paldreen.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Andera-Paldreen.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "u6b7tlXDXMxmkdLO": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Bogey.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Bogey.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bogey.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "nFYpYIL5OUCFZCr9": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Bogeyman.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Bogeyman.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bogeyman.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "7YJHi9niIKpFXXrf": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Celestial-Menagerie-Bruiser.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Celestial-Menagerie-Bruiser.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Celestial-Menagerie-Bruiser.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "hz2uoBS8DFOWshko": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Darricus-Stallit.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Darricus-Stallit.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Darricus-Stallit.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qKHkamxIPbqxEiwp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Delamar-Gianvin.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Delamar-Gianvin.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Delamar-Gianvin.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "i3kQzeKcSoxkNYJb": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Evora-Yarket.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Evora-Yarket.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Evora-Yarket.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "9cwg4cOgvFqtxIQ1": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Gluttondark-Babau.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Gluttondark-Babau.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gluttondark-Babau.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "XyHk8ChyuOkJuhVZ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Guardian-Of-The-Faithful.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Guardian-Of-The-Faithful.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Guardian-Of-The-Faithful.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "x2XcPDPLeCAXITlZ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Iridescent-Elephant.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Iridescent-Elephant.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Iridescent-Elephant.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "viTyDNdkTo0JPLb8": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Kalkek.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Kalkek.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kalkek.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HbxPY2GSxhRu4rVi": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Lion-Visitant.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Lion-Visitant.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lion-Visitant.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "QMFlW9qrUKWBOF1Q": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Mistress-Dusklight.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Mistress-Dusklight.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Mistress-Dusklight.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jaUUH2i5UQZYQqab": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Muse-Phantom.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Muse-Phantom.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Muse-Phantom.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "gZBayD2gJu7iZrud": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ruanna-Nyama.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Ruanna-Nyama.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ruanna-Nyama.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "UKBR2GdXIdg66Nqm": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ulthadar.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Ulthadar.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ulthadar.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "I31kJb0DRkzTn8iX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Spinesnapper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Spinesnapper.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Spinesnapper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "TdqGpBasgDOUqmNp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Zuipnyrn.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Zuipnyrn.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zuipnyrn.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "88VcnxbKPF2QkPiF": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Bitter-Truth-Bandit.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Bitter-Truth-Bandit.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bitter-Truth-Bandit.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "QZHvPM0Yatn8oxsj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Bugul-Noz.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Bugul-Noz.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Bugul-Noz.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "7p4RWS26W5k6vCkH": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Cat-Sith.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Cat-Sith.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Cat-Sith.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "29NHB8DNNAbEk5Va": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Counteflora.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Counteflora.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Counteflora.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "N8ekzW9snBA2YAKv": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Cu-Sith.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Cu-Sith.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Cu-Sith.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "bJUlb2DxT1xyaYAp": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Darklands-Alchemical-Golem.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Darklands-Alchemical-Golem.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Darklands-Alchemical-Golem.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "aIT5S2fKgMZ6pVP2": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ginjana-Mindkeeper.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Ginjana-Mindkeeper.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ginjana-Mindkeeper.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "DJyAXPHQy7OUUw00": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Headless-Xulgath.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Headless-Xulgath.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Headless-Xulgath.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "1vOre5O8t3pQPUp6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Herecite-Of-Zevgavizeb.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Herecite-Of-Zevgavizeb.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Herecite-Of-Zevgavizeb.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qXC4lGSWxqIhO5tr": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Hooklimb-Xulgath.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Hooklimb-Xulgath.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hooklimb-Xulgath.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2Ey2VZ3aQlN4FGHJ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Pin-Tingwheely.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Pin-Tingwheely.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Pin-Tingwheely.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "0pw0r1w8vO7aRocN": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Resin-Seep-Xulgath.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Resin-Seep-Xulgath.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Resin-Seep-Xulgath.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "CQ2682vd4bUtvKQX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Runkrunk.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Runkrunk.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Runkrunk.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "YS8UvVGFgHP2TrY3": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Shoony-Hierarch.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Shoony-Hierarch.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shoony-Hierarch.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "OCrQtfKDFpLedE13": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Shoony-Militia-Member.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Shoony-Militia-Member.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shoony-Militia-Member.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "D0laesU2eB1VOZTX": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Shoony-Tiller.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Shoony-Tiller.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shoony-Tiller.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "qCTU0ywtCOgiUM0q": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Skarja.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Skarja.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Skarja.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "CNO54boXvXg7xSP6": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Tanessa-Fleer.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Tanessa-Fleer.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Tanessa-Fleer.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "CYXoXHr9BoPInIbe": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Thessekka.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Thessekka.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Thessekka.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "fvGqCYfVAI3KXnSl": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Bomber.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Bomber.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Bomber.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "uUcqr8gPQIw5govC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Skirmisher.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Skirmisher.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Skirmisher.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "uPWqYc05YQ0Q4i0g": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Stoneliege.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Stoneliege.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Stoneliege.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jxGA1C8xX0WkJGI4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Yaganty.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Yaganty.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Yaganty.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "otSfn7djr37Bdejj": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Arskuva-The-Gnasher.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Arskuva-The-Gnasher.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Arskuva-The-Gnasher.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2PxSX2cqEbSFjj3D": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Aukashungi-Swarm.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Aukashungi-Swarm.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Aukashungi-Swarm.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4eQVYZ7sH7O8mw3R": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Brughadatch.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Brughadatch.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Brughadatch.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "igd75rbnUbYBNyYw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Doblagub.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Doblagub.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Doblagub.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "sQvm52N0E5ulBaaq": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Faceless-Butcher.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Faceless-Butcher.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Faceless-Butcher.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "C07vwQbz6mKwLRGY": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Gahlepod.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Gahlepod.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Gahlepod.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "aUDIi3Z0N7IhzaT0": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Giant-Aukashungi.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Giant-Aukashungi.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Giant-Aukashungi.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "IVpSJcoRLGgUfqW7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Harrow-Doll.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Harrow-Doll.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Harrow-Doll.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "QFScy7QFB7PIeTEa": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Helg-Eats-The-Eaters.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Helg-Eats-The-Eaters.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Helg-Eats-The-Eaters.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "lh3pcyJlUUtNpWcI": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ledorick-Banyan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Ledorick-Banyan.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ledorick-Banyan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "xGTl3DVCD0etE6MU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ledorick-Banyan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Ledorick-Banyan.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ledorick-Banyan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wBlnbLj8FfgxArQm": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Lyrt-Cozurn.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Lyrt-Cozurn.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Lyrt-Cozurn.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "iUA3E379TDoEAXz7": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Qurashith.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Qurashith.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Qurashith.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "f4H9d0b1vJvxeFqs": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Sodden-Sentinel.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Sodden-Sentinel.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sodden-Sentinel.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HHy2GazURA6Cx1ee": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Starved-Staff.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Starved-Staff.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Starved-Staff.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "tPvr9zvUfktMIvYU": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Styrvin-Banyan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Styrvin-Banyan.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Styrvin-Banyan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BORxkpaFBSCyB1f1": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Tallow-Ooze.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Tallow-Ooze.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Tallow-Ooze.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "j31HXlZiUqQrAHSB": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Tashlock-Banyan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Tashlock-Banyan.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Tashlock-Banyan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "oJJspO9P2vDdtMYd": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Faceless-Butcher.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Faceless-Butcher.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Faceless-Butcher.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2XRzA5GZeDk88Y2z": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/War-Sauropelta.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/War-Sauropelta.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/War-Sauropelta.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "wOzDhkm9sd7IygoS": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Wight-Cultist.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Wight-Cultist.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Wight-Cultist.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "NITxPebTwserqASe": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xilvirek.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xilvirek.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xilvirek.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "FZqrluaaz5vhXEZ9": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Gutrager.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Gutrager.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Gutrager.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "tg5SrKu228LZkoC0": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Hardscale.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Hardscale.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Hardscale.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "I6i1uvFI7VCTyVbM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Herd-Tender.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Herd-Tender.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Herd-Tender.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "SBz0ylPxEaUhG2aZ": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Roughrider.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Roughrider.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Roughrider.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "OqThOmNrdW3HVa7k": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Zashathal-Head-Taker.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Zashathal-Head-Taker.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zashathal-Head-Taker.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "B9fl34W1jENDoYqc": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ammut.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Ammut.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ammut.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "PpAOxz6ayvkn0fMK": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ararda.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Ararda.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ararda.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "s7447jKTaAd4r3Oa": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Ciza.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Ciza.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Ciza.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "18Y3yoYcEGoLcmDy": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Death-Drider.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Death-Drider.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Death-Drider.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "yqH59ltUd0f3kLLL": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Drow-Bodyguard-Golem.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Drow-Bodyguard-Golem.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Drow-Bodyguard-Golem.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "NgmbMRekIHiA44lg": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Dyzallin-Shraen.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Dyzallin-Shraen.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Dyzallin-Shraen.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "BsnU2Hf4a3MuXVPn": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Dyzallins-Golem.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Dyzallins-Golem.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Dyzallins-Golem.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "YZcw33uhsPHWKcHM": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Hollow-Hush.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Hollow-Hush.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Hollow-Hush.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "aqcDvkIaKwJdMEAO": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Iffdahsil.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Iffdahsil.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Iffdahsil.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "bpTQfx4UixMV3Fja": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Kharostan.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Kharostan.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kharostan.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "B2jQKaAXO7LofE7L": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Muurfeli.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Muurfeli.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Muurfeli.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "0VzVpqN3Yp0IY3C1": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Nihiris.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Nihiris.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Nihiris.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "JRvLtSt9cda4pc8z": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Obsidian-Golem.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Obsidian-Golem.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Obsidian-Golem.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "RbrUXZyhqbsglVrr": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Qormintur.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Qormintur.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Qormintur.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Ffj8PyKkBkYNV6pd": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Raptor-Guard-Wight.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Raptor-Guard-Wight.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Raptor-Guard-Wight.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "S5pcyiSXhMKrMjcC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Shraen-Graveknight.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Shraen-Graveknight.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shraen-Graveknight.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5G8Iokror8QtBhbx": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Urdefhan-Dominator.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Urdefhan-Dominator.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Urdefhan-Dominator.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "IRon2oG76IG28Z4m": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Urdefhan-High-Tormentor.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Urdefhan-High-Tormentor.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Urdefhan-High-Tormentor.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "PYvtflsrA9ITevEq": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Urdefhan-Hunter.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Urdefhan-Hunter.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Urdefhan-Hunter.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Z3VrS25uw9vD2sek": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Vitalia.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Vitalia.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vitalia.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "4lJiW36oO2iG7jCB": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Deepmouth.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Deepmouth.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Deepmouth.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "G2ICeUU6br5Xem3P": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Zinogyvaz.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Zinogyvaz.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Zinogyvaz.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HEeRO5IF4lAGfDqE": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Barking-Stag.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Barking-Stag.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Barking-Stag.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Sxip3Rmi0PFpzHNw": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Convergent-Giant-Eagle.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Convergent-Giant-Eagle.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Convergent-Giant-Eagle.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "jwcMb71QRhMw94Id": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Convergent-Kendley-Nathrael.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Convergent-Kendley-Nathrael.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Convergent-Kendley-Nathrael.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "DXNDZNHSZxlNXJnk": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Convergent-Soldier.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Convergent-Soldier.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Convergent-Soldier.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "GuJJJzmjLKbkZUur": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Deghuun.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Deghuun.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Deghuun.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "R3SbxfWLp8xUvXUP": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Elysian-Sheep.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Elysian-Sheep.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Elysian-Sheep.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "vxFQrDnQqUpGpQmK": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Kimilekki.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Kimilekki.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kimilekki.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "2bu9oGbB7UUTq2sR": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Kirosthrek.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Kirosthrek.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Kirosthrek.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "fsPWWmIao1eFTAV4": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Sarvel-Ever-Hunger.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Sarvel-Ever-Hunger.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Sarvel-Ever-Hunger.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "HCxhltvoCdy3RXlH": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Saurian-Warmonger.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Saurian-Warmonger.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Saurian-Warmonger.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "Xva8XyRrsHB6S7e8": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Saurian-Worldwatcher.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Saurian-Worldwatcher.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Saurian-Worldwatcher.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "5tlPKUZroqzycuzD": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Shanchek.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Shanchek.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Shanchek.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "sPuh6Ahatn0Vhn7P": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Urushil.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Urushil.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Urushil.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "i6t819VnEr1ESCAd": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Vavakia.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Vavakia.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Vavakia.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "QcJtBai5JViNFqUC": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Viskithrel.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Viskithrel.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Viskithrel.webp",
+            "scale": 1
+          }
+        }
+      }
+    },
+    "YaKW9i3v9nn8Blij": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/Xulgath-Thoughtmaw.webp",
+      "token": {
+        "texture": {
+          "src": "modules/pf2e-token-pack/tokens/adventure-patch/extinction-curse/Xulgath-Thoughtmaw.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        },
+        "_ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Thoughtmaw.webp",
+            "scale": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -83,7 +83,7 @@
 | Curtain Call | ✅ | |
 | Extinction Curse | ❌ | Отсутствует 8 артов |
 | Fist of the Ruby Phoenix | ✅ | |
-| Gatewalkers | ❌ | Отсутствует 1 арт |
+| Gatewalkers | ❌ | Отсутствует 10 арт |
 | Outlaws of Alkenstar | | |
 | Kingmaker | ✅ | |
 | Quest for the Frozen | ✅ | |
@@ -92,7 +92,7 @@
 | Sky King's Tomb | ✅❌ | Отсутствует 2 арта |
 | Spore War | ✅ | |
 | Strength of Thousands | ❌ | Отсутствует 14 артов |
-| Triumph of the Tusk | ✅❌ | Отсутствует 32 арта |
+| Triumph of the Tusk | ✅❌ | Отсутствует 10 арта |
 | Shades of Blood | ✅ |  |
 | Stolen Fate | | |
 | Wardens of Wildwood | ❌ | Отсутствует 1 арт |
@@ -107,14 +107,14 @@
 | Lost Omens Bestiary | ✅❌ | Отсутствует 22 арта |
 | NPC Gallery | ❌ | Отсутствует 3 арта |
 | Dark Archive | ❌ | Отсутствует 1 арт |
-| Rage of Elements | ❌ | Отсутствует 13 артов |
+| Rage of Elements | ❌ | Отсутствует 17 артов |
 | War of Immortals | | |
 
 ### Приключения
 
 | Источник | Статус | Примечания |
 | :--- | :---: | :--- |
-| Claws of the Tyrant | ❌ | Отсутствует 9 артов |
+| Claws of the Tyrant | ❌ | Отсутствует 11 артов |
 | Fall of Plaguestone | ❌ | Отсутствует 1 арт |
 | Malevolence | ❌ | Отсутствует 3 арта |
 | Menace Under Otari | | |
