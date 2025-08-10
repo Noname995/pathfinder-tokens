@@ -78,12 +78,12 @@
 | :--- | :---: | :--- |
 | Abomination Vaults | ✅ | |
 | Age of Ashes | ✅❌ | Отсутствует 1 арт |
-| Agents of Edgewatch | ❌ | Отсутствует 6 артов |
+| Agents of Edgewatch | ✅❌ | Отсутствует 6 артов |
 | Blood Lords | ✅❌ | Отсутствует 2 арта |
 | Curtain Call | ✅ | |
-| Extinction Curse | ❌ | Отсутствует 8 артов |
+| Extinction Curse | ✅❌ | Отсутствует 8 артов |
 | Fist of the Ruby Phoenix | ✅ | |
-| Gatewalkers | ❌ | Отсутствует 10 арт |
+| Gatewalkers | ✅❌ | Отсутствует 10 арт |
 | Outlaws of Alkenstar | | |
 | Kingmaker | ✅ | |
 | Quest for the Frozen | ✅ | |

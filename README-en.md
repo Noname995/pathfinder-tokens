@@ -76,12 +76,12 @@ Requires the installation of the additional module [**Pathfinder 2E: Token Pack 
 | :--- | :---: | :--- |
 | Abomination Vaults | ✅ | |
 | Age of Ashes | ✅❌ | 1 art missing |
-| Agents of Edgewatch | ❌ | 6 arts missing |
+| Agents of Edgewatch | ✅❌ | 6 arts missing |
 | Blood Lords | ✅❌ | 2 arts missing |
 | Curtain Call | ✅ | |
-| Extinction Curse | ❌ | 8 arts missing |
+| Extinction Curse | ✅❌ | 8 arts missing |
 | Fist of the Ruby Phoenix | ✅ | |
-| Gatewalkers | ❌ | 1 art missing |
+| Gatewalkers | ✅❌ | 1 art missing |
 | Outlaws of Alkenstar | | |
 | Kingmaker | ✅ | |
 | Quest for the Frozen | ✅ | |
