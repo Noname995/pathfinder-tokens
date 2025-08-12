@@ -38,6 +38,7 @@
 5. В настройках теперь вы можете управлять цветом подсветки токена
 6. Можно поменять имя оригинального образа
 7. Настройка расположения HUD элемента на токене
+8. Игроки сами могут менять образы маскировки
 ![Маскировка NPC-2](./data/assets/npc-disguise-2.png)
 ![Маскировка NPC-3](./data/assets/npc-disguise-3.png)
 
@@ -84,18 +85,18 @@
 | Extinction Curse | ✅❌ | Отсутствует 8 артов |
 | Fist of the Ruby Phoenix | ✅ | |
 | Gatewalkers | ✅❌ | Отсутствует 10 арт |
-| Outlaws of Alkenstar | | |
+| Outlaws of Alkenstar | ✅ | |
 | Kingmaker | ✅ | |
 | Quest for the Frozen | ✅ | |
 | Season of Ghosts | ✅ | |
 | Seven Dooms for Sandpoint | ✅ | |
 | Sky King's Tomb | ✅❌ | Отсутствует 2 арта |
 | Spore War | ✅ | |
-| Strength of Thousands | ❌ | Отсутствует 14 артов |
+| Strength of Thousands | ✅❌ | Отсутствует 14 артов |
 | Triumph of the Tusk | ✅❌ | Отсутствует 10 арта |
 | Shades of Blood | ✅ |  |
-| Stolen Fate | | |
-| Wardens of Wildwood | ❌ | Отсутствует 1 арт |
+| Stolen Fate | ✅ | |
+| Wardens of Wildwood | ✅ ❌ | Отсутствует 1 арт |
 
 ### Книга правил
 

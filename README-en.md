@@ -35,6 +35,7 @@ Now with additional functionality:
 5. You can now control the token highlight color in the settings.
 6. You can change the name of the original appearance.
 7. Setting for the location of the HUD element on the token.
+8. Players can change their own disguises.
 ![NPC Disguise-2](./data/assets/npc-disguise-2.png)
 ![NPC Disguise-3](./data/assets/npc-disguise-3.png)
 
@@ -82,18 +83,18 @@ Requires the installation of the additional module [**Pathfinder 2E: Token Pack 
 | Extinction Curse | ✅❌ | 8 arts missing |
 | Fist of the Ruby Phoenix | ✅ | |
 | Gatewalkers | ✅❌ | 1 art missing |
-| Outlaws of Alkenstar | | |
+| Outlaws of Alkenstar | ✅ | |
 | Kingmaker | ✅ | |
 | Quest for the Frozen | ✅ | |
 | Season of Ghosts | ✅ | |
 | Seven Dooms for Sandpoint | ✅ | |
 | Sky King's Tomb | ✅❌ | 2 arts missing |
 | Spore War | ✅ | |
-| Strength of Thousands | ❌ | 14 arts missing |
+| Strength of Thousands | ✅❌ | 14 arts missing |
 | Triumph of the Tusk | ✅❌ | 10 arts missing |
 | Shades of Blood | ✅ |  |
-| Stolen Fate | | |
-| Wardens of Wildwood | ❌ | 1 art missing |
+| Stolen Fate | ✅ | |
+| Wardens of Wildwood | ✅❌ | 1 art missing |
 
 ### Rulebooks
 

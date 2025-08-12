@@ -3,6 +3,13 @@
 [![Changelog-en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog-en.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.4.2
+1. Добавлены динамические токены AP Outlaws of Alkenstar
+2. Добавлены динамические токены AP Stolen Fate
+3. Добавлены динамические токены AP Wardens of Wildwood
+4. Добавлены динамические токены AP Strength of Thousands
+5. Теперь тот, кто владеет актером, может пользоваться сменой маскировкой. И еще кое-что, достаточно 1 раз сделать образ и он сохраниться в этом актере, если вы использовали болванки, то можете их удалить. Так же у игроков удалена кнопка "Создать новый образ"
+
 ## Version 2.4.1
 1. Добавлены динамические токены AP Agents of Edgewatch
 2. Добавлены динамические токены AP Extinction Curse

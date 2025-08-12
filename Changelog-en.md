@@ -2,6 +2,13 @@
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.4.2
+1. Added dynamic tokens for AP Outlaws of Alkenstar
+2. Added dynamic tokens for AP Stolen Fate
+3. Added dynamic tokens for AP Wardens of Wildwood
+4. Added dynamic tokens for AP Strength of Thousands
+5. Now the one who owns the actor can use a disguise change. And one more thing, it's enough to make an image once and it will be saved in this actor, if you used blanks, you can delete them. The "Create a new image" button has also been removed from the players
+
 ## Version 2.4.1
 1. Added dynamic tokens for AP Agents of Edgewatch
 2. Added dynamic tokens for AP Extinction Curse
