@@ -12,8 +12,8 @@
 7. Removed the "Reset to Original" button (the action is available via the HUD and "Saved Appearances").
 8. Optimized appearance saving: now only modified data is saved.
 9. Fixed the "Full Copy" (phases) feature for prepared spellcasters.
-11. Added synchronization of inventory, notes, and effects for the "Full Copy" feature.
-12. Added a setting to select the outline type for token highlighting.
+10. Added synchronization of inventory, notes, and effects for the "Full Copy" feature.
+11. Added a setting to select the outline type for token highlighting.
 
 ## Version 2.4.2
 1. Added dynamic tokens for AP Outlaws of Alkenstar
