@@ -36,6 +36,7 @@ Now with additional functionality:
 6. You can change the name of the original appearance.
 7. Setting for the location of the HUD element on the token.
 8. Players can change their own disguises.
+9. Choosing the type of token outline with images
 ![NPC Disguise-2](./data/assets/npc-disguise-2.png)
 ![NPC Disguise-3](./data/assets/npc-disguise-3.png)
 

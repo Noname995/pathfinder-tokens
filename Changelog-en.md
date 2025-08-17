@@ -2,6 +2,19 @@
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.4.3
+1. Fixed masking display in the Combat Tracker.
+2. Fixed the size of an NPC appearance created from a player character.
+3. Fixed character display when its token is moved or deleted while using an appearance.
+4. Updated the masking control code. Removed "Create New Appearance" and "Disable Highlight" buttons for players.
+5. Added the original appearance to "Saved Appearances" with an option to recreate it.
+6. The renaming feature has been moved to "Saved Appearances"; the "Alias for Original" button has been removed.
+7. Removed the "Reset to Original" button (the action is available via the HUD and "Saved Appearances").
+8. Optimized appearance saving: now only modified data is saved.
+9. Fixed the "Full Copy" (phases) feature for prepared spellcasters.
+11. Added synchronization of inventory, notes, and effects for the "Full Copy" feature.
+12. Added a setting to select the outline type for token highlighting.
+
 ## Version 2.4.2
 1. Added dynamic tokens for AP Outlaws of Alkenstar
 2. Added dynamic tokens for AP Stolen Fate

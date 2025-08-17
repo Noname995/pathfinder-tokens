@@ -13,9 +13,13 @@ async function applyFullDisguise(targetActor, sourceData, targetToken = null, sh
         delete stateToSave.flags;
         await targetActor.setFlag('pf2e-token-pack', 'last_hybrid_state', stateToSave);
     }
-    
-    await targetActor.deleteEmbeddedDocuments("Item", [], {deleteAll: true});
-    await targetActor.deleteEmbeddedDocuments("ActiveEffect", [], {deleteAll: true});
+
+    const mechanicalItemTypes = ['melee', 'spellcastingEntry', 'spell', 'action', 'feat', 'lore', 'skill'];
+
+    const itemsToDelete = targetActor.items.filter(i => mechanicalItemTypes.includes(i.type)).map(i => i.id);
+    if (itemsToDelete.length > 0) {
+        await targetActor.deleteEmbeddedDocuments("Item", itemsToDelete);
+    }
 
     const sourceClone = foundry.utils.deepClone(sourceData);
 
@@ -28,22 +32,111 @@ async function applyFullDisguise(targetActor, sourceData, targetToken = null, sh
             }
         }
     }
-    
-    const actorUpdate = { img: sourceClone.img, system: sourceClone.system, prototypeToken: sourceClone.prototypeToken };
+
+    const originalNotes = {
+        public: targetActor.system.details.publicNotes,
+        private: targetActor.system.details.privateNotes
+    };
+
+    const actorUpdate = foundry.utils.deepClone(sourceClone);
+    delete actorUpdate._id;
+    delete actorUpdate.type;
+    delete actorUpdate.items;
+    delete actorUpdate.effects;
+    delete actorUpdate.ownership;
+    delete actorUpdate.folder;
+    delete actorUpdate.sort;
+    delete actorUpdate._stats;
+    delete actorUpdate.flags;
+
+    if (actorUpdate.system?.details) {
+        actorUpdate.system.details.publicNotes = originalNotes.public;
+        actorUpdate.system.details.privateNotes = originalNotes.private;
+    }
+
     await targetActor.update(actorUpdate);
-    
+
     if (sourceClone.system.attributes.hp) {
         await targetActor.update({'system.attributes.hp.value': sourceClone.system.attributes.hp.value});
     }
-    
-    if (sourceClone.items?.length) await targetActor.createEmbeddedDocuments("Item", sourceClone.items);
-    if (sourceClone.effects?.length) await targetActor.createEmbeddedDocuments("ActiveEffect", sourceClone.effects);
+
+    const sourceMechanicalItems = sourceClone.items.filter(i => mechanicalItemTypes.includes(i.type));
+
+    if (sourceMechanicalItems.length > 0) {
+        const allItemsData = sourceMechanicalItems.map(foundry.utils.deepClone).map(i => {
+            delete i._id; return i;
+        });
+
+        const spellsData = allItemsData.filter(i => i.type === 'spell');
+        const otherItemsData = allItemsData.filter(i => i.type !== 'spell');
+
+        const createdOtherItems = await targetActor.createEmbeddedDocuments("Item", otherItemsData);
+
+        const entryIdMap = new Map();
+        const sourceEntries = sourceMechanicalItems.filter(i => i.type === 'spellcastingEntry');
+        const createdEntries = createdOtherItems.filter(i => i.type === 'spellcastingEntry');
+
+        for (const sourceEntry of sourceEntries) {
+            const newEntry = createdEntries.find(i => i.name === sourceEntry.name);
+            if (newEntry) {
+                entryIdMap.set(sourceEntry._id, newEntry.id);
+            }
+        }
+
+        const updatedSpellsData = spellsData.map(spell => {
+            const oldEntryId = spell.system.location.value;
+            const newEntryId = entryIdMap.get(oldEntryId);
+            if (newEntryId) {
+                spell.system.location.value = newEntryId;
+            }
+            return spell;
+        });
+
+        const createdSpells = await targetActor.createEmbeddedDocuments("Item", updatedSpellsData);
+
+        if (createdSpells.length > 0) {
+            const spellIdMap = new Map();
+            const sourceSpells = sourceMechanicalItems.filter(i => i.type === 'spell');
+            for (const sourceSpell of sourceSpells) {
+                const newSpell = createdSpells.find(s => s.name === sourceSpell.name && s.system.location.value === entryIdMap.get(sourceSpell.system.location.value));
+                if (newSpell) {
+                    spellIdMap.set(sourceSpell._id, newSpell.id);
+                }
+            }
+
+            const updates = [];
+            const preparedEntries = sourceEntries.filter(e => e.system.prepared?.value === 'prepared');
+
+            for (const sourceEntry of preparedEntries) {
+                const newEntryId = entryIdMap.get(sourceEntry._id);
+                if (!newEntryId) continue;
+
+                const newSlots = foundry.utils.deepClone(sourceEntry.system.slots);
+                for (const slotKey in newSlots) {
+                    const slot = newSlots[slotKey];
+                    if (slot.prepared?.length > 0) {
+                        slot.prepared = slot.prepared
+                            .map(prep => {
+                                const newSpellId = spellIdMap.get(prep.id);
+                                return newSpellId ? { id: newSpellId } : null;
+                            })
+                            .filter(p => p !== null);
+                    }
+                }
+                updates.push({ _id: newEntryId, 'system.slots': newSlots });
+            }
+
+            if (updates.length > 0) {
+                await targetActor.updateEmbeddedDocuments("Item", updates);
+            }
+        }
+    }
 
     if (targetToken) {
         const tokenUpdate = {
             'flags.pf2e.linkToActorSize': foundry.utils.getProperty(sourceClone.prototypeToken, "flags.pf2e.linkToActorSize"),
-            'flags.pf2e.autoscale': false, 
-            'texture.scaleX': sourceClone.prototypeToken.texture.scaleX, 
+            'flags.pf2e.autoscale': false,
+            'texture.scaleX': sourceClone.prototypeToken.texture.scaleX,
             'texture.scaleY': sourceClone.prototypeToken.texture.scaleY,
         };
 
@@ -57,39 +150,129 @@ async function applyFullDisguise(targetActor, sourceData, targetToken = null, sh
         await targetToken.update(tokenUpdate);
         if (targetToken.object) targetToken.object.refresh();
     }
-    
-    if (game.combat) {
-        const combatant = game.combat.combatants.find(c => c.actor.id === targetActor.id);
+
+    if (game.combat && targetToken && targetActor.isOwner) {
+        const combatant = game.combat.combatants.find(c => c.tokenId === targetToken.id);
         if (combatant) {
             await combatant.update({ img: targetActor.img, name: targetActor.name });
-            ui.combat.render();
         }
     }
 
     await targetActor.setFlag('pf2e-token-pack', 'active_mode', 'full');
-    // СТРОКА УДАЛЕНА: await targetActor.setFlag('pf2e-token-pack', 'isDisguised', true);
-    const message = game.i18n.format("Disguise.Applied", { name: sourceData.name });
+    const message = game.i18n.format("Disguise.AppliedSuccess", { name: sourceData.name });
     ui.notifications.info(message);
-    if (sheet && sheet.rendered) sheet.render(true);
+    if (sheet && sheet.rendered) setTimeout(() => sheet.render(true), 100);
 }
 
 async function applyVisualDisguise(targetActor, visualData, targetToken = null, sheet = null, options = { applySize: true }) {
     const activeMode = targetActor.getFlag('pf2e-token-pack', 'active_mode');
     
     if (activeMode === 'full') {
-        const lastHybridState = targetActor.getFlag('pf2e-token-pack', 'last_hybrid_state');
+        let lastHybridState = targetActor.getFlag('pf2e-token-pack', 'last_hybrid_state');
         if (lastHybridState) {
-            await targetActor.deleteEmbeddedDocuments("Item", [], {deleteAll: true});
-            await targetActor.deleteEmbeddedDocuments("ActiveEffect", [], {deleteAll:true});
+            
+            const mechanicalItemTypes = ['melee', 'spellcastingEntry', 'spell', 'action', 'feat', 'lore', 'skill'];
+            const inventoryItemTypes = ['weapon', 'armor', 'shield', 'equipment', 'consumable', 'treasure', 'backpack'];
 
-            const stateClone = foundry.utils.deepClone(lastHybridState);
+            // 1. Синхронизируем инвентарь и заметки (эффекты больше не трогаем)
+            const currentInventoryItems = targetActor.items.filter(i => inventoryItemTypes.includes(i.type)).map(i => i.toObject());
+            const currentNotes = {
+                public: targetActor.system.details.publicNotes,
+                private: targetActor.system.details.privateNotes
+            };
+            const originalMechanicalItems = lastHybridState.items.filter(i => mechanicalItemTypes.includes(i.type));
+
+            const syncedHybridState = foundry.utils.deepClone(lastHybridState);
+            syncedHybridState.items = [...originalMechanicalItems, ...currentInventoryItems];
+            if (syncedHybridState.system?.details) {
+                syncedHybridState.system.details.publicNotes = currentNotes.public;
+                syncedHybridState.system.details.privateNotes = currentNotes.private;
+            }
+            await targetActor.setFlag('pf2e-token-pack', 'last_hybrid_state', syncedHybridState);
+
+            // 2. "Хирургически" удаляем только механику от маскировки
+            const itemsToDelete = targetActor.items.filter(i => mechanicalItemTypes.includes(i.type)).map(i => i.id);
+            if (itemsToDelete.length > 0) {
+                await targetActor.deleteEmbeddedDocuments("Item", itemsToDelete);
+            }
+
+            // 3. Восстанавливаем актера, но пока без предметов
+            const stateClone = foundry.utils.deepClone(syncedHybridState);
             if (stateClone.system?.traits?.size) delete stateClone.system.traits.size;
-
             const actorDataUpdate = { system: stateClone.system, name: stateClone.name };
             await targetActor.update(actorDataUpdate);
-            
-            if (stateClone.items?.length) await targetActor.createEmbeddedDocuments("Item", stateClone.items);
-            if (stateClone.effects?.length) await targetActor.createEmbeddedDocuments("ActiveEffect", stateClone.effects);
+
+            // 4. Создаем только механические предметы из сохраненного состояния
+            const itemsToCreateFromState = stateClone.items.filter(i => mechanicalItemTypes.includes(i.type));
+            if (itemsToCreateFromState.length > 0) {
+                const allItemsData = itemsToCreateFromState.map(foundry.utils.deepClone).map(i => {
+                    delete i._id; return i;
+                });
+
+                const spellsData = allItemsData.filter(i => i.type === 'spell');
+                const otherItemsData = allItemsData.filter(i => i.type !== 'spell');
+
+                const createdOtherItems = await targetActor.createEmbeddedDocuments("Item", otherItemsData);
+
+                const entryIdMap = new Map();
+                const sourceEntries = itemsToCreateFromState.filter(i => i.type === 'spellcastingEntry');
+                const createdEntries = createdOtherItems.filter(i => i.type === 'spellcastingEntry');
+
+                for (const sourceEntry of sourceEntries) {
+                    const newEntry = createdEntries.find(i => i.name === sourceEntry.name);
+                    if (newEntry) {
+                        entryIdMap.set(sourceEntry._id, newEntry.id);
+                    }
+                }
+                
+                const updatedSpellsData = spellsData.map(spell => {
+                    const oldEntryId = spell.system.location.value;
+                    const newEntryId = entryIdMap.get(oldEntryId);
+                    if (newEntryId) {
+                        spell.system.location.value = newEntryId;
+                    }
+                    return spell;
+                });
+
+                const createdSpells = await targetActor.createEmbeddedDocuments("Item", updatedSpellsData);
+
+                if (createdSpells.length > 0) {
+                    const spellIdMap = new Map();
+                    const sourceSpells = itemsToCreateFromState.filter(i => i.type === 'spell');
+                    for (const sourceSpell of sourceSpells) {
+                         const newSpell = createdSpells.find(s => s.name === sourceSpell.name && s.system.location.value === entryIdMap.get(sourceSpell.system.location.value));
+                        if (newSpell) {
+                            spellIdMap.set(sourceSpell._id, newSpell.id);
+                        }
+                    }
+
+                    const updates = [];
+                    const preparedEntries = sourceEntries.filter(e => e.system.prepared?.value === 'prepared');
+
+                    for (const sourceEntry of preparedEntries) {
+                        const newEntryId = entryIdMap.get(sourceEntry._id);
+                        if (!newEntryId) continue;
+
+                        const newSlots = foundry.utils.deepClone(sourceEntry.system.slots);
+                        for (const slotKey in newSlots) {
+                            const slot = newSlots[slotKey];
+                            if (slot.prepared?.length > 0) {
+                                slot.prepared = slot.prepared
+                                    .map(prep => {
+                                        const newSpellId = spellIdMap.get(prep.id);
+                                        return newSpellId ? { id: newSpellId } : null;
+                                    })
+                                    .filter(p => p !== null);
+                            }
+                        }
+                        updates.push({ _id: newEntryId, 'system.slots': newSlots });
+                    }
+
+                    if (updates.length > 0) {
+                        await targetActor.updateEmbeddedDocuments("Item", updates);
+                    }
+                }
+            }
 
             if (stateClone.system.attributes.hp) {
                 await targetActor.update({'system.attributes.hp.value': stateClone.system.attributes.hp.value});
@@ -97,44 +280,79 @@ async function applyVisualDisguise(targetActor, visualData, targetToken = null, 
         }
     }
     
-    const tokenUpdate = {
-        'flags.pf2e.autoscale': false, 
-        'texture.scaleX': visualData.prototypeToken.texture.scaleX, 
-        'texture.scaleY': visualData.prototypeToken.texture.scaleY,
-    };
+    // --- Остальная часть функции для гибрид -> гибрид остается без изменений ---
+    const originalVisuals = targetActor.getFlag('pf2e-token-pack', 'data_original_visuals');
+    
+    const newPrototype = foundry.utils.deepClone(originalVisuals.prototypeToken);
 
-    if (visualData.prototypeToken.ring.enabled) {
-        tokenUpdate.ring = visualData.prototypeToken.ring;
-        tokenUpdate['texture.src'] = visualData.img;
-    } else {
-        tokenUpdate['ring.enabled'] = false;
-        tokenUpdate['texture.src'] = visualData.prototypeToken.texture.src;
-    }
+    const disguiseProto = visualData.prototypeToken;
+    newPrototype.texture = disguiseProto.texture;
+    newPrototype.ring = disguiseProto.ring;
     
     const actorVisualUpdate = {
         'img': visualData.img,
-        'prototypeToken': visualData.prototypeToken
+        'prototypeToken': newPrototype
     };
 
-    if (options.applySize) {
-        const sourceSizeValue = visualData.system?.traits?.size?.value;
-        if (targetActor.type === 'npc') {
-             if (visualData.system?.traits?.size) {
-                actorVisualUpdate['system.traits.size'] = visualData.system.traits.size;
-             }
-        } 
-        
-        if (targetToken) {
-            const sizeMap = { tiny: 0.5, sm: 1, med: 1, lg: 2, huge: 3, grg: 4 };
-            const newDimension = sizeMap[sourceSizeValue];
+    const tokenUpdate = {
+        'flags.pf2e.linkToActorSize': foundry.utils.getProperty(disguiseProto, "flags.pf2e.linkToActorSize"),
+        'flags.pf2e.autoscale': false, 
+        'texture.scaleX': disguiseProto.texture.scaleX, 
+        'texture.scaleY': disguiseProto.texture.scaleY,
+    };
 
-            if (newDimension !== undefined) {
-                tokenUpdate.height = newDimension;
-                tokenUpdate.width = newDimension;
-                tokenUpdate['flags.pf2e.linkToActorSize'] = false;
-            } else {
-                tokenUpdate.height = visualData.prototypeToken.height;
-                tokenUpdate.width = visualData.prototypeToken.width;
+    if (disguiseProto.ring.enabled) {
+        tokenUpdate.ring = disguiseProto.ring;
+        tokenUpdate['texture.src'] = visualData.img;
+    } else {
+        tokenUpdate['ring.enabled'] = false;
+        tokenUpdate['texture.src'] = disguiseProto.texture.src;
+    }
+    
+    if (options.applySize) {
+        let sourceSizeValue;
+        if (visualData.system?.traits?.size?.value) {
+            sourceSizeValue = visualData.system.traits.size.value;
+        } else {
+            const ancestry = visualData.items?.find(i => i.type === 'ancestry');
+            if (ancestry?.system?.size) {
+                sourceSizeValue = ancestry.system.size;
+            }
+        }
+
+        if (sourceSizeValue) {
+            const sourceSizeObject = { value: sourceSizeValue };
+            if (targetActor.type === 'npc') {
+                actorVisualUpdate['system.traits.size'] = sourceSizeObject;
+            } else if (targetToken) {
+                const sizeMap = { tiny: 0.5, sm: 1, med: 1, lg: 2, huge: 3, grg: 4 };
+                const newDimension = sizeMap[sourceSizeValue];
+                if (newDimension !== undefined) {
+                    tokenUpdate.height = newDimension;
+                    tokenUpdate.width = newDimension;
+                    tokenUpdate['flags.pf2e.linkToActorSize'] = false;
+                    if (targetActor.type === 'character') {
+                        actorVisualUpdate.prototypeToken.height = newDimension;
+                        actorVisualUpdate.prototypeToken.width = newDimension;
+                        if (!actorVisualUpdate.prototypeToken.flags.pf2e) actorVisualUpdate.prototypeToken.flags.pf2e = {};
+                        actorVisualUpdate.prototypeToken.flags.pf2e.linkToActorSize = false;
+                    }
+                } else {
+                    tokenUpdate.height = disguiseProto.height;
+                    tokenUpdate.width = disguiseProto.width;
+                    tokenUpdate['flags.pf2e.linkToActorSize'] = true;
+                }
+            }
+        }
+    } else {
+        if (originalVisuals) {
+            if (targetActor.type === 'npc') {
+                if (originalVisuals.system?.traits?.size) {
+                    actorVisualUpdate['system.traits.size'] = originalVisuals.system.traits.size;
+                }
+            } else if (targetToken) {
+                tokenUpdate.height = originalVisuals.prototypeToken.height;
+                tokenUpdate.width = originalVisuals.prototypeToken.width;
                 tokenUpdate['flags.pf2e.linkToActorSize'] = true;
             }
         }
@@ -144,20 +362,29 @@ async function applyVisualDisguise(targetActor, visualData, targetToken = null, 
         await targetToken.update(tokenUpdate);
         if (targetToken.object) targetToken.object.refresh();
     }
-    await targetActor.update(actorVisualUpdate);
+    
+    let actorToUpdate = targetActor;
+    if (targetActor.type === 'character') {
+        const canonicalActor = game.actors.get(targetActor.id);
+        if (canonicalActor) {
+            actorToUpdate = canonicalActor;
+        }
+    }
+    await actorToUpdate.update(actorVisualUpdate);
 
-    if (game.combat) {
-        const combatant = game.combat.combatants.find(c => c.actor.id === targetActor.id);
+    if (game.combat && targetToken && actorToUpdate.isOwner) {
+        const combatant = game.combat.combatants.find(c => c.tokenId === targetToken.id);
         if (combatant) {
-            const combatantImg = visualData.prototypeToken.ring.enabled ? visualData.img : visualData.prototypeToken.texture.src;
-            await combatant.update({ img: combatantImg, name: targetActor.name });
-            ui.combat.render();
+            const combatantImg = disguiseProto.ring.enabled 
+                ? visualData.img 
+                : disguiseProto.texture.src;
+            await combatant.update({ img: combatantImg, name: actorToUpdate.name });
         }
     }
 
-    await targetActor.setFlag('pf2e-token-pack', 'active_mode', 'hybrid');
+    await actorToUpdate.setFlag('pf2e-token-pack', 'active_mode', 'hybrid');
     ui.notifications.info(game.i18n.format("Disguise.AppliedSuccess", { name: visualData.name }));
-    if (sheet && sheet.rendered) sheet.render(true);
+    if (sheet && sheet.rendered) setTimeout(() => sheet.render(true), 100);
 }
 
 // ===================================================================================
@@ -170,13 +397,14 @@ class DisguiseApp extends Application {
   }
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "disguise-app", title: game.i18n.localize("Disguise.App.CreateNewDisguise"),
+      id: "disguise-app", title: game.i18n.localize("Disguise.CreateNewDisguise"),
       template: "modules/pf2e-token-pack/data/templates/Disguise.hbs",
       width: 400, height: "auto", resizable: true, classes: ["disguise-app-window"],
       dragDrop: [{ dragSelector: null, dropSelector: ".drop-target" }]
     });
   }
   getData() { return { isHybridOnly: this.isHybridOnly }; }
+
   async _onDrop(event) {
     const data = TextEditor.getDragEventData(event); let sourceActor, sourceData;
     if (data.type === "Actor") { sourceActor = await fromUuid(data.uuid); if (!sourceActor) return; sourceData = sourceActor.toObject(); }
@@ -204,7 +432,8 @@ class DisguiseApp extends Application {
     if(game.user.isGM) this._promptToSaveDisguise(sourceActor, isFullCopy, sourceData, { applySize });
     this.close();
   }
-  async _promptToSaveDisguise(sourceActor, isFullCopy, dataForDisguise, options = { applySize: true }) {
+
+async _promptToSaveDisguise(sourceActor, isFullCopy, dataForDisguise, options = { applySize: true }) {
     const dialogText = game.i18n.format(isFullCopy ? "Disguise.SaveFullCopyPrompt" : "Disguise.SaveHybridPrompt", { name: sourceActor.name });
     const content = await renderTemplate("modules/pf2e-token-pack/data/templates/Disguise.hbs", { isPrompt: true, dialogText: dialogText, disguiseName: sourceActor.name });
     new Dialog({
@@ -220,9 +449,23 @@ class DisguiseApp extends Application {
                     system: { }
                 };
                 if (options.applySize) {
-                    const size = dataForDisguise.system?.traits?.size;
-                    if(size) {
-                        visualDataToSave.system.traits = { size: size };
+                    let sourceSizeValue;
+
+                    // Ищем размер у NPC
+                    if (dataForDisguise.system?.traits?.size?.value) {
+                        sourceSizeValue = dataForDisguise.system.traits.size.value;
+                    } 
+                    // Иначе ищем у PC в родословной
+                    else {
+                        const ancestry = dataForDisguise.items?.find(i => i.type === 'ancestry');
+                        if (ancestry?.system?.size) {
+                            sourceSizeValue = ancestry.system.size;
+                        }
+                    }
+
+                    // Если нашли, сохраняем в формате, который понятен для NPC, для единообразия
+                    if (sourceSizeValue) {
+                        visualDataToSave.system.traits = { size: { value: sourceSizeValue } };
                     }
                 }
                 dataToSave = visualDataToSave;
@@ -238,37 +481,74 @@ class DisguiseApp extends Application {
     }).render(true);
   }
 }
+
 class PhaseManagerApp extends Application {
   constructor(actor, token, sheet, options = {}) { super(); this.actor = actor; this.token = token; this.sheet = sheet; this.isHybridOnly = options.isHybridOnly ?? false; }
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "phase-manager-app", title: game.i18n.localize("Disguise.ManagerTitle"),
+      id: "phase-manager-app", title: game.i18n.localize("Disguise.SavedDisguisesButton"),
       template: "modules/pf2e-token-pack/data/templates/Disguise.hbs",
       width: 400, height: 500, resizable: true
     });
   }
   async getData() {
     let masterList = this.actor.getFlag('pf2e-token-pack', 'disguises') || [];
-    const visibleList = masterList.filter(d => !d.isOriginal);
-    const partition = visibleList.reduce((acc, d) => {
+    
+    // Теперь мы не фильтруем список, а обрабатываем его целиком
+    const partition = masterList.reduce((acc, d) => {
         const type = d.type || 'hybrid';
         if (this.isHybridOnly && type === 'full') return acc;
         if (type === 'full') acc.fulls.push(d); else acc.hybrids.push(d); return acc;
     }, { fulls: [], hybrids: [] });
-    partition.fulls.sort((a,b) => a.name.localeCompare(b.name)); partition.hybrids.sort((a,b) => a.name.localeCompare(b.name));
+
+    // Сортируем полные копии как обычно
+    partition.fulls.sort((a,b) => a.name.localeCompare(b.name)); 
+    
+    // Гибридные образы сортируем так, чтобы оригинальный всегда был первым
+    partition.hybrids.sort((a, b) => {
+        if (a.isOriginal) return -1;
+        if (b.isOriginal) return 1;
+        return a.name.localeCompare(b.name);
+    });
+
+    // Заполняем данные для отображения
     for (const disguise of [...partition.fulls, ...partition.hybrids]) {
-        const flagKey = `data_${disguise.id}`; const data = this.actor.getFlag('pf2e-token-pack', flagKey);
-        disguise.img = data?.img || CONST.DEFAULT_TOKEN;
-        disguise.isActive = (disguise.img === this.actor.img);
+        let data;
+        let displayName;
+
+        if (disguise.isOriginal) {
+            // Особая логика для оригинального образа
+            data = this.actor.getFlag('pf2e-token-pack', 'data_original_visuals');
+            if (data) {
+                const customName = this.actor.getFlag('pf2e-token-pack', 'originalDisplayName');
+                displayName = game.i18n.format("Disguise.OriginalActor", { name: customName || data.name });
+            }
+        } else {
+            // Стандартная логика для сохраненных маскировок
+            const flagKey = `data_${disguise.id}`;
+            data = this.actor.getFlag('pf2e-token-pack', flagKey);
+            displayName = data?.name;
+        }
+
+        if (data) {
+            disguise.img = data.img || CONST.DEFAULT_TOKEN;
+            disguise.name = displayName; // Обновляем имя для отображения
+            disguise.isActive = (this.actor.img === data.img && (disguise.isOriginal || this.actor.name === data.name));
+        }
     }
-    partition.isManager = true; return partition;
+    
+    partition.isManager = true; 
+    return partition;
   }
+
   activateListeners(html) {
       super.activateListeners(html);
       html.on('click', '.apply-phase', this._onApplyPhase.bind(this));
       html.on('click', '.edit-phase', this._onEditPhase.bind(this));
+      html.on('click', '.rename-phase', this._onRenamePhase.bind(this));
       html.on('click', '.delete-phase', this._onDeletePhase.bind(this));
   }
+
   async _onApplyPhase(event) {
     const target = $(event.currentTarget).closest('.phase-item'); 
     const id = target.data('id'); 
@@ -290,6 +570,64 @@ class PhaseManagerApp extends Application {
     });
     this.close();
   }
+
+  async _onRenamePhase(event) {
+    const id = $(event.currentTarget).closest('.phase-item').data('id');
+    const masterList = this.actor.getFlag('pf2e-token-pack', 'disguises') || [];
+    const disguiseInList = masterList.find(d => d.id === id);
+    if (!disguiseInList) return;
+
+    let currentName, promptTitle, callback;
+
+    if (disguiseInList.isOriginal) {
+        // Логика для переименования ОРИГИНАЛЬНОГО образа (псевдоним)
+        promptTitle = game.i18n.localize("Disguise.RenameOriginalTitle");
+        currentName = this.actor.getFlag('pf2e-token-pack', 'originalDisplayName') || "";
+        callback = async (newName) => {
+            await this.actor.setFlag('pf2e-token-pack', 'originalDisplayName', newName);
+        };
+    } else {
+        // Логика для переименования СОХРАНЕННОГО образа
+        promptTitle = game.i18n.localize("Disguise.RenameSavedTitle");
+        const flagKey = `data_${id}`;
+        const data = this.actor.getFlag('pf2e-token-pack', flagKey);
+        currentName = data.name;
+        callback = async (newName) => {
+            data.name = newName;
+            disguiseInList.name = newName;
+            await this.actor.setFlag('pf2e-token-pack', flagKey, data);
+            await this.actor.setFlag('pf2e-token-pack', 'disguises', masterList);
+        };
+    }
+
+    const content = `
+        <form autocomplete="off">
+            <div class="form-group">
+                <label>${game.i18n.localize("Disguise.NewNameLabel")}</label>
+                <div class="form-fields">
+                    <input type="text" name="newName" value="${currentName}" autofocus/>
+                </div>
+            </div>
+        </form>`;
+
+    new Dialog({
+        title: promptTitle,
+        content: content,
+        buttons: {
+            save: {
+                icon: '<i class="fas fa-save"></i>',
+                label: game.i18n.localize("Disguise.SaveButtonLabel"),
+                callback: async (html) => {
+                    const newName = html.find('[name="newName"]').val();
+                    await callback(newName);
+                    this.render(true); // Обновляем окно менеджера
+                }
+            }
+        },
+        default: 'save'
+    }).render(true);
+  }
+
   async _onEditPhase(event) {
       const id = $(event.currentTarget).closest('.phase-item').data('id');
       const flagKey = `data_${id}`;
@@ -375,7 +713,6 @@ async function saveOriginalState(actor, token) {
     newList.unshift({ id: 'original', name: originalSource.name, isOriginal: true, type: 'hybrid', shouldApplySize: true });
     await actor.setFlag('pf2e-token-pack', 'disguises', newList);
     await actor.setFlag('pf2e-token-pack', 'active_mode', 'hybrid');
-    // СТРОКА УДАЛЕНА: await actor.setFlag('pf2e-token-pack', 'isDisguised', false);
     ui.notifications.info(game.i18n.format("Disguise.OriginalAppearanceSaved", {name: originalSource.name}));
 }
 
@@ -384,82 +721,48 @@ async function openDisguiseMenu(actor, token, sheet) {
 
     const highlightDisabled = actor.getFlag('pf2e-token-pack', 'highlightDisabled') ?? false;
 
-    // --- НОВАЯ ЛОГИКА ---
-    // 1. Сначала создаем набор кнопок, которые видят все (игроки и ГМ)
-    const commonButtons = {
+    // Определяем кнопки, которые доступны игрокам
+    const playerButtons = {
         phases: {
             icon: '<i class="fas fa-layer-group"></i>',
             label: game.i18n.localize("Disguise.SavedDisguisesButton"),
             callback: () => new PhaseManagerApp(actor, token, sheet, {isHybridOnly: actor.type !== 'npc'}).render(true)
-        },
-        rename: {
-            icon: '<i class="fas fa-i-cursor"></i>',
-            label: game.i18n.localize("Disguise.RenameButtonLabel"),
-            callback: () => {
-                const originalVisuals = actor.getFlag('pf2e-token-pack', 'data_original_visuals');
-                const defaultName = originalVisuals ? originalVisuals.name : actor.name;
-                const currentCustomName = actor.getFlag('pf2e-token-pack', 'originalDisplayName') || "";
-                const prompt1 = game.i18n.format("Disguise.RenameDialogPrompt1", { name: defaultName });
-                const prompt2 = game.i18n.localize("Disguise.RenameDialogPrompt2");
-                const dialogContent = `<p>${prompt1}</p><p>${prompt2}</p><form><div class="form-group"><input type="text" name="newName" value="${currentCustomName}"/></form></div>`;
-                new Dialog({
-                    title: game.i18n.localize("Disguise.RenameDialogTitle"),
-                    content: dialogContent,
-                    buttons: { save: { icon: '<i class="fas fa-save"></i>', label: game.i18n.localize("Disguise.RenameSaveButton"), callback: async (html) => {
-                        const newName = html.find('input[name="newName"]').val();
-                        await actor.setFlag('pf2e-token-pack', 'originalDisplayName', newName);
-                        ui.notifications.info(game.i18n.localize("Disguise.RenameNotificationSuccess"));
-                    }}},
-                    default: "save",
-                    render: (html) => html.find('input[name="newName"]').focus()
-                }).render(true);
-            }
-        },
-        highlight: {
-            icon: `<i class="fas fa-${highlightDisabled ? 'eye' : 'eye-slash'}"></i>`,
-            label: highlightDisabled ? game.i18n.localize("Disguise.EnableHighlight") : game.i18n.localize("Disguise.DisableHighlight"),
-            callback: async () => {
-                await actor.setFlag('pf2e-token-pack', 'highlightDisabled', !highlightDisabled);
-                canvas.tokens.placeables.filter(t => t.document.actorId === actor.id).forEach(t => t.draw());
-                const messageKey = !highlightDisabled ? "Disguise.HighlightDisabledFor" : "Disguise.HighlightEnabledFor";
-                ui.notifications.info(game.i18n.format(messageKey, { name: actor.name }));
-            }
-        },
-        reset: {
-            icon: '<i class="fas fa-undo"></i>',
-            label: game.i18n.localize("Disguise.ResetToOriginalButton"),
-            callback: async () => {
-                const originalVisualData = actor.getFlag('pf2e-token-pack', 'data_original_visuals');
-                if (originalVisualData) await requestDisguiseChange({ actor, token, sheet, sourceType: 'flag', sourceId: 'original', type: 'hybrid', options: { applySize: true }});
-                else ui.notifications.warn(game.i18n.localize("Disguise.OriginalNotFoundWarning"));
-            }
         }
     };
 
-    // 2. Если текущий пользователь - Мастер, добавляем кнопку "Создать новый образ" в начало
-    let finalButtons = commonButtons;
+    let finalButtons;
     if (game.user.isGM) {
+        // Для Мастера собираем кнопки в строгом порядке
         finalButtons = {
             disguise: {
                 icon: '<i class="fas fa-user-plus"></i>',
                 label: game.i18n.localize("Disguise.NewDisguiseButton"),
                 callback: () => new DisguiseApp(actor, token, sheet, {isHybridOnly: actor.type !== 'npc'}).render(true)
             },
-            ...commonButtons // Добавляем остальные кнопки после
+            phases: playerButtons.phases,
+            highlight: {
+                icon: `<i class="fas fa-${highlightDisabled ? 'eye' : 'eye-slash'}"></i>`,
+                label: highlightDisabled ? game.i18n.localize("Disguise.EnableHighlight") : game.i18n.localize("Disguise.DisableHighlight"),
+                callback: async () => {
+                    await actor.setFlag('pf2e-token-pack', 'highlightDisabled', !highlightDisabled);
+                    canvas.tokens.placeables.filter(t => t.document.actorId === actor.id).forEach(t => t.draw());
+                    const messageKey = !highlightDisabled ? "Disguise.HighlightDisabledFor" : "Disguise.HighlightEnabledFor";
+                    ui.notifications.info(game.i18n.format(messageKey, { name: actor.name }));
+                }
+            }
         };
+    } else {
+        finalButtons = playerButtons;
     }
 
-    // 3. Создаем диалоговое окно с финальным набором кнопок
-    
-    // Определяем ширину окна в зависимости от роли
-    const dialogWidth = game.user.isGM ? 700 : 550; // Шире для ГМ (4+ кнопки), уже для игрока (3 кнопки)
+    const dialogWidth = game.user.isGM ? 440 : 250; 
 
     new Dialog({
         title: game.i18n.localize("Disguise.MaskPhaseTitle"),
         content: `<p>${game.i18n.localize("Disguise.ChooseActionPrompt")}</p>`,
         buttons: finalButtons
     }, { 
-        width: dialogWidth, // Используем нашу динамическую ширину
+        width: dialogWidth,
         classes: ["dialog", "mask-phase-dialog"] 
     }).render(true);
 }
@@ -591,25 +894,22 @@ Hooks.on("renderTokenHUD", (hud, html, data) => {
             }
         }
 
-        if (fulls.length > 0) {
+        if (fulls.length > 0 && actor.type === 'npc') {
             menu.append($(`<div class="disguise-hud-header">${game.i18n.localize("Disguise.FullCopiesHeader")}</div>`));
             for (const disguise of fulls) {
                 menu.append(createMenuItem(disguise));
             }
         }
 
-        // --- ИЗМЕНЕННЫЙ БЛОК ПОЗИЦИОНИРОВАНИЯ МЕНЮ ---
         const buttonRect = button[0].getBoundingClientRect();
         $('body').append(menu);
 
-        // Получаем настройку горизонтального положения
         const currentHudPosition = game.settings.get('pf2e-token-pack', 'hudPosition') || 'top-right';
         const [, currentHorizontal] = currentHudPosition.split('-');
 
-        // Вычисляем позицию 'left' в зависимости от положения иконки
         const menuLeftPosition = currentHorizontal === 'left' 
-            ? `${buttonRect.left - menu.outerWidth() - 5}px`  // Слева от иконки
-            : `${buttonRect.right + 5}px`;                      // Справа от иконки
+            ? `${buttonRect.left - menu.outerWidth() - 5}px`
+            : `${buttonRect.right + 5}px`;
 
         menu.css({
             position: 'fixed',
@@ -617,7 +917,6 @@ Hooks.on("renderTokenHUD", (hud, html, data) => {
             left: menuLeftPosition,
             zIndex: 101
         });
-        // --- КОНЕЦ ИЗМЕНЕННОГО БЛОКА ---
 
         menu.on('mouseenter', () => clearTimeout(hideTimeout));
         menu.on('mouseleave', () => {
@@ -696,8 +995,7 @@ Hooks.on("refreshToken", (token) => {
     const actor = token.document?.actor;
     if (!actor) return;
 
-    // Новая проверка прав
-    if (!game.user.isGM && !actor.isOwner) {
+    if (!game.user.isGM) {
         const oldMarker = token.getChildByName("disguiseMarker");
         if (oldMarker) oldMarker.destroy();
         return;
@@ -716,21 +1014,59 @@ Hooks.on("refreshToken", (token) => {
         const marker = new PIXI.Graphics();
         marker.name = "disguiseMarker";
         
-        // Получаем цвет из настроек модуля
         const colorSetting = game.settings.get('pf2e-token-pack', 'highlightColor') || "#9400D3";
-        // Преобразуем строку HEX (напр. "#FFFFFF") в число (напр. 0xFFFFFF)
         const borderColor = parseInt(colorSetting.replace("#", ""), 16);
-        
         const borderWidth = 4;
 
-        marker.lineStyle(borderWidth, borderColor, 1, 0)
-              .drawRoundedRect(
-                  -borderWidth / 2, 
-                  -borderWidth / 2, 
-                  token.w + borderWidth, 
-                  token.h + borderWidth, 
-                  10
-              );
+        marker.lineStyle(borderWidth, borderColor, 1, 0);
+
+        const style = game.settings.get('pf2e-token-pack', 'highlightStyle') || 'rounded-rect';
+        const w = token.w;
+        const h = token.h;
+        const halfBorder = borderWidth / 2;
+
+        switch (style) {
+            case 'square':
+                marker.drawRect(-halfBorder, -halfBorder, w + borderWidth, h + borderWidth);
+                break;
+            case 'circle':
+                marker.drawEllipse(w / 2, h / 2, w / 2 + halfBorder, h / 2 + halfBorder);
+                break;
+            case 'corners':
+                const cornerLength = Math.min(w, h) * 0.25;
+                marker.moveTo(-halfBorder, cornerLength).lineTo(-halfBorder, -halfBorder).lineTo(cornerLength, -halfBorder);
+                marker.moveTo(w + halfBorder - cornerLength, -halfBorder).lineTo(w + halfBorder, -halfBorder).lineTo(w + halfBorder, cornerLength);
+                marker.moveTo(w + halfBorder, h + halfBorder - cornerLength).lineTo(w + halfBorder, h + halfBorder).lineTo(w + halfBorder - cornerLength, h + halfBorder);
+                marker.moveTo(cornerLength, h + halfBorder).lineTo(-halfBorder, h + halfBorder).lineTo(-halfBorder, h + halfBorder - cornerLength);
+                break;
+            case 'ticks': // ИСПРАВЛЕНА ЛОГИКА
+                const tickLength = Math.min(w, h) * 0.15;
+                // Верхняя засечка (наружу)
+                marker.moveTo(w / 2, 0 - halfBorder).lineTo(w / 2, 0 - halfBorder - tickLength);
+                // Нижняя засечка (наружу)
+                marker.moveTo(w / 2, h + halfBorder).lineTo(w / 2, h + halfBorder + tickLength);
+                // Левая засечка (наружу)
+                marker.moveTo(0 - halfBorder, h / 2).lineTo(0 - halfBorder - tickLength, h / 2);
+                // Правая засечка (наружу)
+                marker.moveTo(w + halfBorder, h / 2).lineTo(w + halfBorder + tickLength, h / 2);
+                break;
+            case 'corner-ticks': // ИСПРАВЛЕНА ЛОГИКА
+                const cornerTickLength = Math.min(w, h) * 0.15;
+                const delta = cornerTickLength / Math.sqrt(2);
+                // Верхний левый (наружу)
+                marker.moveTo(0, 0).lineTo(-delta, -delta);
+                // Верхний правый (наружу)
+                marker.moveTo(w, 0).lineTo(w + delta, -delta);
+                // Нижний правый (наружу)
+                marker.moveTo(w, h).lineTo(w + delta, h + delta);
+                // Нижний левый (наружу)
+                marker.moveTo(0, h).lineTo(-delta, h + delta);
+                break;
+            case 'rounded-rect':
+            default:
+                marker.drawRoundedRect(-halfBorder, -halfBorder, w + borderWidth, h + borderWidth, 10);
+                break;
+        }
         
         marker.zIndex = 1000;
         token.addChild(marker);
@@ -751,7 +1087,29 @@ Hooks.on('init', () => {
                 canvas.tokens.placeables.forEach(token => token.draw());
             }
         }
-    });
+        });
+
+    game.settings.register('pf2e-token-pack', 'highlightStyle', {
+    name: game.i18n.localize("Disguise.HighlightStyleName"),
+    hint: game.i18n.localize("Disguise.HighlightStyleHint"),
+    scope: 'world',
+    config: true,
+    type: String,
+    default: "rounded-rect",
+    choices: {
+        "rounded-rect": game.i18n.localize("Disguise.HighlightStyleRoundedRect"),
+        "square":       game.i18n.localize("Disguise.HighlightStyleSquare"),
+        "circle":       game.i18n.localize("Disguise.HighlightStyleCircle"),
+        "corners":      game.i18n.localize("Disguise.HighlightStyleCorners"),
+        "ticks":        game.i18n.localize("Disguise.HighlightStyleTicks"),
+        "corner-ticks": game.i18n.localize("Disguise.HighlightStyleCornerTicks")
+    },
+    onChange: value => {
+        if (canvas?.ready) {
+            canvas.tokens.placeables.forEach(token => token.draw());
+        }
+    }
+});
 
     // ИЗМЕНЕНО: Настройка для выбора расположения иконки на HUD с 4 вариантами
     game.settings.register('pf2e-token-pack', 'hudPosition', {
@@ -786,21 +1144,16 @@ Hooks.on("renderSettingsConfig", (app, html) => {
 });
 
 // ===================================================================================
-// === АВТОМАТИЧЕСКАЯ СИНХРОНИЗАЦИЯ ТРЕКЕРА БОЯ (ДЛЯ ИГРОКОВ) - v3 (РОБАСТНЫЙ)
+// === АВТОМАТИЧЕСКАЯ СИНХРОНИЗАЦИЯ ТРЕКЕРА БОЯ (ДЛЯ ИГРОКОВ)
 // ===================================================================================
 Hooks.on('init', () => {
     game.socket.on('module.pf2e-token-pack-combatsync', (data) => {
         if (game.user.isGM && game.combat) {
             const combatant = game.combat.combatants.find(c => c.actorId === data.actorId);
-            // Получаем самые свежие данные актера с сервера
             const actor = game.actors.get(data.actorId);
 
             if (combatant && actor) {
-                console.log(`Disguise Sync v3 | GM получил сигнал для ${actor.name}. Обновляю трекер.`);
-
-                // Определяем правильную иконку на основе свежих данных актера
                 const latestImg = actor.prototypeToken.ring.enabled ? actor.img : actor.prototypeToken.texture.src;
-
                 combatant.update({ img: latestImg, name: actor.name }).then(() => {
                     ui.combat.render();
                 });
@@ -810,7 +1163,7 @@ Hooks.on('init', () => {
 });
 
 // ===================================================================================
-// === ДИСПЕТЧЕР И ОБРАБОТЧИК СОКЕТОВ (ЧИСТАЯ ВЕРСИЯ)
+// === ДИСПЕТЧЕР И ОБРАБОТЧИК СОКЕТОВ
 // ===================================================================================
 
 async function requestDisguiseChange(request) {
@@ -822,7 +1175,7 @@ async function requestDisguiseChange(request) {
         sourceData = request.actor.getFlag('pf2e-token-pack', `data_${request.sourceId}`);
     }
 
-    if (!sourceData) return ui.notifications.error("Не удалось найти данные для маскировки.");
+    if (!sourceData) return ui.notifications.error(game.i18n.localize("Disguise.SourceDataNotFound"));
 
     if (game.user.isGM) {
         if (request.type === 'full') {
@@ -831,7 +1184,7 @@ async function requestDisguiseChange(request) {
             await applyVisualDisguise(request.actor, sourceData, request.token, request.sheet, request.options);
         }
     } else {
-        ui.notifications.info("Запрос на смену облика отправлен Мастеру...");
+        ui.notifications.info(game.i18n.localize("Disguise.RequestSentToGM"));
         game.socket.emit('module.pf2e-token-pack', {
             actorId: request.actor.id,
             tokenId: request.token?.id,

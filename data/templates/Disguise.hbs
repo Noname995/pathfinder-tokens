@@ -3,47 +3,42 @@
 {{!-- ###################################################################### --}}
 {{#if isManager}}
 <ul class="phase-list" style="list-style:none;padding:0;margin:0;">
-    {{!-- Проверяем, есть ли вообще что-то в списках --}}
     {{#if (or hybrids.length fulls.length)}}
 
-        {{!-- Если есть гибридные образы, выводим их --}}
         {{#if hybrids.length}}
             <h3 class="list-header">{{localize "Disguise.HybridSkinsHeader"}}</h3>
             {{#each hybrids}}
-            {{!-- ИЗМЕНЕНИЕ: Добавлен data-apply-size --}}
             <li class="phase-item {{#if this.isActive}}active{{/if}}" data-id="{{this.id}}" data-type="{{this.type}}" data-apply-size="{{this.shouldApplySize}}">
                 <img src="{{this.img}}" class="phase-icon"/>
                 <span class="phase-name">{{this.name}}</span>
                 <a class="apply-phase" title="{{localize 'Disguise.ApplyTitle'}}"><i class="fas fa-play"></i></a>
+                <a class="rename-phase" title="{{localize 'Disguise.RenameSavedTitle'}}"><i class="fas fa-i-cursor"></i></a>
                 <a class="delete-phase" title="{{localize 'Disguise.DeleteTitle'}}"><i class="fas fa-trash"></i></a>
             </li>
             {{/each}}
         {{/if}}
 
-        {{!-- Если есть полные копии, выводим их --}}
         {{#if fulls.length}}
             <h3 class="list-header">{{localize "Disguise.FullCopiesHeader"}}</h3>
             {{#each fulls}}
-            {{!-- ИЗМЕНЕНИЕ: Добавлен data-apply-size --}}
             <li class="phase-item {{#if this.isActive}}active{{/if}}" data-id="{{this.id}}" data-type="{{this.type}}" data-apply-size="{{this.shouldApplySize}}">
                 <img src="{{this.img}}" class="phase-icon"/>
                 <span class="phase-name">{{this.name}}</span>
                 <a class="apply-phase" title="{{localize 'Disguise.ApplyTitle'}}"><i class="fas fa-play"></i></a>
                 <a class="edit-phase" title="{{localize 'Disguise.EditTitle'}}"><i class="fas fa-edit"></i></a>
+                <a class="rename-phase" title="{{localize 'Disguise.RenameSavedTitle'}}"><i class="fas fa-i-cursor"></i></a>
                 <a class="delete-phase" title="{{localize 'Disguise.DeleteTitle'}}"><i class="fas fa-trash"></i></a>
             </li>
             {{/each}}
         {{/if}}
 
     {{else}}
-        {{!-- Этот блок сработает, только если оба списка пусты --}}
         <li style="padding:10px;text-align:center;">{{localize "Disguise.NoSavedDisguises"}}</li>
     {{/if}}
 </ul>
 
-
 {{!-- ###################################################################### --}}
-{{!-- #####          ШАБЛОН ДЛЯ ДИАЛОГА СОХРАНЕНИЯ (Dialog)                ##### --}}
+{{!-- #####          ШАБЛОН ДЛЯ ДИАЛОГА СОХРАНЕНИЯ (Dialog)                  ##### --}}
 {{!-- ###################################################################### --}}
 {{else if isPrompt}}
 <p>{{{dialogText}}}</p>
@@ -53,7 +48,6 @@
         <input type="text" name="disguiseName" value="{{disguiseName}}"/>
     </div>
 </form>
-
 
 {{!-- ###################################################################### --}}
 {{!-- #####          ШАБЛОН ДЛЯ СОЗДАНИЯ ОБРАЗА (DisguiseApp)                ##### --}}
@@ -78,7 +72,7 @@
 
     <div class="form-group" style="display: flex; justify-content: center; align-items: center; margin-top: 15px;">
         <input type="checkbox" id="apply-size-toggle" name="apply-size" checked style="margin-right: 5px;"/>
-        <label for="apply-size-toggle">Применить размер</label>
+        <label for="apply-size-toggle">{{localize "Disguise.ApplySizeLabel"}}</label>
     </div>
 
     <p class="notes" style="text-align:center;margin:15px 0;">
