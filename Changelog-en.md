@@ -1,6 +1,29 @@
 # Changelog
-[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/master/Changelog.md)
+[![Changelog-en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog-en.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
+
+### Version 2.4.5
+
+1.  Completed the full transition to support Foundry VTT v13 (ApplicationV2).
+2.  Many changes and improvements have been made to the **"Disguise"** mechanic:
+    1) **Automation:** Added automatic appearance change when a corresponding effect is triggered on an actor.
+    2) **Reset Button:** A button has been added that restores the original actor's data and recreates the appearance prototype if it was deleted (using an internal backup). This function is also available to players.
+    3) **Appearance Editing:** You can now edit the visual appearance through the standard token editing sheet. All tabs are synchronized; however, the "Appearance" tab for a saved appearance only updates after clicking the "Update Appearance" button. A field for changing the avatar has also been added there.
+    4) **New Save Method:** The data saving mechanism has been reworked. **Important:** It is necessary to recreate actors with appearances to avoid future issues (Apologies for the inconvenience).
+    5) **Interface:** Removed redundant notifications for changes that are already visually apparent.
+    6) **HUD:** The method for opening the quick access window has been changed—it now opens with a **Right Mouse Button (RMB)** click.
+    7) **Fix:** The "Do Not Save" button in the appearance name input window now works correctly and does not save the appearance.
+    8) **Compatibility:** The Disguise mechanic is guaranteed to work only for "Player Character" and "NPC" actor types. Functionality with other types has not been tested.
+    9) **Restrictions:** When attempting to create a full copy of an actor, selecting types other than "NPC" is now blocked.
+    10) **Sizing:** The "Apply Size" option now works correctly and takes data from the original actor. A smooth size transition without jumps has been implemented.
+    11) **Synchronization:** There is now full data synchronization between visual appearances.
+    12) **Warning:** When editing a full copy of a spellcaster, a warning related to the spellbook will appear. This is a Foundry system error that could not be fixed at this time.
+3.  Reworked the Compendium Settings and updated the visual component.
+4.  Reworked the Actor Recovery settings and updated its interface. It is now possible to restore actors with their appearances already configured.
+5.  **Manifest Links:**
+    * Please use the manifest corresponding to your Foundry version:
+    * **Manifest for v13:** [v13](https://raw.githubusercontent.com/Metofay/pf2e-token-pack/v13/module.json)
+    * **Manifest for v12 (old version, no longer updated):** [v12](https://raw.githubusercontent.com/Metofay/pf2e-token-pack/v12/module.json)
 
 ## Version 2.4.3
 1. Fixed masking display in the Combat Tracker.

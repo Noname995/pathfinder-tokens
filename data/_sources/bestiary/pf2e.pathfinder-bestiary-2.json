@@ -3680,22 +3680,6 @@
         }
       }
     },
-    "12vyw160K7p3M3Mt": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-2/Quetz-Couatl.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/bestiary/bestiary-2/Quetz-Couatl.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "uQBfbNaIHdt0l2QB": {
       "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-2/Quickling.webp",
       "token": {

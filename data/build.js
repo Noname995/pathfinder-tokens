@@ -38,8 +38,13 @@ try {
     // Читаем порядок ключей из скрипта настроек
     console.log(`Читаю порядок из: ${settingsScriptPath}`);
     const settingsScriptContent = fs.readFileSync(settingsScriptPath, 'utf8');
-    const keysBlockMatch = settingsScriptContent.match(/this\.keys\s*=\s*\[([\s\S]*?)\];/);
-    if (!keysBlockMatch) throw new Error('Не удалось найти блок this.keys в файле настроек.');
+    
+    // ✅✅✅ ВОТ ИЗМЕНЕНИЕ ✅✅✅
+    // Старая строка: const keysBlockMatch = settingsScriptContent.match(/this\.keys\s*=\s*\[([\s\S]*?)\];/);
+    const keysBlockMatch = settingsScriptContent.match(/static get KEYS\(\)\s*{\s*return\s*\[([\s\S]*?)\];/);
+    // ✅✅✅ КОНЕЦ ИЗМЕНЕНИЯ ✅✅✅
+
+    if (!keysBlockMatch) throw new Error('Не удалось найти блок `static get KEYS()` в файле настроек.');
     
     const keysBlock = keysBlockMatch[1];
     const keyRegex = /key:\s*"([^"]+)"/g;
@@ -49,7 +54,7 @@ try {
         orderedKeys.push(match[1]);
     }
     
-    if (orderedKeys.length === 0) throw new Error('Не удалось извлечь ключи из блока this.keys.');
+    if (orderedKeys.length === 0) throw new Error('Не удалось извлечь ключи из блока `static get KEYS()`.');
     console.log(`Найдено ${orderedKeys.length} ключей для соблюдения порядка.`);
 
     // --- ИЗМЕНЕНИЕ: Используем новую функцию для поиска файлов ---

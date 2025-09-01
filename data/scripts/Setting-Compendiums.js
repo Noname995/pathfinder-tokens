@@ -1,25 +1,11 @@
-/**
- * Класс для управления модулем токенов бестиария Pathfinder.
- * Отвечает за генерацию пользовательского файла бестиария на основе эталона,
- * управление настройками и проверку целостности данных.
- */
+//Класс для управления модулем токенов бестиария Pathfinder.
 class PathfinderBestiaryTokenPack {
-  // --- Константы путей к файлам ---
-  // Путь к эталонному файлу, содержащему все компендиумы.
   static MASTER_FILE_PATH = "modules/pf2e-token-pack/data/_sources/bestiaries-master.json";
-  // Путь к папке с исходными .json файлами для каждого компендиума.
   static SOURCE_FOLDER_PATH = "modules/pf2e-token-pack/data/_sources";
-  // Путь, куда будет сохранен сгенерированный пользовательский bestiaries.json.
   static USER_BESTIARY_PATH = "modules/pf2e-token-pack";
 
-  /**
-   * Инициализирует настройки модуля при загрузке мира.
-   * Регистрирует настройки для каждого компендиума и запускает сборку
-   * пользовательского файла bestiaries.json.
-   */
-  static async initSettings() {
-    // Список всех поддерживаемых бестиариев и их метаданных.
-    this.keys = [
+  static get KEYS() {
+    return [
       { key: "pf2e.pathfinder-bestiary"                , name: game.i18n.localize("SettingCompendiums.Bestiary")                      , category: "bestiaries"    },
       { key: "pf2e.pathfinder-bestiary-2"              , name: game.i18n.localize("SettingCompendiums.Bestiary2")                     , category: "bestiaries"    },
       { key: "pf2e.pathfinder-bestiary-3"              , name: game.i18n.localize("SettingCompendiums.Bestiary3")                     , category: "bestiaries"    },
@@ -70,33 +56,22 @@ class PathfinderBestiaryTokenPack {
       { key: "pf2e.pfs-season-1-bestiary"              , name: game.i18n.localize("SettingCompendiums.Season1")                       , category: "season"        },
       { key: "pf2e.paizo-pregens"                      , name: game.i18n.localize("SettingCompendiums.AdventurePregens")              , category: "pregens"       }
     ];
-
-    // Регистрирует каждую настройку для каждого бестиария.
-    this.keys.forEach(({key, name, hint}) => {
-      game.settings.register("pf2e-token-pack", `enableOverwrite${key}`, {
-        name: name,
-        hint: hint,
-        scope: "world",
-        config: false,
-        default: false, // ✅ ИЗМЕНЕНО: По умолчанию false (галочка снята).
-        type: Boolean,
-      });
-    });
-
-    // Запускаем сборку пользовательского файла при загрузке.
-    await this.buildUserBestiary();
   }
 
-/**
-   * Собирает bestiaries.json на основе эталонного файла и настроек пользователя.
-   * Выполняет перезапись файла только если обнаружены изменения.
-   */
-static async buildUserBestiary() {
+  static registerSettings() {
+    this.KEYS.forEach(({key, name, hint}) => {
+      game.settings.register("pf2e-token-pack", `enableOverwrite${key}`, {
+        name, hint, scope: "world", config: false, default: false, type: Boolean,
+      });
+    });
+  }
+
+  static async buildUserBestiary() {
     try {
         const masterResponse = await fetch(this.MASTER_FILE_PATH);
         if (!masterResponse.ok) {
             ui.notifications.warn(game.i18n.format("SettingCompendiums.WarnMasterNotFound", { path: this.MASTER_FILE_PATH }));
-            return;
+            return null;
         }
         const masterData = await masterResponse.json();
         const idealUserData = {};
@@ -110,7 +85,7 @@ static async buildUserBestiary() {
 
         let currentUserData = null;
         try {
-            const userResponse = await fetch(`${this.USER_BESTIARY_PATH}/bestiaries.json?${Date.now()}`); 
+            const userResponse = await fetch(`${this.USER_BESTIARY_PATH}/bestiaries.json?${Date.now()}`);
             if (userResponse.ok) {
                 currentUserData = await userResponse.json();
             }
@@ -123,77 +98,191 @@ static async buildUserBestiary() {
 
         if (idealDataString === currentDataString) {
             console.log(`pf2e-token-pack | ${game.i18n.localize("SettingCompendiums.LogUserBestiaryUpToDate")}`);
-            return; // Файл не менялся, выходим.
+            return null;
         }
-        
-        // --- Этот блок выполняется, только если файл был изменен ---
+
         console.log(`pf2e-token-pack | ${game.i18n.localize("SettingCompendiums.LogUserBestiaryRebuilding")}`);
         const blob = new Blob([idealDataString], { type: "application/json" });
         const file = new File([blob], "bestiaries.json", { type: "application/json" });
-        await FilePicker.upload("data", this.USER_BESTIARY_PATH, file, {notify: false}); 
+        await foundry.applications.apps.FilePicker.implementation.upload("data", this.USER_BESTIARY_PATH, file, {notify: false});
         console.log(`pf2e-token-pack | ${game.i18n.localize("SettingCompendiums.LogUserBestiaryRebuilt")}`);
+        
+        const content = await foundry.applications.handlebars.renderTemplate("modules/pf2e-token-pack/data/templates/Setting-Compendiums.hbs", { isReloadDialog: true });
 
-        // ИЗМЕНЕНИЕ: Добавляем диалоговое окно с предложением перезагрузки.
-        new Dialog({
-          title: game.i18n.localize("SettingCompendiums.ReloadTitle"),
-          content: `<p>${game.i18n.localize("SettingCompendiums.BestiaryUpdatedMessage")}</p>`,
-          buttons: {
-            ok: {
-              label: game.i18n.localize("SettingCompendiums.ReloadButton"),
-              callback: () => location.reload()
-            }
+        const choice = await foundry.applications.api.DialogV2.prompt({
+          window: {
+            title: game.i18n.localize("SettingCompendiums.ReloadTitle"),
+            classes: ["dialog", "reload-prompt"],
+            resizable: false,
           },
-          default: "ok"
-        }).render(true);
+          position: {
+            width: 350,
+            height: "auto"
+          },
+          content: content,
+          buttons: [
+            {
+              action: "ok",
+              label: game.i18n.localize("SettingCompendiums.ReloadButton"),
+              default: true
+            },
+            {
+              action: "cancel",
+              label: game.i18n.localize("SettingCompendiums.CancelButton")
+            }
+          ]
+        });
 
+        if (choice === "ok") {
+          location.reload();
+        }
+        
+        return choice;
     } catch (error) {
         console.error(`pf2e-token-pack | ${game.i18n.localize("SettingCompendiums.BestiariesSyncError")}:`, error);
         ui.notifications.error(game.i18n.localize("SettingCompendiums.BestiariesSyncError"));
+        return null;
     }
   }
 
-  /**
-   * Инициализация сокета для взаимодействия между клиентами (если потребуется).
-   */
   static init() {
     game.socket.on("module.pf2e-token-pack", async data => {
       if (data.action === "overwriteBestiary" && game.user.isGM) {
-        // Эта логика может быть расширена в будущем.
       }
     });
   }
+}
 
-/**
-   * Проверяет целостность данных компендиума, сравнивая его с эталонным файлом.
-   * Находит "мертвые" записи, отсутствующие файлы и другие несоответствия.
-   * @param {string} key - Ключ проверяемого компендиума (например, "pf2e.pathfinder-bestiary").
-   */
-static async checkBestiaryArt(key) {
+//Класс для отрисовки меню настроек модуля.
+class PathfinderBestiarySettingsMenu extends foundry.applications.api.HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2) {
+  
+  static get DEFAULT_OPTIONS() {
+    return foundry.utils.mergeObject(super.DEFAULT_OPTIONS, {
+      id: "pf2e-token-pack-settings",
+      window: {
+        title: game.i18n.localize("SettingCompendiums.SettingsMenuTitle"),
+        resizable: false
+      },
+      position: { width: 'auto', height: 'auto' }
+    });
+  }
+
+  static PARTS = {
+    content: {
+      template: "modules/pf2e-token-pack/data/templates/Setting-Compendiums.hbs",
+      classes: ["pf2e-token-pack-settings-form-content"]
+    },
+  };
+
+  async _prepareContext(options) {
+    const ctx = await super._prepareContext(options);
+    const groups = {
+      bestiaries: [], adventurePath: [], rulebook: [], standalone: [], season: [], pregens: []
+    };
+
+    for (const { key, name, hint, category = "bestiaries" } of PathfinderBestiaryTokenPack.KEYS) {
+      const settingKey = `enableOverwrite${key}`;
+      const value = game.settings.get("pf2e-token-pack", settingKey);
+      const entry = { key, settingKey, name, hint, value };
+
+      if (!groups[category]) groups[category] = [];
+      groups[category].push(entry);
+    }
+
+    const rawMessage = game.i18n.localize("SettingCompendiums.SettingsMessage");
+    const enrichedMessage = await foundry.applications.ux.TextEditor.implementation.enrichHTML(rawMessage, { async: true });
+
+    return { ...ctx, groups, isSettingsForm: true, enrichedSettingsMessage: enrichedMessage };
+  }
+
+  async _onCheckCompendium(event) {
+    event.preventDefault();
+    const button = event.currentTarget;
+    const key = button.dataset.key;
+    if (key) {
+      const checker = new BestiaryIntegrityChecker(key);
+      await checker.runCheck();
+    }
+  }
+  
+  async _postRender(context, options) {
+    await super._postRender?.(context, options);
+    const html = $(this.element);
+    const toggle = html.find("#toggle-check-buttons");
+    const form = html.find("form.settings-menu");
+
+    const updateButtonVisibility = () => {
+      form.toggleClass("show-check-buttons", toggle.prop("checked"));
+    };
+    toggle.on("change", updateButtonVisibility);
+    updateButtonVisibility();
+
+    html.find(".check-button").on("click", this._onCheckCompendium.bind(this));
+
+    form.on("submit", (event) => this._onFormSubmit(event));
+  }
+
+  async _onFormSubmit(event) {
+    event.preventDefault();
+    const formData = new foundry.applications.ux.FormDataExtended(event.currentTarget).object;
+
+    let changed = false;
+    for (const [key, value] of Object.entries(formData)) {
+      if (key.startsWith("enableOverwrite")) {
+        const current = game.settings.get("pf2e-token-pack", key);
+        if (current !== value) {
+          changed = true;
+          await game.settings.set("pf2e-token-pack", key, value);
+        }
+      }
+    }
+
+    if (!changed) {
+      ui.notifications.info(game.i18n.localize("SettingCompendiums.NoSettingsChanged"));
+      return this.close();
+    }
+    
+    const dialogResult = await PathfinderBestiaryTokenPack.buildUserBestiary();
+    
+    if (dialogResult !== "ok") {
+        await this.close();
+    }
+  }
+}
+
+// Отвечает за полную проверку целостности одного компендиума.
+class BestiaryIntegrityChecker {
+  constructor(key) {
+    this.key = key;
+    this.pack = game.packs.get(key);
+    this.keys = PathfinderBestiaryTokenPack.KEYS;
+    this.masterFilePath = PathfinderBestiaryTokenPack.MASTER_FILE_PATH;
+    this.sourceFolderPath = PathfinderBestiaryTokenPack.SOURCE_FOLDER_PATH;
+  }
+
+  async runCheck() {
     try {
-      const masterResponse = await fetch(this.MASTER_FILE_PATH);
-      if (!masterResponse.ok) throw new Error(game.i18n.format("SettingCompendiums.ErrorLoadingMaster", { path: this.MASTER_FILE_PATH }));
+      const masterResponse = await fetch(this.masterFilePath);
+      if (!masterResponse.ok) throw new Error(game.i18n.format("SettingCompendiums.ErrorLoadingMaster", { path: this.masterFilePath }));
       const masterData = await masterResponse.json();
-      const bestiary = masterData[key];
+      const bestiary = masterData[this.key];
 
       if (!bestiary) {
-        ui.notifications.warn(game.i18n.format("SettingCompendiums.WarnNoDataForKey", { key }));
+        ui.notifications.warn(game.i18n.format("SettingCompendiums.WarnNoDataForKey", { key: this.key }));
         return;
       }
 
-      const pack = game.packs.get(key);
-      if (!pack) {
-        ui.notifications.error(game.i18n.format("SettingCompendiums.ErrorCompendiumNotLoaded", { packName: key }));
+      if (!this.pack) {
+        ui.notifications.error(game.i18n.format("SettingCompendiums.ErrorCompendiumNotLoaded", { packName: this.key }));
         return;
       }
 
-      // --- Сбор и сортировка данных из компендиума ---
-      const index = await pack.getIndex({ fields: ["name", "type", "folder", "sort"] });
+      const index = await this.pack.getIndex({ fields: ["name", "type", "folder", "sort"] });
       const naturalSort = (a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
 
-      // --- Логика сортировки ---
       const processedIds = new Set();
       const sortedIndex = [];
-      const folders = [...pack.folders].sort(naturalSort);
+      const folders = [...this.pack.folders].sort(naturalSort);
       
       const rootDocuments = index.filter(doc => !doc.folder);
       rootDocuments.sort(naturalSort);
@@ -211,11 +300,9 @@ static async checkBestiaryArt(key) {
       orphanDocuments.sort(naturalSort);
       sortedIndex.push(...orphanDocuments);
       
-      // --- Подготовка к анализу ---
       const reorderedBestiary = {};
       const compendiumIds = new Set(index.map(e => e._id));
 
-      // --- Анализ проблем ---
       const deadIdsData = Object.keys(bestiary).filter(id => !compendiumIds.has(id)).map(id => ({ id, name: bestiary[id]?.name || game.i18n.localize("SettingCompendiums.CheckNameNotFound") }));
       const deadIds = deadIdsData.map(d => d.id);
       const missingInModuleByFolder = {};
@@ -235,13 +322,13 @@ static async checkBestiaryArt(key) {
         if (!path) return false;
         try {
           const dir = path.substring(0, path.lastIndexOf('/'));
-          return (await FilePicker.browse("data", dir)).files.some(f => f === path);
+          return (await foundry.applications.apps.FilePicker.implementation.browse("data", dir)).files.some(f => f === path);
         } catch { return false; }
       }
 
       const folderIdToNameMap = new Map(folders.map(f => [f.id, f.name]));
       const rootFolderName = game.i18n.localize("SettingCompendiums.CheckRootFolder");
-      const orphanFolderName = game.i18n.localize("SettingCompendiums.CheckOrphanedFolder") || "Без папки / Потерянные";
+      const orphanFolderName = game.i18n.localize("SettingCompendiums.CheckOrphanedFolder");
       
       for (const entry of sortedIndex) {
         const { _id: actorId, name: actorName, type, folder } = entry;
@@ -270,12 +357,11 @@ static async checkBestiaryArt(key) {
         }
       }
       
-      // --- Финальные вычисления и проверки ---
       let allModuleFiles = new Set();
       async function listAllFilesRecursive(dir) {
         const files = [];
         try {
-          const result = await FilePicker.browse("data", dir);
+          const result = await foundry.applications.apps.FilePicker.implementation.browse("data", dir);
           files.push(...result.files);
           for (const subdir of result.dirs) {
             files.push(...await listAllFilesRecursive(subdir));
@@ -308,68 +394,61 @@ static async checkBestiaryArt(key) {
 
       const originalValidKeys = Object.keys(bestiary).filter(id => compendiumIds.has(id));
       const isOrderDifferent = JSON.stringify(originalValidKeys) !== JSON.stringify(Object.keys(reorderedBestiary));
-
-      const keyObj = this.keys.find(k => k.key === key);
-      const title = game.i18n.format("SettingCompendiums.CheckTitle", { name: keyObj?.name ?? key });
-
-      // --- Отображение диалогового окна ---
+      
       if (noProblems) {
-        new Dialog({
-          title: title,
-          content: `<p style="text-align: center; font-size: 1.2em;">${game.i18n.localize("SettingCompendiums.AllValid")}</p>` +
-                   (isOrderDifferent ? `<p style="text-align: center; color: var(--color-text-dark-primary);">${game.i18n.localize("SettingCompendiums.CheckSortNeeded")}</p>` : ''),
-          buttons: {
-            ok: {
-              label: game.i18n.localize("SettingCompendiums.CheckOk"),
-              icon: "<i class='fas fa-check'></i>",
-              callback: async () => {
-                if (isOrderDifferent) {
-                  // ✅ ИЗМЕНЕНИЕ: Эта логика была перенесена в общую кнопку "Fix" ниже,
-                  // но оставлена здесь для случаев, когда других проблем нет.
-                  // Она также будет обновлять оба файла.
-                  const finalCompendiumData = reorderedBestiary;
+        const keyObj = this.keys.find(k => k.key === this.key);
+        const title = game.i18n.format("SettingCompendiums.CheckTitle", { name: keyObj?.name ?? this.key });
+        const content = await foundry.applications.handlebars.renderTemplate("modules/pf2e-token-pack/data/templates/Setting-Compendiums.hbs", { 
+          isAllValidDialog: true, 
+          isOrderDifferent: isOrderDifferent 
+        });
 
-                  // Обновляем мастер-файл
-                  masterData[key] = finalCompendiumData;
-                  const masterBlob = new Blob([JSON.stringify(masterData, null, 2)], { type: "application/json" });
-                  await FilePicker.upload("data", this.SOURCE_FOLDER_PATH, new File([masterBlob], "bestiaries-master.json"), {});
-
-                  // Обновляем исходный файл компендиума
-                  const keyInfo = this.keys.find(k => k.key === key);
-                  const category = keyInfo?.category;
-                  const categoryToFolderMap = {
-                    bestiaries: "bestiary",
-                    adventurePath: "adventure-patch",
-                    rulebook: "ruleboock",
-                    standalone: "standalone-adventures",
-                    season: "pathfinder-society",
-                    pregens: "pregenerated-pCs"
-                  };
-                  const subfolder = category ? categoryToFolderMap[category] : undefined;
-                  if (subfolder) {
-                    const sourceFileName = `${key}.json`;
-                    const sourceFileDirectory = `${this.SOURCE_FOLDER_PATH}/${subfolder}`;
-                    const finalSourceData = { [key]: finalCompendiumData };
-                    const sourceBlob = new Blob([JSON.stringify(finalSourceData, null, 2)], { type: "application/json" });
-                    await FilePicker.upload("data", sourceFileDirectory, new File([sourceBlob], sourceFileName), {});
-                  }
-                  
-                  await this.buildUserBestiary();
-                } else {
-                  ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
-                }
-              }
-            },
-            cancel: {
-              label: game.i18n.localize("SettingCompendiums.Cancel"),
-              icon: "<i class='fas fa-times'></i>",
-            }
+        const choice = await foundry.applications.api.DialogV2.prompt({
+          window: {
+            title: title,
+            resizable: false
           },
-          default: "ok"
-        }).render(true);
+          position: { width: 400, height: "auto" },
+          content: content,
+          buttons: [
+            { action: "ok", label: game.i18n.localize("SettingCompendiums.CheckOk"), icon: "fas fa-check", default: true },
+            { action: "cancel", label: game.i18n.localize("SettingCompendiums.CancelButton"), icon: "fas fa-times" }
+          ]
+        });
 
+        if (choice === "ok") {
+            if (isOrderDifferent) {
+              const finalCompendiumData = reorderedBestiary;
+
+              masterData[this.key] = finalCompendiumData;
+              const masterBlob = new Blob([JSON.stringify(masterData, null, 2)], { type: "application/json" });
+              await foundry.applications.apps.FilePicker.implementation.upload("data", this.sourceFolderPath, new File([masterBlob], "bestiaries-master.json"), {});
+
+              const keyInfo = this.keys.find(k => k.key === this.key);
+              const category = keyInfo?.category;
+              const categoryToFolderMap = {
+                bestiaries: "bestiary",
+                adventurePath: "adventure-patch",
+                rulebook: "ruleboock",
+                standalone: "standalone-adventures",
+                season: "pathfinder-society",
+                pregens: "pregenerated-pCs"
+              };
+              const subfolder = category ? categoryToFolderMap[category] : undefined;
+              if (subfolder) {
+                const sourceFileName = `${this.key}.json`;
+                const sourceFileDirectory = `${this.sourceFolderPath}/${subfolder}`;
+                const finalSourceData = { [this.key]: finalCompendiumData };
+                const sourceBlob = new Blob([JSON.stringify(finalSourceData, null, 2)], { type: "application/json" });
+                await foundry.applications.apps.FilePicker.implementation.upload("data", sourceFileDirectory, new File([sourceBlob], sourceFileName), {});
+              }
+              
+              await PathfinderBestiaryTokenPack.buildUserBestiary();
+            } else {
+              ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
+            }
+        }
       } else {
-        // ... (код для генерации HTML-контента диалога остается без изменений) ...
         const allFoundGroups = new Set([
             ...Object.keys(missingInModuleByFolder), 
             ...Object.keys(missingImagesByFolder.art),
@@ -388,8 +467,8 @@ static async checkBestiaryArt(key) {
             if (items.length === 0) return `<li>${game.i18n.localize("SettingCompendiums.CheckNoIssues")}</li>`;
             return items.map(item => {
                 let details = '';
-                if (type === 'id') details = `<br><small>(${item.id})</small>`;
-                else if (type === 'path') details = `<br><small>(${item.path || item})</small>`;
+                if (type === 'id') details = `<br><small>${item.id}</small>`;
+                else if (type === 'path') details = `<br><small>${item.path || item}</small>`;
                 return `<li><strong>${item.name || 'File'}</strong>${details}</li>`;
             }).join('');
         };
@@ -411,151 +490,77 @@ static async checkBestiaryArt(key) {
           if (sortedFolders.length === 0) {
             return `<li>${game.i18n.localize("SettingCompendiums.CheckNoUnused")}</li>`;
           }
-
           let html = '';
           for (const folder of sortedFolders) {
             html += `<li class="folder-header"><h3>${Handlebars.escapeExpression(folder)}</h3></li>`;
             const files = filesByFolder[folder].sort();
             html += files.map(path => {
               const name = decodeURIComponent(path.split("/").pop());
-              return `<li><strong>${name}</strong><br><small>(${path})</small></li>`;
+              return `<li><strong>${name}</strong><br><small>${path}</small></li>`;
             }).join('');
           }
           return html;
         };
-    
-        const dialogContent = `
-          <style>
-            .check-results-dialog .window-content { display: flex; flex-direction: column; height: 100%; }
-            .check-results-dialog .dialog-content { flex-grow: 1; overflow-y: auto; }
-            .check-results-dialog .dialog-buttons { flex-shrink: 0; flex: 0}
-            .check-results-container details { border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px; }
-            .check-results-container summary { font-weight: bold; padding: 10px; background-color: rgba(0, 0, 0, 0.1); cursor: pointer; }
-            .check-results-container .content-wrapper, .check-results-container .image-sub-content { max-height: 450px; overflow-y: auto; padding: 5px 10px; }
-            .check-results-container .image-sub-container { padding: 5px; border-top: 1px solid #444; margin-top: 5px; }
-            .check-results-container .image-sub-container details { border-color: #555; margin-left: 10px; }
-            .check-results-container .image-sub-container summary { background-color: rgba(0, 0, 0, 0.2); padding: 8px; }
-            .check-results-container .image-sub-content { max-height: 250px; }
-            .check-results-container ul { list-style-type: none; padding-left: 0; margin: 0; }
-            .check-results-container li { padding: 5px 0; border-bottom: 1px solid #282828; }
-            .check-results-container li:last-child { border-bottom: none; }
-            .check-results-container li.folder-header {
-                padding: 8px 4px; background-color: rgba(0, 0, 0, 0.3);
-                border-top: 1px solid #444; border-bottom: 1px solid #444;
-                margin-top: 10px;
-            }
-            .check-results-container ul > li.folder-header:first-child { margin-top: 0; }
-            .check-results-container li.folder-header h3 { margin: 0; font-size: 1.1em; }
-          </style>
-          <div class="check-results-container">
-            <details>
-              <summary>${game.i18n.localize("SettingCompendiums.CheckSummaryDead")} (${deadIds.length})</summary>
-              <div class="content-wrapper"><ul>${createList(deadIdsData, 'id')}</ul></div>
-            </details>
-            <details>
-              <summary>${game.i18n.localize("SettingCompendiums.CheckSummaryMissingModule")} (${totalMissingInModule})</summary>
-              <div class="content-wrapper"><ul>${createFolderizedList(missingInModuleByFolder, sortedDisplayGroups, 'id')}</ul></div>
-            </details>
-            <details>
-              <summary>${game.i18n.localize("SettingCompendiums.CheckSummaryMissingImages")} (${totalMissingImages})</summary>
-              <div class="image-sub-container">
-                <details>
-                    <summary>${game.i18n.localize("SettingCompendiums.CheckImgTypeArt")} (${totalMissingArt})</summary>
-                    <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.art, sortedDisplayGroups, 'path')}</ul></div>
-                </details>
-                <details>
-                    <summary>${game.i18n.localize("SettingCompendiums.CheckImgTypeToken")} (${totalMissingToken})</summary>
-                    <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.token, sortedDisplayGroups, 'path')}</ul></div>
-                </details>
-                <details>
-                    <summary>${game.i18n.localize("SettingCompendiums.CheckImgTypeRing")} (${totalMissingRing})</summary>
-                    <div class="image-sub-content"><ul>${createFolderizedList(missingImagesByFolder.ring, sortedDisplayGroups, 'path')}</ul></div>
-                </details>
-              </div>
-            </details>
-            <details>
-                <summary>${game.i18n.localize("SettingCompendiums.CheckSummaryUnused")} (${unusedFiles.length})</summary>
-                <div class="content-wrapper">
-                    <p><em><small>${game.i18n.localize("SettingCompendiums.ManualDeleteNote")}</small></em></p>
-                    <ul>${createUnusedList(unusedFilesByFolder)}</ul>
-                </div>
-            </details>
-          </div>
-        `;
         
-        new Dialog({
-          title,
-          content: dialogContent,
-          buttons: {
-            fix: {
-              label: game.i18n.localize("SettingCompendiums.FixAndDeleteButton"),
-              icon: "<i class='fas fa-trash-alt'></i>",
-              // ✅ ИЗМЕНЕНИЕ: Полностью переписанная логика кнопки "Исправить"
-              callback: async () => {
-                const hasDeadIds = deadIds.length > 0;
-                if (!hasDeadIds && !isOrderDifferent) {
-                    ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
-                    return;
-                }
-                
-                ui.notifications.info(game.i18n.localize("SettingCompendiums.CleaningStarted"));
+        const templateData = {
+          isCheckResultsDialog: true,
+          summaries: { dead: deadIds.length, missingModule: totalMissingInModule, missingImages: totalMissingImages, unused: unusedFiles.length },
+          imageCounts: { art: totalMissingArt, token: totalMissingToken, ring: totalMissingRing },
+          lists: {
+            dead: createList(deadIdsData, 'id'),
+            missingModule: createFolderizedList(missingInModuleByFolder, sortedDisplayGroups, 'id'),
+            art: createFolderizedList(missingImagesByFolder.art, sortedDisplayGroups, 'path'),
+            token: createFolderizedList(missingImagesByFolder.token, sortedDisplayGroups, 'path'),
+            ring: createFolderizedList(missingImagesByFolder.ring, sortedDisplayGroups, 'path'),
+            unused: createUnusedList(unusedFilesByFolder)
+          }
+        };
 
-                // 1. Определяем финальные, корректные данные для компендиума
-                const finalCompendiumData = reorderedBestiary;
-                if (hasDeadIds) {
-                    // reorderedBestiary уже отфильтрован от "мертвых" ID, так как он строится на основе pack.getIndex
-                }
-                
-                // 2. Обновляем `bestiaries-master.json`
-                masterData[key] = finalCompendiumData;
-                const masterBlob = new Blob([JSON.stringify(masterData, null, 2)], { type: "application/json" });
-                await FilePicker.upload("data", this.SOURCE_FOLDER_PATH, new File([masterBlob], "bestiaries-master.json"), {});
-                ui.notifications.info(game.i18n.format("SettingCompendiums.MasterCleaned", { file: "bestiaries-master.json" }));
+        const choice = await BestiaryCheckResultsDialog.prompt(this.key, templateData);
 
-                // 3. Обновляем индивидуальный исходный файл компендиума
-                const keyInfo = this.keys.find(k => k.key === key);
-                const category = keyInfo?.category;
-                
-                // Карта для сопоставления категории с именем папки
-                const categoryToFolderMap = {
-                    bestiaries: "bestiary",
-                    adventurePath: "adventure-patch",
-                    rulebook: "ruleboock", // Имя папки согласно вашему списку
-                    standalone: "standalone-adventures",
-                    season: "pathfinder-society",
-                    pregens: "pregenerated-pCs"
-                };
-
-                const subfolder = category ? categoryToFolderMap[category] : undefined;
-
-                if (subfolder) {
-                    const sourceFileName = `${key}.json`;
-                    const sourceFileDirectory = `${this.SOURCE_FOLDER_PATH}/${subfolder}`;
-                    // Исходный файл должен иметь структуру { "ключ_компендиума": { ...данные... } }
-                    const finalSourceData = { [key]: finalCompendiumData };
-                    const sourceBlob = new Blob([JSON.stringify(finalSourceData, null, 2)], { type: "application/json" });
-                    
-                    try {
-                        await FilePicker.upload("data", sourceFileDirectory, new File([sourceBlob], sourceFileName), {});
-                        ui.notifications.info(game.i18n.format("SettingCompendiums.SourceCleaned", { file: sourceFileName }));
-                    } catch (e) {
-                        ui.notifications.error(game.i18n.format("SettingCompendiums.ErrorCleaningSource", { file: sourceFileName, message: e.message }));
-                    }
-                } else {
-                    ui.notifications.warn(`Не удалось определить папку с исходниками для компендиума: ${key}`);
-                }
-
-                // 4. Запускаем пересборку пользовательского bestiaries.json и предлагаем перезагрузку
-                await this.buildUserBestiary();
-              }
-            },
-            cancel: {
-              label: game.i18n.localize("SettingCompendiums.Cancel"),
-              icon: "<i class='fas fa-times'></i>",
+        if (choice === "ok") {
+            const hasDeadIds = deadIds.length > 0;
+            if (!hasDeadIds && !isOrderDifferent) {
+                ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
+                return;
             }
-          },
-          default: "fix"
-        }, { width: 800, height: 750, resizable: true, classes: ["dialog", "check-results-dialog"] }).render(true);
+            
+            ui.notifications.info(game.i18n.localize("SettingCompendiums.CleaningStarted"));
+            const finalCompendiumData = reorderedBestiary;
+            
+            masterData[this.key] = finalCompendiumData;
+            const masterBlob = new Blob([JSON.stringify(masterData, null, 2)], { type: "application/json" });
+            await foundry.applications.apps.FilePicker.implementation.upload("data", this.sourceFolderPath, new File([masterBlob], "bestiaries-master.json"), {});
+            ui.notifications.info(game.i18n.format("SettingCompendiums.MasterCleaned", { file: "bestiaries-master.json" }));
+
+            const keyInfo = this.keys.find(k => k.key === this.key);
+            const category = keyInfo?.category;
+            const categoryToFolderMap = {
+                bestiaries: "bestiary",
+                adventurePath: "adventure-patch",
+                rulebook: "ruleboock",
+                standalone: "standalone-adventures",
+                season: "pathfinder-society",
+                pregens: "pregenerated-pCs"
+            };
+
+            const subfolder = category ? categoryToFolderMap[category] : undefined;
+            if (subfolder) {
+                const sourceFileName = `${this.key}.json`;
+                const sourceFileDirectory = `${this.sourceFolderPath}/${subfolder}`;
+                const finalSourceData = { [this.key]: finalCompendiumData };
+                const sourceBlob = new Blob([JSON.stringify(finalSourceData, null, 2)], { type: "application/json" });
+                try {
+                    await foundry.applications.apps.FilePicker.implementation.upload("data", sourceFileDirectory, new File([sourceBlob], sourceFileName), {});
+                    ui.notifications.info(game.i18n.format("SettingCompendiums.SourceCleaned", { file: sourceFileName }));
+                } catch (e) {
+                    ui.notifications.error(game.i18n.format("SettingCompendiums.ErrorCleaningSource", { file: sourceFileName, message: e.message }));
+                }
+            } else {
+                ui.notifications.warn(game.i18n.format("SettingCompendiums.WarnSourceFolderUndefined", {key: this.key}));
+            }
+            await PathfinderBestiaryTokenPack.buildUserBestiary();
+        }
       }
     } catch (e) {
       console.error(e);
@@ -564,10 +569,72 @@ static async checkBestiaryArt(key) {
   }
 }
 
-// --- Регистрация хуков Foundry VTT ---
+//Класс для отрисовки окна с результатами проверки целостности компендиума.
+class BestiaryCheckResultsDialog extends foundry.applications.api.HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2) {
+  constructor(data, options = {}) {
+    super(options);
+    this.data = data;
+  }
 
+  static get DEFAULT_OPTIONS() {
+    return foundry.utils.mergeObject(super.DEFAULT_OPTIONS, {
+      id: "pf2e-token-pack-check-results",
+      window: {
+        title: game.i18n.localize("SettingCompendiums.CheckTitleDefault"),
+        resizable: false,
+        classes: ["dialog", "check-results-dialog"]
+      },
+      position: { width: 'auto', height: 'auto' },
+    });
+  }
+
+  static PARTS = {
+    content: {
+      template: "modules/pf2e-token-pack/data/templates/Setting-Compendiums.hbs"
+    }
+  };
+
+  async _prepareContext(options) {
+    return this.data;
+  }
+  
+  async _postRender(context, options) {
+    await super._postRender?.(context, options);
+    const footer = this.element.querySelector(".form-footer");
+    if (!footer) return;
+    
+    footer.innerHTML = '';
+    const buttons = [
+      { action: "ok", label: game.i18n.localize("SettingCompendiums.FixAndDeleteButton"), icon: "fas fa-trash-alt", default: true },
+      { action: "cancel", label: game.i18n.localize("SettingCompendiums.CancelButton"), icon: "fas fa-times" }
+    ];
+
+    for (const buttonData of buttons) {
+      const button = document.createElement("button");
+      button.type = "button";
+      if (buttonData.default) button.classList.add("default");
+      
+      const icon = document.createElement("i");
+      icon.className = buttonData.icon;
+      
+      button.append(icon, ` ${buttonData.label}`);
+      button.addEventListener("click", () => this.close(buttonData.action));
+      footer.append(button);
+    }
+  }
+
+  static async prompt(key, templateData) {
+    const keyObj = PathfinderBestiaryTokenPack.KEYS.find(k => k.key === key);
+    const title = game.i18n.format("SettingCompendiums.CheckTitle", { name: keyObj?.name ?? key });
+    const app = new this(templateData, { window: { title } });
+    return app.render(true);
+  }
+}
+
+// --- HOOKS ---
 Hooks.once('init', () => {
   PathfinderBestiaryTokenPack.init();
+  PathfinderBestiaryTokenPack.registerSettings();
 
   game.settings.registerMenu("pf2e-token-pack", "tokenPackSettings", {
     name: game.i18n.localize("SettingCompendiums.TokenSettingsLabel"),
@@ -580,106 +647,5 @@ Hooks.once('init', () => {
 });
 
 Hooks.once('ready', () => {
-  PathfinderBestiaryTokenPack.initSettings();
+  PathfinderBestiaryTokenPack.buildUserBestiary();
 });
-
-
-/**
- * Класс для отрисовки меню настроек модуля.
- * Наследуется от стандартного FormApplication.
- */
-class PathfinderBestiarySettingsMenu extends FormApplication {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "pf2e-token-pack-settings",
-      title: game.i18n.localize("SettingCompendiums.SettingsMenuTitle"),
-      template: "modules/pf2e-token-pack/data/templates/Setting-Compendiums.hbs",
-      width: 700,
-      height: "auto",
-      classes: ["pf2e-token-pack-settings-form"],
-      closeOnSubmit: false,
-      resizable: true
-    });
-  }
-
-  /**
-   * Готовит данные для отображения в шаблоне handlebars.
-   */
-  async getData() {
-    const groups = {
-      bestiaries: [], adventurePath: [], rulebook: [], standalone: [], season: [], pregens: []
-    };
-
-    for (const { key, name, hint, category = "bestiaries" } of PathfinderBestiaryTokenPack.keys) {
-      const settingKey = `enableOverwrite${key}`;
-      const value = game.settings.get("pf2e-token-pack", settingKey);
-      const entry = { key, settingKey, name, hint, value };
-
-      if (!groups[category]) groups[category] = [];
-      groups[category].push(entry);
-    }
-    return { groups };
-  }
-
-  /**
-   * Активирует слушатели событий для элементов формы (например, кнопок).
-   */
-  activateListeners(html) {
-    super.activateListeners(html);
-    const toggle = html.find("#toggle-check-buttons");
-    const buttons = html.find(".check-button");
-
-    const updateButtonVisibility = () => {
-      buttons.css("display", toggle.prop("checked") ? "inline-block" : "none");
-    };
-
-    toggle.on("change", updateButtonVisibility);
-    updateButtonVisibility();
-
-    buttons.on("click", async function () {
-      const key = this.dataset.key;
-      if (key) {
-        await PathfinderBestiaryTokenPack.checkBestiaryArt(key);
-      }
-    });
-  }
-
-  /**
-   * Вызывается при отправке формы. Обновляет настройки и пересобирает bestiaries.json.
-   */
-  async _updateObject(event, formData) {
-    let changed = false;
-    for (const [key, value] of Object.entries(formData)) {
-      // Обрабатываем только наши чекбоксы настроек.
-      if (key.startsWith("enableOverwrite")) {
-        const current = game.settings.get("pf2e-token-pack", key);
-        if (current !== value) {
-          changed = true;
-          await game.settings.set("pf2e-token-pack", key, value);
-        }
-      }
-    }
-
-    if (!changed) {
-      ui.notifications.info(game.i18n.localize("SettingCompendiums.NoSettingsChanged"));
-      return this.close();
-    }
-
-    // Пересобираем пользовательский бестиарий с новыми настройками.
-    await PathfinderBestiaryTokenPack.buildUserBestiary();
-    await this.close();
-
-    // Предлагаем пользователю перезагрузить мир.
-    new Dialog({
-      title: game.i18n.localize("SettingCompendiums.ReloadTitle"),
-      content: `<p>${game.i18n.localize("SettingCompendiums.BestiaryUpdatedMessage")}</p>`,
-      buttons: {
-        ok: {
-          label: game.i18n.localize("SettingCompendiums.ReloadButton"),
-          callback: () => location.reload()
-        }
-      },
-      default: "ok"
-    }).render(true);
-  }
-}

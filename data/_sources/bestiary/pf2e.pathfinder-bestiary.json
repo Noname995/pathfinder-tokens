@@ -548,14 +548,14 @@
       "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Bronze-Dragon-Young.webp",
       "token": {
         "texture": {
-          "scaleX": 2,
-          "scaleY": 2
+          "scaleX": 1.5,
+          "scaleY": 1.5
         },
         "ring": {
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/bestiary/bestiary-1/Bronze-Dragon-Young.webp",
-            "scale": 2
+            "scale": 1.5
           }
         }
       }
@@ -564,14 +564,14 @@
       "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Bronze-Dragon-Young.webp",
       "token": {
         "texture": {
-          "scaleX": 2,
-          "scaleY": 2
+          "scaleX": 1.5,
+          "scaleY": 1.5
         },
         "ring": {
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/bestiary/bestiary-1/Bronze-Dragon-Young.webp",
-            "scale": 2
+            "scale": 1.5
           }
         }
       }
@@ -2507,22 +2507,6 @@
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/bestiary/bestiary-1/Storm-Lord.webp",
-            "scale": 1
-          }
-        }
-      }
-    },
-    "cZsaAKlEYWZUO1CV": {
-      "actor": "modules/pf2e-token-pack/portraits/bestiary/bestiary-1/Terotricus.webp",
-      "token": {
-        "texture": {
-          "scaleX": 1,
-          "scaleY": 1
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/bestiary/bestiary-1/Terotricus.webp",
             "scale": 1
           }
         }
