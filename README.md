@@ -29,7 +29,7 @@
     ```
     ### [Для Foundry VTT v13](https://github.com/Metofay/pf2e-token-pack)
     ```
-    https://raw.githubusercontent.com/Metofay/pf2e-token-pack/v12/module.json
+    https://raw.githubusercontent.com/Metofay/pf2e-token-pack/v13/module.json
     ```
 3.  Нажмите **"Install"** и дождитесь окончания установки.
 4.  Активируйте модуль в настройках вашего игрового мира.
