@@ -80,22 +80,6 @@
         }
       }
     },
-    "Twt8z6nTPgYQ0mTv": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/book-1-despair-on-danger-island/Berberoka.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/fists-of-the-ruby-phoenix/book-1-despair-on-danger-island/Berberoka.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "RKkIczqYUJkij0Oh": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/fists-of-the-ruby-phoenix/book-1-despair-on-danger-island/Blue-Viper.webp",
       "token": {

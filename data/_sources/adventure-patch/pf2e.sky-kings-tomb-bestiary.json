@@ -64,22 +64,6 @@
         }
       }
     },
-    "P3KHHlVZW9O8H5gS": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/book-1-mantle-of-gold/Ancestral-Echo.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/sky-kings-tomb/book-1-mantle-of-gold/Ancestral-Echo.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "igzgRlwFmL8LnO4x": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/book-1-mantle-of-gold/Ansestor-Statue.webp",
       "token": {
@@ -91,6 +75,22 @@
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/adventure-patch/sky-kings-tomb/book-1-mantle-of-gold/Ansestor-Statue.webp",
+            "scale": 2
+          }
+        }
+      }
+    },
+    "P3KHHlVZW9O8H5gS": {
+      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/book-1-mantle-of-gold/Ancestral-Echo.webp",
+      "token": {
+        "texture": {
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "ring": {
+          "enabled": true,
+          "subject": {
+            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/sky-kings-tomb/book-1-mantle-of-gold/Ancestral-Echo.webp",
             "scale": 2
           }
         }
@@ -859,22 +859,6 @@
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/adventure-patch/sky-kings-tomb/book-2-cult-of-the-cave-worm/Redcap-Cavalry.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
-    "4JWlEd08ehGAxLWs": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/sky-kings-tomb/book-2-cult-of-the-cave-worm/Shambler-Troop.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/sky-kings-tomb/book-2-cult-of-the-cave-worm/Shambler-Troop.webp",
             "scale": 2
           }
         }

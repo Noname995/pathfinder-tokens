@@ -111,7 +111,7 @@
              {{#each options}}
                 <div class="form-group">
                     <label for="{{this.id}}">{{this.name}}</label>
-                    <input type="checkbox" name="{{this.id}}" {{#if this.checked}}checked{{/if}}>
+                    <input type="checkbox" name="{{this.id}}" id="{{this.id}}" {{#if this.checked}}checked{{/if}}>
                 </div>
             {{/each}}
         </div>

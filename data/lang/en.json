@@ -138,7 +138,7 @@
     "Save": "Save",
     "ExclusionsSaved": "Exclusion list saved.",
     "ExcludeTypesTitle": "Exclude by actor types",
-    "ExcludeTypesHeader": "Select actor types to ignore.",
+    "ExcludeTypesHeader": "Select actor types to ignore. By default, all but NPCs are excluded.",
     "SearchPlaceholder": "Searching actors...",
     "ActorTypes": {
         "army": "Army",

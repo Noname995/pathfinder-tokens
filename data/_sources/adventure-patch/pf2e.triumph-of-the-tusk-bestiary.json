@@ -768,197 +768,342 @@
         }
       }
     },
-    "z6pDCpT7WDIWTaKn": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Bull-of-Zagresh.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Bull-of-Zagresh.webp",
-            "scale": 2
-          }
+        "rpYUkuc0J2go6YnL": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Bloodwing.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Bloodwing.webp",
+                    "scale": 1
+                }
+            }
         }
-      }
+    },
+    "rMY7Ga6VM1sWXgDv": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Bugark.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Bugark.webp",
+                    "scale": 1
+                }
+            }
+        }
+    },
+    "z6pDCpT7WDIWTaKn": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Bull-Of-Zagresh.webp",
+        "token": {
+            "texture": {
+                "scaleX": 2,
+                "scaleY": 2
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Bull-Of-Zagresh.webp",
+                    "scale": 2
+                }
+            }
+        }
     },
     "wqtgtNDhc3by8WBD": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Death-Tower-Necromancer.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Death-Tower-Necromancer.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Defiled-Corpse-Necromancer.webp",
+        "token": {
+            "texture": {
+                "scaleX": 2,
+                "scaleY": 2
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Defiled-Corpse-Necromancer.webp",
+                    "scale": 2
+                }
+            }
         }
-      }
     },
     "ZAUOoAMR8IfO57jp": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Deathless-Zealot-Of-Zagresh.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Deathless-Zealot-Of-Zagresh.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Deathless-Zealot.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Deathless-Zealot.webp",
+                    "scale": 1
+                }
+            }
         }
-      }
+    },
+    "2IFaNuCUbLvWB2QU": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Graveknight-Mist-Armor.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Graveknight-Mist-Armor.webp",
+                    "scale": 1
+                }
+            }
+        }
     },
     "79GS1x0EcQ8CKfoE": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Great-Ironbill.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Great-Ironbill.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Great-Ironbill.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Great-Ironbill.webp",
+                    "scale": 1
+                }
+            }
         }
-      }
     },
     "7UR30qeUnnBwY9XE": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Molog.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Molog.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Molog.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Molog.webp",
+                    "scale": 1
+                }
+            }
         }
-      }
     },
     "JCI80JSSHICBMi22": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Nakasha.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Nakasha.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Nakasha.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Nakasha.webp",
+                    "scale": 1
+                }
+            }
         }
-      }
+    },
+    "cZ3wMHWjWpUwZTQb": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Old-Herok.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Old-Herok.webp",
+                    "scale": 1
+                }
+            }
+        }
+    },
+    "xd35No1x2n1MDVCm": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Orc-Hunter.webp",
+        "token": {
+            "texture": {
+                "scaleX": 2,
+                "scaleY": 2
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Orc-Hunter.webp",
+                    "scale": 2
+                }
+            }
+        }
+    },
+    "K4NtIq73z5X8geQp": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Orc-Raider.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Orc-Raider.webp",
+                    "scale": 1
+                }
+            }
+        }
     },
     "pDKT31HwKQLU6tJl": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Orc-Spinecracker.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Orc-Spinecracker.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Orc-Spinecracker.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Orc-Spinecracker.webp",
+                    "scale": 1
+                }
+            }
         }
-      }
     },
     "7TdImfQS3LkCvKyK": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Palpares.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Palpares.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Palpares.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Palpares.webp",
+                    "scale": 1
+                }
+            }
         }
-      }
     },
     "mysIREGVTa57nQHF": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Paskis-Nine-Knives.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Paskis-Nine-Knives.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Paskis-Nine-Knives.webp",
+        "token": {
+            "texture": {
+                "scaleX": 2,
+                "scaleY": 2
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Paskis-Nine-Knives.webp",
+                    "scale": 2
+                }
+            }
         }
-      }
     },
     "m7jh421DG0ArTQMh": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/The-Carcass-Man.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/The-Carcass-Man.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/The-Carcass-Man.webp",
+        "token": {
+            "texture": {
+                "scaleX": 2,
+                "scaleY": 2
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/The-Carcass-Man.webp",
+                    "scale": 2
+                }
+            }
         }
-      }
     },
     "hHNljlTtIhwNgY5q": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Ungukk-Fleshdredge.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Ungukk-Fleshdredge.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Ungukk-Fleshdredge.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Ungukk-Fleshdredge.webp",
+                    "scale": 1
+                }
+            }
         }
-      }
+    },
+    
+    "8XXU1rRGS7U5ki0Q": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Verthok-The-Reaper.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Verthok-The-Reaper.webp",
+                    "scale": 1
+                }
+            }
+        }
+    },
+    "Yqv9J9FXRolHhGZ4": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/War-Aurochs.webp",
+        "token": {
+            "texture": {
+                "scaleX": 1,
+                "scaleY": 1
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/War-Aurochs.webp",
+                    "scale": 1
+                }
+            }
+        }
+    },
+    "K4RHacsVSD3J8i2f": {
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Wingripper-Wyvern-Rider.webp",
+        "token": {
+            "texture": {
+                "scaleX": 2,
+                "scaleY": 2
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Wingripper-Wyvern-Rider.webp",
+                    "scale": 2
+                }
+            }
+        }
     },
     "FW5k5xBi3YkAsZd9": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Yagrekash.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Yagrekash.webp",
-            "scale": 2
-          }
+        "actor": "modules/pf2e-token-pack/portraits/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Yagregash.webp",
+        "token": {
+            "texture": {
+                "scaleX": 2,
+                "scaleY": 2
+            },
+            "ring": {
+                "enabled": true,
+                "subject": {
+                    "texture": "modules/pf2e-token-pack/subjects/adventure-patch/triumph-of-the-tusk/book-3-destroyers-doom/Yagregash.webp",
+                    "scale": 2
+                }
+            }
         }
-      }
     }
   }
 }

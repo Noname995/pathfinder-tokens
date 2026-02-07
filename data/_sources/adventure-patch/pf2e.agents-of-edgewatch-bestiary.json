@@ -2144,22 +2144,6 @@
         }
       }
     },
-    "QQkbvOCif8Bm1wws": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/book-6-ruins-of-the-radiant-siege/Izfiitar.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/agents-of-edgewatch/book-6-ruins-of-the-radiant-siege/Izfiitar.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "RyXA4wOGY8lenKVw": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/book-6-ruins-of-the-radiant-siege/Nenchuuj.webp",
       "token": {
@@ -2251,22 +2235,6 @@
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/adventure-patch/agents-of-edgewatch/book-6-ruins-of-the-radiant-siege/Slithering-Rift.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
-    "MfW7O5Ba8r2GR9ZQ": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/agents-of-edgewatch/book-6-ruins-of-the-radiant-siege/Sordesdaemon.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/agents-of-edgewatch/book-6-ruins-of-the-radiant-siege/Sordesdaemon.webp",
             "scale": 2
           }
         }

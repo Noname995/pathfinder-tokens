@@ -29,7 +29,7 @@
     ```
     ### [Для Foundry VTT v13](https://github.com/Metofay/pf2e-token-pack)
     ```
-    https://raw.githubusercontent.com/Metofay/pf2e-token-pack/v13/module.json
+    https://raw.githubusercontent.com/Metofay/pf2e-token-pack/v12/module.json
     ```
 3.  Нажмите **"Install"** и дождитесь окончания установки.
 4.  Активируйте модуль в настройках вашего игрового мира.
@@ -87,6 +87,7 @@
 | Bestiary 2 | ✅ |
 | Bestiary 3 | ✅ |
 | Monster Core | ✅ |
+| Monster Core 2| ❌ | Не добавлен |
 | NPC Core | ✅ |
 
 ### Пути Приключений
@@ -104,12 +105,12 @@
 | Outlaws of Alkenstar | ✅ | |
 | Kingmaker | ✅❌ | Отсутствует 1 арт |
 | Quest for the Frozen | ✅ | |
-| Season of Ghosts | ✅ | |
+| Season of Ghosts | ✅❌ | Отсутствует 13 арт |
 | Seven Dooms for Sandpoint | ✅ | |
 | Sky King's Tomb | ✅❌ | Отсутствует 2 арта |
 | Spore War | ✅ | |
 | Strength of Thousands | ✅❌ | Отсутствует 14 артов |
-| Triumph of the Tusk | ✅❌ | Отсутствует 10 арта |
+| Triumph of the Tusk | ✅❌ | Отсутствует 1 арта |
 | Shades of Blood | ✅ |  |
 | Stolen Fate | ✅ | |
 | Wardens of Wildwood | ✅ ❌ | Отсутствует 1 арт |
@@ -118,14 +119,14 @@
 
 | Источник | Статус | Примечания |
 | :--- | :---: | :--- |
-| Book of the Dead | | |
-| Paizo Blog | ❌ | Отсутствует 3 арта |
-| Howl of the Wild | ❌ | Отсутствует 16 артов |
-| Lost Omens Bestiary | ✅❌ | Отсутствует 22 арта |
-| NPC Gallery | ❌ | Отсутствует 3 арта |
-| Dark Archive | ❌ | Отсутствует 1 арт |
-| Rage of Elements | ❌ | Отсутствует 17 артов |
-| War of Immortals | | |
+| Book of the Dead | ✅ | |
+| Paizo Blog | ✅❌ | Отсутствует 4 арта |
+| Howl of the Wild | ✅❌ | Отсутствует 16 артов |
+| Lost Omens Bestiary | ✅❌ | Отсутствует 246 арта |
+| NPC Gallery | ✅❌ | Отсутствует 1 арта |
+| Dark Archive | ✅❌ | Отсутствует 4 арт |
+| Rage of Elements | ✅❌ | Отсутствует 17 артов |
+| War of Immortals | ✅ | |
 
 ### Приключения
 
@@ -135,7 +136,7 @@
 | Fall of Plaguestone | ❌ | Отсутствует 1 арт |
 | Malevolence | ❌ | Отсутствует 3 арта |
 | Menace Under Otari | | |
-| One-Shots | ❌ | Отсутствует 9 артов |
+| One-Shots | ❌ | Отсутствует 11 артов |
 | Prey for Death | | |
 | Rusthenge | | |
 | Shadows at Sundown | | |

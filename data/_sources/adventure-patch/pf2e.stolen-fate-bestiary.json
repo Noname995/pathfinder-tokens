@@ -144,22 +144,6 @@
         }
       }
     },
-    "0C9muUhjn4vAL5UW": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/book-1-the-choosing/Ferrugon.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/stolen-fate/book-1-the-choosing/Ferrugon.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "bsjCqkz0jIv9LOBS": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/book-1-the-choosing/Harpy-Warbird.webp",
       "token": {
@@ -624,22 +608,6 @@
         }
       }
     },
-    "s8pBIwZjOdep4Lfp": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/book-2-the-destiny-war/Katpaskir.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/stolen-fate/book-2-the-destiny-war/Katpaskir.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "J7QJMfQZlOd7DOq5": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/book-2-the-destiny-war/Markish-Aghayarea.webp",
       "token": {
@@ -1019,38 +987,6 @@
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/adventure-patch/stolen-fate/book-3-worst-of-all-possible-worlds/Nornhound.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
-    "eC0O1nNWMjWydbPG": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/book-3-worst-of-all-possible-worlds/Obcisidaemon.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/stolen-fate/book-3-worst-of-all-possible-worlds/Obcisidaemon.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
-    "laVap7VG0MRaoQnO": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/stolen-fate/book-3-worst-of-all-possible-worlds/Phasmadaemon.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/stolen-fate/book-3-worst-of-all-possible-worlds/Phasmadaemon.webp",
             "scale": 2
           }
         }

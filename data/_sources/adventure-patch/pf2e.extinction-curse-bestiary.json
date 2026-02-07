@@ -320,22 +320,6 @@
         }
       }
     },
-    "YAKZUBOth75W2mWT": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/book-1-the-show-must-go-on/Vermlek.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/extinction-curse/book-1-the-show-must-go-on/Vermlek.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "JvSCGGnexk7CmVke": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/extinction-curse/book-1-the-show-must-go-on/Viktor-Volkano.webp",
       "token": {

@@ -2,7 +2,7 @@
   "id": "pf2e-token-pack",
   "title": "Pathfinder 2E: Token Pack",
   "description": "Модуль добавляет изображения и токены монстрам и нпс",
-  "version": "2.4.5",
+  "version": "2.5.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -46,6 +46,5 @@
   "download": "https://github.com/Metofay/pf2e-token-pack/archive/refs/heads/v13.zip",
   "readme": "https://github.com/Metofay/pf2e-token-pack/blob/v13/README.md",
   "bugs": "https://github.com/Metofay/pf2e-token-pack/issues",
-  "changelog": "https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog.md",
-  "changelog-en": "https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog-en.md"
+  "changelog": "https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog.md"
 }

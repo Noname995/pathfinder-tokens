@@ -496,22 +496,6 @@
         }
       }
     },
-    "4yAbOWwebJGWRmt2": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/book-2-graveclaw/Ghostly-Mob.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/blood-lords/book-2-graveclaw/Ghostly-Mob.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "zYY1lFk4tole9Lx5": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/book-2-graveclaw/Ghoul-Crocodile.webp",
       "token": {
@@ -1392,22 +1376,6 @@
         }
       }
     },
-    "TV3BSvxoG8p1fe0k": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/book-4-the-ghouls-hunger/Urglid.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/blood-lords/book-4-the-ghouls-hunger/Urglid.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "syFR3SChA5KCx8OA": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/book-4-the-ghouls-hunger/Vampire-Guardian.webp",
       "token": {
@@ -1808,22 +1776,6 @@
         }
       }
     },
-    "7tmoC1LEp3taxaRp": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/book-6-ghost-kings-rage/Eseneth.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/blood-lords/book-6-ghost-kings-rage/Eseneth.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "bblPYqxgXeRmR4Bi": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/book-6-ghost-kings-rage/Ghiono.webp",
       "token": {
@@ -2059,22 +2011,6 @@
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/adventure-patch/blood-lords/book-6-ghost-kings-rage/Shadow-Worm.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
-    "7In0QgKUCCNcrTEA": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/blood-lords/book-6-ghost-kings-rage/Shoki.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/blood-lords/book-6-ghost-kings-rage/Shoki.webp",
             "scale": 2
           }
         }

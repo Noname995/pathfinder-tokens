@@ -848,22 +848,6 @@
         }
       }
     },
-    "N5pG7rsbN1lL1ysb": {
-      "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-bestiary/lost-omens-mwangi-expanse/Aigamuxa.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/ruleboock/lost-omens-bestiary/lost-omens-mwangi-expanse/Aigamuxa.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "bo3BDHT7P1IK7oLp": {
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/lost-omens-bestiary/lost-omens-mwangi-expanse/Anadi.webp",
       "token": {

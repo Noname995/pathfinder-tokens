@@ -416,22 +416,6 @@
         }
       }
     },
-    "ESgndiwI8BzwhDLi": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/book-2-they-watched-the-stars/Kithangian.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/gatewalkers/book-2-they-watched-the-stars/Kithangian.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "7LdB1zPPNiWX4Ji5": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/gatewalkers/book-2-they-watched-the-stars/Kvernknurr.webp",
       "token": {

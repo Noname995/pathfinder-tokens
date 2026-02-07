@@ -16,6 +16,7 @@
     "LogUserBestiaryUpToDate": "Пользовательский bestiaries.json актуален. Перезапись не требуется.",
     "LogUserBestiaryRebuilding": "Обнаружены изменения. Пересобираем пользовательский bestiaries.json...",
     "LogUserBestiaryRebuilt": "Пользовательский bestiaries.json успешно пересобран.",
+    "UserBestiaryUpdated": "Пользовательский бестиарий обновлен.",
 
     "//": "--- Класс PathfinderBestiarySettingsMenu (окно настроек) ---",
     "//": "Локализация JS",
@@ -146,7 +147,7 @@
     "//": "--- ExcludeTypesForm (Форма исключения по типам) ---",
     "ExcludeTypesTitle": "Исключение по типам актеров",
     "//": "HBS",
-    "ExcludeTypesHeader": "Выберите типы актеров, которые нужно игнорировать при обработке.",
+    "ExcludeTypesHeader": "Выберите типы актеров, которые нужно игнорировать при обработке. По умолчанию исключены все, кроме NPC.",
     "ActorTypes": {
       "army": "Армия",
       "character": "Персонаж игрока",

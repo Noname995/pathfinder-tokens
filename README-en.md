@@ -87,45 +87,46 @@ Adds a large, fully localized "Character Gallery" art library for images not fou
 | Bestiary 2 | ✅ |
 | Bestiary 3 | ✅ |
 | Monster Core | ✅ |
+| Monster Core 2| ❌ | Not added |
 | NPC Core | ✅ |
 
 ### Adventure Paths
 
 | Source | Status | Notes |
 | :--- | :---: | :--- |
-| Abomination Vaults | ✅ | |
-| Age of Ashes | ✅❌ | 1 art missing |
-| Agents of Edgewatch | ✅❌ | 6 arts missing |
-| Blood Lords | ✅❌ | 2 arts missing |
+| Abomination Vaults | / | |
+| Age of Ashes | ✅❌ | 1 art is missing |
+| Agents of Edgewatch | ✅❌ | 6 pieces of art are missing |
+| Blood Lords | ✅❌ | 2 pieces of art are missing |
 | Curtain Call | ✅ | |
-| Extinction Curse | ✅❌ | 8 arts missing |
+| Extinction Curse | ✅❌ | 8 pieces of art are missing |
 | Fist of the Ruby Phoenix | ✅ | |
-| Gatewalkers | ✅❌ | 10 art missing |
+| Gatewalkers | ✅❌ | Missing 10 art |
 | Outlaws of Alkenstar | ✅ | |
-| Kingmaker | ✅❌| 1 art missing |
+| Kingmaker | ✅❌ | 1 art is missing |
 | Quest for the Frozen | ✅ | |
-| Season of Ghosts | ✅ | |
+| Season of Ghosts | ✅❌ | Missing 13 art |
 | Seven Dooms for Sandpoint | ✅ | |
-| Sky King's Tomb | ✅❌ | 2 arts missing |
+| Sky King's Tomb | ✅❌ | 2 pieces of art are missing |
 | Spore War | ✅ | |
-| Strength of Thousands | ✅❌ | 14 arts missing |
-| Triumph of the Tusk | ✅❌ | 10 arts missing |
+| Strength of Thousands | ✅❌ | 14 pieces of art are missing |
+| Triumph of the Tusk | ✅❌ | 1 art is missing |
 | Shades of Blood | ✅ |  |
 | Stolen Fate | ✅ | |
-| Wardens of Wildwood | ✅❌ | 1 art missing |
+| Wardens of Wildwood | ✅ ❌ | 1 art is missing |
 
 ### Rulebooks
 
 | Source | Status | Notes |
 | :--- | :---: | :--- |
-| Book of the Dead | | |
-| Paizo Blog | ❌ | 3 arts missing |
-| Howl of the Wild | ❌ | 16 arts missing |
-| Lost Omens Bestiary | ✅❌ | 22 arts missing |
-| NPC Gallery | ❌ | 3 arts missing |
-| Dark Archive | ❌ | 1 art missing |
-| Rage of Elements | ❌ | 17 arts missing |
-| War of Immortals | | |
+| Book of the Dead | ✅ | |
+| Paizo Blog | ✅❌ | 4 pieces of art are missing |
+| Howl of the Wild | ✅❌ | 16 pieces of art are missing |
+| Lost Omens Bestiary | ✅❌ | 246 pieces of art are missing |
+| NPC Gallery | ✅❌ | 1 art is missing |
+| Dark Archive | ✅❌ | Missing 4 art |
+| Rage of Elements | ✅❌ | 17 pieces of art are missing |
+| War of Immortals | ✅ | |
 
 ### Adventures
 

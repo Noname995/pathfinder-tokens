@@ -66,7 +66,7 @@ class PathfinderBestiaryTokenPack {
     });
   }
 
-  static async buildUserBestiary() {
+  static async buildUserBestiary(showReloadPrompt = true) {
     try {
         const masterResponse = await fetch(this.MASTER_FILE_PATH);
         if (!masterResponse.ok) {
@@ -107,6 +107,11 @@ class PathfinderBestiaryTokenPack {
         await foundry.applications.apps.FilePicker.implementation.upload("data", this.USER_BESTIARY_PATH, file, {notify: false});
         console.log(`pf2e-token-pack | ${game.i18n.localize("SettingCompendiums.LogUserBestiaryRebuilt")}`);
         
+        if (!showReloadPrompt) {
+            ui.notifications.info(game.i18n.localize("SettingCompendiums.UserBestiaryUpdated"));
+            return "updated_silently";
+        }
+
         const content = await foundry.applications.handlebars.renderTemplate("modules/pf2e-token-pack/data/templates/Setting-Compendiums.hbs", { isReloadDialog: true });
 
         const choice = await foundry.applications.api.DialogV2.prompt({
@@ -116,7 +121,7 @@ class PathfinderBestiaryTokenPack {
             resizable: false,
           },
           position: {
-            width: 350,
+            width: 450,
             height: "auto"
           },
           content: content,
@@ -143,7 +148,7 @@ class PathfinderBestiaryTokenPack {
         ui.notifications.error(game.i18n.localize("SettingCompendiums.BestiariesSyncError"));
         return null;
     }
-  }
+}
 
   static init() {
     game.socket.on("module.pf2e-token-pack", async data => {
@@ -443,9 +448,7 @@ class BestiaryIntegrityChecker {
                 await foundry.applications.apps.FilePicker.implementation.upload("data", sourceFileDirectory, new File([sourceBlob], sourceFileName), {});
               }
               
-              await PathfinderBestiaryTokenPack.buildUserBestiary();
-            } else {
-              ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
+              await PathfinderBestiaryTokenPack.buildUserBestiary(false);
             }
         }
       } else {
@@ -519,48 +522,106 @@ class BestiaryIntegrityChecker {
         const choice = await BestiaryCheckResultsDialog.prompt(this.key, templateData);
 
         if (choice === "ok") {
-            const hasDeadIds = deadIds.length > 0;
-            if (!hasDeadIds && !isOrderDifferent) {
-                ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
-                return;
-            }
-            
-            ui.notifications.info(game.i18n.localize("SettingCompendiums.CleaningStarted"));
-            const finalCompendiumData = reorderedBestiary;
-            
-            masterData[this.key] = finalCompendiumData;
-            const masterBlob = new Blob([JSON.stringify(masterData, null, 2)], { type: "application/json" });
-            await foundry.applications.apps.FilePicker.implementation.upload("data", this.sourceFolderPath, new File([masterBlob], "bestiaries-master.json"), {});
-            ui.notifications.info(game.i18n.format("SettingCompendiums.MasterCleaned", { file: "bestiaries-master.json" }));
+    const hasUnusedFiles = unusedFiles.length > 0;
+    
+    // --- 1. ПРОВЕРКА ИЗМЕНЕНИЙ В JSON (чтобы не спамить загрузкой) ---
+    // Сравниваем строковые представления данных
+    const masterChanged = JSON.stringify(masterData[this.key]) !== JSON.stringify(reorderedBestiary);
+    const orderChanged = isOrderDifferent; // твоя переменная из внешнего контекста
 
-            const keyInfo = this.keys.find(k => k.key === this.key);
-            const category = keyInfo?.category;
-            const categoryToFolderMap = {
-                bestiaries: "bestiary",
-                adventurePath: "adventure-patch",
-                rulebook: "ruleboock",
-                standalone: "standalone-adventures",
-                season: "pathfinder-society",
-                pregens: "pregenerated-pCs"
-            };
+    if (!masterChanged && !orderChanged && !hasUnusedFiles) {
+        ui.notifications.info(game.i18n.localize("SettingCompendiums.CheckNoChanges"));
+        return;
+    }
 
-            const subfolder = category ? categoryToFolderMap[category] : undefined;
-            if (subfolder) {
-                const sourceFileName = `${this.key}.json`;
-                const sourceFileDirectory = `${this.sourceFolderPath}/${subfolder}`;
-                const finalSourceData = { [this.key]: finalCompendiumData };
-                const sourceBlob = new Blob([JSON.stringify(finalSourceData, null, 2)], { type: "application/json" });
-                try {
-                    await foundry.applications.apps.FilePicker.implementation.upload("data", sourceFileDirectory, new File([sourceBlob], sourceFileName), {});
-                    ui.notifications.info(game.i18n.format("SettingCompendiums.SourceCleaned", { file: sourceFileName }));
-                } catch (e) {
-                    ui.notifications.error(game.i18n.format("SettingCompendiums.ErrorCleaningSource", { file: sourceFileName, message: e.message }));
+    ui.notifications.info(game.i18n.localize("SettingCompendiums.CleaningStarted"));
+
+    // --- 2. ЛОГИКА УДАЛЕНИЯ (TXT vs CMD) ---
+    if (hasUnusedFiles) {
+        const basePath = "C:\\Users\\Metof\\AppData\\Local\\FoundryVTT\\Data";
+        const modulePath = "modules/pf2e-token-pack";
+        
+        const commands = unusedFiles.map(path => {
+            const winPath = path.replace(/\//g, '\\').replace(/^\\/, '');
+            return `del /F /Q "${basePath}\\${winPath}"`;
+        });
+
+        // Если файлов больше 30 — создаем TXT
+        if (unusedFiles.length > 30) {
+            let batContent = "@echo off\r\nchcp 65001 > nul\r\n";
+            batContent += `echo Удаление ${unusedFiles.length} файлов...\r\n`;
+            batContent += commands.join("\r\n") + "\r\n";
+            batContent += "echo Очистка завершена!\r\npause\r\n(goto) 2>nul & del \"%~f0\"\r\n";
+
+            const batBlob = new Blob([batContent], { type: "text/plain" });
+            await foundry.applications.apps.FilePicker.implementation.upload("data", modulePath, new File([batBlob], "cleanup.txt"), {});
+
+            foundry.applications.api.DialogV2.wait({
+                window: { title: "Массовая очистка (30+ файлов)", icon: "fas fa-file-archive" },
+                content: `<p>Создан файл <b>cleanup.txt</b> в папке модуля.</p>
+                          <code style="display:block; background: #111; color: #0f0; padding: 10px; font-size: 11px;">${basePath}\\${modulePath.replace(/\//g, '\\')}\\cleanup.txt</code>
+                          <p>Переименуйте его в <b>.bat</b> и запустите.</p>`,
+                buttons: [{ action: "close", label: "Ок", default: true }]
+            });
+        } 
+        // Если файлов мало (1-30) — просто окно с кодом
+        else {
+            const finalCmdScript = commands.join(' && ');
+            foundry.applications.api.DialogV2.wait({
+                window: { title: "Быстрая очистка (CMD)", icon: "fas fa-terminal" },
+                content: `<p>Кликните для копирования команды:</p>
+                          <textarea id="cmd-script-box" readonly style="width: 100%; height: 100px; background: #000; color: #0f0; padding: 5px; cursor: pointer;">${finalCmdScript}</textarea>`,
+                buttons: [{ action: "close", label: "Закрыть", default: true }],
+                render: (event) => {
+                    const textarea = event.target.element.querySelector('#cmd-script-box');
+                    textarea.addEventListener('click', () => {
+                        textarea.select();
+                        navigator.clipboard.writeText(textarea.value);
+                        ui.notifications.info("Скопировано!");
+                    });
                 }
-            } else {
-                ui.notifications.warn(game.i18n.format("SettingCompendiums.WarnSourceFolderUndefined", {key: this.key}));
-            }
-            await PathfinderBestiaryTokenPack.buildUserBestiary();
+            });
         }
+    }
+
+    // --- 3. УМНОЕ СОХРАНЕНИЕ JSON (только если были изменения) ---
+    if (masterChanged || orderChanged) {
+        const finalCompendiumData = reorderedBestiary;
+        masterData[this.key] = finalCompendiumData;
+        
+        // Сохраняем Master-файл
+        const masterBlob = new Blob([JSON.stringify(masterData, null, 2)], { type: "application/json" });
+        await foundry.applications.apps.FilePicker.implementation.upload("data", this.sourceFolderPath, new File([masterBlob], "bestiaries-master.json"), {});
+        ui.notifications.info(game.i18n.format("SettingCompendiums.MasterCleaned", { file: "bestiaries-master.json" }));
+
+        // Сохраняем Source-файл
+        const keyInfo = this.keys.find(k => k.key === this.key);
+        const category = keyInfo?.category;
+        const categoryToFolderMap = {
+            bestiaries: "bestiary",
+            adventurePath: "adventure-patch",
+            rulebook: "ruleboock",
+            standalone: "standalone-adventures",
+            season: "pathfinder-society",
+            pregens: "pregenerated-pCs"
+        };
+
+        const subfolder = category ? categoryToFolderMap[category] : undefined;
+        if (subfolder) {
+            const sourceFileName = `${this.key}.json`;
+            const sourceFileDirectory = `${this.sourceFolderPath}/${subfolder}`;
+            const finalSourceData = { [this.key]: finalCompendiumData };
+            const sourceBlob = new Blob([JSON.stringify(finalSourceData, null, 2)], { type: "application/json" });
+            
+            await foundry.applications.apps.FilePicker.implementation.upload("data", sourceFileDirectory, new File([sourceBlob], sourceFileName), {});
+            ui.notifications.info(game.i18n.format("SettingCompendiums.SourceCleaned", { file: sourceFileName }));
+        }
+    } else {
+        console.log("pf2e-token-pack | JSON не изменился, загрузка пропущена.");
+    }
+
+    await PathfinderBestiaryTokenPack.buildUserBestiary(false);
+}
       }
     } catch (e) {
       console.error(e);
@@ -597,12 +658,19 @@ class BestiaryCheckResultsDialog extends foundry.applications.api.HandlebarsAppl
   async _prepareContext(options) {
     return this.data;
   }
-  
+
   async _postRender(context, options) {
     await super._postRender?.(context, options);
-    const footer = this.element.querySelector(".form-footer");
+    const form = this.element.querySelector("form.check-results-form");
+    const footer = form.querySelector(".form-footer");
     if (!footer) return;
-    
+
+    const resolver = this.options.resolver;
+    if (!resolver) {
+      console.error("pf2e-token-pack | Resolver function not found!");
+      return;
+    }
+
     footer.innerHTML = '';
     const buttons = [
       { action: "ok", label: game.i18n.localize("SettingCompendiums.FixAndDeleteButton"), icon: "fas fa-trash-alt", default: true },
@@ -611,23 +679,39 @@ class BestiaryCheckResultsDialog extends foundry.applications.api.HandlebarsAppl
 
     for (const buttonData of buttons) {
       const button = document.createElement("button");
-      button.type = "button";
+      button.type = buttonData.action === "ok" ? "submit" : "button";
       if (buttonData.default) button.classList.add("default");
-      
       const icon = document.createElement("i");
       icon.className = buttonData.icon;
-      
       button.append(icon, ` ${buttonData.label}`);
-      button.addEventListener("click", () => this.close(buttonData.action));
+
+      if (button.type === "button") {
+        button.addEventListener("click", () => {
+          resolver("cancel");
+          this.close();
+        });
+      }
       footer.append(button);
     }
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      resolver("ok");
+      this.close();
+    });
   }
 
-  static async prompt(key, templateData) {
-    const keyObj = PathfinderBestiaryTokenPack.KEYS.find(k => k.key === key);
-    const title = game.i18n.format("SettingCompendiums.CheckTitle", { name: keyObj?.name ?? key });
-    const app = new this(templateData, { window: { title } });
-    return app.render(true);
+  static prompt(key, templateData) {
+    return new Promise((resolve) => {
+      const keyObj = PathfinderBestiaryTokenPack.KEYS.find(k => k.key === key);
+      const title = game.i18n.format("SettingCompendiums.CheckTitle", { name: keyObj?.name ?? key });
+      
+      const app = new this(templateData, { 
+        window: { title },
+        resolver: resolve 
+      });
+      app.render(true);
+    });
   }
 }
 

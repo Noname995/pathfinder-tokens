@@ -4,15 +4,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Alicorn.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Alicorn.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Alicorn.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Alicorn.webp",
+            "scale": 2
           }
         }
       }
@@ -21,15 +20,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Almiraj.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Almiraj.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Almiraj.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Almiraj.webp",
+            "scale": 2
           }
         }
       }
@@ -38,15 +36,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Apothecary-Bee.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Apothecary-Bee.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Apothecary-Bee.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Apothecary-Bee.webp",
+            "scale": 2
           }
         }
       }
@@ -55,15 +52,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Ascendant-Griffon.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Ascendant-Griffon.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ascendant-Griffon.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Ascendant-Griffon.webp",
+            "scale": 2
           }
         }
       }
@@ -72,15 +68,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Barded-Manticore.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Barded-Manticore.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Barded-Manticore.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Barded-Manticore.webp",
+            "scale": 2
           }
         }
       }
@@ -89,15 +84,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Blooming-Guardian.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Blooming-Guardian.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Blooming-Guardian.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Blooming-Guardian.webp",
+            "scale": 2
           }
         }
       }
@@ -106,15 +100,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Carnotaurus.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Carnotaurus.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Carnotaurus.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Carnotaurus.webp",
+            "scale": 2
           }
         }
       }
@@ -123,15 +116,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Chaos-Falcon.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Chaos-Falcon.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Chaos-Falcon.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Chaos-Falcon.webp",
+            "scale": 2
           }
         }
       }
@@ -140,15 +132,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Concert-Frog.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Concert-Frog.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Concert-Frog.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Concert-Frog.webp",
+            "scale": 2
           }
         }
       }
@@ -157,15 +148,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Crying-Cicada.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Crying-Cicada.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Crying-Cicada.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Crying-Cicada.webp",
+            "scale": 2
           }
         }
       }
@@ -174,15 +164,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Decapod-Dinghy.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Decapod-Dinghy.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Decapod-Dinghy.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Decapod-Dinghy.webp",
+            "scale": 2
           }
         }
       }
@@ -191,15 +180,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Desert-Manticore.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Desert-Manticore.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Desert-Manticore.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Desert-Manticore.webp",
+            "scale": 2
           }
         }
       }
@@ -208,15 +196,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Flynkett.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Flynkett.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Flynkett.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Flynkett.webp",
+            "scale": 2
           }
         }
       }
@@ -225,15 +212,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Ghost-Ape.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Ghost-Ape.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ghost-Ape.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Ghost-Ape.webp",
+            "scale": 2
           }
         }
       }
@@ -242,15 +228,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Giant-Coppermouth.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Giant-Coppermouth.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Giant-Coppermouth.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Giant-Coppermouth.webp",
+            "scale": 2
           }
         }
       }
@@ -259,15 +244,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Giant-Tardigrade.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Giant-Tardigrade.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Giant-Tardigrade.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Giant-Tardigrade.webp",
+            "scale": 2
           }
         }
       }
@@ -276,15 +260,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Greater-Chimera.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Greater-Chimera.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Greater-Chimera.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Greater-Chimera.webp",
+            "scale": 2
           }
         }
       }
@@ -293,15 +276,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Hardhead-Mole.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Hardhead-Mole.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hardhead-Mole.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Hardhead-Mole.webp",
+            "scale": 2
           }
         }
       }
@@ -310,15 +292,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Helicoprion.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Helicoprion.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Helicoprion.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Helicoprion.webp",
+            "scale": 2
           }
         }
       }
@@ -327,15 +308,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Hexmoth.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Hexmoth.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hexmoth.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Hexmoth.webp",
+            "scale": 2
           }
         }
       }
@@ -344,15 +324,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Holdfast.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Holdfast.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Holdfast.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Holdfast.webp",
+            "scale": 2
           }
         }
       }
@@ -361,15 +340,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Hooplamander.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Hooplamander.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hooplamander.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Hooplamander.webp",
+            "scale": 2
           }
         }
       }
@@ -378,15 +356,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Karkadann.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Karkadann.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Karkadann.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Karkadann.webp",
+            "scale": 2
           }
         }
       }
@@ -395,15 +372,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Leopard-Seal.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Leopard-Seal.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Leopard-Seal.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Leopard-Seal.webp",
+            "scale": 2
           }
         }
       }
@@ -412,15 +388,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Magnegor.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Magnegor.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Magnegor.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Magnegor.webp",
+            "scale": 2
           }
         }
       }
@@ -429,15 +404,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Magnetic-Gecko.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Magnetic-Gecko.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Magnetic-Gecko.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Magnetic-Gecko.webp",
+            "scale": 2
           }
         }
       }
@@ -446,15 +420,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Mammoth-Land-Star.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Mammoth-Land-Star.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Mammoth-Land-Star.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Mammoth-Land-Star.webp",
+            "scale": 2
           }
         }
       }
@@ -463,15 +436,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Marp.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Marp.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Marp.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Marp.webp",
+            "scale": 2
           }
         }
       }
@@ -480,15 +452,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Mirror-Wolf.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Mirror-Wolf.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Mirror-Wolf.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Mirror-Wolf.webp",
+            "scale": 2
           }
         }
       }
@@ -497,15 +468,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Mjolgat.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Mjolgat.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Mjolgat.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Mjolgat.webp",
+            "scale": 2
           }
         }
       }
@@ -514,15 +484,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Morthak.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Morthak.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Morthak.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Morthak.webp",
+            "scale": 2
           }
         }
       }
@@ -531,15 +500,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Plated-Python.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Plated-Python.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Plated-Python.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Plated-Python.webp",
+            "scale": 2
           }
         }
       }
@@ -548,15 +516,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Prismhydra.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Prismhydra.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Prismhydra.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Prismhydra.webp",
+            "scale": 2
           }
         }
       }
@@ -565,15 +532,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Protoceratops.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Protoceratops.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Protoceratops.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Protoceratops.webp",
+            "scale": 2
           }
         }
       }
@@ -582,15 +548,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Rift-Chameleon.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Rift-Chameleon.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Rift-Chameleon.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Rift-Chameleon.webp",
+            "scale": 2
           }
         }
       }
@@ -599,15 +564,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Royal-Basilisk.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Royal-Basilisk.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Royal-Basilisk.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Royal-Basilisk.webp",
+            "scale": 2
           }
         }
       }
@@ -616,15 +580,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Rumindrol.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Rumindrol.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Rumindrol.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Rumindrol.webp",
+            "scale": 2
           }
         }
       }
@@ -633,15 +596,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Scroungefeather.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Scroungefeather.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Scroungefeather.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Scroungefeather.webp",
+            "scale": 2
           }
         }
       }
@@ -650,15 +612,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Shotalashu.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Shotalashu.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Shotalashu.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Shotalashu.webp",
+            "scale": 2
           }
         }
       }
@@ -667,15 +628,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Sky-Fisher.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Sky-Fisher.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Sky-Fisher.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Sky-Fisher.webp",
+            "scale": 2
           }
         }
       }
@@ -684,15 +644,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Soniphak.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Soniphak.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Soniphak.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Soniphak.webp",
+            "scale": 2
           }
         }
       }
@@ -701,15 +660,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Stargut-Hydra.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Stargut-Hydra.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Stargut-Hydra.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Stargut-Hydra.webp",
+            "scale": 2
           }
         }
       }
@@ -718,15 +676,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Stonefish.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Stonefish.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Stonefish.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Stonefish.webp",
+            "scale": 2
           }
         }
       }
@@ -735,15 +692,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Stony-Bat.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Stony-Bat.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Stony-Bat.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Stony-Bat.webp",
+            "scale": 2
           }
         }
       }
@@ -752,15 +708,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Stony-Goat.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Stony-Goat.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Stony-Goat.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Stony-Goat.webp",
+            "scale": 2
           }
         }
       }
@@ -769,15 +724,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Storm-Snake.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Storm-Snake.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Storm-Snake.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Storm-Snake.webp",
+            "scale": 2
           }
         }
       }
@@ -786,15 +740,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Sunscale-Serpent.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Sunscale-Serpent.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Sunscale-Serpent.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Sunscale-Serpent.webp",
+            "scale": 2
           }
         }
       }
@@ -803,15 +756,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Swordfish.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Swordfish.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Swordfish.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Swordfish.webp",
+            "scale": 2
           }
         }
       }
@@ -820,15 +772,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Taldan-Cave-Squirrel.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Taldan-Cave-Squirrel.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Taldan-Cave-Squirrel.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Taldan-Cave-Squirrel.webp",
+            "scale": 2
           }
         }
       }
@@ -837,15 +788,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Therizinosaurus.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Therizinosaurus.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Therizinosaurus.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Therizinosaurus.webp",
+            "scale": 2
           }
         }
       }
@@ -854,15 +804,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Thruneosaurus-Rex.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Thruneosaurus-Rex.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Thruneosaurus-Rex.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Thruneosaurus-Rex.webp",
+            "scale": 2
           }
         }
       }
@@ -871,15 +820,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Tyrafdir.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Tyrafdir.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Tyrafdir.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Tyrafdir.webp",
+            "scale": 2
           }
         }
       }
@@ -888,15 +836,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Vibrant-Pup-Swarm.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Vibrant-Pup-Swarm.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Vibrant-Pup-Swarm.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Vibrant-Pup-Swarm.webp",
+            "scale": 2
           }
         }
       }
@@ -905,15 +852,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Virtuosic-Lyrebird.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Virtuosic-Lyrebird.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Virtuosic-Lyrebird.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Virtuosic-Lyrebird.webp",
+            "scale": 2
           }
         }
       }
@@ -922,15 +868,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Warden-Of-Caverns-And-Burrows.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Warden-Of-Caverns-And-Burrows.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Warden-Of-Caverns-And-Burrows.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Warden-Of-Caverns-And-Burrows.webp",
+            "scale": 2
           }
         }
       }
@@ -939,15 +884,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Warden-Of-Forests-And-Meadows.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Warden-Of-Forests-And-Meadows.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Warden-Of-Forests-And-Meadows.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Warden-Of-Forests-And-Meadows.webp",
+            "scale": 2
           }
         }
       }
@@ -956,15 +900,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Warden-Of-Ocean-And-Rivers.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Warden-Of-Ocean-And-Rivers.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Warden-Of-Ocean-And-Rivers.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Warden-Of-Ocean-And-Rivers.webp",
+            "scale": 2
           }
         }
       }
@@ -973,15 +916,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Warden-Of-Peaks-And-Skies.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Warden-Of-Peaks-And-Skies.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Warden-Of-Peaks-And-Skies.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Warden-Of-Peaks-And-Skies.webp",
+            "scale": 2
           }
         }
       }
@@ -990,15 +932,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Weremoose.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Weremoose.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Weremoose.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Weremoose.webp",
+            "scale": 2
           }
         }
       }
@@ -1007,15 +948,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/howl-of-the-wild/Wereshark.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/howl-of-the-wild/Wereshark.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Wereshark.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/howl-of-the-wild/Wereshark.webp",
+            "scale": 2
           }
         }
       }

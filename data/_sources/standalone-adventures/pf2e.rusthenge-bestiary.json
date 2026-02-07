@@ -272,23 +272,6 @@
         }
       }
     },
-    "fRiOPTsfqJBiwUwh": {
-      "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/rusthenge/Vloriak.webp",
-      "token": {
-        "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/rusthenge/Vloriak.webp",
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "_ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Vloriak.webp",
-            "scale": 1
-          }
-        }
-      }
-    },
     "heYhZGnVa9XSFuUN": {
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/rusthenge/Vlorian-Cythnigot.webp",
       "token": {

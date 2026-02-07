@@ -1200,38 +1200,6 @@
         }
       }
     },
-    "tyEZGXm1pbb5b77K": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/book-4-secrets-of-the-temple-city/Graveknight-Captain.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/strength-of-thousands/book-4-secrets-of-the-temple-city/Graveknight-Captain.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
-    "7GcDjU3EhVn54AKX": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/book-4-secrets-of-the-temple-city/Graveknight-Champion.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/strength-of-thousands/book-4-secrets-of-the-temple-city/Graveknight-Champion.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
     "OjqCx6nMwDuVLoqA": {
       "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/book-4-secrets-of-the-temple-city/Jackal-Guard.webp",
       "token": {
@@ -1611,22 +1579,6 @@
           "enabled": true,
           "subject": {
             "texture": "modules/pf2e-token-pack/subjects/adventure-patch/strength-of-thousands/book-5-doorway-to-the-red-star/Ravager-Of-Tindalos.webp",
-            "scale": 2
-          }
-        }
-      }
-    },
-    "DaOSfNGARU0QeMsp": {
-      "actor": "modules/pf2e-token-pack/portraits/adventure-patch/strength-of-thousands/book-5-doorway-to-the-red-star/Sand-Racer.webp",
-      "token": {
-        "texture": {
-          "scaleX": 2,
-          "scaleY": 2
-        },
-        "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/adventure-patch/strength-of-thousands/book-5-doorway-to-the-red-star/Sand-Racer.webp",
             "scale": 2
           }
         }

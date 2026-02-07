@@ -4,15 +4,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/Cocoon-Of-Lucid-Potential.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/Cocoon-Of-Lucid-Potential.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Cocoon-Of-Lucid-Potential.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/dark-archive/Cocoon-Of-Lucid-Potential.webp",
+            "scale": 2
           }
         }
       }
@@ -21,15 +20,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/K.h.w.s-Echo.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/K.h.w.s-Echo.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/K.h.w.s-Echo.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/dark-archive/K.h.w.s-Echo.webp",
+            "scale": 2
           }
         }
       }
@@ -38,15 +36,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/Mother-Mitera.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/Mother-Mitera.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Mother-Mitera.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/dark-archive/Mother-Mitera.webp",
+            "scale": 2
           }
         }
       }
@@ -55,15 +52,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/Quartz-Spawned-Shadow.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/Quartz-Spawned-Shadow.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Quartz-Spawned-Shadow.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/dark-archive/Quartz-Spawned-Shadow.webp",
+            "scale": 2
           }
         }
       }
@@ -72,15 +68,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/Reflection.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/Reflection.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Reflection.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/dark-archive/Reflection.webp",
+            "scale": 2
           }
         }
       }
@@ -89,15 +84,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/The-Morrowkin.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/The-Morrowkin.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Morrowkin.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/dark-archive/The-Morrowkin.webp",
+            "scale": 2
           }
         }
       }
@@ -106,15 +100,14 @@
       "actor": "modules/pf2e-token-pack/portraits/ruleboock/dark-archive/Verdures-Moonflower.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/ruleboock/dark-archive/Verdures-Moonflower.webp",
-          "scaleX": 1.6,
-          "scaleY": 1.6
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Verdures-Moonflower.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/ruleboock/dark-archive/Verdures-Moonflower.webp",
+            "scale": 2
           }
         }
       }

@@ -2,8 +2,23 @@
 [![Changelog-en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog-en.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
-### Version 2.4.5
+## Version 2.5.0
+1. Fixed deletion of outdated IDs
+2. The latest book Triumph of the Tusk: Destroyer's Doom has been updated
+3. Fixed the selection of default exceptions for actor types in Actor Recovery
+4. Dynamic Book of the Dead rings have been added
+5. Deleted unused data
+6. Added a mechanism that makes it easier to remove unused art
+7. Dynamic Dark Archive tokens have been added
+8. Added dynamic Howl of the Wild tokens
+9. Dynamic Npc Gallery tokens have been added
+10. Paizo Blog Dynamic Tokens added
+11. Rage of Elements dynamic tokens added
+12. War of Immortals Dynamic Tokens added
 
+Wow, Lost Omens has been updated, 22 pieces of art were missing before, now 264... The Dragon Codex... NOOOOOOOOOO.... Someday, someday, just like Monster Core 2, as soon as I add it. I would be grateful if you could help me find ready-made modules.
+
+## Version 2.4.5
 1.  Completed the full transition to support Foundry VTT v13 (ApplicationV2).
 2.  Many changes and improvements have been made to the **"Disguise"** mechanic:
     1) **Automation:** Added automatic appearance change when a corresponding effect is triggered on an actor.
