@@ -87,7 +87,7 @@ Adds a large, fully localized "Character Gallery" art library for images not fou
 | Bestiary 2 | ✅ |
 | Bestiary 3 | ✅ |
 | Monster Core | ✅ |
-| Monster Core 2| ❌ | Not added |
+| Monster Core 2| ✅ |
 | NPC Core | ✅ |
 
 ### Adventure Paths

@@ -10,6 +10,7 @@ class PathfinderBestiaryTokenPack {
       { key: "pf2e.pathfinder-bestiary-2"              , name: game.i18n.localize("SettingCompendiums.Bestiary2")                     , category: "bestiaries"    },
       { key: "pf2e.pathfinder-bestiary-3"              , name: game.i18n.localize("SettingCompendiums.Bestiary3")                     , category: "bestiaries"    },
       { key: "pf2e.pathfinder-monster-core"            , name: game.i18n.localize("SettingCompendiums.MonsterCore")                   , category: "bestiaries"    },
+      { key: "pf2e.pathfinder-monster-core-2"            , name: game.i18n.localize("SettingCompendiums.MonsterCore2")                   , category: "bestiaries"    },
       { key: "pf2e.pathfinder-npc-core"                , name: game.i18n.localize("SettingCompendiums.NPCCore")                       , category: "bestiaries"    },
       { key: "pf2e.abomination-vaults-bestiary"        , name: game.i18n.localize("SettingCompendiums.AbominationVaultsBestiary")     , category: "adventurePath" },
       { key: "pf2e.age-of-ashes-bestiary"              , name: game.i18n.localize("SettingCompendiums.AgeofAshesBestiary")            , category: "adventurePath" },

@@ -87,7 +87,7 @@
 | Bestiary 2 | ✅ |
 | Bestiary 3 | ✅ |
 | Monster Core | ✅ |
-| Monster Core 2| ❌ | Не добавлен |
+| Monster Core 2| ✅ |
 | NPC Core | ✅ |
 
 ### Пути Приключений

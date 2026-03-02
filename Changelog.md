@@ -2,6 +2,9 @@
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.6.0
+1. Добавлен Monster core 2
+
 ## Version 2.5.0
 1. Поправлено удаление устаревших ID
 2. Обновлена последняя книга Triumph of the Tusk: Destroyer's Doom
