@@ -2,6 +2,21 @@
 [![Changelog-en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog-en.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.6.5
+1. Added dynamic tokens for Claws of the Tyrant
+2. Added dynamic tokens for Fall of Plaguestone
+3. Added dynamic tokens for Malevolence
+4. Added dynamic tokens for Menace Under Otari
+5. Added dynamic tokens for One-Shots
+6. Added dynamic tokens for Prey for Death
+7. Added dynamic tokens for Rusthenge
+8. Added dynamic tokens for Shadows at Sundown
+9. Added dynamic tokens for The Enmity Cycle
+10. Added dynamic tokens for The Slithering
+11. Added dynamic tokens for Troubles in Otari
+12. Added dynamic tokens for Night of the Gray Death
+13. Added dynamic tokens for Crown of the Kobold King
+
 ## Version 2.6.0
 1. Added Monster core 2
 

@@ -4,15 +4,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Agent-Of-Taraksun.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Agent-Of-Taraksun.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Agent-Of-Taraksun.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Agent-Of-Taraksun.webp",
+            "scale": 2
           }
         }
       }
@@ -21,15 +20,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Alktherisa-And-Omprisgor.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Alktherisa-And-Omprisgor.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Alktherisa-And-Omprisgor.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Alktherisa-And-Omprisgor.webp",
+            "scale": 2
           }
         }
       }
@@ -38,15 +36,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Berserker-Ordulf.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Berserker-Ordulf.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Berserker-Ordulf.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Berserker-Ordulf.webp",
+            "scale": 2
           }
         }
       }
@@ -55,15 +52,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Bloodfog.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Bloodfog.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Bloodfog.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Bloodfog.webp",
+            "scale": 2
           }
         }
       }
@@ -72,15 +68,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Bloody-Hands.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Bloody-Hands.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Bloody-Hands.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Bloody-Hands.webp",
+            "scale": 2
           }
         }
       }
@@ -89,15 +84,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Celasik.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Celasik.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Celasik.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Celasik.webp",
+            "scale": 2
           }
         }
       }
@@ -106,15 +100,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Divine-Living-Rune.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Divine-Living-Rune.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Divine-Living-Rune.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Divine-Living-Rune.webp",
+            "scale": 2
           }
         }
       }
@@ -123,15 +116,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Dronuk.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Dronuk.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Dronuk.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Dronuk.webp",
+            "scale": 2
           }
         }
       }
@@ -140,15 +132,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Einherji-Host.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Einherji-Host.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Einherji-Host.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Einherji-Host.webp",
+            "scale": 2
           }
         }
       }
@@ -157,15 +148,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Frost-Roc.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Frost-Roc.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Frost-Roc.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Frost-Roc.webp",
+            "scale": 2
           }
         }
       }
@@ -174,15 +164,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Frostripper.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Frostripper.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Frostripper.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Frostripper.webp",
+            "scale": 2
           }
         }
       }
@@ -191,15 +180,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Gorumite-Infantry.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Gorumite-Infantry.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gorumite-Infantry.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Gorumite-Infantry.webp",
+            "scale": 2
           }
         }
       }
@@ -208,15 +196,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Gorumite-Veteran.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Gorumite-Veteran.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gorumite-Veteran.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Gorumite-Veteran.webp",
+            "scale": 2
           }
         }
       }
@@ -225,15 +212,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Gorumite-Warpriest.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Gorumite-Warpriest.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gorumite-Warpriest.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Gorumite-Warpriest.webp",
+            "scale": 2
           }
         }
       }
@@ -242,15 +228,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Mantis-Keeper.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Mantis-Keeper.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Mantis-Keeper.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Mantis-Keeper.webp",
+            "scale": 2
           }
         }
       }
@@ -259,15 +244,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Niesha.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Niesha.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Niesha.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Niesha.webp",
+            "scale": 2
           }
         }
       }
@@ -276,15 +260,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Ordulf-Bladecaller.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Ordulf-Bladecaller.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ordulf-Bladecaller.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Ordulf-Bladecaller.webp",
+            "scale": 2
           }
         }
       }
@@ -293,15 +276,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Rage-Rider.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Rage-Rider.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Rage-Rider.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Rage-Rider.webp",
+            "scale": 2
           }
         }
       }
@@ -310,15 +292,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Red-Mantis-Assassin.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Red-Mantis-Assassin.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Red-Mantis-Assassin.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Red-Mantis-Assassin.webp",
+            "scale": 2
           }
         }
       }
@@ -327,15 +308,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Red-Mantis-Conspirator.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Red-Mantis-Conspirator.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Red-Mantis-Conspirator.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Red-Mantis-Conspirator.webp",
+            "scale": 2
           }
         }
       }
@@ -344,15 +324,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Rhysaphine.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Rhysaphine.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Rhysaphine.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Rhysaphine.webp",
+            "scale": 2
           }
         }
       }
@@ -361,15 +340,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Roc-Rider.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Roc-Rider.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Roc-Rider.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Roc-Rider.webp",
+            "scale": 2
           }
         }
       }
@@ -378,15 +356,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Saint-Fang.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Saint-Fang.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Saint-Fang.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Saint-Fang.webp",
+            "scale": 2
           }
         }
       }
@@ -395,15 +372,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Saviya.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Saviya.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Saviya.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Saviya.webp",
+            "scale": 2
           }
         }
       }
@@ -412,15 +388,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Shirota.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Shirota.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Shirota.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Shirota.webp",
+            "scale": 2
           }
         }
       }
@@ -429,15 +404,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Silver-Saber.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Silver-Saber.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Silver-Saber.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Silver-Saber.webp",
+            "scale": 2
           }
         }
       }
@@ -446,15 +420,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Sister-Maeri.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Sister-Maeri.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Sister-Maeri.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Sister-Maeri.webp",
+            "scale": 2
           }
         }
       }
@@ -463,15 +436,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Talaro.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Talaro.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Talaro.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Talaro.webp",
+            "scale": 2
           }
         }
       }
@@ -480,15 +452,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Temperbrand.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Temperbrand.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Temperbrand.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Temperbrand.webp",
+            "scale": 2
           }
         }
       }
@@ -497,15 +468,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/The-First-Blade.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/The-First-Blade.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-First-Blade.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/The-First-Blade.webp",
+            "scale": 2
           }
         }
       }
@@ -514,15 +484,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/The-Promised-One.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/The-Promised-One.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/The-Promised-One.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/The-Promised-One.webp",
+            "scale": 2
           }
         }
       }
@@ -531,15 +500,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Valkyrie-Of-Gorum.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Valkyrie-Of-Gorum.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Valkyrie-Of-Gorum.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Valkyrie-Of-Gorum.webp",
+            "scale": 2
           }
         }
       }
@@ -548,15 +516,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Valkyrie-Tempest.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Valkyrie-Tempest.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Valkyrie-Tempest.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Valkyrie-Tempest.webp",
+            "scale": 2
           }
         }
       }
@@ -565,15 +532,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Vatumledor.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Vatumledor.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Vatumledor.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Vatumledor.webp",
+            "scale": 2
           }
         }
       }
@@ -582,15 +548,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Vofnir.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Vofnir.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Vofnir.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Vofnir.webp",
+            "scale": 2
           }
         }
       }
@@ -599,15 +564,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/prey-for-death/Zaiho.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/prey-for-death/Zaiho.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Zaiho.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/prey-for-death/Zaiho.webp",
+            "scale": 2
           }
         }
       }

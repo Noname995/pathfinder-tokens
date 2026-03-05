@@ -2,6 +2,21 @@
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog.md)
 [![Boosty](https://img.shields.io/badge/Boosty-Metofay?logo=boosty&color=%23FFFFFF)](https://boosty.to/metofay)
 
+## Version 2.6.5
+1. Добавлены динамические токены Claws of the Tyrant
+2. Добавлены динамические токены Fall of Plaguestone
+3. Добавлены динамические токены Malevolence
+4. Добавлены динамические токены Menace Under Otari
+5. Добавлены динамические токены One-Shots
+6. Добавлены динамические токены Prey for Death
+7. Добавлены динамические токены Rusthenge
+8. Добавлены динамические токены Shadows at Sundown
+9. Добавлены динамические токены The Enmity Cycle
+10. Добавлены динамические токены The Slithering
+11. Добавлены динамические токены Troubles in Otari
+12. Добавлены динамические токены Night of the Gray Death
+13. Добавлены динамические токены Crown of the Kobold King
+
 ## Version 2.6.0
 1. Добавлен Monster core 2
 

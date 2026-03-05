@@ -132,19 +132,19 @@
 
 | Источник | Статус | Примечания |
 | :--- | :---: | :--- |
-| Claws of the Tyrant | ❌ | Отсутствует 11 артов |
-| Fall of Plaguestone | ❌ | Отсутствует 1 арт |
-| Malevolence | ❌ | Отсутствует 3 арта |
-| Menace Under Otari | | |
-| One-Shots | ❌ | Отсутствует 11 артов |
-| Prey for Death | | |
-| Rusthenge | | |
-| Shadows at Sundown | | |
-| The Enmity Cycle | | |
-| The Slithering | | |
-| Troubles in Otari | | |
-| Night of the Gray Death | ❌ | Отсутствует 3 арта |
-| Crown of the Kobold King | ❌ | Отсутствует 2 арта |
+| Claws of the Tyrant | ✅❌ | Отсутствует 11 артов |
+| Fall of Plaguestone | ✅❌ | Отсутствует 1 арт |
+| Malevolence | ✅❌ | Отсутствует 3 арта |
+| Menace Under Otari | ✅ | |
+| One-Shots | ✅❌ | Отсутствует 11 артов |
+| Prey for Death | ✅ | |
+| Rusthenge | ✅ | |
+| Shadows at Sundown | ✅ | |
+| The Enmity Cycle | ✅ | |
+| The Slithering | ✅ | |
+| Troubles in Otari | ✅ | |
+| Night of the Gray Death | ✅❌ | Отсутствует 3 арта |
+| Crown of the Kobold King | ✅❌ | Отсутствует 2 арта |
 
 ### Pathfinder Society
 

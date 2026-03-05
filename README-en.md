@@ -132,19 +132,19 @@ Adds a large, fully localized "Character Gallery" art library for images not fou
 
 | Source | Status | Notes |
 | :--- | :---: | :--- |
-| Claws of the Tyrant | ❌ | 11 arts missing |
-| Fall of Plaguestone | ❌ | 1 art missing |
-| Malevolence | ❌ | 3 arts missing |
-| Menace Under Otari | | |
-| One-Shots | ❌ | 9 arts missing |
-| Prey for Death | | |
-| Rusthenge | | |
-| Shadows at Sundown | | |
-| The Enmity Cycle | | |
-| The Slithering | | |
-| Troubles in Otari | | |
-| Night of the Gray Death | ❌ | 3 arts missing |
-| Crown of the Kobold King | ❌ | 2 arts missing |
+| Claws of the Tyrant | ✅❌ | 11 arts missing |
+| Fall of Plaguestone | ✅❌ | 1 art missing |
+| Malevolence | ✅❌ | 3 arts missing |
+| Menace Under Otari | ✅ | |
+| One-Shots | ✅❌ | 9 arts missing |
+| Prey for Death | ✅ | |
+| Rusthenge | ✅ | |
+| Shadows at Sundown | ✅ | |
+| The Enmity Cycle | ✅ | |
+| The Slithering | ✅ | |
+| Troubles in Otari | ✅ | |
+| Night of the Gray Death | ✅❌ | 3 arts missing |
+| Crown of the Kobold King | ✅❌ | 2 arts missing |
 
 ### Pathfinder Society
 

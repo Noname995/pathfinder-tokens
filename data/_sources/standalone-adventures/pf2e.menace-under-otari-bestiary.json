@@ -4,15 +4,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Animated-Armor.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Animated-Armor.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Animated-Armor.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Animated-Armor.webp",
+            "scale": 2
           }
         }
       }
@@ -21,15 +20,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Basilisk.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Basilisk.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Basilisk.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Basilisk.webp",
+            "scale": 2
           }
         }
       }
@@ -38,15 +36,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Boar.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Boar.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Boar.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Boar.webp",
+            "scale": 2
           }
         }
       }
@@ -55,15 +52,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Brine-Shark.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Brine-Shark.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Brine-Shark.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Brine-Shark.webp",
+            "scale": 2
           }
         }
       }
@@ -72,15 +68,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Bugbear-Prowler.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Bugbear-Prowler.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Bugbear-Prowler.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Bugbear-Prowler.webp",
+            "scale": 2
           }
         }
       }
@@ -89,15 +84,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Caligni-Dancer.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Caligni-Dancer.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Caligni-Dancer.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Caligni-Dancer.webp",
+            "scale": 2
           }
         }
       }
@@ -106,15 +100,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Caligni-Hunter.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Caligni-Hunter.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Caligni-Hunter.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Caligni-Hunter.webp",
+            "scale": 2
           }
         }
       }
@@ -123,15 +116,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Caligni-Skulker.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Caligni-Skulker.webp",
           "scaleX": 2,
           "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Caligni-Skulker.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Caligni-Skulker.webp",
+            "scale": 2
           }
         }
       }
@@ -140,15 +132,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Cinder-Rat.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Cinder-Rat.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Cinder-Rat.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Cinder-Rat.webp",
+            "scale": 2
           }
         }
       }
@@ -157,15 +148,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Doppelganger.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Doppelganger.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Doppelganger.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Doppelganger.webp",
+            "scale": 2
           }
         }
       }
@@ -174,15 +164,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Drow-Priestess.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Drow-Priestess.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Drow-Priestess.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Drow-Priestess.webp",
+            "scale": 2
           }
         }
       }
@@ -191,15 +180,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Drow-Sneak.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Drow-Sneak.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Drow-Sneak.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Drow-Sneak.webp",
+            "scale": 2
           }
         }
       }
@@ -208,15 +196,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Drow-Warrior.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Drow-Warrior.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Drow-Warrior.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Drow-Warrior.webp",
+            "scale": 2
           }
         }
       }
@@ -225,15 +212,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Forest-Troll.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Forest-Troll.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Forest-Troll.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Forest-Troll.webp",
+            "scale": 2
           }
         }
       }
@@ -242,15 +228,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Gargoyle.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Gargoyle.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Gargoyle.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Gargoyle.webp",
+            "scale": 2
           }
         }
       }
@@ -259,15 +244,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Ghost-Commoner.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Ghost-Commoner.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ghost-Commoner.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Ghost-Commoner.webp",
+            "scale": 2
           }
         }
       }
@@ -276,15 +260,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Ghoul-Stalker.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Ghoul-Stalker.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ghoul-Stalker.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Ghoul-Stalker.webp",
+            "scale": 2
           }
         }
       }
@@ -293,15 +276,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Giant-Ant.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Giant-Ant.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Giant-Ant.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Giant-Ant.webp",
+            "scale": 2
           }
         }
       }
@@ -310,15 +292,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Giant-Centipede.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Giant-Centipede.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Giant-Centipede.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Giant-Centipede.webp",
+            "scale": 2
           }
         }
       }
@@ -327,15 +308,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Giant-Rat.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Giant-Rat.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Giant-Rat.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Giant-Rat.webp",
+            "scale": 2
           }
         }
       }
@@ -344,15 +324,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Giant-Spider.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Giant-Spider.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Giant-Spider.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Giant-Spider.webp",
+            "scale": 2
           }
         }
       }
@@ -361,15 +340,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Giant-Viper.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Giant-Viper.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Giant-Viper.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Giant-Viper.webp",
+            "scale": 2
           }
         }
       }
@@ -378,15 +356,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Goblin-Commando.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Goblin-Commando.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Goblin-Commando.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Goblin-Commando.webp",
+            "scale": 2
           }
         }
       }
@@ -395,15 +372,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Goblin-Igniter.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Goblin-Igniter.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Goblin-Igniter.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Goblin-Igniter.webp",
+            "scale": 2
           }
         }
       }
@@ -412,15 +388,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Goblin-Warrior.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Goblin-Warrior.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Goblin-Warrior.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Goblin-Warrior.webp",
+            "scale": 2
           }
         }
       }
@@ -429,15 +404,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Harpy.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Harpy.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Harpy.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Harpy.webp",
+            "scale": 2
           }
         }
       }
@@ -446,15 +420,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Hell-Hound.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Hell-Hound.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hell-Hound.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Hell-Hound.webp",
+            "scale": 2
           }
         }
       }
@@ -463,15 +436,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Hobgoblin-Soldier.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Hobgoblin-Soldier.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Hobgoblin-Soldier.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Hobgoblin-Soldier.webp",
+            "scale": 2
           }
         }
       }
@@ -480,15 +452,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Horned-Dragon.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Horned-Dragon.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Horned-Dragon.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Horned-Dragon.webp",
+            "scale": 2
           }
         }
       }
@@ -497,15 +468,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Kobold-Boss-Zolgran.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Kobold-Boss-Zolgran.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kobold-Boss-Zolgran.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Kobold-Boss-Zolgran.webp",
+            "scale": 2
           }
         }
       }
@@ -514,15 +484,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Black-Kobold-Dragon-Mage.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Black-Kobold-Dragon-Mage.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Black-Kobold-Dragon-Mage.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Black-Kobold-Dragon-Mage.webp",
+            "scale": 2
           }
         }
       }
@@ -531,15 +500,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Blue-Kobold-Dragon-Mage.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Blue-Kobold-Dragon-Mage.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Blue-Kobold-Dragon-Mage.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Blue-Kobold-Dragon-Mage.webp",
+            "scale": 2
           }
         }
       }
@@ -548,15 +516,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Green-Kobold-Dragon-Mage.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Green-Kobold-Dragon-Mage.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Green-Kobold-Dragon-Mage.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Green-Kobold-Dragon-Mage.webp",
+            "scale": 2
           }
         }
       }
@@ -565,15 +532,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Red-Kobold-Dragon-Mage.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Red-Kobold-Dragon-Mage.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Red-Kobold-Dragon-Mage.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Red-Kobold-Dragon-Mage.webp",
+            "scale": 2
           }
         }
       }
@@ -582,15 +548,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/White-Kobold-Dragon-Mage.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/White-Kobold-Dragon-Mage.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/White-Kobold-Dragon-Mage.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/White-Kobold-Dragon-Mage.webp",
+            "scale": 2
           }
         }
       }
@@ -599,15 +564,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Kobold-Scout.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Kobold-Scout.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kobold-Scout.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Kobold-Scout.webp",
+            "scale": 2
           }
         }
       }
@@ -616,15 +580,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Kobold-Trapmaster.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Kobold-Trapmaster.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kobold-Trapmaster.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Kobold-Trapmaster.webp",
+            "scale": 2
           }
         }
       }
@@ -633,15 +596,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Kobold-Warrior.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Kobold-Warrior.webp",
           "scaleX": 1.2,
-          "scaleY": 1.2
+          "scaleY": 2.2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Kobold-Warrior.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Kobold-Warrior.webp",
+            "scale": 2
           }
         }
       }
@@ -650,15 +612,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Leopard.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Leopard.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Leopard.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Leopard.webp",
+            "scale": 2
           }
         }
       }
@@ -667,15 +628,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Mimic.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Mimic.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Mimic.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Mimic.webp",
+            "scale": 2
           }
         }
       }
@@ -684,15 +644,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Minotaur-Hunter.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Minotaur-Hunter.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Minotaur-Hunter.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Minotaur-Hunter.webp",
+            "scale": 2
           }
         }
       }
@@ -701,15 +660,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Ogre-Warrior.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Ogre-Warrior.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Ogre-Warrior.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Ogre-Warrior.webp",
+            "scale": 2
           }
         }
       }
@@ -718,15 +676,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Orc-Commander.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Orc-Commander.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Orc-Commander.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Orc-Commander.webp",
+            "scale": 2
           }
         }
       }
@@ -735,15 +692,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Orc-Scrapper.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Orc-Scrapper.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Orc-Scrapper.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Orc-Scrapper.webp",
+            "scale": 2
           }
         }
       }
@@ -752,15 +708,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Orc-Trooper.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Orc-Trooper.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Orc-Trooper.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Orc-Trooper.webp",
+            "scale": 2
           }
         }
       }
@@ -769,15 +724,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Owlbear.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Owlbear.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Owlbear.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Owlbear.webp",
+            "scale": 2
           }
         }
       }
@@ -786,15 +740,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Pugwampi.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Pugwampi.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Pugwampi.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Pugwampi.webp",
+            "scale": 2
           }
         }
       }
@@ -803,15 +756,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Reefclaw.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Reefclaw.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Reefclaw.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Reefclaw.webp",
+            "scale": 2
           }
         }
       }
@@ -820,15 +772,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Sewer-Ooze.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Sewer-Ooze.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Sewer-Ooze.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Sewer-Ooze.webp",
+            "scale": 2
           }
         }
       }
@@ -837,15 +788,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Shadow.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Shadow.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Shadow.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Shadow.webp",
+            "scale": 2
           }
         }
       }
@@ -854,15 +804,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Skeletal-Giant.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Skeletal-Giant.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Skeletal-Giant.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Skeletal-Giant.webp",
+            "scale": 2
           }
         }
       }
@@ -871,15 +820,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Skeleton-Guard.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Skeleton-Guard.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Skeleton-Guard.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Skeleton-Guard.webp",
+            "scale": 2
           }
         }
       }
@@ -888,15 +836,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Sod-Hound.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Sod-Hound.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Sod-Hound.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Sod-Hound.webp",
+            "scale": 2
           }
         }
       }
@@ -905,15 +852,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Viper.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Viper.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Viper.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Viper.webp",
+            "scale": 2
           }
         }
       }
@@ -922,15 +868,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Warg.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Warg.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Warg.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Warg.webp",
+            "scale": 2
           }
         }
       }
@@ -939,15 +884,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Web-Lurker.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Web-Lurker.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Web-Lurker.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Web-Lurker.webp",
+            "scale": 2
           }
         }
       }
@@ -956,15 +900,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Wight.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Wight.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Wight.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Wight.webp",
+            "scale": 2
           }
         }
       }
@@ -973,15 +916,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Wolf.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Wolf.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Wolf.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Wolf.webp",
+            "scale": 2
           }
         }
       }
@@ -990,15 +932,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Xulgath-Leader.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Xulgath-Leader.webp",
-          "scaleX": 1.5,
-          "scaleY": 1.5
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Leader.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Xulgath-Leader.webp",
+            "scale": 2
           }
         }
       }
@@ -1007,15 +948,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Xulgath-Warrior.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Xulgath-Warrior.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Xulgath-Warrior.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Xulgath-Warrior.webp",
+            "scale": 2
           }
         }
       }
@@ -1024,15 +964,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Zephyr-Hawk.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Zephyr-Hawk.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Zephyr-Hawk.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Zephyr-Hawk.webp",
+            "scale": 2
           }
         }
       }
@@ -1041,15 +980,14 @@
       "actor": "modules/pf2e-token-pack/portraits/standalone-adventures/menace-under-otari/Zombie-Shambler.webp",
       "token": {
         "texture": {
-          "src": "modules/pf2e-token-pack/tokens/standalone-adventures/menace-under-otari/Zombie-Shambler.webp",
-          "scaleX": 1,
-          "scaleY": 1
+          "scaleX": 2,
+          "scaleY": 2
         },
-        "_ring": {
+        "ring": {
           "enabled": true,
           "subject": {
-            "texture": "modules/pf2e-token-pack/subjects/Zombie-Shambler.webp",
-            "scale": 1
+            "texture": "modules/pf2e-token-pack/subjects/standalone-adventures/menace-under-otari/Zombie-Shambler.webp",
+            "scale": 2
           }
         }
       }
