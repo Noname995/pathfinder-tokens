@@ -1,7 +1,7 @@
 {
-  "id": "pf2e-token-pack",
-  "title": "Pathfinder 2E: Token Pack",
-  "description": "Модуль добавляет изображения и токены монстрам и нпс",
+  "id": "pathfinder-tokens",
+  "title": "Pathfinder 2E: Tokens pack 2.6.5 by Delta 🛡️",
+  "description": "Tokens for bestiary",
   "version": "2.6.5",
   "compatibility": {
     "minimum": "13",
@@ -9,8 +9,8 @@
   },
   "authors": [
     {
-      "name": "Metofay",
-      "discord": "Метофей#135975",
+      "name": "NoName and Metofay",
+      "discord": "None",
       "flags": {}
     }
   ],
@@ -34,17 +34,17 @@
   "flags": {
     "compendiumArtMappings": {
       "pf2e": {
-      "mapping": "modules/pf2e-token-pack/bestiaries.json"
+      "mapping": "modules/pathfinder-tokens/bestiaries.json"
     }
   }
   },
   "socket": true,
 
   
-  "url": "https://github.com/Metofay/pf2e-token-pack/tree/v13",
-  "manifest": "https://raw.githubusercontent.com/Metofay/pf2e-token-pack/v13/module.json",
-  "download": "https://github.com/Metofay/pf2e-token-pack/archive/refs/heads/v13.zip",
-  "readme": "https://github.com/Metofay/pf2e-token-pack/blob/v13/README.md",
-  "bugs": "https://github.com/Metofay/pf2e-token-pack/issues",
-  "changelog": "https://github.com/Metofay/pf2e-token-pack/blob/v13/Changelog.md"
+  "url": "https://github.com/Noname995/pathfinder-tokens/tree/v13",
+  "manifest": "https://raw.githubusercontent.com/MNoname995/pathfinder-tokens/v13/module.json",
+  "download": "https://github.com/Noname995/pathfinder-tokens/archive/refs/heads/v13.zip",
+  "readme": "https://github.com/Noname995/pathfinder-tokens/blob/v13/README.md",
+  "bugs": "https://github.com/Noname995/pathfinder-tokens/issues",
+  "changelog": "https://github.com/Noname995/pathfinder-tokens/blob/v13/Changelog.md"
 }
